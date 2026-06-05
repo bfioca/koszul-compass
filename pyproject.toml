@@ -1,0 +1,19 @@
+[project]
+name = "string-theory"
+version = "0.1.0"
+description = "Verifier-first search tools for heterotic Calabi-Yau line-bundle compactifications."
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=2.0",
+  "pyCICY>=0.5.2",
+  "sympy>=1.14",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,3458 @@
+{
+  "all_gates_pass": true,
+  "escape_scan": {
+    "audited_escape_target_count": 12,
+    "audited_escape_targets": [
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative",
+        "classification": {
+          "category": "phenomenologically obstructed",
+          "reason": "current refined selection rules allow at least one doublet-support mass entry",
+          "status": "character_refined_doublet_mass_obstruction"
+        },
+        "eligible_for_exact_cup_product_rank": false,
+        "matter_leg_statuses": [
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": null,
+            "reason": "equivariant first-page E2 dimensions do not match pyCICY cohomology dimensions",
+            "representative_method": "complex_or_higher_leray_unresolved",
+            "role": "5bar_34:physical_H1_wedge2_V",
+            "status": "representative_unresolved"
+          },
+          {
+            "branch_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "computed_actual": null,
+            "reason": "equivariant first-page E2 dimensions do not match pyCICY cohomology dimensions",
+            "representative_method": "complex_or_higher_leray_unresolved",
+            "role": "5_34:physical_H2_wedge2_V",
+            "status": "representative_unresolved"
+          },
+          {
+            "branch_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 0,
+                "-": 1
+              },
+              "nonidentity_trace": -1,
+              "regular_multiplicity": null
+            },
+            "computed_actual": null,
+            "reason": "equivariant first-page E2 dimensions do not match pyCICY cohomology dimensions",
+            "representative_method": "complex_or_higher_leray_unresolved",
+            "role": "5_34:cup_H1_wedge2_V_dual",
+            "status": "representative_unresolved"
+          }
+        ],
+        "obstruction_summary": null,
+        "operator": "5bar_34*5_34",
+        "proton_allowed_count": 1,
+        "representative_status": "representative_unresolved",
+        "source": {
+          "kind": "large_branch_representative",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_window6_large_branch_closure_filtered_1.json",
+          "represented_q1_branches": 216,
+          "window": 6
+        },
+        "unresolved_summary": {
+          "first_unresolved_role": "5bar_34:physical_H1_wedge2_V",
+          "reason": "equivariant first-page E2 dimensions do not match pyCICY cohomology dimensions"
+        },
+        "weight": 216
+      },
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_2_large_branch_q1_representative",
+        "classification": {
+          "category": "phenomenologically obstructed",
+          "reason": "current refined selection rules allow at least one doublet-support mass entry",
+          "status": "character_refined_doublet_mass_obstruction"
+        },
+        "eligible_for_exact_cup_product_rank": false,
+        "matter_leg_statuses": [
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "branch kernel character requires an impossible image-rank split",
+            "representative_method": "first_page_kernel",
+            "role": "5bar_14:physical_H1_wedge2_V",
+            "status": "representative_obstructed"
+          },
+          {
+            "branch_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "reason": "explicit equivariant first-page cokernel character matches branch actual",
+            "representative_method": "first_page_cokernel",
+            "role": "5_12:physical_H2_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 0,
+                "-": 1
+              },
+              "nonidentity_trace": -1,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "reason": "branch kernel character requires an impossible image-rank split",
+            "representative_method": "first_page_kernel",
+            "role": "5_12:cup_H1_wedge2_V_dual",
+            "status": "representative_obstructed"
+          }
+        ],
+        "obstruction_summary": {
+          "branch_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "computed_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "first_obstructing_role": "5bar_14:physical_H1_wedge2_V",
+          "reason": "branch kernel character requires an impossible image-rank split",
+          "required_image_ranks_for_branch": {
+            "+": 2,
+            "-": 4
+          }
+        },
+        "operator": "5bar_14*5_12",
+        "proton_allowed_count": 1,
+        "representative_status": "representative_obstructed",
+        "source": {
+          "kind": "large_branch_representative",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_window6_large_branch_closure_filtered_2.json",
+          "represented_q1_branches": 216,
+          "window": 6
+        },
+        "unresolved_summary": null,
+        "weight": 216
+      },
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_10_branch_48",
+        "classification": {
+          "category": "phenomenologically obstructed",
+          "reason": "current refined selection rules allow at least one doublet-support mass entry",
+          "status": "character_refined_doublet_mass_obstruction"
+        },
+        "eligible_for_exact_cup_product_rank": false,
+        "matter_leg_statuses": [
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "single total-degree E1 source equals the cohomology dimension",
+            "representative_method": "single_total_degree",
+            "role": "5bar_02:physical_H1_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "reason": "explicit equivariant first-page cokernel character matches branch actual",
+            "representative_method": "first_page_cokernel",
+            "role": "5_34:physical_H2_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 0,
+                "-": 1
+              },
+              "nonidentity_trace": -1,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "reason": "branch kernel character requires an impossible image-rank split",
+            "representative_method": "first_page_kernel",
+            "role": "5_34:cup_H1_wedge2_V_dual",
+            "status": "representative_obstructed"
+          }
+        ],
+        "obstruction_summary": {
+          "branch_actual": {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 0,
+              "-": 1
+            },
+            "nonidentity_trace": -1,
+            "regular_multiplicity": null
+          },
+          "computed_actual": {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 1,
+              "-": 0
+            },
+            "nonidentity_trace": 1,
+            "regular_multiplicity": null
+          },
+          "first_obstructing_role": "5_34:cup_H1_wedge2_V_dual",
+          "reason": "branch kernel character requires an impossible image-rank split",
+          "required_image_ranks_for_branch": {
+            "+": 1,
+            "-": -1
+          }
+        },
+        "operator": "5bar_02*5_34",
+        "proton_allowed_count": 0,
+        "representative_status": "representative_obstructed",
+        "source": {
+          "kind": "bounded_branch",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window7.json",
+          "window": 7
+        },
+        "unresolved_summary": null,
+        "weight": 1
+      },
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_10_branch_48",
+        "classification": {
+          "category": "phenomenologically obstructed",
+          "reason": "current refined selection rules allow at least one doublet-support mass entry",
+          "status": "character_refined_doublet_mass_obstruction"
+        },
+        "eligible_for_exact_cup_product_rank": false,
+        "matter_leg_statuses": [
+          {
+            "branch_actual": {
+              "dimension": 4,
+              "multiplicities": {
+                "+": 2,
+                "-": 2
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 2
+            },
+            "computed_actual": {
+              "dimension": 4,
+              "multiplicities": {
+                "+": 2,
+                "-": 2
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 2
+            },
+            "reason": "single total-degree E1 source equals the cohomology dimension",
+            "representative_method": "single_total_degree",
+            "role": "5bar_13:physical_H1_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "reason": "explicit equivariant first-page cokernel character matches branch actual",
+            "representative_method": "first_page_cokernel",
+            "role": "5_34:physical_H2_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 0,
+                "-": 1
+              },
+              "nonidentity_trace": -1,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "reason": "branch kernel character requires an impossible image-rank split",
+            "representative_method": "first_page_kernel",
+            "role": "5_34:cup_H1_wedge2_V_dual",
+            "status": "representative_obstructed"
+          }
+        ],
+        "obstruction_summary": {
+          "branch_actual": {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 0,
+              "-": 1
+            },
+            "nonidentity_trace": -1,
+            "regular_multiplicity": null
+          },
+          "computed_actual": {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 1,
+              "-": 0
+            },
+            "nonidentity_trace": 1,
+            "regular_multiplicity": null
+          },
+          "first_obstructing_role": "5_34:cup_H1_wedge2_V_dual",
+          "reason": "branch kernel character requires an impossible image-rank split",
+          "required_image_ranks_for_branch": {
+            "+": 1,
+            "-": -1
+          }
+        },
+        "operator": "5bar_13*5_34",
+        "proton_allowed_count": 0,
+        "representative_status": "representative_obstructed",
+        "source": {
+          "kind": "bounded_branch",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window7.json",
+          "window": 7
+        },
+        "unresolved_summary": null,
+        "weight": 1
+      },
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_10_branch_96",
+        "classification": {
+          "category": "phenomenologically obstructed",
+          "reason": "current refined selection rules allow at least one doublet-support mass entry",
+          "status": "character_refined_doublet_mass_obstruction"
+        },
+        "eligible_for_exact_cup_product_rank": false,
+        "matter_leg_statuses": [
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "single total-degree E1 source equals the cohomology dimension",
+            "representative_method": "single_total_degree",
+            "role": "5bar_02:physical_H1_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 0,
+                "-": 1
+              },
+              "nonidentity_trace": -1,
+              "regular_multiplicity": null
+            },
+            "reason": "explicit equivariant first-page cokernel character disagrees with branch actual",
+            "representative_method": "first_page_cokernel",
+            "role": "5_12:physical_H2_wedge2_V",
+            "status": "representative_obstructed"
+          },
+          {
+            "branch_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 0,
+                "-": 1
+              },
+              "nonidentity_trace": -1,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 0,
+                "-": 1
+              },
+              "nonidentity_trace": -1,
+              "regular_multiplicity": null
+            },
+            "reason": "explicit equivariant first-page kernel character matches branch actual",
+            "representative_method": "first_page_kernel",
+            "role": "5_12:cup_H1_wedge2_V_dual",
+            "status": "representative_compatible"
+          }
+        ],
+        "obstruction_summary": {
+          "branch_actual": {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 1,
+              "-": 0
+            },
+            "nonidentity_trace": 1,
+            "regular_multiplicity": null
+          },
+          "computed_actual": {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 0,
+              "-": 1
+            },
+            "nonidentity_trace": -1,
+            "regular_multiplicity": null
+          },
+          "first_obstructing_role": "5_12:physical_H2_wedge2_V",
+          "reason": "explicit equivariant first-page cokernel character disagrees with branch actual",
+          "required_image_ranks_for_branch": {
+            "+": 1,
+            "-": 3
+          }
+        },
+        "operator": "5bar_02*5_12",
+        "proton_allowed_count": 0,
+        "representative_status": "representative_obstructed",
+        "source": {
+          "kind": "bounded_branch",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window7.json",
+          "window": 7
+        },
+        "unresolved_summary": null,
+        "weight": 1
+      },
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_1_branch_567",
+        "classification": {
+          "category": "phenomenologically obstructed",
+          "reason": "the refined DT gate passes, but a dangerous 10*5bar*5bar operator is still allowed",
+          "status": "selective_dt_but_proton_unprotected"
+        },
+        "eligible_for_exact_cup_product_rank": false,
+        "matter_leg_statuses": [
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "explicit equivariant first-page kernel character disagrees with branch actual",
+            "representative_method": "first_page_kernel",
+            "role": "5bar_03:physical_H1_wedge2_V",
+            "status": "representative_obstructed"
+          },
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "explicit equivariant first-page cokernel character matches branch actual",
+            "representative_method": "first_page_cokernel",
+            "role": "5_03:physical_H2_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 0,
+                "-": 2
+              },
+              "nonidentity_trace": -2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "explicit equivariant first-page kernel character disagrees with branch actual",
+            "representative_method": "first_page_kernel",
+            "role": "5_03:cup_H1_wedge2_V_dual",
+            "status": "representative_obstructed"
+          }
+        ],
+        "obstruction_summary": {
+          "branch_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "computed_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "first_obstructing_role": "5bar_03:physical_H1_wedge2_V",
+          "reason": "explicit equivariant first-page kernel character disagrees with branch actual",
+          "required_image_ranks_for_branch": {
+            "+": 3,
+            "-": 5
+          }
+        },
+        "operator": "5bar_03*5_03",
+        "proton_allowed_count": 1,
+        "representative_status": "representative_obstructed",
+        "source": {
+          "kind": "bounded_branch",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window10.json",
+          "window": 10
+        },
+        "unresolved_summary": null,
+        "weight": 1
+      },
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_12_branch_12",
+        "classification": {
+          "category": "phenomenologically obstructed",
+          "reason": "the refined DT gate passes, but a dangerous 10*5bar*5bar operator is still allowed",
+          "status": "selective_dt_but_proton_unprotected"
+        },
+        "eligible_for_exact_cup_product_rank": false,
+        "matter_leg_statuses": [
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "branch kernel character requires an impossible image-rank split",
+            "representative_method": "first_page_kernel",
+            "role": "5bar_24:physical_H1_wedge2_V",
+            "status": "representative_obstructed"
+          },
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "single total-degree E1 source equals the cohomology dimension",
+            "representative_method": "single_total_degree",
+            "role": "5_12:physical_H2_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "single total-degree E1 source equals the cohomology dimension",
+            "representative_method": "single_total_degree",
+            "role": "5_12:cup_H1_wedge2_V_dual",
+            "status": "representative_compatible"
+          }
+        ],
+        "obstruction_summary": {
+          "branch_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "computed_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "first_obstructing_role": "5bar_24:physical_H1_wedge2_V",
+          "reason": "branch kernel character requires an impossible image-rank split",
+          "required_image_ranks_for_branch": {
+            "+": 5,
+            "-": 7
+          }
+        },
+        "operator": "5bar_24*5_12",
+        "proton_allowed_count": 2,
+        "representative_status": "representative_obstructed",
+        "source": {
+          "kind": "bounded_branch",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window11.json",
+          "window": 11
+        },
+        "unresolved_summary": null,
+        "weight": 1
+      },
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_1_branch_165",
+        "classification": {
+          "category": "phenomenologically obstructed",
+          "reason": "the refined DT gate passes, but a dangerous 10*5bar*5bar operator is still allowed",
+          "status": "selective_dt_but_proton_unprotected"
+        },
+        "eligible_for_exact_cup_product_rank": false,
+        "matter_leg_statuses": [
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "representative_method": "first_page_cokernel",
+            "role": "5bar_04:physical_H1_wedge2_V",
+            "status": "representative_obstructed"
+          },
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "single total-degree E1 source equals the cohomology dimension",
+            "representative_method": "single_total_degree",
+            "role": "5_24:physical_H2_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "single total-degree E1 source equals the cohomology dimension",
+            "representative_method": "single_total_degree",
+            "role": "5_24:cup_H1_wedge2_V_dual",
+            "status": "representative_compatible"
+          }
+        ],
+        "obstruction_summary": {
+          "branch_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "computed_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "first_obstructing_role": "5bar_04:physical_H1_wedge2_V",
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "required_image_ranks_for_branch": {
+            "+": 2,
+            "-": 4
+          }
+        },
+        "operator": "5bar_04*5_24",
+        "proton_allowed_count": 1,
+        "representative_status": "representative_obstructed",
+        "source": {
+          "kind": "bounded_branch",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window15.json",
+          "window": 15
+        },
+        "unresolved_summary": null,
+        "weight": 1
+      },
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_0_branch_189",
+        "classification": {
+          "category": "phenomenologically obstructed",
+          "reason": "current refined selection rules allow at least one doublet-support mass entry",
+          "status": "character_refined_doublet_mass_obstruction"
+        },
+        "eligible_for_exact_cup_product_rank": false,
+        "matter_leg_statuses": [
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "explicit equivariant first-page kernel character disagrees with branch actual",
+            "representative_method": "first_page_kernel",
+            "role": "5bar_14:physical_H1_wedge2_V",
+            "status": "representative_obstructed"
+          },
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "explicit equivariant first-page cokernel character matches branch actual",
+            "representative_method": "first_page_cokernel",
+            "role": "5_14:physical_H2_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 0,
+                "-": 2
+              },
+              "nonidentity_trace": -2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "explicit equivariant first-page kernel character disagrees with branch actual",
+            "representative_method": "first_page_kernel",
+            "role": "5_14:cup_H1_wedge2_V_dual",
+            "status": "representative_obstructed"
+          }
+        ],
+        "obstruction_summary": {
+          "branch_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "computed_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "first_obstructing_role": "5bar_14:physical_H1_wedge2_V",
+          "reason": "explicit equivariant first-page kernel character disagrees with branch actual",
+          "required_image_ranks_for_branch": {
+            "+": 3,
+            "-": 5
+          }
+        },
+        "operator": "5bar_14*5_14",
+        "proton_allowed_count": 0,
+        "representative_status": "representative_obstructed",
+        "source": {
+          "kind": "bounded_branch",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window20.json",
+          "window": 20
+        },
+        "unresolved_summary": null,
+        "weight": 1
+      },
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_0_branch_513",
+        "classification": {
+          "category": "phenomenologically obstructed",
+          "reason": "current refined selection rules allow at least one doublet-support mass entry",
+          "status": "character_refined_doublet_mass_obstruction"
+        },
+        "eligible_for_exact_cup_product_rank": false,
+        "matter_leg_statuses": [
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "branch kernel character requires an impossible image-rank split",
+            "representative_method": "first_page_kernel",
+            "role": "5bar_01:physical_H1_wedge2_V",
+            "status": "representative_obstructed"
+          },
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "explicit equivariant first-page cokernel character matches branch actual",
+            "representative_method": "first_page_cokernel",
+            "role": "5_14:physical_H2_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 0,
+                "-": 2
+              },
+              "nonidentity_trace": -2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "explicit equivariant first-page kernel character disagrees with branch actual",
+            "representative_method": "first_page_kernel",
+            "role": "5_14:cup_H1_wedge2_V_dual",
+            "status": "representative_obstructed"
+          }
+        ],
+        "obstruction_summary": {
+          "branch_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "computed_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "first_obstructing_role": "5bar_01:physical_H1_wedge2_V",
+          "reason": "branch kernel character requires an impossible image-rank split",
+          "required_image_ranks_for_branch": {
+            "+": 4,
+            "-": 6
+          }
+        },
+        "operator": "5bar_01*5_14",
+        "proton_allowed_count": 0,
+        "representative_status": "representative_obstructed",
+        "source": {
+          "kind": "bounded_branch",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window20.json",
+          "window": 20
+        },
+        "unresolved_summary": null,
+        "weight": 1
+      },
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_1_branch_513",
+        "classification": {
+          "category": "phenomenologically obstructed",
+          "reason": "current refined selection rules allow at least one doublet-support mass entry",
+          "status": "character_refined_doublet_mass_obstruction"
+        },
+        "eligible_for_exact_cup_product_rank": false,
+        "matter_leg_statuses": [
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "branch kernel character requires an impossible image-rank split",
+            "representative_method": "first_page_kernel",
+            "role": "5bar_01:physical_H1_wedge2_V",
+            "status": "representative_obstructed"
+          },
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "explicit equivariant first-page cokernel character matches branch actual",
+            "representative_method": "first_page_cokernel",
+            "role": "5_12:physical_H2_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 0,
+                "-": 2
+              },
+              "nonidentity_trace": -2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "explicit equivariant first-page kernel character disagrees with branch actual",
+            "representative_method": "first_page_kernel",
+            "role": "5_12:cup_H1_wedge2_V_dual",
+            "status": "representative_obstructed"
+          }
+        ],
+        "obstruction_summary": {
+          "branch_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "computed_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "first_obstructing_role": "5bar_01:physical_H1_wedge2_V",
+          "reason": "branch kernel character requires an impossible image-rank split",
+          "required_image_ranks_for_branch": {
+            "+": 4,
+            "-": 6
+          }
+        },
+        "operator": "5bar_01*5_12",
+        "proton_allowed_count": 0,
+        "representative_status": "representative_obstructed",
+        "source": {
+          "kind": "bounded_branch",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window20.json",
+          "window": 20
+        },
+        "unresolved_summary": null,
+        "weight": 1
+      },
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative",
+        "classification": {
+          "category": "phenomenologically obstructed",
+          "reason": "current refined selection rules allow at least one doublet-support mass entry",
+          "status": "character_refined_doublet_mass_obstruction"
+        },
+        "eligible_for_exact_cup_product_rank": false,
+        "matter_leg_statuses": [
+          {
+            "branch_actual": {
+              "dimension": 6,
+              "multiplicities": {
+                "+": 2,
+                "-": 4
+              },
+              "nonidentity_trace": -2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 6,
+              "multiplicities": {
+                "+": 3,
+                "-": 3
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 3
+            },
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "representative_method": "first_page_cokernel",
+            "role": "5bar_03:physical_H1_wedge2_V",
+            "status": "representative_obstructed"
+          },
+          {
+            "branch_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "reason": "single total-degree E1 source equals the cohomology dimension",
+            "representative_method": "single_total_degree",
+            "role": "5_34:physical_H2_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "reason": "single total-degree E1 source equals the cohomology dimension",
+            "representative_method": "single_total_degree",
+            "role": "5_34:cup_H1_wedge2_V_dual",
+            "status": "representative_compatible"
+          }
+        ],
+        "obstruction_summary": {
+          "branch_actual": {
+            "dimension": 6,
+            "multiplicities": {
+              "+": 2,
+              "-": 4
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          },
+          "computed_actual": {
+            "dimension": 6,
+            "multiplicities": {
+              "+": 3,
+              "-": 3
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 3
+          },
+          "first_obstructing_role": "5bar_03:physical_H1_wedge2_V",
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "required_image_ranks_for_branch": {
+            "+": 4,
+            "-": 2
+          }
+        },
+        "operator": "5bar_03*5_34",
+        "proton_allowed_count": 0,
+        "representative_status": "representative_obstructed",
+        "source": {
+          "kind": "large_branch_representative",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_window29_large_branch_closure_filtered_1.json",
+          "represented_q1_branches": 126,
+          "window": 29
+        },
+        "unresolved_summary": null,
+        "weight": 126
+      }
+    ],
+    "bounds": {
+      "known_failure_operators_excluded_from_escape_audit": [
+        "5bar_02*5_24",
+        "5bar_04*5_34",
+        "5bar_12*5_12",
+        "5bar_23*5_23"
+      ],
+      "max_audits": 24,
+      "max_unique_operators": 24,
+      "windows": 45
+    },
+    "representative_compatible_targets": [],
+    "representative_obstructed_targets": [
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_2_large_branch_q1_representative",
+        "classification": {
+          "category": "phenomenologically obstructed",
+          "reason": "current refined selection rules allow at least one doublet-support mass entry",
+          "status": "character_refined_doublet_mass_obstruction"
+        },
+        "eligible_for_exact_cup_product_rank": false,
+        "matter_leg_statuses": [
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "branch kernel character requires an impossible image-rank split",
+            "representative_method": "first_page_kernel",
+            "role": "5bar_14:physical_H1_wedge2_V",
+            "status": "representative_obstructed"
+          },
+          {
+            "branch_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "reason": "explicit equivariant first-page cokernel character matches branch actual",
+            "representative_method": "first_page_cokernel",
+            "role": "5_12:physical_H2_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 0,
+                "-": 1
+              },
+              "nonidentity_trace": -1,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "reason": "branch kernel character requires an impossible image-rank split",
+            "representative_method": "first_page_kernel",
+            "role": "5_12:cup_H1_wedge2_V_dual",
+            "status": "representative_obstructed"
+          }
+        ],
+        "obstruction_summary": {
+          "branch_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "computed_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "first_obstructing_role": "5bar_14:physical_H1_wedge2_V",
+          "reason": "branch kernel character requires an impossible image-rank split",
+          "required_image_ranks_for_branch": {
+            "+": 2,
+            "-": 4
+          }
+        },
+        "operator": "5bar_14*5_12",
+        "proton_allowed_count": 1,
+        "representative_status": "representative_obstructed",
+        "source": {
+          "kind": "large_branch_representative",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_window6_large_branch_closure_filtered_2.json",
+          "represented_q1_branches": 216,
+          "window": 6
+        },
+        "unresolved_summary": null,
+        "weight": 216
+      },
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_10_branch_48",
+        "classification": {
+          "category": "phenomenologically obstructed",
+          "reason": "current refined selection rules allow at least one doublet-support mass entry",
+          "status": "character_refined_doublet_mass_obstruction"
+        },
+        "eligible_for_exact_cup_product_rank": false,
+        "matter_leg_statuses": [
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "single total-degree E1 source equals the cohomology dimension",
+            "representative_method": "single_total_degree",
+            "role": "5bar_02:physical_H1_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "reason": "explicit equivariant first-page cokernel character matches branch actual",
+            "representative_method": "first_page_cokernel",
+            "role": "5_34:physical_H2_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 0,
+                "-": 1
+              },
+              "nonidentity_trace": -1,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "reason": "branch kernel character requires an impossible image-rank split",
+            "representative_method": "first_page_kernel",
+            "role": "5_34:cup_H1_wedge2_V_dual",
+            "status": "representative_obstructed"
+          }
+        ],
+        "obstruction_summary": {
+          "branch_actual": {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 0,
+              "-": 1
+            },
+            "nonidentity_trace": -1,
+            "regular_multiplicity": null
+          },
+          "computed_actual": {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 1,
+              "-": 0
+            },
+            "nonidentity_trace": 1,
+            "regular_multiplicity": null
+          },
+          "first_obstructing_role": "5_34:cup_H1_wedge2_V_dual",
+          "reason": "branch kernel character requires an impossible image-rank split",
+          "required_image_ranks_for_branch": {
+            "+": 1,
+            "-": -1
+          }
+        },
+        "operator": "5bar_02*5_34",
+        "proton_allowed_count": 0,
+        "representative_status": "representative_obstructed",
+        "source": {
+          "kind": "bounded_branch",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window7.json",
+          "window": 7
+        },
+        "unresolved_summary": null,
+        "weight": 1
+      },
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_10_branch_48",
+        "classification": {
+          "category": "phenomenologically obstructed",
+          "reason": "current refined selection rules allow at least one doublet-support mass entry",
+          "status": "character_refined_doublet_mass_obstruction"
+        },
+        "eligible_for_exact_cup_product_rank": false,
+        "matter_leg_statuses": [
+          {
+            "branch_actual": {
+              "dimension": 4,
+              "multiplicities": {
+                "+": 2,
+                "-": 2
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 2
+            },
+            "computed_actual": {
+              "dimension": 4,
+              "multiplicities": {
+                "+": 2,
+                "-": 2
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 2
+            },
+            "reason": "single total-degree E1 source equals the cohomology dimension",
+            "representative_method": "single_total_degree",
+            "role": "5bar_13:physical_H1_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "reason": "explicit equivariant first-page cokernel character matches branch actual",
+            "representative_method": "first_page_cokernel",
+            "role": "5_34:physical_H2_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 0,
+                "-": 1
+              },
+              "nonidentity_trace": -1,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "reason": "branch kernel character requires an impossible image-rank split",
+            "representative_method": "first_page_kernel",
+            "role": "5_34:cup_H1_wedge2_V_dual",
+            "status": "representative_obstructed"
+          }
+        ],
+        "obstruction_summary": {
+          "branch_actual": {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 0,
+              "-": 1
+            },
+            "nonidentity_trace": -1,
+            "regular_multiplicity": null
+          },
+          "computed_actual": {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 1,
+              "-": 0
+            },
+            "nonidentity_trace": 1,
+            "regular_multiplicity": null
+          },
+          "first_obstructing_role": "5_34:cup_H1_wedge2_V_dual",
+          "reason": "branch kernel character requires an impossible image-rank split",
+          "required_image_ranks_for_branch": {
+            "+": 1,
+            "-": -1
+          }
+        },
+        "operator": "5bar_13*5_34",
+        "proton_allowed_count": 0,
+        "representative_status": "representative_obstructed",
+        "source": {
+          "kind": "bounded_branch",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window7.json",
+          "window": 7
+        },
+        "unresolved_summary": null,
+        "weight": 1
+      },
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_10_branch_96",
+        "classification": {
+          "category": "phenomenologically obstructed",
+          "reason": "current refined selection rules allow at least one doublet-support mass entry",
+          "status": "character_refined_doublet_mass_obstruction"
+        },
+        "eligible_for_exact_cup_product_rank": false,
+        "matter_leg_statuses": [
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "single total-degree E1 source equals the cohomology dimension",
+            "representative_method": "single_total_degree",
+            "role": "5bar_02:physical_H1_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 0,
+                "-": 1
+              },
+              "nonidentity_trace": -1,
+              "regular_multiplicity": null
+            },
+            "reason": "explicit equivariant first-page cokernel character disagrees with branch actual",
+            "representative_method": "first_page_cokernel",
+            "role": "5_12:physical_H2_wedge2_V",
+            "status": "representative_obstructed"
+          },
+          {
+            "branch_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 0,
+                "-": 1
+              },
+              "nonidentity_trace": -1,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 0,
+                "-": 1
+              },
+              "nonidentity_trace": -1,
+              "regular_multiplicity": null
+            },
+            "reason": "explicit equivariant first-page kernel character matches branch actual",
+            "representative_method": "first_page_kernel",
+            "role": "5_12:cup_H1_wedge2_V_dual",
+            "status": "representative_compatible"
+          }
+        ],
+        "obstruction_summary": {
+          "branch_actual": {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 1,
+              "-": 0
+            },
+            "nonidentity_trace": 1,
+            "regular_multiplicity": null
+          },
+          "computed_actual": {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 0,
+              "-": 1
+            },
+            "nonidentity_trace": -1,
+            "regular_multiplicity": null
+          },
+          "first_obstructing_role": "5_12:physical_H2_wedge2_V",
+          "reason": "explicit equivariant first-page cokernel character disagrees with branch actual",
+          "required_image_ranks_for_branch": {
+            "+": 1,
+            "-": 3
+          }
+        },
+        "operator": "5bar_02*5_12",
+        "proton_allowed_count": 0,
+        "representative_status": "representative_obstructed",
+        "source": {
+          "kind": "bounded_branch",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window7.json",
+          "window": 7
+        },
+        "unresolved_summary": null,
+        "weight": 1
+      },
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_1_branch_567",
+        "classification": {
+          "category": "phenomenologically obstructed",
+          "reason": "the refined DT gate passes, but a dangerous 10*5bar*5bar operator is still allowed",
+          "status": "selective_dt_but_proton_unprotected"
+        },
+        "eligible_for_exact_cup_product_rank": false,
+        "matter_leg_statuses": [
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "explicit equivariant first-page kernel character disagrees with branch actual",
+            "representative_method": "first_page_kernel",
+            "role": "5bar_03:physical_H1_wedge2_V",
+            "status": "representative_obstructed"
+          },
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "explicit equivariant first-page cokernel character matches branch actual",
+            "representative_method": "first_page_cokernel",
+            "role": "5_03:physical_H2_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 0,
+                "-": 2
+              },
+              "nonidentity_trace": -2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "explicit equivariant first-page kernel character disagrees with branch actual",
+            "representative_method": "first_page_kernel",
+            "role": "5_03:cup_H1_wedge2_V_dual",
+            "status": "representative_obstructed"
+          }
+        ],
+        "obstruction_summary": {
+          "branch_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "computed_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "first_obstructing_role": "5bar_03:physical_H1_wedge2_V",
+          "reason": "explicit equivariant first-page kernel character disagrees with branch actual",
+          "required_image_ranks_for_branch": {
+            "+": 3,
+            "-": 5
+          }
+        },
+        "operator": "5bar_03*5_03",
+        "proton_allowed_count": 1,
+        "representative_status": "representative_obstructed",
+        "source": {
+          "kind": "bounded_branch",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window10.json",
+          "window": 10
+        },
+        "unresolved_summary": null,
+        "weight": 1
+      },
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_12_branch_12",
+        "classification": {
+          "category": "phenomenologically obstructed",
+          "reason": "the refined DT gate passes, but a dangerous 10*5bar*5bar operator is still allowed",
+          "status": "selective_dt_but_proton_unprotected"
+        },
+        "eligible_for_exact_cup_product_rank": false,
+        "matter_leg_statuses": [
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "branch kernel character requires an impossible image-rank split",
+            "representative_method": "first_page_kernel",
+            "role": "5bar_24:physical_H1_wedge2_V",
+            "status": "representative_obstructed"
+          },
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "single total-degree E1 source equals the cohomology dimension",
+            "representative_method": "single_total_degree",
+            "role": "5_12:physical_H2_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "single total-degree E1 source equals the cohomology dimension",
+            "representative_method": "single_total_degree",
+            "role": "5_12:cup_H1_wedge2_V_dual",
+            "status": "representative_compatible"
+          }
+        ],
+        "obstruction_summary": {
+          "branch_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "computed_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "first_obstructing_role": "5bar_24:physical_H1_wedge2_V",
+          "reason": "branch kernel character requires an impossible image-rank split",
+          "required_image_ranks_for_branch": {
+            "+": 5,
+            "-": 7
+          }
+        },
+        "operator": "5bar_24*5_12",
+        "proton_allowed_count": 2,
+        "representative_status": "representative_obstructed",
+        "source": {
+          "kind": "bounded_branch",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window11.json",
+          "window": 11
+        },
+        "unresolved_summary": null,
+        "weight": 1
+      },
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_1_branch_165",
+        "classification": {
+          "category": "phenomenologically obstructed",
+          "reason": "the refined DT gate passes, but a dangerous 10*5bar*5bar operator is still allowed",
+          "status": "selective_dt_but_proton_unprotected"
+        },
+        "eligible_for_exact_cup_product_rank": false,
+        "matter_leg_statuses": [
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "representative_method": "first_page_cokernel",
+            "role": "5bar_04:physical_H1_wedge2_V",
+            "status": "representative_obstructed"
+          },
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "single total-degree E1 source equals the cohomology dimension",
+            "representative_method": "single_total_degree",
+            "role": "5_24:physical_H2_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "single total-degree E1 source equals the cohomology dimension",
+            "representative_method": "single_total_degree",
+            "role": "5_24:cup_H1_wedge2_V_dual",
+            "status": "representative_compatible"
+          }
+        ],
+        "obstruction_summary": {
+          "branch_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "computed_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "first_obstructing_role": "5bar_04:physical_H1_wedge2_V",
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "required_image_ranks_for_branch": {
+            "+": 2,
+            "-": 4
+          }
+        },
+        "operator": "5bar_04*5_24",
+        "proton_allowed_count": 1,
+        "representative_status": "representative_obstructed",
+        "source": {
+          "kind": "bounded_branch",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window15.json",
+          "window": 15
+        },
+        "unresolved_summary": null,
+        "weight": 1
+      },
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_0_branch_189",
+        "classification": {
+          "category": "phenomenologically obstructed",
+          "reason": "current refined selection rules allow at least one doublet-support mass entry",
+          "status": "character_refined_doublet_mass_obstruction"
+        },
+        "eligible_for_exact_cup_product_rank": false,
+        "matter_leg_statuses": [
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "explicit equivariant first-page kernel character disagrees with branch actual",
+            "representative_method": "first_page_kernel",
+            "role": "5bar_14:physical_H1_wedge2_V",
+            "status": "representative_obstructed"
+          },
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "explicit equivariant first-page cokernel character matches branch actual",
+            "representative_method": "first_page_cokernel",
+            "role": "5_14:physical_H2_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 0,
+                "-": 2
+              },
+              "nonidentity_trace": -2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "explicit equivariant first-page kernel character disagrees with branch actual",
+            "representative_method": "first_page_kernel",
+            "role": "5_14:cup_H1_wedge2_V_dual",
+            "status": "representative_obstructed"
+          }
+        ],
+        "obstruction_summary": {
+          "branch_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "computed_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "first_obstructing_role": "5bar_14:physical_H1_wedge2_V",
+          "reason": "explicit equivariant first-page kernel character disagrees with branch actual",
+          "required_image_ranks_for_branch": {
+            "+": 3,
+            "-": 5
+          }
+        },
+        "operator": "5bar_14*5_14",
+        "proton_allowed_count": 0,
+        "representative_status": "representative_obstructed",
+        "source": {
+          "kind": "bounded_branch",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window20.json",
+          "window": 20
+        },
+        "unresolved_summary": null,
+        "weight": 1
+      },
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_0_branch_513",
+        "classification": {
+          "category": "phenomenologically obstructed",
+          "reason": "current refined selection rules allow at least one doublet-support mass entry",
+          "status": "character_refined_doublet_mass_obstruction"
+        },
+        "eligible_for_exact_cup_product_rank": false,
+        "matter_leg_statuses": [
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "branch kernel character requires an impossible image-rank split",
+            "representative_method": "first_page_kernel",
+            "role": "5bar_01:physical_H1_wedge2_V",
+            "status": "representative_obstructed"
+          },
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "explicit equivariant first-page cokernel character matches branch actual",
+            "representative_method": "first_page_cokernel",
+            "role": "5_14:physical_H2_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 0,
+                "-": 2
+              },
+              "nonidentity_trace": -2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "explicit equivariant first-page kernel character disagrees with branch actual",
+            "representative_method": "first_page_kernel",
+            "role": "5_14:cup_H1_wedge2_V_dual",
+            "status": "representative_obstructed"
+          }
+        ],
+        "obstruction_summary": {
+          "branch_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "computed_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "first_obstructing_role": "5bar_01:physical_H1_wedge2_V",
+          "reason": "branch kernel character requires an impossible image-rank split",
+          "required_image_ranks_for_branch": {
+            "+": 4,
+            "-": 6
+          }
+        },
+        "operator": "5bar_01*5_14",
+        "proton_allowed_count": 0,
+        "representative_status": "representative_obstructed",
+        "source": {
+          "kind": "bounded_branch",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window20.json",
+          "window": 20
+        },
+        "unresolved_summary": null,
+        "weight": 1
+      },
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_1_branch_513",
+        "classification": {
+          "category": "phenomenologically obstructed",
+          "reason": "current refined selection rules allow at least one doublet-support mass entry",
+          "status": "character_refined_doublet_mass_obstruction"
+        },
+        "eligible_for_exact_cup_product_rank": false,
+        "matter_leg_statuses": [
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "branch kernel character requires an impossible image-rank split",
+            "representative_method": "first_page_kernel",
+            "role": "5bar_01:physical_H1_wedge2_V",
+            "status": "representative_obstructed"
+          },
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "explicit equivariant first-page cokernel character matches branch actual",
+            "representative_method": "first_page_cokernel",
+            "role": "5_12:physical_H2_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 0,
+                "-": 2
+              },
+              "nonidentity_trace": -2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "reason": "explicit equivariant first-page kernel character disagrees with branch actual",
+            "representative_method": "first_page_kernel",
+            "role": "5_12:cup_H1_wedge2_V_dual",
+            "status": "representative_obstructed"
+          }
+        ],
+        "obstruction_summary": {
+          "branch_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "computed_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "first_obstructing_role": "5bar_01:physical_H1_wedge2_V",
+          "reason": "branch kernel character requires an impossible image-rank split",
+          "required_image_ranks_for_branch": {
+            "+": 4,
+            "-": 6
+          }
+        },
+        "operator": "5bar_01*5_12",
+        "proton_allowed_count": 0,
+        "representative_status": "representative_obstructed",
+        "source": {
+          "kind": "bounded_branch",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window20.json",
+          "window": 20
+        },
+        "unresolved_summary": null,
+        "weight": 1
+      },
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative",
+        "classification": {
+          "category": "phenomenologically obstructed",
+          "reason": "current refined selection rules allow at least one doublet-support mass entry",
+          "status": "character_refined_doublet_mass_obstruction"
+        },
+        "eligible_for_exact_cup_product_rank": false,
+        "matter_leg_statuses": [
+          {
+            "branch_actual": {
+              "dimension": 6,
+              "multiplicities": {
+                "+": 2,
+                "-": 4
+              },
+              "nonidentity_trace": -2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 6,
+              "multiplicities": {
+                "+": 3,
+                "-": 3
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 3
+            },
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "representative_method": "first_page_cokernel",
+            "role": "5bar_03:physical_H1_wedge2_V",
+            "status": "representative_obstructed"
+          },
+          {
+            "branch_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "reason": "single total-degree E1 source equals the cohomology dimension",
+            "representative_method": "single_total_degree",
+            "role": "5_34:physical_H2_wedge2_V",
+            "status": "representative_compatible"
+          },
+          {
+            "branch_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "reason": "single total-degree E1 source equals the cohomology dimension",
+            "representative_method": "single_total_degree",
+            "role": "5_34:cup_H1_wedge2_V_dual",
+            "status": "representative_compatible"
+          }
+        ],
+        "obstruction_summary": {
+          "branch_actual": {
+            "dimension": 6,
+            "multiplicities": {
+              "+": 2,
+              "-": 4
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          },
+          "computed_actual": {
+            "dimension": 6,
+            "multiplicities": {
+              "+": 3,
+              "-": 3
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 3
+          },
+          "first_obstructing_role": "5bar_03:physical_H1_wedge2_V",
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "required_image_ranks_for_branch": {
+            "+": 4,
+            "-": 2
+          }
+        },
+        "operator": "5bar_03*5_34",
+        "proton_allowed_count": 0,
+        "representative_status": "representative_obstructed",
+        "source": {
+          "kind": "large_branch_representative",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_window29_large_branch_closure_filtered_1.json",
+          "represented_q1_branches": 126,
+          "window": 29
+        },
+        "unresolved_summary": null,
+        "weight": 126
+      }
+    ],
+    "representative_unresolved_targets": [
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative",
+        "classification": {
+          "category": "phenomenologically obstructed",
+          "reason": "current refined selection rules allow at least one doublet-support mass entry",
+          "status": "character_refined_doublet_mass_obstruction"
+        },
+        "eligible_for_exact_cup_product_rank": false,
+        "matter_leg_statuses": [
+          {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": null,
+            "reason": "equivariant first-page E2 dimensions do not match pyCICY cohomology dimensions",
+            "representative_method": "complex_or_higher_leray_unresolved",
+            "role": "5bar_34:physical_H1_wedge2_V",
+            "status": "representative_unresolved"
+          },
+          {
+            "branch_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "computed_actual": null,
+            "reason": "equivariant first-page E2 dimensions do not match pyCICY cohomology dimensions",
+            "representative_method": "complex_or_higher_leray_unresolved",
+            "role": "5_34:physical_H2_wedge2_V",
+            "status": "representative_unresolved"
+          },
+          {
+            "branch_actual": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 0,
+                "-": 1
+              },
+              "nonidentity_trace": -1,
+              "regular_multiplicity": null
+            },
+            "computed_actual": null,
+            "reason": "equivariant first-page E2 dimensions do not match pyCICY cohomology dimensions",
+            "representative_method": "complex_or_higher_leray_unresolved",
+            "role": "5_34:cup_H1_wedge2_V_dual",
+            "status": "representative_unresolved"
+          }
+        ],
+        "obstruction_summary": null,
+        "operator": "5bar_34*5_34",
+        "proton_allowed_count": 1,
+        "representative_status": "representative_unresolved",
+        "source": {
+          "kind": "large_branch_representative",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_window6_large_branch_closure_filtered_1.json",
+          "represented_q1_branches": 216,
+          "window": 6
+        },
+        "unresolved_summary": {
+          "first_unresolved_role": "5bar_34:physical_H1_wedge2_V",
+          "reason": "equivariant first-page E2 dimensions do not match pyCICY cohomology dimensions"
+        },
+        "weight": 216
+      }
+    ],
+    "scanned": {
+      "classification_status_weight": {
+        "character_refined_doublet_mass_obstruction": 33072,
+        "no_character_refined_triplet_mass_operator_found": 510611,
+        "passes_refined_charge_character_dt_and_proton_filter": 1962,
+        "selective_dt_but_proton_unprotected": 3393
+      },
+      "materialized_records": 4065,
+      "records_skipped_because_only_known_failure_operators": 609,
+      "records_with_triplet_only_shadow_operator": 1530,
+      "represented_weight": 549038
+    },
+    "selected_escape_operator_count": 12,
+    "triplet_only_operator_rows": {
+      "5bar_01*5_12": 324,
+      "5bar_01*5_14": 140,
+      "5bar_02*5_12": 88,
+      "5bar_02*5_24": 9,
+      "5bar_02*5_34": 88,
+      "5bar_03*5_03": 54,
+      "5bar_03*5_34": 13,
+      "5bar_04*5_24": 30,
+      "5bar_04*5_34": 30,
+      "5bar_12*5_12": 609,
+      "5bar_13*5_34": 64,
+      "5bar_14*5_12": 2,
+      "5bar_14*5_14": 126,
+      "5bar_23*5_23": 17,
+      "5bar_24*5_12": 6,
+      "5bar_34*5_34": 98
+    },
+    "triplet_only_operator_weight": {
+      "5bar_01*5_12": 324,
+      "5bar_01*5_14": 140,
+      "5bar_02*5_12": 88,
+      "5bar_02*5_24": 9,
+      "5bar_02*5_34": 88,
+      "5bar_03*5_03": 54,
+      "5bar_03*5_34": 138,
+      "5bar_04*5_24": 30,
+      "5bar_04*5_34": 780,
+      "5bar_12*5_12": 2495,
+      "5bar_13*5_34": 64,
+      "5bar_14*5_12": 600,
+      "5bar_14*5_14": 394,
+      "5bar_23*5_23": 205,
+      "5bar_24*5_12": 6,
+      "5bar_34*5_34": 3046
+    }
+  },
+  "gates": {
+    "escape_scan_covers_materialized_q1_records": {
+      "evidence": "materialized radius-9 source records",
+      "note": "escape scan traversed existing materialized q=1 source records",
+      "pass": true
+    },
+    "escape_scan_is_bounded": {
+      "evidence": "escape scan bounds",
+      "note": "escape scan is explicitly bounded and does not expand the radius frontier",
+      "pass": true
+    },
+    "imports_verified_prefilter": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_representative_prefilter_rollup.json + reports/phenomenology_guided_q1_radius9_representative_prefilter_rollup_verification.json",
+      "note": "classifier starts from the verified representative-prefilter closure",
+      "pass": true
+    },
+    "no_representative_compatible_escape_target": {
+      "evidence": "audited escape targets",
+      "note": "bounded escape scan found no representative-compatible triplet mass target",
+      "pass": true
+    },
+    "obstruction_classes_cover_closed_frontier": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_representative_survivor_rerank.json",
+      "note": "four representative obstruction classes account for all shadow-viable weight",
+      "pass": true
+    }
+  },
+  "interpretation": {
+    "active_bottleneck": "representative-realizability, not cup-product rank",
+    "grind_assessment": "blind radius expansion is low-value until the grammar can generate mass operators outside the observed representative-failure shapes",
+    "search_guidance": "future search should prefilter branch-completed characters by rank-feasible and E2-certified representative characters before lead/cup-product promotion"
+  },
+  "obstruction_anatomy": [
+    {
+      "branch_actual": {
+        "dimension": 2,
+        "multiplicities": {
+          "+": 0,
+          "-": 2
+        },
+        "nonidentity_trace": -2,
+        "regular_multiplicity": null
+      },
+      "cohomology_key": "H1",
+      "computed_actual": {
+        "dimension": 2,
+        "multiplicities": {
+          "+": 1,
+          "-": 1
+        },
+        "nonidentity_trace": 0,
+        "regular_multiplicity": 1
+      },
+      "e1_total_degree_representations": {
+        "0": {
+          "dimension": 9,
+          "multiplicities": {
+            "+": 5,
+            "-": 4
+          },
+          "nonidentity_trace": 1,
+          "regular_multiplicity": null
+        },
+        "1": {
+          "dimension": 25,
+          "multiplicities": {
+            "+": 13,
+            "-": 12
+          },
+          "nonidentity_trace": 1,
+          "regular_multiplicity": null
+        },
+        "2": {
+          "dimension": 15,
+          "multiplicities": {
+            "+": 8,
+            "-": 7
+          },
+          "nonidentity_trace": 1,
+          "regular_multiplicity": null
+        }
+      },
+      "e2_resolution": {
+        "actual": {
+          "H1": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "H2": {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 1,
+              "-": 0
+            },
+            "nonidentity_trace": 1,
+            "regular_multiplicity": null
+          }
+        },
+        "cohomology_dimensions": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "cross_eigen_nonzero_entries": 0,
+        "e2_dimensions": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "e2_entries": [
+          {
+            "entry": [
+              1,
+              2
+            ],
+            "representation": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "total_degree": 1
+          },
+          {
+            "entry": [
+              1,
+              3
+            ],
+            "representation": {
+              "dimension": 1,
+              "multiplicities": {
+                "+": 1,
+                "-": 0
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "total_degree": 2
+          }
+        ],
+        "final_by_dimension": true,
+        "rank_splits": [
+          {
+            "cross_eigen_nonzero_entries": 0,
+            "nonzero_entries": 42,
+            "rank_minus": 6,
+            "rank_plus": 6,
+            "rank_total": 12,
+            "source": [
+              1,
+              2
+            ],
+            "splits": {
+              "+": {
+                "columns": [
+                  0,
+                  2,
+                  5,
+                  7,
+                  8,
+                  11,
+                  12,
+                  14,
+                  16,
+                  18,
+                  20,
+                  22
+                ],
+                "rank": 6,
+                "rows": [
+                  0,
+                  1,
+                  6,
+                  7,
+                  8,
+                  9
+                ],
+                "shape": [
+                  6,
+                  12
+                ]
+              },
+              "-": {
+                "columns": [
+                  1,
+                  3,
+                  4,
+                  6,
+                  9,
+                  10,
+                  13,
+                  15,
+                  17,
+                  19,
+                  21
+                ],
+                "rank": 6,
+                "rows": [
+                  2,
+                  3,
+                  4,
+                  5,
+                  10,
+                  11
+                ],
+                "shape": [
+                  6,
+                  11
+                ]
+              }
+            },
+            "target": [
+              0,
+              2
+            ]
+          },
+          {
+            "cross_eigen_nonzero_entries": 0,
+            "nonzero_entries": 35,
+            "rank_minus": 4,
+            "rank_plus": 5,
+            "rank_total": 9,
+            "source": [
+              2,
+              2
+            ],
+            "splits": {
+              "+": {
+                "columns": [
+                  0,
+                  2,
+                  3,
+                  6,
+                  7
+                ],
+                "rank": 5,
+                "rows": [
+                  0,
+                  2,
+                  5,
+                  7,
+                  8,
+                  11,
+                  12,
+                  14,
+                  16,
+                  18,
+                  20,
+                  22
+                ],
+                "shape": [
+                  12,
+                  5
+                ]
+              },
+              "-": {
+                "columns": [
+                  1,
+                  4,
+                  5,
+                  8
+                ],
+                "rank": 4,
+                "rows": [
+                  1,
+                  3,
+                  4,
+                  6,
+                  9,
+                  10,
+                  13,
+                  15,
+                  17,
+                  19,
+                  21
+                ],
+                "shape": [
+                  11,
+                  4
+                ]
+              }
+            },
+            "target": [
+              1,
+              2
+            ]
+          },
+          {
+            "cross_eigen_nonzero_entries": 0,
+            "nonzero_entries": 3,
+            "rank_minus": 1,
+            "rank_plus": 1,
+            "rank_total": 2,
+            "source": [
+              2,
+              3
+            ],
+            "splits": {
+              "+": {
+                "columns": [
+                  0
+                ],
+                "rank": 1,
+                "rows": [
+                  0,
+                  2
+                ],
+                "shape": [
+                  2,
+                  1
+                ]
+              },
+              "-": {
+                "columns": [
+                  1
+                ],
+                "rank": 1,
+                "rows": [
+                  1
+                ],
+                "shape": [
+                  1,
+                  1
+                ]
+              }
+            },
+            "target": [
+              1,
+              3
+            ]
+          }
+        ],
+        "reason": "equivariant first-page E2 dimensions match pyCICY cohomology dimensions",
+        "status": "e2_final_by_dimension"
+      },
+      "escape_hint": "avoid cup-dual branch assignments that request a non-regular character when dimension-certified E2 gives a regular representative",
+      "line_bundle": [
+        -2,
+        0,
+        -2,
+        0,
+        0,
+        1,
+        1
+      ],
+      "obstruction_role": "5_12:cup_H1_wedge2_V_dual",
+      "operators": [
+        "5bar_12*5_12"
+      ],
+      "rank_feasibility": null,
+      "reason": "dimension-certified equivariant E2 character disagrees with branch actual",
+      "representative_method": "dimension_certified_equivariant_e2",
+      "represented_weight": 1512,
+      "source_windows": [
+        32,
+        36
+      ],
+      "target_count": 2
+    },
+    {
+      "branch_actual": {
+        "dimension": 2,
+        "multiplicities": {
+          "+": 2,
+          "-": 0
+        },
+        "nonidentity_trace": 2,
+        "regular_multiplicity": null
+      },
+      "cohomology_key": "H1",
+      "computed_actual": {
+        "dimension": 2,
+        "multiplicities": {
+          "+": 1,
+          "-": 1
+        },
+        "nonidentity_trace": 0,
+        "regular_multiplicity": 1
+      },
+      "e1_total_degree_representations": {
+        "0": {
+          "dimension": 4,
+          "multiplicities": {
+            "+": 2,
+            "-": 2
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 2
+        },
+        "1": {
+          "dimension": 6,
+          "multiplicities": {
+            "+": 3,
+            "-": 3
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 3
+        }
+      },
+      "e2_resolution": null,
+      "escape_hint": "avoid branch completions that demand image rank beyond an eigenspace source/target bound; require rank-feasible requested characters before promotion",
+      "line_bundle": [
+        0,
+        1,
+        0,
+        -2,
+        0,
+        0,
+        1
+      ],
+      "obstruction_role": "5bar_02:physical_H1_wedge2_V",
+      "operators": [
+        "5bar_02*5_24"
+      ],
+      "rank_feasibility": {
+        "minus_margin": -1,
+        "plus_margin": 1,
+        "required_image_ranks": {
+          "+": 1,
+          "-": 3
+        },
+        "source_multiplicities": {
+          "+": 2,
+          "-": 2
+        },
+        "target_multiplicities": {
+          "+": 3,
+          "-": 3
+        }
+      },
+      "reason": "branch cokernel character requires an impossible image-rank split",
+      "representative_method": "first_page_cokernel",
+      "represented_weight": 9,
+      "source_windows": [
+        18
+      ],
+      "target_count": 9
+    },
+    {
+      "branch_actual": {
+        "dimension": 6,
+        "multiplicities": {
+          "+": 2,
+          "-": 4
+        },
+        "nonidentity_trace": -2,
+        "regular_multiplicity": null
+      },
+      "cohomology_key": "H1",
+      "computed_actual": {
+        "dimension": 6,
+        "multiplicities": {
+          "+": 3,
+          "-": 3
+        },
+        "nonidentity_trace": 0,
+        "regular_multiplicity": 3
+      },
+      "e1_total_degree_representations": {
+        "0": {
+          "dimension": 6,
+          "multiplicities": {
+            "+": 3,
+            "-": 3
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 3
+        },
+        "1": {
+          "dimension": 12,
+          "multiplicities": {
+            "+": 6,
+            "-": 6
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 6
+        }
+      },
+      "e2_resolution": null,
+      "escape_hint": "avoid branch completions that demand image rank beyond an eigenspace source/target bound; require rank-feasible requested characters before promotion",
+      "line_bundle": [
+        -3,
+        1,
+        0,
+        -1,
+        0,
+        0,
+        2
+      ],
+      "obstruction_role": "5bar_04:physical_H1_wedge2_V",
+      "operators": [
+        "5bar_04*5_34"
+      ],
+      "rank_feasibility": {
+        "minus_margin": 1,
+        "plus_margin": -1,
+        "required_image_ranks": {
+          "+": 4,
+          "-": 2
+        },
+        "source_multiplicities": {
+          "+": 3,
+          "-": 3
+        },
+        "target_multiplicities": {
+          "+": 6,
+          "-": 6
+        }
+      },
+      "reason": "branch cokernel character requires an impossible image-rank split",
+      "representative_method": "first_page_cokernel",
+      "represented_weight": 252,
+      "source_windows": [
+        30
+      ],
+      "target_count": 2
+    },
+    {
+      "branch_actual": {
+        "dimension": 2,
+        "multiplicities": {
+          "+": 2,
+          "-": 0
+        },
+        "nonidentity_trace": 2,
+        "regular_multiplicity": null
+      },
+      "cohomology_key": "H1",
+      "computed_actual": {
+        "dimension": 3,
+        "multiplicities": {
+          "+": 2,
+          "-": 1
+        },
+        "nonidentity_trace": 1,
+        "regular_multiplicity": null
+      },
+      "e1_total_degree_representations": {
+        "1": {
+          "dimension": 7,
+          "multiplicities": {
+            "+": 4,
+            "-": 3
+          },
+          "nonidentity_trace": 1,
+          "regular_multiplicity": null
+        },
+        "2": {
+          "dimension": 7,
+          "multiplicities": {
+            "+": 4,
+            "-": 3
+          },
+          "nonidentity_trace": 1,
+          "regular_multiplicity": null
+        }
+      },
+      "e2_resolution": null,
+      "escape_hint": "avoid branch kernels whose requested dimension/character is smaller than the explicit equivariant d1 kernel",
+      "line_bundle": [
+        1,
+        -2,
+        0,
+        -1,
+        -1,
+        1,
+        0
+      ],
+      "obstruction_role": "5bar_23:physical_H1_wedge2_V",
+      "operators": [
+        "5bar_23*5_23"
+      ],
+      "rank_feasibility": {
+        "minus_margin": 0,
+        "plus_margin": 2,
+        "required_image_ranks": {
+          "+": 2,
+          "-": 3
+        },
+        "source_multiplicities": {
+          "+": 4,
+          "-": 3
+        },
+        "target_multiplicities": {
+          "+": 4,
+          "-": 3
+        }
+      },
+      "reason": "explicit equivariant first-page kernel character disagrees with branch actual",
+      "representative_method": "first_page_kernel",
+      "represented_weight": 189,
+      "source_windows": [
+        33
+      ],
+      "target_count": 1
+    }
+  ],
+  "scope": "classify representative-realizability obstructions and test a bounded representative-first escape scan over materialized radius-9 q=1 records",
+  "source_artifacts": {
+    "prefilter_json": "reports/phenomenology_guided_q1_radius9_representative_prefilter_rollup.json",
+    "prefilter_verification_json": "reports/phenomenology_guided_q1_radius9_representative_prefilter_rollup_verification.json",
+    "rerank_json": "reports/phenomenology_guided_q1_radius9_representative_survivor_rerank.json"
+  },
+  "status": "no_representative_compatible_escape_target_in_bounded_materialized_scan",
+  "title": "Radius-9 Representative Obstruction And Escape Report"
+}

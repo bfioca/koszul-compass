@@ -1,0 +1,2101 @@
+{
+  "all_gates_pass": true,
+  "cup_product_eligible_records": [],
+  "gates": {
+    "branch18_regression_control": {
+      "evidence": "5bar_02*5_24",
+      "note": "branch 18 remains pruned by the representative shadow-collision gate",
+      "pass": true
+    },
+    "five12_e2_regression_control": {
+      "evidence": "5bar_12*5_12",
+      "note": "the 5_12 cup-dual E2 mismatch remains a generation-time prune",
+      "pass": true
+    },
+    "five23_kernel_regression_control": {
+      "evidence": "5bar_23*5_23",
+      "note": "the 5bar_23 first-page kernel mismatch remains a generation-time prune",
+      "pass": true
+    },
+    "generated_weight_matches_frontier": {
+      "evidence": "radius-9 source_records replay",
+      "note": "all materialized q=1 candidate records are replayed exactly once",
+      "pass": true
+    },
+    "imports_verified_broad_rollup": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_broad_windows1_45_rollup.json",
+      "note": "generation replay starts from the verified materialized radius-9 frontier",
+      "pass": true
+    },
+    "no_unresolved_selection_rule_survivor": {
+      "evidence": "representative grammar stage",
+      "note": "every refined survivor is resolved, not merely postponed",
+      "pass": true
+    },
+    "representative_gate_prunes_all_shadow_candidates": {
+      "evidence": "representative grammar stage",
+      "note": "no current radius-9 character-shadow survivor is promotion-ready",
+      "pass": true
+    },
+    "selection_rule_candidates_match_shadow_frontier": {
+      "evidence": "representative generation replay",
+      "note": "the replay regenerates the corrected character-shadow survivor set",
+      "pass": true
+    }
+  },
+  "interpretation": {
+    "current_frontier_result": "the repaired generation grammar yields zero representative-compatible candidates on the materialized radius-9 frontier",
+    "generation_boundary": "character-shadow viable branches are no longer promotion-ready; representative compatibility is required before lead or cup-product labels"
+  },
+  "promotion_records": [
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_4_branch_18",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_02*5_24 fails 5bar_02:physical_H1_wedge2_V: branch cokernel character requires an impossible image-rank split",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "first_obstructing_role": "5bar_02:physical_H1_wedge2_V",
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "required_image_ranks_for_branch": {
+              "+": 1,
+              "-": 3
+            }
+          },
+          "operator": "5bar_02*5_24",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_4_branch_19",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_02*5_24 fails 5bar_02:physical_H1_wedge2_V: branch cokernel character requires an impossible image-rank split",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "first_obstructing_role": "5bar_02:physical_H1_wedge2_V",
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "required_image_ranks_for_branch": {
+              "+": 1,
+              "-": 3
+            }
+          },
+          "operator": "5bar_02*5_24",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_4_branch_20",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_02*5_24 fails 5bar_02:physical_H1_wedge2_V: branch cokernel character requires an impossible image-rank split",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "first_obstructing_role": "5bar_02:physical_H1_wedge2_V",
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "required_image_ranks_for_branch": {
+              "+": 1,
+              "-": 3
+            }
+          },
+          "operator": "5bar_02*5_24",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_4_branch_21",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_02*5_24 fails 5bar_02:physical_H1_wedge2_V: branch cokernel character requires an impossible image-rank split",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "first_obstructing_role": "5bar_02:physical_H1_wedge2_V",
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "required_image_ranks_for_branch": {
+              "+": 1,
+              "-": 3
+            }
+          },
+          "operator": "5bar_02*5_24",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_4_branch_22",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_02*5_24 fails 5bar_02:physical_H1_wedge2_V: branch cokernel character requires an impossible image-rank split",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "first_obstructing_role": "5bar_02:physical_H1_wedge2_V",
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "required_image_ranks_for_branch": {
+              "+": 1,
+              "-": 3
+            }
+          },
+          "operator": "5bar_02*5_24",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_4_branch_23",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_02*5_24 fails 5bar_02:physical_H1_wedge2_V: branch cokernel character requires an impossible image-rank split",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "first_obstructing_role": "5bar_02:physical_H1_wedge2_V",
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "required_image_ranks_for_branch": {
+              "+": 1,
+              "-": 3
+            }
+          },
+          "operator": "5bar_02*5_24",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_4_branch_24",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_02*5_24 fails 5bar_02:physical_H1_wedge2_V: branch cokernel character requires an impossible image-rank split",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "first_obstructing_role": "5bar_02:physical_H1_wedge2_V",
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "required_image_ranks_for_branch": {
+              "+": 1,
+              "-": 3
+            }
+          },
+          "operator": "5bar_02*5_24",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_4_branch_25",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_02*5_24 fails 5bar_02:physical_H1_wedge2_V: branch cokernel character requires an impossible image-rank split",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "first_obstructing_role": "5bar_02:physical_H1_wedge2_V",
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "required_image_ranks_for_branch": {
+              "+": 1,
+              "-": 3
+            }
+          },
+          "operator": "5bar_02*5_24",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_4_branch_26",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_02*5_24 fails 5bar_02:physical_H1_wedge2_V: branch cokernel character requires an impossible image-rank split",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "first_obstructing_role": "5bar_02:physical_H1_wedge2_V",
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "required_image_ranks_for_branch": {
+              "+": 1,
+              "-": 3
+            }
+          },
+          "operator": "5bar_02*5_24",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_04*5_34 fails 5bar_04:physical_H1_wedge2_V: branch cokernel character requires an impossible image-rank split",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window30_large_branch_closure_filtered_1.json",
+        "represented_q1_branches": 126,
+        "window": 30
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 6,
+              "multiplicities": {
+                "+": 2,
+                "-": 4
+              },
+              "nonidentity_trace": -2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 6,
+              "multiplicities": {
+                "+": 3,
+                "-": 3
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 3
+            },
+            "first_obstructing_role": "5bar_04:physical_H1_wedge2_V",
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "required_image_ranks_for_branch": {
+              "+": 4,
+              "-": 2
+            }
+          },
+          "operator": "5bar_04*5_34",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 126
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_7_large_branch_q1_representative",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_04*5_34 fails 5bar_04:physical_H1_wedge2_V: branch cokernel character requires an impossible image-rank split",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window30_large_branch_closure_filtered_7.json",
+        "represented_q1_branches": 126,
+        "window": 30
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 6,
+              "multiplicities": {
+                "+": 2,
+                "-": 4
+              },
+              "nonidentity_trace": -2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 6,
+              "multiplicities": {
+                "+": 3,
+                "-": 3
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 3
+            },
+            "first_obstructing_role": "5bar_04:physical_H1_wedge2_V",
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "required_image_ranks_for_branch": {
+              "+": 4,
+              "-": 2
+            }
+          },
+          "operator": "5bar_04*5_34",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 126
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_12*5_12 fails 5_12:cup_H1_wedge2_V_dual: dimension-certified equivariant E2 character disagrees with branch actual",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window32_large_branch_closure_filtered_1.json",
+        "represented_q1_branches": 756,
+        "window": 32
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 0,
+                "-": 2
+              },
+              "nonidentity_trace": -2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "first_obstructing_role": "5_12:cup_H1_wedge2_V_dual",
+            "reason": "dimension-certified equivariant E2 character disagrees with branch actual",
+            "required_image_ranks_for_branch": null
+          },
+          "operator": "5bar_12*5_12",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 756
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_23*5_23 fails 5bar_23:physical_H1_wedge2_V: explicit equivariant first-page kernel character disagrees with branch actual",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window33_large_branch_closure_filtered_1.json",
+        "represented_q1_branches": 189,
+        "window": 33
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 3,
+              "multiplicities": {
+                "+": 2,
+                "-": 1
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "first_obstructing_role": "5bar_23:physical_H1_wedge2_V",
+            "reason": "explicit equivariant first-page kernel character disagrees with branch actual",
+            "required_image_ranks_for_branch": {
+              "+": 2,
+              "-": 3
+            }
+          },
+          "operator": "5bar_23*5_23",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 189
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_3_large_branch_q1_representative",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_12*5_12 fails 5_12:cup_H1_wedge2_V_dual: dimension-certified equivariant E2 character disagrees with branch actual",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window36_large_branch_closure_filtered_3.json",
+        "represented_q1_branches": 756,
+        "window": 36
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 0,
+                "-": 2
+              },
+              "nonidentity_trace": -2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "first_obstructing_role": "5_12:cup_H1_wedge2_V_dual",
+            "reason": "dimension-certified equivariant E2 character disagrees with branch actual",
+            "required_image_ranks_for_branch": null
+          },
+          "operator": "5bar_12*5_12",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 756
+    }
+  ],
+  "regression_controls": {
+    "branch18": {
+      "candidate_label": "radius6_broad_adjacency_filtered_4_branch_18",
+      "eligible_for_exact_cup_product_rank": false,
+      "obstruction_summary": {
+        "branch_actual": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 2,
+            "-": 0
+          },
+          "nonidentity_trace": 2,
+          "regular_multiplicity": null
+        },
+        "computed_actual": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 1,
+            "-": 1
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 1
+        },
+        "first_obstructing_role": "5bar_02:physical_H1_wedge2_V",
+        "reason": "branch cokernel character requires an impossible image-rank split",
+        "required_image_ranks_for_branch": {
+          "+": 1,
+          "-": 3
+        }
+      },
+      "operator": "5bar_02*5_24",
+      "source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "status": "representative_obstructed",
+      "unresolved_summary": null,
+      "weight": 1
+    },
+    "five12": [
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative",
+        "eligible_for_exact_cup_product_rank": false,
+        "obstruction_summary": {
+          "branch_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 0,
+              "-": 2
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          },
+          "computed_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "first_obstructing_role": "5_12:cup_H1_wedge2_V_dual",
+          "reason": "dimension-certified equivariant E2 character disagrees with branch actual",
+          "required_image_ranks_for_branch": null
+        },
+        "operator": "5bar_12*5_12",
+        "source": {
+          "kind": "large_branch_representative",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_window32_large_branch_closure_filtered_1.json",
+          "represented_q1_branches": 756,
+          "window": 32
+        },
+        "status": "representative_obstructed",
+        "unresolved_summary": null,
+        "weight": 756
+      },
+      {
+        "candidate_label": "radius6_broad_adjacency_filtered_3_large_branch_q1_representative",
+        "eligible_for_exact_cup_product_rank": false,
+        "obstruction_summary": {
+          "branch_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 0,
+              "-": 2
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          },
+          "computed_actual": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "first_obstructing_role": "5_12:cup_H1_wedge2_V_dual",
+          "reason": "dimension-certified equivariant E2 character disagrees with branch actual",
+          "required_image_ranks_for_branch": null
+        },
+        "operator": "5bar_12*5_12",
+        "source": {
+          "kind": "large_branch_representative",
+          "path": "reports/phenomenology_guided_q1_radius9_broad_window36_large_branch_closure_filtered_3.json",
+          "represented_q1_branches": 756,
+          "window": 36
+        },
+        "status": "representative_obstructed",
+        "unresolved_summary": null,
+        "weight": 756
+      }
+    ],
+    "five23": {
+      "candidate_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative",
+      "eligible_for_exact_cup_product_rank": false,
+      "obstruction_summary": {
+        "branch_actual": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 2,
+            "-": 0
+          },
+          "nonidentity_trace": 2,
+          "regular_multiplicity": null
+        },
+        "computed_actual": {
+          "dimension": 3,
+          "multiplicities": {
+            "+": 2,
+            "-": 1
+          },
+          "nonidentity_trace": 1,
+          "regular_multiplicity": null
+        },
+        "first_obstructing_role": "5bar_23:physical_H1_wedge2_V",
+        "reason": "explicit equivariant first-page kernel character disagrees with branch actual",
+        "required_image_ranks_for_branch": {
+          "+": 2,
+          "-": 3
+        }
+      },
+      "operator": "5bar_23*5_23",
+      "source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window33_large_branch_closure_filtered_1.json",
+        "represented_q1_branches": 189,
+        "window": 33
+      },
+      "status": "representative_obstructed",
+      "unresolved_summary": null,
+      "weight": 189
+    }
+  },
+  "representative_compatible_records": [],
+  "representative_pruned_records": [
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_4_branch_18",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_02*5_24 fails 5bar_02:physical_H1_wedge2_V: branch cokernel character requires an impossible image-rank split",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "first_obstructing_role": "5bar_02:physical_H1_wedge2_V",
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "required_image_ranks_for_branch": {
+              "+": 1,
+              "-": 3
+            }
+          },
+          "operator": "5bar_02*5_24",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_4_branch_19",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_02*5_24 fails 5bar_02:physical_H1_wedge2_V: branch cokernel character requires an impossible image-rank split",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "first_obstructing_role": "5bar_02:physical_H1_wedge2_V",
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "required_image_ranks_for_branch": {
+              "+": 1,
+              "-": 3
+            }
+          },
+          "operator": "5bar_02*5_24",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_4_branch_20",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_02*5_24 fails 5bar_02:physical_H1_wedge2_V: branch cokernel character requires an impossible image-rank split",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "first_obstructing_role": "5bar_02:physical_H1_wedge2_V",
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "required_image_ranks_for_branch": {
+              "+": 1,
+              "-": 3
+            }
+          },
+          "operator": "5bar_02*5_24",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_4_branch_21",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_02*5_24 fails 5bar_02:physical_H1_wedge2_V: branch cokernel character requires an impossible image-rank split",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "first_obstructing_role": "5bar_02:physical_H1_wedge2_V",
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "required_image_ranks_for_branch": {
+              "+": 1,
+              "-": 3
+            }
+          },
+          "operator": "5bar_02*5_24",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_4_branch_22",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_02*5_24 fails 5bar_02:physical_H1_wedge2_V: branch cokernel character requires an impossible image-rank split",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "first_obstructing_role": "5bar_02:physical_H1_wedge2_V",
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "required_image_ranks_for_branch": {
+              "+": 1,
+              "-": 3
+            }
+          },
+          "operator": "5bar_02*5_24",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_4_branch_23",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_02*5_24 fails 5bar_02:physical_H1_wedge2_V: branch cokernel character requires an impossible image-rank split",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "first_obstructing_role": "5bar_02:physical_H1_wedge2_V",
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "required_image_ranks_for_branch": {
+              "+": 1,
+              "-": 3
+            }
+          },
+          "operator": "5bar_02*5_24",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_4_branch_24",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_02*5_24 fails 5bar_02:physical_H1_wedge2_V: branch cokernel character requires an impossible image-rank split",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "first_obstructing_role": "5bar_02:physical_H1_wedge2_V",
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "required_image_ranks_for_branch": {
+              "+": 1,
+              "-": 3
+            }
+          },
+          "operator": "5bar_02*5_24",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_4_branch_25",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_02*5_24 fails 5bar_02:physical_H1_wedge2_V: branch cokernel character requires an impossible image-rank split",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "first_obstructing_role": "5bar_02:physical_H1_wedge2_V",
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "required_image_ranks_for_branch": {
+              "+": 1,
+              "-": 3
+            }
+          },
+          "operator": "5bar_02*5_24",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_4_branch_26",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_02*5_24 fails 5bar_02:physical_H1_wedge2_V: branch cokernel character requires an impossible image-rank split",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "first_obstructing_role": "5bar_02:physical_H1_wedge2_V",
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "required_image_ranks_for_branch": {
+              "+": 1,
+              "-": 3
+            }
+          },
+          "operator": "5bar_02*5_24",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_04*5_34 fails 5bar_04:physical_H1_wedge2_V: branch cokernel character requires an impossible image-rank split",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window30_large_branch_closure_filtered_1.json",
+        "represented_q1_branches": 126,
+        "window": 30
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 6,
+              "multiplicities": {
+                "+": 2,
+                "-": 4
+              },
+              "nonidentity_trace": -2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 6,
+              "multiplicities": {
+                "+": 3,
+                "-": 3
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 3
+            },
+            "first_obstructing_role": "5bar_04:physical_H1_wedge2_V",
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "required_image_ranks_for_branch": {
+              "+": 4,
+              "-": 2
+            }
+          },
+          "operator": "5bar_04*5_34",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 126
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_7_large_branch_q1_representative",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_04*5_34 fails 5bar_04:physical_H1_wedge2_V: branch cokernel character requires an impossible image-rank split",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window30_large_branch_closure_filtered_7.json",
+        "represented_q1_branches": 126,
+        "window": 30
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 6,
+              "multiplicities": {
+                "+": 2,
+                "-": 4
+              },
+              "nonidentity_trace": -2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 6,
+              "multiplicities": {
+                "+": 3,
+                "-": 3
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 3
+            },
+            "first_obstructing_role": "5bar_04:physical_H1_wedge2_V",
+            "reason": "branch cokernel character requires an impossible image-rank split",
+            "required_image_ranks_for_branch": {
+              "+": 4,
+              "-": 2
+            }
+          },
+          "operator": "5bar_04*5_34",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 126
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_12*5_12 fails 5_12:cup_H1_wedge2_V_dual: dimension-certified equivariant E2 character disagrees with branch actual",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window32_large_branch_closure_filtered_1.json",
+        "represented_q1_branches": 756,
+        "window": 32
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 0,
+                "-": 2
+              },
+              "nonidentity_trace": -2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "first_obstructing_role": "5_12:cup_H1_wedge2_V_dual",
+            "reason": "dimension-certified equivariant E2 character disagrees with branch actual",
+            "required_image_ranks_for_branch": null
+          },
+          "operator": "5bar_12*5_12",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 756
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_23*5_23 fails 5bar_23:physical_H1_wedge2_V: explicit equivariant first-page kernel character disagrees with branch actual",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window33_large_branch_closure_filtered_1.json",
+        "represented_q1_branches": 189,
+        "window": 33
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 2,
+                "-": 0
+              },
+              "nonidentity_trace": 2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 3,
+              "multiplicities": {
+                "+": 2,
+                "-": 1
+              },
+              "nonidentity_trace": 1,
+              "regular_multiplicity": null
+            },
+            "first_obstructing_role": "5bar_23:physical_H1_wedge2_V",
+            "reason": "explicit equivariant first-page kernel character disagrees with branch actual",
+            "required_image_ranks_for_branch": {
+              "+": 2,
+              "-": 3
+            }
+          },
+          "operator": "5bar_23*5_23",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 189
+    },
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_3_large_branch_q1_representative",
+      "post_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "5bar_12*5_12 fails 5_12:cup_H1_wedge2_V_dual: dimension-certified equivariant E2 character disagrees with branch actual",
+        "status": "representative_grammar_obstructed"
+      },
+      "pre_representative_classification": {
+        "category": "phenomenologically obstructed",
+        "reason": "certified mass terms do not distinguish triplet from doublet components",
+        "status": "negative_control_doublet_triplet_obstruction"
+      },
+      "representative_grammar_stage": {
+        "cup_product_planning_allowed": false,
+        "promoted_to_lead_candidate": false,
+        "status": "representative_obstructed",
+        "target_status_counts": {
+          "representative_obstructed": 1
+        }
+      },
+      "selection_rule_stage": {
+        "category": "viable",
+        "reason": "a certified invariant singlet monomial supports a triplet-only 5bar/5 mass entry, no refined mass entry supports the doublet pair, and all 10*5bar*5bar operators are forbidden by the current residual charge rules",
+        "status": "passes_refined_charge_character_dt_and_proton_filter"
+      },
+      "source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window36_large_branch_closure_filtered_3.json",
+        "represented_q1_branches": 756,
+        "window": 36
+      },
+      "triplet_mass_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": false,
+          "obstruction_summary": {
+            "branch_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 0,
+                "-": 2
+              },
+              "nonidentity_trace": -2,
+              "regular_multiplicity": null
+            },
+            "computed_actual": {
+              "dimension": 2,
+              "multiplicities": {
+                "+": 1,
+                "-": 1
+              },
+              "nonidentity_trace": 0,
+              "regular_multiplicity": 1
+            },
+            "first_obstructing_role": "5_12:cup_H1_wedge2_V_dual",
+            "reason": "dimension-certified equivariant E2 character disagrees with branch actual",
+            "required_image_ranks_for_branch": null
+          },
+          "operator": "5bar_12*5_12",
+          "status": "representative_obstructed",
+          "unresolved_summary": null
+        }
+      ],
+      "weight": 756
+    }
+  ],
+  "representative_unresolved_records": [],
+  "scope": "replay the materialized radius-9 q=1 frontier with RepresentativeGrammarGate as the generation-time promotion boundary",
+  "source_artifacts": {
+    "broad_rollup_json": "reports/phenomenology_guided_q1_radius9_broad_windows1_45_rollup.json",
+    "reusable_gate_module": "scripts/phenomenology_guided_q1_representative_grammar_gate.py"
+  },
+  "status": "radius9_representative_generation_replay_zero_promotion_ready_candidates",
+  "summary": {
+    "cup_product_eligible_rows": 0,
+    "cup_product_eligible_weight": 0,
+    "materialized_q1_records_generated": 4065,
+    "materialized_q1_weight_generated": 549038,
+    "representative_compatible_rows": 0,
+    "representative_compatible_weight": 0,
+    "representative_grammar_pruned_rows": 14,
+    "representative_grammar_pruned_weight": 1962,
+    "representative_grammar_unresolved_rows": 0,
+    "representative_grammar_unresolved_weight": 0,
+    "representative_status_rows": {
+      "not_evaluated_selection_rule_not_viable": 4051,
+      "representative_obstructed": 14
+    },
+    "representative_status_weight": {
+      "not_evaluated_selection_rule_not_viable": 547076,
+      "representative_obstructed": 1962
+    },
+    "selection_rule_candidate_rows": 14,
+    "selection_rule_candidate_weight": 1962,
+    "selection_rule_status_rows": {
+      "character_refined_doublet_mass_obstruction": 3269,
+      "no_character_refined_triplet_mass_operator_found": 383,
+      "passes_refined_charge_character_dt_and_proton_filter": 14,
+      "selective_dt_but_proton_unprotected": 399
+    },
+    "selection_rule_status_weight": {
+      "character_refined_doublet_mass_obstruction": 33072,
+      "no_character_refined_triplet_mass_operator_found": 510611,
+      "passes_refined_charge_character_dt_and_proton_filter": 1962,
+      "selective_dt_but_proton_unprotected": 3393
+    },
+    "windows_closed": 45
+  },
+  "title": "Radius-9 Representative-Gated Generation Replay Rollup"
+}

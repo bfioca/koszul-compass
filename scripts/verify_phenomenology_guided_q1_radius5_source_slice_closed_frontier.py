@@ -1,0 +1,115 @@
+#!/usr/bin/env python3
+"""Verify closed radius-5 source-slice frontier summary."""
+
+from __future__ import annotations
+
+import argparse
+import json
+from pathlib import Path
+from typing import Any
+
+ROOT = Path(__file__).resolve().parents[1]
+REPORTS = ROOT / "reports"
+
+
+def load_json(path: Path) -> Any:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def gate(status: bool, evidence: str, note: str) -> dict[str, Any]:
+    return {"pass": bool(status), "evidence": evidence, "note": note}
+
+
+def verify(
+    *,
+    frontier_json: Path,
+    frontier_md: Path,
+    expected_screened: int,
+    expected_raw_q1: int,
+    expected_bounded_branches: int,
+    expected_large_branches: int,
+    expected_desired: int,
+) -> dict[str, Any]:
+    path = frontier_json
+    md_path = frontier_md
+    report = load_json(path)
+    md_text = md_path.read_text(encoding="utf-8")
+    summary = report["summary"]
+    gates = {
+        "builder_gates_pass": gate(
+            report["all_gates_pass"],
+            str(path),
+            "builder-side radius5 source-slice closure gates passed",
+        ),
+        "source_slice_counts_match": gate(
+            summary["radius4_sources_available"] == 128
+            and summary["radius4_sources_selected"] == 8
+            and summary["frontier_records_screened"] == expected_screened
+            and summary["frontier_records_after_final_window"] == 0
+            and summary["raw_q1_spectrum_survivors"] == expected_raw_q1
+            and summary["bounded_branch_completions_evaluated"] == expected_bounded_branches
+            and summary["large_branch_completions_counted"] == expected_large_branches
+            and summary["desired_q1_branch_completions"] == expected_desired,
+            str(path),
+            "source-slice counts match windows 1-3 and large-branch closure",
+        ),
+        "no_viable_candidate": gate(
+            summary["viable_count"] == 0,
+            str(path),
+            "closed source slice has no viable candidate",
+        ),
+        "markdown_exposes_rollup": gate(
+            report.get("title", "Radius-5 Source Slice Closed Frontier") in md_text
+            and "frontier_records_after_final_window: `0`" in md_text
+            and "viable_count: `0`" in md_text,
+            str(md_path),
+            "markdown exposes source-slice closure totals",
+        ),
+    }
+    return {
+        "scope": "verification for radius5 source-slice closed frontier",
+        "all_gates_pass": all(item["pass"] for item in gates.values()),
+        "gates": gates,
+    }
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--frontier-json",
+        default=str(REPORTS / "phenomenology_guided_q1_radius5_source_slice_closed_frontier.json"),
+    )
+    parser.add_argument(
+        "--frontier-md",
+        default=str(REPORTS / "phenomenology_guided_q1_radius5_source_slice_closed_frontier.md"),
+    )
+    parser.add_argument("--expected-screened", type=int, default=4430)
+    parser.add_argument("--expected-raw-q1", type=int, default=31)
+    parser.add_argument("--expected-bounded-branches", type=int, default=20430)
+    parser.add_argument("--expected-large-branches", type=int, default=531441)
+    parser.add_argument("--expected-desired", type=int, default=43989)
+    parser.add_argument(
+        "--json-out",
+        default=str(
+            REPORTS
+            / "phenomenology_guided_q1_radius5_source_slice_closed_frontier_verification.json"
+        ),
+    )
+    args = parser.parse_args()
+    result = verify(
+        frontier_json=Path(args.frontier_json),
+        frontier_md=Path(args.frontier_md),
+        expected_screened=args.expected_screened,
+        expected_raw_q1=args.expected_raw_q1,
+        expected_bounded_branches=args.expected_bounded_branches,
+        expected_large_branches=args.expected_large_branches,
+        expected_desired=args.expected_desired,
+    )
+    out = Path(args.json_out)
+    out.write_text(json.dumps(result, indent=2, sort_keys=True), encoding="utf-8")
+    print(json.dumps(result, indent=2, sort_keys=True))
+    return 0 if result["all_gates_pass"] else 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

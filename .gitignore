@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+reports/phenomenology_guided_q1_radius9_broad_*.json
+reports/phenomenology_guided_q1_radius9_broad_*.md
+reports/phenomenology_guided_q1_radius8_*.json
+reports/phenomenology_guided_q1_radius8_*.md
+data/raw/
+data/processed/

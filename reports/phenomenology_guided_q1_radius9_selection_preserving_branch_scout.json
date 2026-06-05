@@ -1,0 +1,5944 @@
+{
+  "all_gates_pass": true,
+  "branch_replacement_variants": [
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 4,
+        "ten": 1
+      },
+      "cup_product_planning_allowed": false,
+      "failure_class": "q1_signature_lost",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 3,
+        "triplet_and_doublet_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          18,
+          8,
+          10,
+          12,
+          24,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          6,
+          16,
+          14,
+          12,
+          32,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 253,
+          "kahler_point": [
+            0.006355665802300543,
+            0.156302739066936,
+            0.6179259091580442,
+            0.033154293235493675,
+            0.03315438240754382,
+            0.12630837610418477,
+            0.026798634225496852
+          ],
+          "max_abs_slope": 3.7480713688253786e-07,
+          "max_normalized_slope": 8.578527231672532e-08,
+          "restarts": 1,
+          "seed": 870000
+        }
+      },
+      "mode": "first_obstructed_leg_feasible",
+      "operator": "5bar_02*5_24",
+      "promoted_to_lead_candidate": false,
+      "proton_allowed_count": 0,
+      "q1_preserved": false,
+      "refined_selection_category": "phenomenologically obstructed",
+      "refined_selection_status": "character_refined_doublet_mass_obstruction",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5bar_02:physical_H1_wedge2_V"
+        }
+      ],
+      "representative_status": "not_evaluated_q1_not_preserved",
+      "representative_targets": [],
+      "seed_label": "radius6_broad_adjacency_filtered_4_branch_18",
+      "seed_source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "seed_weight": 1,
+      "variant_label": "radius6_broad_adjacency_filtered_4_branch_18_selection_preserving_branch_0",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": null,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": null,
+        "regular_character_rule_applies": false
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 4,
+        "ten": 1
+      },
+      "cup_product_planning_allowed": false,
+      "failure_class": "q1_signature_lost",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 3,
+        "triplet_and_doublet_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          18,
+          8,
+          10,
+          12,
+          24,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          6,
+          16,
+          14,
+          12,
+          32,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 253,
+          "kahler_point": [
+            0.006355665802300543,
+            0.156302739066936,
+            0.6179259091580442,
+            0.033154293235493675,
+            0.03315438240754382,
+            0.12630837610418477,
+            0.026798634225496852
+          ],
+          "max_abs_slope": 3.7480713688253786e-07,
+          "max_normalized_slope": 8.578527231672532e-08,
+          "restarts": 1,
+          "seed": 870000
+        }
+      },
+      "mode": "all_obstructed_legs_feasible",
+      "operator": "5bar_02*5_24",
+      "promoted_to_lead_candidate": false,
+      "proton_allowed_count": 0,
+      "q1_preserved": false,
+      "refined_selection_category": "phenomenologically obstructed",
+      "refined_selection_status": "character_refined_doublet_mass_obstruction",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5bar_02:physical_H1_wedge2_V"
+        }
+      ],
+      "representative_status": "not_evaluated_q1_not_preserved",
+      "representative_targets": [],
+      "seed_label": "radius6_broad_adjacency_filtered_4_branch_18",
+      "seed_source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "seed_weight": 1,
+      "variant_label": "radius6_broad_adjacency_filtered_4_branch_18_selection_preserving_branch_1",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": null,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": null,
+        "regular_character_rule_applies": false
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 4,
+        "ten": 1
+      },
+      "cup_product_planning_allowed": false,
+      "failure_class": "q1_signature_lost",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 3,
+        "triplet_and_doublet_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          18,
+          8,
+          10,
+          12,
+          24,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          6,
+          16,
+          14,
+          12,
+          32,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 253,
+          "kahler_point": [
+            0.006355665802300543,
+            0.156302739066936,
+            0.6179259091580442,
+            0.033154293235493675,
+            0.03315438240754382,
+            0.12630837610418477,
+            0.026798634225496852
+          ],
+          "max_abs_slope": 3.7480713688253786e-07,
+          "max_normalized_slope": 8.578527231672532e-08,
+          "restarts": 1,
+          "seed": 870000
+        }
+      },
+      "mode": "first_obstructed_leg_feasible",
+      "operator": "5bar_02*5_24",
+      "promoted_to_lead_candidate": false,
+      "proton_allowed_count": 0,
+      "q1_preserved": false,
+      "refined_selection_category": "phenomenologically obstructed",
+      "refined_selection_status": "character_refined_doublet_mass_obstruction",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5bar_02:physical_H1_wedge2_V"
+        }
+      ],
+      "representative_status": "not_evaluated_q1_not_preserved",
+      "representative_targets": [],
+      "seed_label": "radius6_broad_adjacency_filtered_4_branch_19",
+      "seed_source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "seed_weight": 1,
+      "variant_label": "radius6_broad_adjacency_filtered_4_branch_19_selection_preserving_branch_0",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": null,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": null,
+        "regular_character_rule_applies": false
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 4,
+        "ten": 1
+      },
+      "cup_product_planning_allowed": false,
+      "failure_class": "q1_signature_lost",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 3,
+        "triplet_and_doublet_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          18,
+          8,
+          10,
+          12,
+          24,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          6,
+          16,
+          14,
+          12,
+          32,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 253,
+          "kahler_point": [
+            0.006355665802300543,
+            0.156302739066936,
+            0.6179259091580442,
+            0.033154293235493675,
+            0.03315438240754382,
+            0.12630837610418477,
+            0.026798634225496852
+          ],
+          "max_abs_slope": 3.7480713688253786e-07,
+          "max_normalized_slope": 8.578527231672532e-08,
+          "restarts": 1,
+          "seed": 870000
+        }
+      },
+      "mode": "all_obstructed_legs_feasible",
+      "operator": "5bar_02*5_24",
+      "promoted_to_lead_candidate": false,
+      "proton_allowed_count": 0,
+      "q1_preserved": false,
+      "refined_selection_category": "phenomenologically obstructed",
+      "refined_selection_status": "character_refined_doublet_mass_obstruction",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5bar_02:physical_H1_wedge2_V"
+        }
+      ],
+      "representative_status": "not_evaluated_q1_not_preserved",
+      "representative_targets": [],
+      "seed_label": "radius6_broad_adjacency_filtered_4_branch_19",
+      "seed_source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "seed_weight": 1,
+      "variant_label": "radius6_broad_adjacency_filtered_4_branch_19_selection_preserving_branch_1",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": null,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": null,
+        "regular_character_rule_applies": false
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 4,
+        "ten": 1
+      },
+      "cup_product_planning_allowed": false,
+      "failure_class": "q1_signature_lost",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 3,
+        "triplet_and_doublet_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          18,
+          8,
+          10,
+          12,
+          24,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          6,
+          16,
+          14,
+          12,
+          32,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 253,
+          "kahler_point": [
+            0.006355665802300543,
+            0.156302739066936,
+            0.6179259091580442,
+            0.033154293235493675,
+            0.03315438240754382,
+            0.12630837610418477,
+            0.026798634225496852
+          ],
+          "max_abs_slope": 3.7480713688253786e-07,
+          "max_normalized_slope": 8.578527231672532e-08,
+          "restarts": 1,
+          "seed": 870000
+        }
+      },
+      "mode": "first_obstructed_leg_feasible",
+      "operator": "5bar_02*5_24",
+      "promoted_to_lead_candidate": false,
+      "proton_allowed_count": 0,
+      "q1_preserved": false,
+      "refined_selection_category": "phenomenologically obstructed",
+      "refined_selection_status": "character_refined_doublet_mass_obstruction",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5bar_02:physical_H1_wedge2_V"
+        }
+      ],
+      "representative_status": "not_evaluated_q1_not_preserved",
+      "representative_targets": [],
+      "seed_label": "radius6_broad_adjacency_filtered_4_branch_20",
+      "seed_source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "seed_weight": 1,
+      "variant_label": "radius6_broad_adjacency_filtered_4_branch_20_selection_preserving_branch_0",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": null,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": null,
+        "regular_character_rule_applies": false
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 4,
+        "ten": 1
+      },
+      "cup_product_planning_allowed": false,
+      "failure_class": "q1_signature_lost",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 3,
+        "triplet_and_doublet_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          18,
+          8,
+          10,
+          12,
+          24,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          6,
+          16,
+          14,
+          12,
+          32,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 253,
+          "kahler_point": [
+            0.006355665802300543,
+            0.156302739066936,
+            0.6179259091580442,
+            0.033154293235493675,
+            0.03315438240754382,
+            0.12630837610418477,
+            0.026798634225496852
+          ],
+          "max_abs_slope": 3.7480713688253786e-07,
+          "max_normalized_slope": 8.578527231672532e-08,
+          "restarts": 1,
+          "seed": 870000
+        }
+      },
+      "mode": "all_obstructed_legs_feasible",
+      "operator": "5bar_02*5_24",
+      "promoted_to_lead_candidate": false,
+      "proton_allowed_count": 0,
+      "q1_preserved": false,
+      "refined_selection_category": "phenomenologically obstructed",
+      "refined_selection_status": "character_refined_doublet_mass_obstruction",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5bar_02:physical_H1_wedge2_V"
+        }
+      ],
+      "representative_status": "not_evaluated_q1_not_preserved",
+      "representative_targets": [],
+      "seed_label": "radius6_broad_adjacency_filtered_4_branch_20",
+      "seed_source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "seed_weight": 1,
+      "variant_label": "radius6_broad_adjacency_filtered_4_branch_20_selection_preserving_branch_1",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": null,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": null,
+        "regular_character_rule_applies": false
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 4,
+        "ten": 1
+      },
+      "cup_product_planning_allowed": false,
+      "failure_class": "q1_signature_lost",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 3,
+        "triplet_and_doublet_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          18,
+          8,
+          10,
+          12,
+          24,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          6,
+          16,
+          14,
+          12,
+          32,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 253,
+          "kahler_point": [
+            0.006355665802300543,
+            0.156302739066936,
+            0.6179259091580442,
+            0.033154293235493675,
+            0.03315438240754382,
+            0.12630837610418477,
+            0.026798634225496852
+          ],
+          "max_abs_slope": 3.7480713688253786e-07,
+          "max_normalized_slope": 8.578527231672532e-08,
+          "restarts": 1,
+          "seed": 870000
+        }
+      },
+      "mode": "first_obstructed_leg_feasible",
+      "operator": "5bar_02*5_24",
+      "promoted_to_lead_candidate": false,
+      "proton_allowed_count": 0,
+      "q1_preserved": false,
+      "refined_selection_category": "phenomenologically obstructed",
+      "refined_selection_status": "character_refined_doublet_mass_obstruction",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5bar_02:physical_H1_wedge2_V"
+        }
+      ],
+      "representative_status": "not_evaluated_q1_not_preserved",
+      "representative_targets": [],
+      "seed_label": "radius6_broad_adjacency_filtered_4_branch_21",
+      "seed_source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "seed_weight": 1,
+      "variant_label": "radius6_broad_adjacency_filtered_4_branch_21_selection_preserving_branch_0",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": null,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": null,
+        "regular_character_rule_applies": false
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 4,
+        "ten": 1
+      },
+      "cup_product_planning_allowed": false,
+      "failure_class": "q1_signature_lost",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 3,
+        "triplet_and_doublet_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          18,
+          8,
+          10,
+          12,
+          24,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          6,
+          16,
+          14,
+          12,
+          32,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 253,
+          "kahler_point": [
+            0.006355665802300543,
+            0.156302739066936,
+            0.6179259091580442,
+            0.033154293235493675,
+            0.03315438240754382,
+            0.12630837610418477,
+            0.026798634225496852
+          ],
+          "max_abs_slope": 3.7480713688253786e-07,
+          "max_normalized_slope": 8.578527231672532e-08,
+          "restarts": 1,
+          "seed": 870000
+        }
+      },
+      "mode": "all_obstructed_legs_feasible",
+      "operator": "5bar_02*5_24",
+      "promoted_to_lead_candidate": false,
+      "proton_allowed_count": 0,
+      "q1_preserved": false,
+      "refined_selection_category": "phenomenologically obstructed",
+      "refined_selection_status": "character_refined_doublet_mass_obstruction",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5bar_02:physical_H1_wedge2_V"
+        }
+      ],
+      "representative_status": "not_evaluated_q1_not_preserved",
+      "representative_targets": [],
+      "seed_label": "radius6_broad_adjacency_filtered_4_branch_21",
+      "seed_source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "seed_weight": 1,
+      "variant_label": "radius6_broad_adjacency_filtered_4_branch_21_selection_preserving_branch_1",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": null,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": null,
+        "regular_character_rule_applies": false
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 4,
+        "ten": 1
+      },
+      "cup_product_planning_allowed": false,
+      "failure_class": "q1_signature_lost",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 3,
+        "triplet_and_doublet_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          18,
+          8,
+          10,
+          12,
+          24,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          6,
+          16,
+          14,
+          12,
+          32,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 253,
+          "kahler_point": [
+            0.006355665802300543,
+            0.156302739066936,
+            0.6179259091580442,
+            0.033154293235493675,
+            0.03315438240754382,
+            0.12630837610418477,
+            0.026798634225496852
+          ],
+          "max_abs_slope": 3.7480713688253786e-07,
+          "max_normalized_slope": 8.578527231672532e-08,
+          "restarts": 1,
+          "seed": 870000
+        }
+      },
+      "mode": "first_obstructed_leg_feasible",
+      "operator": "5bar_02*5_24",
+      "promoted_to_lead_candidate": false,
+      "proton_allowed_count": 0,
+      "q1_preserved": false,
+      "refined_selection_category": "phenomenologically obstructed",
+      "refined_selection_status": "character_refined_doublet_mass_obstruction",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5bar_02:physical_H1_wedge2_V"
+        }
+      ],
+      "representative_status": "not_evaluated_q1_not_preserved",
+      "representative_targets": [],
+      "seed_label": "radius6_broad_adjacency_filtered_4_branch_22",
+      "seed_source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "seed_weight": 1,
+      "variant_label": "radius6_broad_adjacency_filtered_4_branch_22_selection_preserving_branch_0",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": null,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": null,
+        "regular_character_rule_applies": false
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 4,
+        "ten": 1
+      },
+      "cup_product_planning_allowed": false,
+      "failure_class": "q1_signature_lost",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 3,
+        "triplet_and_doublet_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          18,
+          8,
+          10,
+          12,
+          24,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          6,
+          16,
+          14,
+          12,
+          32,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 253,
+          "kahler_point": [
+            0.006355665802300543,
+            0.156302739066936,
+            0.6179259091580442,
+            0.033154293235493675,
+            0.03315438240754382,
+            0.12630837610418477,
+            0.026798634225496852
+          ],
+          "max_abs_slope": 3.7480713688253786e-07,
+          "max_normalized_slope": 8.578527231672532e-08,
+          "restarts": 1,
+          "seed": 870000
+        }
+      },
+      "mode": "all_obstructed_legs_feasible",
+      "operator": "5bar_02*5_24",
+      "promoted_to_lead_candidate": false,
+      "proton_allowed_count": 0,
+      "q1_preserved": false,
+      "refined_selection_category": "phenomenologically obstructed",
+      "refined_selection_status": "character_refined_doublet_mass_obstruction",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5bar_02:physical_H1_wedge2_V"
+        }
+      ],
+      "representative_status": "not_evaluated_q1_not_preserved",
+      "representative_targets": [],
+      "seed_label": "radius6_broad_adjacency_filtered_4_branch_22",
+      "seed_source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "seed_weight": 1,
+      "variant_label": "radius6_broad_adjacency_filtered_4_branch_22_selection_preserving_branch_1",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": null,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": null,
+        "regular_character_rule_applies": false
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 4,
+        "ten": 1
+      },
+      "cup_product_planning_allowed": false,
+      "failure_class": "q1_signature_lost",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 3,
+        "triplet_and_doublet_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          18,
+          8,
+          10,
+          12,
+          24,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          6,
+          16,
+          14,
+          12,
+          32,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 253,
+          "kahler_point": [
+            0.006355665802300543,
+            0.156302739066936,
+            0.6179259091580442,
+            0.033154293235493675,
+            0.03315438240754382,
+            0.12630837610418477,
+            0.026798634225496852
+          ],
+          "max_abs_slope": 3.7480713688253786e-07,
+          "max_normalized_slope": 8.578527231672532e-08,
+          "restarts": 1,
+          "seed": 870000
+        }
+      },
+      "mode": "first_obstructed_leg_feasible",
+      "operator": "5bar_02*5_24",
+      "promoted_to_lead_candidate": false,
+      "proton_allowed_count": 0,
+      "q1_preserved": false,
+      "refined_selection_category": "phenomenologically obstructed",
+      "refined_selection_status": "character_refined_doublet_mass_obstruction",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5bar_02:physical_H1_wedge2_V"
+        }
+      ],
+      "representative_status": "not_evaluated_q1_not_preserved",
+      "representative_targets": [],
+      "seed_label": "radius6_broad_adjacency_filtered_4_branch_23",
+      "seed_source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "seed_weight": 1,
+      "variant_label": "radius6_broad_adjacency_filtered_4_branch_23_selection_preserving_branch_0",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": null,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": null,
+        "regular_character_rule_applies": false
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 4,
+        "ten": 1
+      },
+      "cup_product_planning_allowed": false,
+      "failure_class": "q1_signature_lost",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 3,
+        "triplet_and_doublet_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          18,
+          8,
+          10,
+          12,
+          24,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          6,
+          16,
+          14,
+          12,
+          32,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 253,
+          "kahler_point": [
+            0.006355665802300543,
+            0.156302739066936,
+            0.6179259091580442,
+            0.033154293235493675,
+            0.03315438240754382,
+            0.12630837610418477,
+            0.026798634225496852
+          ],
+          "max_abs_slope": 3.7480713688253786e-07,
+          "max_normalized_slope": 8.578527231672532e-08,
+          "restarts": 1,
+          "seed": 870000
+        }
+      },
+      "mode": "all_obstructed_legs_feasible",
+      "operator": "5bar_02*5_24",
+      "promoted_to_lead_candidate": false,
+      "proton_allowed_count": 0,
+      "q1_preserved": false,
+      "refined_selection_category": "phenomenologically obstructed",
+      "refined_selection_status": "character_refined_doublet_mass_obstruction",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5bar_02:physical_H1_wedge2_V"
+        }
+      ],
+      "representative_status": "not_evaluated_q1_not_preserved",
+      "representative_targets": [],
+      "seed_label": "radius6_broad_adjacency_filtered_4_branch_23",
+      "seed_source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "seed_weight": 1,
+      "variant_label": "radius6_broad_adjacency_filtered_4_branch_23_selection_preserving_branch_1",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": null,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": null,
+        "regular_character_rule_applies": false
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 4,
+        "ten": 1
+      },
+      "cup_product_planning_allowed": false,
+      "failure_class": "q1_signature_lost",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 3,
+        "triplet_and_doublet_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          18,
+          8,
+          10,
+          12,
+          24,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          6,
+          16,
+          14,
+          12,
+          32,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 253,
+          "kahler_point": [
+            0.006355665802300543,
+            0.156302739066936,
+            0.6179259091580442,
+            0.033154293235493675,
+            0.03315438240754382,
+            0.12630837610418477,
+            0.026798634225496852
+          ],
+          "max_abs_slope": 3.7480713688253786e-07,
+          "max_normalized_slope": 8.578527231672532e-08,
+          "restarts": 1,
+          "seed": 870000
+        }
+      },
+      "mode": "first_obstructed_leg_feasible",
+      "operator": "5bar_02*5_24",
+      "promoted_to_lead_candidate": false,
+      "proton_allowed_count": 0,
+      "q1_preserved": false,
+      "refined_selection_category": "phenomenologically obstructed",
+      "refined_selection_status": "character_refined_doublet_mass_obstruction",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5bar_02:physical_H1_wedge2_V"
+        }
+      ],
+      "representative_status": "not_evaluated_q1_not_preserved",
+      "representative_targets": [],
+      "seed_label": "radius6_broad_adjacency_filtered_4_branch_24",
+      "seed_source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "seed_weight": 1,
+      "variant_label": "radius6_broad_adjacency_filtered_4_branch_24_selection_preserving_branch_0",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": null,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": null,
+        "regular_character_rule_applies": false
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 4,
+        "ten": 1
+      },
+      "cup_product_planning_allowed": false,
+      "failure_class": "q1_signature_lost",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 3,
+        "triplet_and_doublet_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          18,
+          8,
+          10,
+          12,
+          24,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          6,
+          16,
+          14,
+          12,
+          32,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 253,
+          "kahler_point": [
+            0.006355665802300543,
+            0.156302739066936,
+            0.6179259091580442,
+            0.033154293235493675,
+            0.03315438240754382,
+            0.12630837610418477,
+            0.026798634225496852
+          ],
+          "max_abs_slope": 3.7480713688253786e-07,
+          "max_normalized_slope": 8.578527231672532e-08,
+          "restarts": 1,
+          "seed": 870000
+        }
+      },
+      "mode": "all_obstructed_legs_feasible",
+      "operator": "5bar_02*5_24",
+      "promoted_to_lead_candidate": false,
+      "proton_allowed_count": 0,
+      "q1_preserved": false,
+      "refined_selection_category": "phenomenologically obstructed",
+      "refined_selection_status": "character_refined_doublet_mass_obstruction",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5bar_02:physical_H1_wedge2_V"
+        }
+      ],
+      "representative_status": "not_evaluated_q1_not_preserved",
+      "representative_targets": [],
+      "seed_label": "radius6_broad_adjacency_filtered_4_branch_24",
+      "seed_source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "seed_weight": 1,
+      "variant_label": "radius6_broad_adjacency_filtered_4_branch_24_selection_preserving_branch_1",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": null,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": null,
+        "regular_character_rule_applies": false
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 4,
+        "ten": 1
+      },
+      "cup_product_planning_allowed": false,
+      "failure_class": "q1_signature_lost",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 3,
+        "triplet_and_doublet_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          18,
+          8,
+          10,
+          12,
+          24,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          6,
+          16,
+          14,
+          12,
+          32,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 253,
+          "kahler_point": [
+            0.006355665802300543,
+            0.156302739066936,
+            0.6179259091580442,
+            0.033154293235493675,
+            0.03315438240754382,
+            0.12630837610418477,
+            0.026798634225496852
+          ],
+          "max_abs_slope": 3.7480713688253786e-07,
+          "max_normalized_slope": 8.578527231672532e-08,
+          "restarts": 1,
+          "seed": 870000
+        }
+      },
+      "mode": "first_obstructed_leg_feasible",
+      "operator": "5bar_02*5_24",
+      "promoted_to_lead_candidate": false,
+      "proton_allowed_count": 0,
+      "q1_preserved": false,
+      "refined_selection_category": "phenomenologically obstructed",
+      "refined_selection_status": "character_refined_doublet_mass_obstruction",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5bar_02:physical_H1_wedge2_V"
+        }
+      ],
+      "representative_status": "not_evaluated_q1_not_preserved",
+      "representative_targets": [],
+      "seed_label": "radius6_broad_adjacency_filtered_4_branch_25",
+      "seed_source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "seed_weight": 1,
+      "variant_label": "radius6_broad_adjacency_filtered_4_branch_25_selection_preserving_branch_0",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": null,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": null,
+        "regular_character_rule_applies": false
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 4,
+        "ten": 1
+      },
+      "cup_product_planning_allowed": false,
+      "failure_class": "q1_signature_lost",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 3,
+        "triplet_and_doublet_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          18,
+          8,
+          10,
+          12,
+          24,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          6,
+          16,
+          14,
+          12,
+          32,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 253,
+          "kahler_point": [
+            0.006355665802300543,
+            0.156302739066936,
+            0.6179259091580442,
+            0.033154293235493675,
+            0.03315438240754382,
+            0.12630837610418477,
+            0.026798634225496852
+          ],
+          "max_abs_slope": 3.7480713688253786e-07,
+          "max_normalized_slope": 8.578527231672532e-08,
+          "restarts": 1,
+          "seed": 870000
+        }
+      },
+      "mode": "all_obstructed_legs_feasible",
+      "operator": "5bar_02*5_24",
+      "promoted_to_lead_candidate": false,
+      "proton_allowed_count": 0,
+      "q1_preserved": false,
+      "refined_selection_category": "phenomenologically obstructed",
+      "refined_selection_status": "character_refined_doublet_mass_obstruction",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5bar_02:physical_H1_wedge2_V"
+        }
+      ],
+      "representative_status": "not_evaluated_q1_not_preserved",
+      "representative_targets": [],
+      "seed_label": "radius6_broad_adjacency_filtered_4_branch_25",
+      "seed_source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "seed_weight": 1,
+      "variant_label": "radius6_broad_adjacency_filtered_4_branch_25_selection_preserving_branch_1",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": null,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": null,
+        "regular_character_rule_applies": false
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 4,
+        "ten": 1
+      },
+      "cup_product_planning_allowed": false,
+      "failure_class": "q1_signature_lost",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 3,
+        "triplet_and_doublet_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          18,
+          8,
+          10,
+          12,
+          24,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          6,
+          16,
+          14,
+          12,
+          32,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 253,
+          "kahler_point": [
+            0.006355665802300543,
+            0.156302739066936,
+            0.6179259091580442,
+            0.033154293235493675,
+            0.03315438240754382,
+            0.12630837610418477,
+            0.026798634225496852
+          ],
+          "max_abs_slope": 3.7480713688253786e-07,
+          "max_normalized_slope": 8.578527231672532e-08,
+          "restarts": 1,
+          "seed": 870000
+        }
+      },
+      "mode": "first_obstructed_leg_feasible",
+      "operator": "5bar_02*5_24",
+      "promoted_to_lead_candidate": false,
+      "proton_allowed_count": 0,
+      "q1_preserved": false,
+      "refined_selection_category": "phenomenologically obstructed",
+      "refined_selection_status": "character_refined_doublet_mass_obstruction",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5bar_02:physical_H1_wedge2_V"
+        }
+      ],
+      "representative_status": "not_evaluated_q1_not_preserved",
+      "representative_targets": [],
+      "seed_label": "radius6_broad_adjacency_filtered_4_branch_26",
+      "seed_source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "seed_weight": 1,
+      "variant_label": "radius6_broad_adjacency_filtered_4_branch_26_selection_preserving_branch_0",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": null,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": null,
+        "regular_character_rule_applies": false
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 4,
+        "ten": 1
+      },
+      "cup_product_planning_allowed": false,
+      "failure_class": "q1_signature_lost",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 3,
+        "triplet_and_doublet_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          18,
+          8,
+          10,
+          12,
+          24,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          6,
+          16,
+          14,
+          12,
+          32,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 253,
+          "kahler_point": [
+            0.006355665802300543,
+            0.156302739066936,
+            0.6179259091580442,
+            0.033154293235493675,
+            0.03315438240754382,
+            0.12630837610418477,
+            0.026798634225496852
+          ],
+          "max_abs_slope": 3.7480713688253786e-07,
+          "max_normalized_slope": 8.578527231672532e-08,
+          "restarts": 1,
+          "seed": 870000
+        }
+      },
+      "mode": "all_obstructed_legs_feasible",
+      "operator": "5bar_02*5_24",
+      "promoted_to_lead_candidate": false,
+      "proton_allowed_count": 0,
+      "q1_preserved": false,
+      "refined_selection_category": "phenomenologically obstructed",
+      "refined_selection_status": "character_refined_doublet_mass_obstruction",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5bar_02:physical_H1_wedge2_V"
+        }
+      ],
+      "representative_status": "not_evaluated_q1_not_preserved",
+      "representative_targets": [],
+      "seed_label": "radius6_broad_adjacency_filtered_4_branch_26",
+      "seed_source": {
+        "kind": "bounded_branch",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+        "window": 18
+      },
+      "seed_weight": 1,
+      "variant_label": "radius6_broad_adjacency_filtered_4_branch_26_selection_preserving_branch_1",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": null,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": null,
+        "regular_character_rule_applies": false
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 2,
+        "fivebar": 2,
+        "ten": 3
+      },
+      "cup_product_planning_allowed": false,
+      "failure_class": "q1_signature_lost",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 2,
+        "no_surviving_component_character_mass": 1,
+        "triplet_only_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          14,
+          13,
+          11,
+          12,
+          14,
+          32,
+          18
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          10,
+          11,
+          13,
+          12,
+          10,
+          24,
+          18
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 736,
+          "kahler_point": [
+            0.09926617693050688,
+            0.1350755268816317,
+            0.24953980777334941,
+            0.03329463569058437,
+            0.09926648423585181,
+            0.0006752870457569646,
+            0.3828820814423189
+          ],
+          "max_abs_slope": 4.7443754691567364e-07,
+          "max_normalized_slope": 9.637448931095154e-08,
+          "restarts": 2,
+          "seed": 870001
+        }
+      },
+      "mode": "first_obstructed_leg_feasible",
+      "operator": "5bar_04*5_34",
+      "promoted_to_lead_candidate": false,
+      "proton_allowed_count": 0,
+      "q1_preserved": false,
+      "refined_selection_category": "viable",
+      "refined_selection_status": "passes_refined_charge_character_dt_and_proton_filter",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 6,
+            "multiplicities": {
+              "+": 2,
+              "-": 4
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          },
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "representative_feasible": {
+            "dimension": 6,
+            "multiplicities": {
+              "+": 3,
+              "-": 3
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 3
+          },
+          "role": "5bar_04:physical_H1_wedge2_V"
+        }
+      ],
+      "representative_status": "not_evaluated_q1_not_preserved",
+      "representative_targets": [],
+      "seed_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative",
+      "seed_source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window30_large_branch_closure_filtered_1.json",
+        "represented_q1_branches": 126,
+        "window": 30
+      },
+      "seed_weight": 126,
+      "variant_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative_selection_preserving_branch_0",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": null,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": null,
+        "regular_character_rule_applies": false
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 2,
+        "fivebar": 2,
+        "ten": 3
+      },
+      "cup_product_planning_allowed": false,
+      "failure_class": "q1_signature_lost",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 2,
+        "no_surviving_component_character_mass": 1,
+        "triplet_only_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          14,
+          13,
+          11,
+          12,
+          14,
+          32,
+          18
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          10,
+          11,
+          13,
+          12,
+          10,
+          24,
+          18
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 736,
+          "kahler_point": [
+            0.09926617693050688,
+            0.1350755268816317,
+            0.24953980777334941,
+            0.03329463569058437,
+            0.09926648423585181,
+            0.0006752870457569646,
+            0.3828820814423189
+          ],
+          "max_abs_slope": 4.7443754691567364e-07,
+          "max_normalized_slope": 9.637448931095154e-08,
+          "restarts": 2,
+          "seed": 870001
+        }
+      },
+      "mode": "all_obstructed_legs_feasible",
+      "operator": "5bar_04*5_34",
+      "promoted_to_lead_candidate": false,
+      "proton_allowed_count": 0,
+      "q1_preserved": false,
+      "refined_selection_category": "viable",
+      "refined_selection_status": "passes_refined_charge_character_dt_and_proton_filter",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 6,
+            "multiplicities": {
+              "+": 2,
+              "-": 4
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          },
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "representative_feasible": {
+            "dimension": 6,
+            "multiplicities": {
+              "+": 3,
+              "-": 3
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 3
+          },
+          "role": "5bar_04:physical_H1_wedge2_V"
+        }
+      ],
+      "representative_status": "not_evaluated_q1_not_preserved",
+      "representative_targets": [],
+      "seed_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative",
+      "seed_source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window30_large_branch_closure_filtered_1.json",
+        "represented_q1_branches": 126,
+        "window": 30
+      },
+      "seed_weight": 126,
+      "variant_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative_selection_preserving_branch_1",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": null,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": null,
+        "regular_character_rule_applies": false
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 2,
+        "fivebar": 2,
+        "ten": 3
+      },
+      "cup_product_planning_allowed": false,
+      "failure_class": "q1_signature_lost",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 2,
+        "no_surviving_component_character_mass": 1,
+        "triplet_only_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          14,
+          13,
+          11,
+          14,
+          12,
+          32,
+          18
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          10,
+          11,
+          13,
+          10,
+          12,
+          24,
+          18
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": false,
+        "slope_search": {
+          "feasible": false,
+          "iterations": 2500,
+          "kahler_point": [
+            0.0023854734868788263,
+            0.10449666226011291,
+            0.16160654711999595,
+            0.0019857233755988185,
+            0.5126604200367106,
+            0.004672902796996091,
+            0.21219227092370685
+          ],
+          "max_abs_slope": 0.00044044309755142397,
+          "max_normalized_slope": 0.00011969915208566464,
+          "restarts": 4,
+          "seed": 870002
+        }
+      },
+      "mode": "first_obstructed_leg_feasible",
+      "operator": "5bar_04*5_34",
+      "promoted_to_lead_candidate": false,
+      "proton_allowed_count": 0,
+      "q1_preserved": false,
+      "refined_selection_category": "viable",
+      "refined_selection_status": "passes_refined_charge_character_dt_and_proton_filter",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 6,
+            "multiplicities": {
+              "+": 2,
+              "-": 4
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          },
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "representative_feasible": {
+            "dimension": 6,
+            "multiplicities": {
+              "+": 3,
+              "-": 3
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 3
+          },
+          "role": "5bar_04:physical_H1_wedge2_V"
+        }
+      ],
+      "representative_status": "not_evaluated_q1_not_preserved",
+      "representative_targets": [],
+      "seed_label": "radius6_broad_adjacency_filtered_7_large_branch_q1_representative",
+      "seed_source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window30_large_branch_closure_filtered_7.json",
+        "represented_q1_branches": 126,
+        "window": 30
+      },
+      "seed_weight": 126,
+      "variant_label": "radius6_broad_adjacency_filtered_7_large_branch_q1_representative_selection_preserving_branch_0",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": null,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": null,
+        "regular_character_rule_applies": false
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 2,
+        "fivebar": 2,
+        "ten": 3
+      },
+      "cup_product_planning_allowed": false,
+      "failure_class": "q1_signature_lost",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 2,
+        "no_surviving_component_character_mass": 1,
+        "triplet_only_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          14,
+          13,
+          11,
+          14,
+          12,
+          32,
+          18
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          10,
+          11,
+          13,
+          10,
+          12,
+          24,
+          18
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": false,
+        "slope_search": {
+          "feasible": false,
+          "iterations": 2500,
+          "kahler_point": [
+            0.0023854734868788263,
+            0.10449666226011291,
+            0.16160654711999595,
+            0.0019857233755988185,
+            0.5126604200367106,
+            0.004672902796996091,
+            0.21219227092370685
+          ],
+          "max_abs_slope": 0.00044044309755142397,
+          "max_normalized_slope": 0.00011969915208566464,
+          "restarts": 4,
+          "seed": 870002
+        }
+      },
+      "mode": "all_obstructed_legs_feasible",
+      "operator": "5bar_04*5_34",
+      "promoted_to_lead_candidate": false,
+      "proton_allowed_count": 0,
+      "q1_preserved": false,
+      "refined_selection_category": "viable",
+      "refined_selection_status": "passes_refined_charge_character_dt_and_proton_filter",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 6,
+            "multiplicities": {
+              "+": 2,
+              "-": 4
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          },
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "representative_feasible": {
+            "dimension": 6,
+            "multiplicities": {
+              "+": 3,
+              "-": 3
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 3
+          },
+          "role": "5bar_04:physical_H1_wedge2_V"
+        }
+      ],
+      "representative_status": "not_evaluated_q1_not_preserved",
+      "representative_targets": [],
+      "seed_label": "radius6_broad_adjacency_filtered_7_large_branch_q1_representative",
+      "seed_source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window30_large_branch_closure_filtered_7.json",
+        "represented_q1_branches": 126,
+        "window": 30
+      },
+      "seed_weight": 126,
+      "variant_label": "radius6_broad_adjacency_filtered_7_large_branch_q1_representative_selection_preserving_branch_1",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": null,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": null,
+        "regular_character_rule_applies": false
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 3,
+        "ten": 3
+      },
+      "cup_product_planning_allowed": true,
+      "failure_class": "representative_compatible",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 2,
+        "triplet_only_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          11,
+          13,
+          16,
+          6,
+          20,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          13,
+          11,
+          8,
+          18,
+          36,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 276,
+          "kahler_point": [
+            0.17753687621814082,
+            0.15854718625544084,
+            0.0593501079746604,
+            0.07717485930519519,
+            0.1775365675377558,
+            0.028542251878111585,
+            0.3213121508306955
+          ],
+          "max_abs_slope": 3.395259491334457e-07,
+          "max_normalized_slope": 6.812705686994303e-08,
+          "restarts": 1,
+          "seed": 870003
+        }
+      },
+      "mode": "first_obstructed_leg_feasible",
+      "operator": "5bar_12*5_12",
+      "promoted_to_lead_candidate": true,
+      "proton_allowed_count": 0,
+      "q1_preserved": true,
+      "refined_selection_category": "viable",
+      "refined_selection_status": "passes_refined_charge_character_dt_and_proton_filter",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 0,
+              "-": 2
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          },
+          "reason": "dimension-certified equivariant E2 character disagrees with branch actual",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5_12:cup_H1_wedge2_V_dual"
+        }
+      ],
+      "representative_status": "representative_compatible",
+      "representative_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": true,
+          "obstruction_summary": null,
+          "operator": "5bar_12*5_12",
+          "status": "representative_compatible",
+          "unresolved_summary": null
+        }
+      ],
+      "seed_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative",
+      "seed_source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window32_large_branch_closure_filtered_1.json",
+        "represented_q1_branches": 756,
+        "window": 32
+      },
+      "seed_weight": 756,
+      "variant_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative_selection_preserving_branch_0",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": 4,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": 3,
+        "regular_character_rule_applies": true
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 3,
+        "ten": 3
+      },
+      "cup_product_planning_allowed": true,
+      "failure_class": "representative_compatible",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 2,
+        "triplet_only_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          11,
+          13,
+          16,
+          6,
+          20,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          13,
+          11,
+          8,
+          18,
+          36,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 276,
+          "kahler_point": [
+            0.17753687621814082,
+            0.15854718625544084,
+            0.0593501079746604,
+            0.07717485930519519,
+            0.1775365675377558,
+            0.028542251878111585,
+            0.3213121508306955
+          ],
+          "max_abs_slope": 3.395259491334457e-07,
+          "max_normalized_slope": 6.812705686994303e-08,
+          "restarts": 1,
+          "seed": 870003
+        }
+      },
+      "mode": "all_obstructed_legs_feasible",
+      "operator": "5bar_12*5_12",
+      "promoted_to_lead_candidate": true,
+      "proton_allowed_count": 0,
+      "q1_preserved": true,
+      "refined_selection_category": "viable",
+      "refined_selection_status": "passes_refined_charge_character_dt_and_proton_filter",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 0,
+              "-": 2
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          },
+          "reason": "dimension-certified equivariant E2 character disagrees with branch actual",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5_12:cup_H1_wedge2_V_dual"
+        }
+      ],
+      "representative_status": "representative_compatible",
+      "representative_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": true,
+          "obstruction_summary": null,
+          "operator": "5bar_12*5_12",
+          "status": "representative_compatible",
+          "unresolved_summary": null
+        }
+      ],
+      "seed_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative",
+      "seed_source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window32_large_branch_closure_filtered_1.json",
+        "represented_q1_branches": 756,
+        "window": 32
+      },
+      "seed_weight": 756,
+      "variant_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative_selection_preserving_branch_1",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": 4,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": 3,
+        "regular_character_rule_applies": true
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 2,
+        "ten": 3
+      },
+      "cup_product_planning_allowed": false,
+      "failure_class": "q1_signature_lost",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 1,
+        "triplet_and_doublet_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          14,
+          16,
+          12,
+          14,
+          12,
+          36,
+          18
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          10,
+          8,
+          12,
+          10,
+          12,
+          20,
+          18
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 2307,
+          "kahler_point": [
+            0.00505278396138068,
+            0.079328220805538,
+            0.4003276283736819,
+            0.005052951424657893,
+            0.4333551826393157,
+            0.06402821020956094,
+            0.0128550225858648
+          ],
+          "max_abs_slope": 4.070779529019575e-07,
+          "max_normalized_slope": 9.968998271252856e-08,
+          "restarts": 3,
+          "seed": 870004
+        }
+      },
+      "mode": "first_obstructed_leg_feasible",
+      "operator": "5bar_23*5_23",
+      "promoted_to_lead_candidate": false,
+      "proton_allowed_count": 0,
+      "q1_preserved": false,
+      "refined_selection_category": "phenomenologically obstructed",
+      "refined_selection_status": "character_refined_doublet_mass_obstruction",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "reason": "explicit equivariant first-page kernel character disagrees with branch actual",
+          "representative_feasible": {
+            "dimension": 3,
+            "multiplicities": {
+              "+": 2,
+              "-": 1
+            },
+            "nonidentity_trace": 1,
+            "regular_multiplicity": null
+          },
+          "role": "5bar_23:physical_H1_wedge2_V"
+        }
+      ],
+      "representative_status": "not_evaluated_q1_not_preserved",
+      "representative_targets": [],
+      "seed_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative",
+      "seed_source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window33_large_branch_closure_filtered_1.json",
+        "represented_q1_branches": 189,
+        "window": 33
+      },
+      "seed_weight": 189,
+      "variant_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative_selection_preserving_branch_0",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": null,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": null,
+        "regular_character_rule_applies": false
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 2,
+        "ten": 3
+      },
+      "cup_product_planning_allowed": false,
+      "failure_class": "q1_signature_lost",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 1,
+        "triplet_and_doublet_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          14,
+          16,
+          12,
+          14,
+          12,
+          36,
+          18
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          10,
+          8,
+          12,
+          10,
+          12,
+          20,
+          18
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 2307,
+          "kahler_point": [
+            0.00505278396138068,
+            0.079328220805538,
+            0.4003276283736819,
+            0.005052951424657893,
+            0.4333551826393157,
+            0.06402821020956094,
+            0.0128550225858648
+          ],
+          "max_abs_slope": 4.070779529019575e-07,
+          "max_normalized_slope": 9.968998271252856e-08,
+          "restarts": 3,
+          "seed": 870004
+        }
+      },
+      "mode": "all_obstructed_legs_feasible",
+      "operator": "5bar_23*5_23",
+      "promoted_to_lead_candidate": false,
+      "proton_allowed_count": 0,
+      "q1_preserved": false,
+      "refined_selection_category": "phenomenologically obstructed",
+      "refined_selection_status": "character_refined_doublet_mass_obstruction",
+      "replacement_count": 3,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "reason": "explicit equivariant first-page kernel character disagrees with branch actual",
+          "representative_feasible": {
+            "dimension": 3,
+            "multiplicities": {
+              "+": 2,
+              "-": 1
+            },
+            "nonidentity_trace": 1,
+            "regular_multiplicity": null
+          },
+          "role": "5bar_23:physical_H1_wedge2_V"
+        },
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "reason": "explicit equivariant first-page cokernel character disagrees with branch actual",
+          "representative_feasible": {
+            "dimension": 3,
+            "multiplicities": {
+              "+": 2,
+              "-": 1
+            },
+            "nonidentity_trace": 1,
+            "regular_multiplicity": null
+          },
+          "role": "5_23:physical_H2_wedge2_V"
+        },
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 0,
+              "-": 2
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          },
+          "reason": "explicit equivariant first-page kernel character disagrees with branch actual",
+          "representative_feasible": {
+            "dimension": 3,
+            "multiplicities": {
+              "+": 2,
+              "-": 1
+            },
+            "nonidentity_trace": 1,
+            "regular_multiplicity": null
+          },
+          "role": "5_23:cup_H1_wedge2_V_dual"
+        }
+      ],
+      "representative_status": "not_evaluated_q1_not_preserved",
+      "representative_targets": [],
+      "seed_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative",
+      "seed_source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window33_large_branch_closure_filtered_1.json",
+        "represented_q1_branches": 189,
+        "window": 33
+      },
+      "seed_weight": 189,
+      "variant_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative_selection_preserving_branch_1",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": null,
+        "electroweak_doublet_vectorlike_pairs": null,
+        "h1_wedge2_regular_multiplicity": null,
+        "h2_wedge2_regular_multiplicity": null,
+        "net_families": null,
+        "regular_character_rule_applies": false
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 3,
+        "ten": 3
+      },
+      "cup_product_planning_allowed": true,
+      "failure_class": "representative_compatible",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 2,
+        "triplet_only_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          11,
+          13,
+          6,
+          16,
+          20,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          13,
+          11,
+          18,
+          8,
+          36,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 276,
+          "kahler_point": [
+            0.1775368762181409,
+            0.15854718625544084,
+            0.05935010797466039,
+            0.1775365675377558,
+            0.07717485930519499,
+            0.028542251878111602,
+            0.3213121508306956
+          ],
+          "max_abs_slope": 3.39525949244468e-07,
+          "max_normalized_slope": 6.812705689222004e-08,
+          "restarts": 1,
+          "seed": 870005
+        }
+      },
+      "mode": "first_obstructed_leg_feasible",
+      "operator": "5bar_12*5_12",
+      "promoted_to_lead_candidate": true,
+      "proton_allowed_count": 0,
+      "q1_preserved": true,
+      "refined_selection_category": "viable",
+      "refined_selection_status": "passes_refined_charge_character_dt_and_proton_filter",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 0,
+              "-": 2
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          },
+          "reason": "dimension-certified equivariant E2 character disagrees with branch actual",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5_12:cup_H1_wedge2_V_dual"
+        }
+      ],
+      "representative_status": "representative_compatible",
+      "representative_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": true,
+          "obstruction_summary": null,
+          "operator": "5bar_12*5_12",
+          "status": "representative_compatible",
+          "unresolved_summary": null
+        }
+      ],
+      "seed_label": "radius6_broad_adjacency_filtered_3_large_branch_q1_representative",
+      "seed_source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window36_large_branch_closure_filtered_3.json",
+        "represented_q1_branches": 756,
+        "window": 36
+      },
+      "seed_weight": 756,
+      "variant_label": "radius6_broad_adjacency_filtered_3_large_branch_q1_representative_selection_preserving_branch_0",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": 4,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": 3,
+        "regular_character_rule_applies": true
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 3,
+        "ten": 3
+      },
+      "cup_product_planning_allowed": true,
+      "failure_class": "representative_compatible",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 2,
+        "triplet_only_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          11,
+          13,
+          6,
+          16,
+          20,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          13,
+          11,
+          18,
+          8,
+          36,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 276,
+          "kahler_point": [
+            0.1775368762181409,
+            0.15854718625544084,
+            0.05935010797466039,
+            0.1775365675377558,
+            0.07717485930519499,
+            0.028542251878111602,
+            0.3213121508306956
+          ],
+          "max_abs_slope": 3.39525949244468e-07,
+          "max_normalized_slope": 6.812705689222004e-08,
+          "restarts": 1,
+          "seed": 870005
+        }
+      },
+      "mode": "all_obstructed_legs_feasible",
+      "operator": "5bar_12*5_12",
+      "promoted_to_lead_candidate": true,
+      "proton_allowed_count": 0,
+      "q1_preserved": true,
+      "refined_selection_category": "viable",
+      "refined_selection_status": "passes_refined_charge_character_dt_and_proton_filter",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 0,
+              "-": 2
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          },
+          "reason": "dimension-certified equivariant E2 character disagrees with branch actual",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5_12:cup_H1_wedge2_V_dual"
+        }
+      ],
+      "representative_status": "representative_compatible",
+      "representative_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": true,
+          "obstruction_summary": null,
+          "operator": "5bar_12*5_12",
+          "status": "representative_compatible",
+          "unresolved_summary": null
+        }
+      ],
+      "seed_label": "radius6_broad_adjacency_filtered_3_large_branch_q1_representative",
+      "seed_source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window36_large_branch_closure_filtered_3.json",
+        "represented_q1_branches": 756,
+        "window": 36
+      },
+      "seed_weight": 756,
+      "variant_label": "radius6_broad_adjacency_filtered_3_large_branch_q1_representative_selection_preserving_branch_1",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": 4,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": 3,
+        "regular_character_rule_applies": true
+      }
+    }
+  ],
+  "cup_product_eligible_variants": [
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 3,
+        "ten": 3
+      },
+      "cup_product_planning_allowed": true,
+      "failure_class": "representative_compatible",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 2,
+        "triplet_only_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          11,
+          13,
+          16,
+          6,
+          20,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          13,
+          11,
+          8,
+          18,
+          36,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 276,
+          "kahler_point": [
+            0.17753687621814082,
+            0.15854718625544084,
+            0.0593501079746604,
+            0.07717485930519519,
+            0.1775365675377558,
+            0.028542251878111585,
+            0.3213121508306955
+          ],
+          "max_abs_slope": 3.395259491334457e-07,
+          "max_normalized_slope": 6.812705686994303e-08,
+          "restarts": 1,
+          "seed": 870003
+        }
+      },
+      "mode": "first_obstructed_leg_feasible",
+      "operator": "5bar_12*5_12",
+      "promoted_to_lead_candidate": true,
+      "proton_allowed_count": 0,
+      "q1_preserved": true,
+      "refined_selection_category": "viable",
+      "refined_selection_status": "passes_refined_charge_character_dt_and_proton_filter",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 0,
+              "-": 2
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          },
+          "reason": "dimension-certified equivariant E2 character disagrees with branch actual",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5_12:cup_H1_wedge2_V_dual"
+        }
+      ],
+      "representative_status": "representative_compatible",
+      "representative_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": true,
+          "obstruction_summary": null,
+          "operator": "5bar_12*5_12",
+          "status": "representative_compatible",
+          "unresolved_summary": null
+        }
+      ],
+      "seed_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative",
+      "seed_source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window32_large_branch_closure_filtered_1.json",
+        "represented_q1_branches": 756,
+        "window": 32
+      },
+      "seed_weight": 756,
+      "variant_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative_selection_preserving_branch_0",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": 4,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": 3,
+        "regular_character_rule_applies": true
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 3,
+        "ten": 3
+      },
+      "cup_product_planning_allowed": true,
+      "failure_class": "representative_compatible",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 2,
+        "triplet_only_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          11,
+          13,
+          16,
+          6,
+          20,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          13,
+          11,
+          8,
+          18,
+          36,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 276,
+          "kahler_point": [
+            0.17753687621814082,
+            0.15854718625544084,
+            0.0593501079746604,
+            0.07717485930519519,
+            0.1775365675377558,
+            0.028542251878111585,
+            0.3213121508306955
+          ],
+          "max_abs_slope": 3.395259491334457e-07,
+          "max_normalized_slope": 6.812705686994303e-08,
+          "restarts": 1,
+          "seed": 870003
+        }
+      },
+      "mode": "all_obstructed_legs_feasible",
+      "operator": "5bar_12*5_12",
+      "promoted_to_lead_candidate": true,
+      "proton_allowed_count": 0,
+      "q1_preserved": true,
+      "refined_selection_category": "viable",
+      "refined_selection_status": "passes_refined_charge_character_dt_and_proton_filter",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 0,
+              "-": 2
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          },
+          "reason": "dimension-certified equivariant E2 character disagrees with branch actual",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5_12:cup_H1_wedge2_V_dual"
+        }
+      ],
+      "representative_status": "representative_compatible",
+      "representative_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": true,
+          "obstruction_summary": null,
+          "operator": "5bar_12*5_12",
+          "status": "representative_compatible",
+          "unresolved_summary": null
+        }
+      ],
+      "seed_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative",
+      "seed_source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window32_large_branch_closure_filtered_1.json",
+        "represented_q1_branches": 756,
+        "window": 32
+      },
+      "seed_weight": 756,
+      "variant_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative_selection_preserving_branch_1",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": 4,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": 3,
+        "regular_character_rule_applies": true
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 3,
+        "ten": 3
+      },
+      "cup_product_planning_allowed": true,
+      "failure_class": "representative_compatible",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 2,
+        "triplet_only_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          11,
+          13,
+          6,
+          16,
+          20,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          13,
+          11,
+          18,
+          8,
+          36,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 276,
+          "kahler_point": [
+            0.1775368762181409,
+            0.15854718625544084,
+            0.05935010797466039,
+            0.1775365675377558,
+            0.07717485930519499,
+            0.028542251878111602,
+            0.3213121508306956
+          ],
+          "max_abs_slope": 3.39525949244468e-07,
+          "max_normalized_slope": 6.812705689222004e-08,
+          "restarts": 1,
+          "seed": 870005
+        }
+      },
+      "mode": "first_obstructed_leg_feasible",
+      "operator": "5bar_12*5_12",
+      "promoted_to_lead_candidate": true,
+      "proton_allowed_count": 0,
+      "q1_preserved": true,
+      "refined_selection_category": "viable",
+      "refined_selection_status": "passes_refined_charge_character_dt_and_proton_filter",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 0,
+              "-": 2
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          },
+          "reason": "dimension-certified equivariant E2 character disagrees with branch actual",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5_12:cup_H1_wedge2_V_dual"
+        }
+      ],
+      "representative_status": "representative_compatible",
+      "representative_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": true,
+          "obstruction_summary": null,
+          "operator": "5bar_12*5_12",
+          "status": "representative_compatible",
+          "unresolved_summary": null
+        }
+      ],
+      "seed_label": "radius6_broad_adjacency_filtered_3_large_branch_q1_representative",
+      "seed_source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window36_large_branch_closure_filtered_3.json",
+        "represented_q1_branches": 756,
+        "window": 36
+      },
+      "seed_weight": 756,
+      "variant_label": "radius6_broad_adjacency_filtered_3_large_branch_q1_representative_selection_preserving_branch_0",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": 4,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": 3,
+        "regular_character_rule_applies": true
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 3,
+        "ten": 3
+      },
+      "cup_product_planning_allowed": true,
+      "failure_class": "representative_compatible",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 2,
+        "triplet_only_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          11,
+          13,
+          6,
+          16,
+          20,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          13,
+          11,
+          18,
+          8,
+          36,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 276,
+          "kahler_point": [
+            0.1775368762181409,
+            0.15854718625544084,
+            0.05935010797466039,
+            0.1775365675377558,
+            0.07717485930519499,
+            0.028542251878111602,
+            0.3213121508306956
+          ],
+          "max_abs_slope": 3.39525949244468e-07,
+          "max_normalized_slope": 6.812705689222004e-08,
+          "restarts": 1,
+          "seed": 870005
+        }
+      },
+      "mode": "all_obstructed_legs_feasible",
+      "operator": "5bar_12*5_12",
+      "promoted_to_lead_candidate": true,
+      "proton_allowed_count": 0,
+      "q1_preserved": true,
+      "refined_selection_category": "viable",
+      "refined_selection_status": "passes_refined_charge_character_dt_and_proton_filter",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 0,
+              "-": 2
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          },
+          "reason": "dimension-certified equivariant E2 character disagrees with branch actual",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5_12:cup_H1_wedge2_V_dual"
+        }
+      ],
+      "representative_status": "representative_compatible",
+      "representative_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": true,
+          "obstruction_summary": null,
+          "operator": "5bar_12*5_12",
+          "status": "representative_compatible",
+          "unresolved_summary": null
+        }
+      ],
+      "seed_label": "radius6_broad_adjacency_filtered_3_large_branch_q1_representative",
+      "seed_source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window36_large_branch_closure_filtered_3.json",
+        "represented_q1_branches": 756,
+        "window": 36
+      },
+      "seed_weight": 756,
+      "variant_label": "radius6_broad_adjacency_filtered_3_large_branch_q1_representative_selection_preserving_branch_1",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": 4,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": 3,
+        "regular_character_rule_applies": true
+      }
+    }
+  ],
+  "feasible_character_mining": {
+    "feasible_patterns": [
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 0,
+              "-": 2
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_01*5_12",
+        "reasons": {
+          "explicit equivariant first-page kernel character disagrees with branch actual": 1
+        },
+        "representative_feasible": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 1,
+            "-": 1
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 1
+        },
+        "represented_weight": 1,
+        "role": "5_12:cup_H1_wedge2_V_dual",
+        "role_pair": [
+          1,
+          2
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          }
+        ],
+        "operator": "5bar_01*5_12",
+        "reasons": {
+          "explicit equivariant first-page cokernel character matches branch actual": 1
+        },
+        "representative_feasible": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 1,
+            "-": 1
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 1
+        },
+        "represented_weight": 1,
+        "role": "5_12:physical_H2_wedge2_V",
+        "role_pair": [
+          1,
+          2
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_01*5_12",
+        "reasons": {
+          "branch kernel character requires an impossible image-rank split": 1
+        },
+        "representative_feasible": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 1,
+            "-": 1
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 1
+        },
+        "represented_weight": 1,
+        "role": "5bar_01:physical_H1_wedge2_V",
+        "role_pair": [
+          0,
+          1
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 0,
+              "-": 2
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_01*5_14",
+        "reasons": {
+          "explicit equivariant first-page kernel character disagrees with branch actual": 1
+        },
+        "representative_feasible": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 1,
+            "-": 1
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 1
+        },
+        "represented_weight": 1,
+        "role": "5_14:cup_H1_wedge2_V_dual",
+        "role_pair": [
+          1,
+          4
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          }
+        ],
+        "operator": "5bar_01*5_14",
+        "reasons": {
+          "explicit equivariant first-page cokernel character matches branch actual": 1
+        },
+        "representative_feasible": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 1,
+            "-": 1
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 1
+        },
+        "represented_weight": 1,
+        "role": "5_14:physical_H2_wedge2_V",
+        "role_pair": [
+          1,
+          4
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_01*5_14",
+        "reasons": {
+          "branch kernel character requires an impossible image-rank split": 1
+        },
+        "representative_feasible": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 1,
+            "-": 1
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 1
+        },
+        "represented_weight": 1,
+        "role": "5bar_01:physical_H1_wedge2_V",
+        "role_pair": [
+          0,
+          1
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 0,
+              "-": 1
+            },
+            "nonidentity_trace": -1,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_02*5_12",
+        "reasons": {
+          "explicit equivariant first-page kernel character matches branch actual": 1
+        },
+        "representative_feasible": {
+          "dimension": 1,
+          "multiplicities": {
+            "+": 0,
+            "-": 1
+          },
+          "nonidentity_trace": -1,
+          "regular_multiplicity": null
+        },
+        "represented_weight": 1,
+        "role": "5_12:cup_H1_wedge2_V_dual",
+        "role_pair": [
+          1,
+          2
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 1,
+              "-": 0
+            },
+            "nonidentity_trace": 1,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_02*5_12",
+        "reasons": {
+          "explicit equivariant first-page cokernel character disagrees with branch actual": 1
+        },
+        "representative_feasible": {
+          "dimension": 1,
+          "multiplicities": {
+            "+": 0,
+            "-": 1
+          },
+          "nonidentity_trace": -1,
+          "regular_multiplicity": null
+        },
+        "represented_weight": 1,
+        "role": "5_12:physical_H2_wedge2_V",
+        "role_pair": [
+          1,
+          2
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          }
+        ],
+        "operator": "5bar_02*5_12",
+        "reasons": {
+          "single total-degree E1 source equals the cohomology dimension": 1
+        },
+        "representative_feasible": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 1,
+            "-": 1
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 1
+        },
+        "represented_weight": 1,
+        "role": "5bar_02:physical_H1_wedge2_V",
+        "role_pair": [
+          0,
+          2
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_02*5_24",
+        "reasons": {
+          "branch cokernel character requires an impossible image-rank split": 10
+        },
+        "representative_feasible": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 1,
+            "-": 1
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 1
+        },
+        "represented_weight": 18,
+        "role": "5bar_02:physical_H1_wedge2_V",
+        "role_pair": [
+          0,
+          2
+        ],
+        "sources": {
+          "closed_frontier_obstruction_anatomy": 1,
+          "generation_pruned_survivor": 9
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 0,
+              "-": 1
+            },
+            "nonidentity_trace": -1,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_02*5_34",
+        "reasons": {
+          "branch kernel character requires an impossible image-rank split": 1
+        },
+        "representative_feasible": {
+          "dimension": 1,
+          "multiplicities": {
+            "+": 1,
+            "-": 0
+          },
+          "nonidentity_trace": 1,
+          "regular_multiplicity": null
+        },
+        "represented_weight": 1,
+        "role": "5_34:cup_H1_wedge2_V_dual",
+        "role_pair": [
+          3,
+          4
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 1,
+              "-": 0
+            },
+            "nonidentity_trace": 1,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_02*5_34",
+        "reasons": {
+          "explicit equivariant first-page cokernel character matches branch actual": 1
+        },
+        "representative_feasible": {
+          "dimension": 1,
+          "multiplicities": {
+            "+": 1,
+            "-": 0
+          },
+          "nonidentity_trace": 1,
+          "regular_multiplicity": null
+        },
+        "represented_weight": 1,
+        "role": "5_34:physical_H2_wedge2_V",
+        "role_pair": [
+          3,
+          4
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          }
+        ],
+        "operator": "5bar_02*5_34",
+        "reasons": {
+          "single total-degree E1 source equals the cohomology dimension": 1
+        },
+        "representative_feasible": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 1,
+            "-": 1
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 1
+        },
+        "represented_weight": 1,
+        "role": "5bar_02:physical_H1_wedge2_V",
+        "role_pair": [
+          0,
+          2
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 0,
+              "-": 2
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_03*5_03",
+        "reasons": {
+          "explicit equivariant first-page kernel character disagrees with branch actual": 1
+        },
+        "representative_feasible": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 1,
+            "-": 1
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 1
+        },
+        "represented_weight": 1,
+        "role": "5_03:cup_H1_wedge2_V_dual",
+        "role_pair": [
+          0,
+          3
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          }
+        ],
+        "operator": "5bar_03*5_03",
+        "reasons": {
+          "explicit equivariant first-page cokernel character matches branch actual": 1
+        },
+        "representative_feasible": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 1,
+            "-": 1
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 1
+        },
+        "represented_weight": 1,
+        "role": "5_03:physical_H2_wedge2_V",
+        "role_pair": [
+          0,
+          3
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_03*5_03",
+        "reasons": {
+          "explicit equivariant first-page kernel character disagrees with branch actual": 1
+        },
+        "representative_feasible": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 1,
+            "-": 1
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 1
+        },
+        "represented_weight": 1,
+        "role": "5bar_03:physical_H1_wedge2_V",
+        "role_pair": [
+          0,
+          3
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 1,
+              "-": 0
+            },
+            "nonidentity_trace": 1,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_03*5_34",
+        "reasons": {
+          "single total-degree E1 source equals the cohomology dimension": 1
+        },
+        "representative_feasible": {
+          "dimension": 1,
+          "multiplicities": {
+            "+": 1,
+            "-": 0
+          },
+          "nonidentity_trace": 1,
+          "regular_multiplicity": null
+        },
+        "represented_weight": 126,
+        "role": "5_34:cup_H1_wedge2_V_dual",
+        "role_pair": [
+          3,
+          4
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 1,
+              "-": 0
+            },
+            "nonidentity_trace": 1,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_03*5_34",
+        "reasons": {
+          "single total-degree E1 source equals the cohomology dimension": 1
+        },
+        "representative_feasible": {
+          "dimension": 1,
+          "multiplicities": {
+            "+": 1,
+            "-": 0
+          },
+          "nonidentity_trace": 1,
+          "regular_multiplicity": null
+        },
+        "represented_weight": 126,
+        "role": "5_34:physical_H2_wedge2_V",
+        "role_pair": [
+          3,
+          4
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 6,
+            "multiplicities": {
+              "+": 2,
+              "-": 4
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_03*5_34",
+        "reasons": {
+          "branch cokernel character requires an impossible image-rank split": 1
+        },
+        "representative_feasible": {
+          "dimension": 6,
+          "multiplicities": {
+            "+": 3,
+            "-": 3
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 3
+        },
+        "represented_weight": 126,
+        "role": "5bar_03:physical_H1_wedge2_V",
+        "role_pair": [
+          0,
+          3
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          }
+        ],
+        "operator": "5bar_04*5_24",
+        "reasons": {
+          "single total-degree E1 source equals the cohomology dimension": 1
+        },
+        "representative_feasible": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 1,
+            "-": 1
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 1
+        },
+        "represented_weight": 1,
+        "role": "5_24:cup_H1_wedge2_V_dual",
+        "role_pair": [
+          2,
+          4
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          }
+        ],
+        "operator": "5bar_04*5_24",
+        "reasons": {
+          "single total-degree E1 source equals the cohomology dimension": 1
+        },
+        "representative_feasible": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 1,
+            "-": 1
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 1
+        },
+        "represented_weight": 1,
+        "role": "5_24:physical_H2_wedge2_V",
+        "role_pair": [
+          2,
+          4
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_04*5_24",
+        "reasons": {
+          "branch cokernel character requires an impossible image-rank split": 1
+        },
+        "representative_feasible": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 1,
+            "-": 1
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 1
+        },
+        "represented_weight": 1,
+        "role": "5bar_04:physical_H1_wedge2_V",
+        "role_pair": [
+          0,
+          4
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 6,
+            "multiplicities": {
+              "+": 2,
+              "-": 4
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          },
+          {
+            "dimension": 6,
+            "multiplicities": {
+              "+": 2,
+              "-": 4
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          },
+          {
+            "dimension": 6,
+            "multiplicities": {
+              "+": 2,
+              "-": 4
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_04*5_34",
+        "reasons": {
+          "branch cokernel character requires an impossible image-rank split": 3
+        },
+        "representative_feasible": {
+          "dimension": 6,
+          "multiplicities": {
+            "+": 3,
+            "-": 3
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 3
+        },
+        "represented_weight": 504,
+        "role": "5bar_04:physical_H1_wedge2_V",
+        "role_pair": [
+          0,
+          4
+        ],
+        "sources": {
+          "closed_frontier_obstruction_anatomy": 1,
+          "generation_pruned_survivor": 2
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 0,
+              "-": 2
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          },
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 0,
+              "-": 2
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          },
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 0,
+              "-": 2
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_12*5_12",
+        "reasons": {
+          "dimension-certified equivariant E2 character disagrees with branch actual": 3
+        },
+        "representative_feasible": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 1,
+            "-": 1
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 1
+        },
+        "represented_weight": 3024,
+        "role": "5_12:cup_H1_wedge2_V_dual",
+        "role_pair": [
+          1,
+          2
+        ],
+        "sources": {
+          "closed_frontier_obstruction_anatomy": 1,
+          "generation_pruned_survivor": 2
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 0,
+              "-": 1
+            },
+            "nonidentity_trace": -1,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_13*5_34",
+        "reasons": {
+          "branch kernel character requires an impossible image-rank split": 1
+        },
+        "representative_feasible": {
+          "dimension": 1,
+          "multiplicities": {
+            "+": 1,
+            "-": 0
+          },
+          "nonidentity_trace": 1,
+          "regular_multiplicity": null
+        },
+        "represented_weight": 1,
+        "role": "5_34:cup_H1_wedge2_V_dual",
+        "role_pair": [
+          3,
+          4
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 1,
+              "-": 0
+            },
+            "nonidentity_trace": 1,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_13*5_34",
+        "reasons": {
+          "explicit equivariant first-page cokernel character matches branch actual": 1
+        },
+        "representative_feasible": {
+          "dimension": 1,
+          "multiplicities": {
+            "+": 1,
+            "-": 0
+          },
+          "nonidentity_trace": 1,
+          "regular_multiplicity": null
+        },
+        "represented_weight": 1,
+        "role": "5_34:physical_H2_wedge2_V",
+        "role_pair": [
+          3,
+          4
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 4,
+            "multiplicities": {
+              "+": 2,
+              "-": 2
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 2
+          }
+        ],
+        "operator": "5bar_13*5_34",
+        "reasons": {
+          "single total-degree E1 source equals the cohomology dimension": 1
+        },
+        "representative_feasible": {
+          "dimension": 4,
+          "multiplicities": {
+            "+": 2,
+            "-": 2
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 2
+        },
+        "represented_weight": 1,
+        "role": "5bar_13:physical_H1_wedge2_V",
+        "role_pair": [
+          1,
+          3
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 0,
+              "-": 1
+            },
+            "nonidentity_trace": -1,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_14*5_12",
+        "reasons": {
+          "branch kernel character requires an impossible image-rank split": 1
+        },
+        "representative_feasible": {
+          "dimension": 1,
+          "multiplicities": {
+            "+": 1,
+            "-": 0
+          },
+          "nonidentity_trace": 1,
+          "regular_multiplicity": null
+        },
+        "represented_weight": 216,
+        "role": "5_12:cup_H1_wedge2_V_dual",
+        "role_pair": [
+          1,
+          2
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 1,
+              "-": 0
+            },
+            "nonidentity_trace": 1,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_14*5_12",
+        "reasons": {
+          "explicit equivariant first-page cokernel character matches branch actual": 1
+        },
+        "representative_feasible": {
+          "dimension": 1,
+          "multiplicities": {
+            "+": 1,
+            "-": 0
+          },
+          "nonidentity_trace": 1,
+          "regular_multiplicity": null
+        },
+        "represented_weight": 216,
+        "role": "5_12:physical_H2_wedge2_V",
+        "role_pair": [
+          1,
+          2
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_14*5_12",
+        "reasons": {
+          "branch kernel character requires an impossible image-rank split": 1
+        },
+        "representative_feasible": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 1,
+            "-": 1
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 1
+        },
+        "represented_weight": 216,
+        "role": "5bar_14:physical_H1_wedge2_V",
+        "role_pair": [
+          1,
+          4
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 0,
+              "-": 2
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_14*5_14",
+        "reasons": {
+          "explicit equivariant first-page kernel character disagrees with branch actual": 1
+        },
+        "representative_feasible": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 1,
+            "-": 1
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 1
+        },
+        "represented_weight": 1,
+        "role": "5_14:cup_H1_wedge2_V_dual",
+        "role_pair": [
+          1,
+          4
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          }
+        ],
+        "operator": "5bar_14*5_14",
+        "reasons": {
+          "explicit equivariant first-page cokernel character matches branch actual": 1
+        },
+        "representative_feasible": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 1,
+            "-": 1
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 1
+        },
+        "represented_weight": 1,
+        "role": "5_14:physical_H2_wedge2_V",
+        "role_pair": [
+          1,
+          4
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_14*5_14",
+        "reasons": {
+          "explicit equivariant first-page kernel character disagrees with branch actual": 1
+        },
+        "representative_feasible": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 1,
+            "-": 1
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 1
+        },
+        "represented_weight": 1,
+        "role": "5bar_14:physical_H1_wedge2_V",
+        "role_pair": [
+          1,
+          4
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_23*5_23",
+        "reasons": {
+          "explicit equivariant first-page kernel character disagrees with branch actual": 2
+        },
+        "representative_feasible": {
+          "dimension": 3,
+          "multiplicities": {
+            "+": 2,
+            "-": 1
+          },
+          "nonidentity_trace": 1,
+          "regular_multiplicity": null
+        },
+        "represented_weight": 378,
+        "role": "5bar_23:physical_H1_wedge2_V",
+        "role_pair": [
+          2,
+          3
+        ],
+        "sources": {
+          "closed_frontier_obstruction_anatomy": 1,
+          "generation_pruned_survivor": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          }
+        ],
+        "operator": "5bar_24*5_12",
+        "reasons": {
+          "single total-degree E1 source equals the cohomology dimension": 1
+        },
+        "representative_feasible": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 1,
+            "-": 1
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 1
+        },
+        "represented_weight": 1,
+        "role": "5_12:cup_H1_wedge2_V_dual",
+        "role_pair": [
+          1,
+          2
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          }
+        ],
+        "operator": "5bar_24*5_12",
+        "reasons": {
+          "single total-degree E1 source equals the cohomology dimension": 1
+        },
+        "representative_feasible": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 1,
+            "-": 1
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 1
+        },
+        "represented_weight": 1,
+        "role": "5_12:physical_H2_wedge2_V",
+        "role_pair": [
+          1,
+          2
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_24*5_12",
+        "reasons": {
+          "branch kernel character requires an impossible image-rank split": 1
+        },
+        "representative_feasible": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 1,
+            "-": 1
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 1
+        },
+        "represented_weight": 1,
+        "role": "5bar_24:physical_H1_wedge2_V",
+        "role_pair": [
+          2,
+          4
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_feasible_replacement"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 0,
+              "-": 1
+            },
+            "nonidentity_trace": -1,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_34*5_34",
+        "reasons": {
+          "equivariant first-page E2 dimensions do not match pyCICY cohomology dimensions": 1
+        },
+        "representative_feasible": null,
+        "represented_weight": 216,
+        "role": "5_34:cup_H1_wedge2_V_dual",
+        "role_pair": [
+          3,
+          4
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_unresolved"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 1,
+              "-": 0
+            },
+            "nonidentity_trace": 1,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_34*5_34",
+        "reasons": {
+          "equivariant first-page E2 dimensions do not match pyCICY cohomology dimensions": 1
+        },
+        "representative_feasible": null,
+        "represented_weight": 216,
+        "role": "5_34:physical_H2_wedge2_V",
+        "role_pair": [
+          3,
+          4
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_unresolved"
+      },
+      {
+        "branch_requested_examples": [
+          {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          }
+        ],
+        "operator": "5bar_34*5_34",
+        "reasons": {
+          "equivariant first-page E2 dimensions do not match pyCICY cohomology dimensions": 1
+        },
+        "representative_feasible": null,
+        "represented_weight": 216,
+        "role": "5bar_34:physical_H1_wedge2_V",
+        "role_pair": [
+          3,
+          4
+        ],
+        "sources": {
+          "observed_triplet_shape_escape_audit": 1
+        },
+        "status": "representative_unresolved"
+      }
+    ],
+    "observed_triplet_only_operator_shapes": [
+      "5bar_01*5_12",
+      "5bar_01*5_14",
+      "5bar_02*5_12",
+      "5bar_02*5_24",
+      "5bar_02*5_34",
+      "5bar_03*5_03",
+      "5bar_03*5_34",
+      "5bar_04*5_24",
+      "5bar_04*5_34",
+      "5bar_12*5_12",
+      "5bar_13*5_34",
+      "5bar_14*5_12",
+      "5bar_14*5_14",
+      "5bar_23*5_23",
+      "5bar_24*5_12",
+      "5bar_34*5_34"
+    ],
+    "target_column_pairs": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  },
+  "gates": {
+    "enumerates_branch_character_replacements": {
+      "evidence": "branch replacement variants",
+      "note": "the scout enumerates representative-feasible branch-character replacements",
+      "pass": true
+    },
+    "imports_verified_feasible_patterns": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_representative_obstruction_escape_report.json + reports/phenomenology_guided_q1_radius9_representative_obstruction_escape_report_verification.json",
+      "note": "branch scout imports the verified observed operator inventory",
+      "pass": true
+    },
+    "imports_verified_generation_replay": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_representative_generation_replay_rollup.json + reports/phenomenology_guided_q1_radius9_representative_generation_replay_rollup_verification.json",
+      "note": "branch scout starts from the verified representative-gated generation replay",
+      "pass": true
+    },
+    "matrix_gates_are_recomputed": {
+      "evidence": "variant matrix certificates",
+      "note": "index, anomaly, and slope gates are recomputed before representative promotion",
+      "pass": true
+    },
+    "mines_requested_seed_and_pattern_sets": {
+      "evidence": "seed and feasible-pattern mining",
+      "note": "the scout covers the requested 14 pruned survivors and 16 observed operator shapes",
+      "pass": true
+    },
+    "outcome_is_resolved": {
+      "evidence": "resolved branch-replacement outcomes",
+      "note": "the scout either emits selection-gated survivors or proves zero promotion-ready replacements",
+      "pass": true
+    },
+    "representative_audit_is_selection_gated": {
+      "evidence": "representative/cup-product outcomes",
+      "note": "promotion is only allowed after q=1, refined selection, and proton gates",
+      "pass": true
+    },
+    "selection_preservation_is_tested": {
+      "evidence": "variant selection outcomes",
+      "note": "the scout distinguishes q1 loss from matrix-certified selection-preserving variants",
+      "pass": true
+    }
+  },
+  "interpretation": {
+    "active_obstruction": "most representative-feasible branch replacements destroy q=1; the surviving selection-preserving replacements are representative-compatible scout targets",
+    "caveat": "compatible rows are synthetic branch-character replacements over fixed matrices; they are not yet new full matrix/cup-product certificates",
+    "current_result": "selection-preserving branch replacement finds representative-compatible, cup-product-eligible branch-character scout targets pending full realization checks"
+  },
+  "pattern_compatibility": [
+    {
+      "compatible_weight": 0,
+      "failure_weight": {
+        "q1_signature_lost": 9
+      },
+      "pattern": "5bar_02*5_24|all_obstructed_legs_feasible",
+      "selection_preserving_weight": 0
+    },
+    {
+      "compatible_weight": 0,
+      "failure_weight": {
+        "q1_signature_lost": 9
+      },
+      "pattern": "5bar_02*5_24|first_obstructed_leg_feasible",
+      "selection_preserving_weight": 0
+    },
+    {
+      "compatible_weight": 0,
+      "failure_weight": {
+        "q1_signature_lost": 252
+      },
+      "pattern": "5bar_04*5_34|all_obstructed_legs_feasible",
+      "selection_preserving_weight": 0
+    },
+    {
+      "compatible_weight": 0,
+      "failure_weight": {
+        "q1_signature_lost": 252
+      },
+      "pattern": "5bar_04*5_34|first_obstructed_leg_feasible",
+      "selection_preserving_weight": 0
+    },
+    {
+      "compatible_weight": 1512,
+      "failure_weight": {
+        "representative_compatible": 1512
+      },
+      "pattern": "5bar_12*5_12|all_obstructed_legs_feasible",
+      "selection_preserving_weight": 1512
+    },
+    {
+      "compatible_weight": 1512,
+      "failure_weight": {
+        "representative_compatible": 1512
+      },
+      "pattern": "5bar_12*5_12|first_obstructed_leg_feasible",
+      "selection_preserving_weight": 1512
+    },
+    {
+      "compatible_weight": 0,
+      "failure_weight": {
+        "q1_signature_lost": 189
+      },
+      "pattern": "5bar_23*5_23|all_obstructed_legs_feasible",
+      "selection_preserving_weight": 0
+    },
+    {
+      "compatible_weight": 0,
+      "failure_weight": {
+        "q1_signature_lost": 189
+      },
+      "pattern": "5bar_23*5_23|first_obstructed_leg_feasible",
+      "selection_preserving_weight": 0
+    }
+  ],
+  "representative_compatible_variants": [
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 3,
+        "ten": 3
+      },
+      "cup_product_planning_allowed": true,
+      "failure_class": "representative_compatible",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 2,
+        "triplet_only_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          11,
+          13,
+          16,
+          6,
+          20,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          13,
+          11,
+          8,
+          18,
+          36,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 276,
+          "kahler_point": [
+            0.17753687621814082,
+            0.15854718625544084,
+            0.0593501079746604,
+            0.07717485930519519,
+            0.1775365675377558,
+            0.028542251878111585,
+            0.3213121508306955
+          ],
+          "max_abs_slope": 3.395259491334457e-07,
+          "max_normalized_slope": 6.812705686994303e-08,
+          "restarts": 1,
+          "seed": 870003
+        }
+      },
+      "mode": "first_obstructed_leg_feasible",
+      "operator": "5bar_12*5_12",
+      "promoted_to_lead_candidate": true,
+      "proton_allowed_count": 0,
+      "q1_preserved": true,
+      "refined_selection_category": "viable",
+      "refined_selection_status": "passes_refined_charge_character_dt_and_proton_filter",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 0,
+              "-": 2
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          },
+          "reason": "dimension-certified equivariant E2 character disagrees with branch actual",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5_12:cup_H1_wedge2_V_dual"
+        }
+      ],
+      "representative_status": "representative_compatible",
+      "representative_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": true,
+          "obstruction_summary": null,
+          "operator": "5bar_12*5_12",
+          "status": "representative_compatible",
+          "unresolved_summary": null
+        }
+      ],
+      "seed_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative",
+      "seed_source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window32_large_branch_closure_filtered_1.json",
+        "represented_q1_branches": 756,
+        "window": 32
+      },
+      "seed_weight": 756,
+      "variant_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative_selection_preserving_branch_0",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": 4,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": 3,
+        "regular_character_rule_applies": true
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 3,
+        "ten": 3
+      },
+      "cup_product_planning_allowed": true,
+      "failure_class": "representative_compatible",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 2,
+        "triplet_only_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          11,
+          13,
+          16,
+          6,
+          20,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          13,
+          11,
+          8,
+          18,
+          36,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 276,
+          "kahler_point": [
+            0.17753687621814082,
+            0.15854718625544084,
+            0.0593501079746604,
+            0.07717485930519519,
+            0.1775365675377558,
+            0.028542251878111585,
+            0.3213121508306955
+          ],
+          "max_abs_slope": 3.395259491334457e-07,
+          "max_normalized_slope": 6.812705686994303e-08,
+          "restarts": 1,
+          "seed": 870003
+        }
+      },
+      "mode": "all_obstructed_legs_feasible",
+      "operator": "5bar_12*5_12",
+      "promoted_to_lead_candidate": true,
+      "proton_allowed_count": 0,
+      "q1_preserved": true,
+      "refined_selection_category": "viable",
+      "refined_selection_status": "passes_refined_charge_character_dt_and_proton_filter",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 0,
+              "-": 2
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          },
+          "reason": "dimension-certified equivariant E2 character disagrees with branch actual",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5_12:cup_H1_wedge2_V_dual"
+        }
+      ],
+      "representative_status": "representative_compatible",
+      "representative_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": true,
+          "obstruction_summary": null,
+          "operator": "5bar_12*5_12",
+          "status": "representative_compatible",
+          "unresolved_summary": null
+        }
+      ],
+      "seed_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative",
+      "seed_source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window32_large_branch_closure_filtered_1.json",
+        "represented_q1_branches": 756,
+        "window": 32
+      },
+      "seed_weight": 756,
+      "variant_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative_selection_preserving_branch_1",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": 4,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": 3,
+        "regular_character_rule_applies": true
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 3,
+        "ten": 3
+      },
+      "cup_product_planning_allowed": true,
+      "failure_class": "representative_compatible",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 2,
+        "triplet_only_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          11,
+          13,
+          6,
+          16,
+          20,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          13,
+          11,
+          18,
+          8,
+          36,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 276,
+          "kahler_point": [
+            0.1775368762181409,
+            0.15854718625544084,
+            0.05935010797466039,
+            0.1775365675377558,
+            0.07717485930519499,
+            0.028542251878111602,
+            0.3213121508306956
+          ],
+          "max_abs_slope": 3.39525949244468e-07,
+          "max_normalized_slope": 6.812705689222004e-08,
+          "restarts": 1,
+          "seed": 870005
+        }
+      },
+      "mode": "first_obstructed_leg_feasible",
+      "operator": "5bar_12*5_12",
+      "promoted_to_lead_candidate": true,
+      "proton_allowed_count": 0,
+      "q1_preserved": true,
+      "refined_selection_category": "viable",
+      "refined_selection_status": "passes_refined_charge_character_dt_and_proton_filter",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 0,
+              "-": 2
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          },
+          "reason": "dimension-certified equivariant E2 character disagrees with branch actual",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5_12:cup_H1_wedge2_V_dual"
+        }
+      ],
+      "representative_status": "representative_compatible",
+      "representative_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": true,
+          "obstruction_summary": null,
+          "operator": "5bar_12*5_12",
+          "status": "representative_compatible",
+          "unresolved_summary": null
+        }
+      ],
+      "seed_label": "radius6_broad_adjacency_filtered_3_large_branch_q1_representative",
+      "seed_source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window36_large_branch_closure_filtered_3.json",
+        "represented_q1_branches": 756,
+        "window": 36
+      },
+      "seed_weight": 756,
+      "variant_label": "radius6_broad_adjacency_filtered_3_large_branch_q1_representative_selection_preserving_branch_0",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": 4,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": 3,
+        "regular_character_rule_applies": true
+      }
+    },
+    {
+      "charged_matter_counts": {
+        "five": 1,
+        "fivebar": 3,
+        "ten": 3
+      },
+      "cup_product_planning_allowed": true,
+      "failure_class": "representative_compatible",
+      "mass_support_classes": {
+        "no_invariant_singlet_monomial": 2,
+        "triplet_only_character_mass": 1
+      },
+      "matrix_certification": {
+        "anomaly": [
+          6,
+          11,
+          13,
+          6,
+          16,
+          20,
+          14
+        ],
+        "c1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "c2_v": [
+          18,
+          13,
+          11,
+          18,
+          8,
+          36,
+          22
+        ],
+        "index_v": -6,
+        "index_wedge2_v": -6,
+        "note": "matrix-level gates are recomputed for the fixed branch-scout matrix; branch replacements do not alter charges or topology",
+        "passes": true,
+        "slope_search": {
+          "feasible": true,
+          "iterations": 276,
+          "kahler_point": [
+            0.1775368762181409,
+            0.15854718625544084,
+            0.05935010797466039,
+            0.1775365675377558,
+            0.07717485930519499,
+            0.028542251878111602,
+            0.3213121508306956
+          ],
+          "max_abs_slope": 3.39525949244468e-07,
+          "max_normalized_slope": 6.812705689222004e-08,
+          "restarts": 1,
+          "seed": 870005
+        }
+      },
+      "mode": "all_obstructed_legs_feasible",
+      "operator": "5bar_12*5_12",
+      "promoted_to_lead_candidate": true,
+      "proton_allowed_count": 0,
+      "q1_preserved": true,
+      "refined_selection_category": "viable",
+      "refined_selection_status": "passes_refined_charge_character_dt_and_proton_filter",
+      "replacement_count": 1,
+      "replacements": [
+        {
+          "branch_requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 0,
+              "-": 2
+            },
+            "nonidentity_trace": -2,
+            "regular_multiplicity": null
+          },
+          "reason": "dimension-certified equivariant E2 character disagrees with branch actual",
+          "representative_feasible": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "role": "5_12:cup_H1_wedge2_V_dual"
+        }
+      ],
+      "representative_status": "representative_compatible",
+      "representative_targets": [
+        {
+          "eligible_for_exact_cup_product_rank": true,
+          "obstruction_summary": null,
+          "operator": "5bar_12*5_12",
+          "status": "representative_compatible",
+          "unresolved_summary": null
+        }
+      ],
+      "seed_label": "radius6_broad_adjacency_filtered_3_large_branch_q1_representative",
+      "seed_source": {
+        "kind": "large_branch_representative",
+        "path": "reports/phenomenology_guided_q1_radius9_broad_window36_large_branch_closure_filtered_3.json",
+        "represented_q1_branches": 756,
+        "window": 36
+      },
+      "seed_weight": 756,
+      "variant_label": "radius6_broad_adjacency_filtered_3_large_branch_q1_representative_selection_preserving_branch_1",
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": 4,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": 3,
+        "regular_character_rule_applies": true
+      }
+    }
+  ],
+  "scope": "replace obstructed branch-character requests by mined representative-feasible characters while requiring q=1, refined DT/singlet/proton selection, and representative compatibility before promotion",
+  "source_artifacts": {
+    "generation_replay_json": "reports/phenomenology_guided_q1_radius9_representative_generation_replay_rollup.json",
+    "generation_replay_verification_json": "reports/phenomenology_guided_q1_radius9_representative_generation_replay_rollup_verification.json",
+    "obstruction_escape_json": "reports/phenomenology_guided_q1_radius9_representative_obstruction_escape_report.json",
+    "obstruction_escape_verification_json": "reports/phenomenology_guided_q1_radius9_representative_obstruction_escape_report_verification.json"
+  },
+  "status": "selection_preserving_branch_scout_found_representative_compatible_candidate",
+  "summary": {
+    "branch_replacement_variant_count": 28,
+    "cup_product_eligible_count": 4,
+    "failure_class_rows": {
+      "q1_signature_lost": 24,
+      "representative_compatible": 4
+    },
+    "failure_class_weight": {
+      "q1_signature_lost": 900,
+      "representative_compatible": 3024
+    },
+    "feasible_pattern_count": 37,
+    "matrix_certified_variant_count": 26,
+    "observed_triplet_only_operator_shape_count": 16,
+    "q1_and_matrix_certified_variant_count": 4,
+    "q1_preserving_variant_count": 4,
+    "representative_compatible_count": 4,
+    "representative_status_rows": {
+      "not_evaluated_q1_not_preserved": 24,
+      "representative_compatible": 4
+    },
+    "representative_unresolved_count": 0,
+    "seed_rows": 14,
+    "seed_weight": 1962,
+    "selection_preserving_variant_count": 4,
+    "windows_closed": 45
+  },
+  "title": "Radius-9 Selection-Preserving Representative-Feasible Branch Scout"
+}

@@ -1,0 +1,56 @@
+{
+  "all_gates_pass": true,
+  "gates": {
+    "builder_gates_pass": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_selection_preserving_branch_scout.json",
+      "note": "builder-side selection-preserving scout gates passed",
+      "pass": true
+    },
+    "compatible_rows_are_actual_selection_preserving_rows": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_selection_preserving_branch_scout.json",
+      "note": "the only promoted branch-scout rows preserve q=1, refined DT/proton gates, and representative compatibility",
+      "pass": true
+    },
+    "compatible_rows_preserve_q1_spectrum_shape": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_selection_preserving_branch_scout.json",
+      "note": "compatible rows keep the desired q=1 spectrum and triplet-only support pattern",
+      "pass": true
+    },
+    "expected_status": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_selection_preserving_branch_scout.json",
+      "note": "report is the selection-preserving representative-feasible branch scout",
+      "pass": true
+    },
+    "failure_and_status_counts_are_selection_gated": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_selection_preserving_branch_scout.json",
+      "note": "q1-lost variants are blocked before representative audit or promotion",
+      "pass": true
+    },
+    "markdown_reports_branch_scout_boundary": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_selection_preserving_branch_scout.md",
+      "note": "markdown exposes survivor counts, q1 loss boundary, and scout-level caveat",
+      "pass": true
+    },
+    "matrix_certification_is_required_before_promotion": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_selection_preserving_branch_scout.json",
+      "note": "all q1-preserving and promoted variants pass recomputed index, anomaly, and slope gates",
+      "pass": true
+    },
+    "pattern_rollup_identifies_unique_compatible_branch": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_selection_preserving_branch_scout.json",
+      "note": "pattern rollup isolates 5bar_12*5_12 as the only selection-preserving compatible replacement",
+      "pass": true
+    },
+    "seed_and_pattern_inputs_are_stable": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_selection_preserving_branch_scout.json",
+      "note": "scout starts from the certified pruned frontier and mined feasible patterns",
+      "pass": true
+    },
+    "variant_accounting_is_stable": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_selection_preserving_branch_scout.json",
+      "note": "branch replacements, selection-preserving rows, and promoted rows are counted consistently",
+      "pass": true
+    }
+  },
+  "scope": "verification for radius-9 selection-preserving branch-character scout"
+}

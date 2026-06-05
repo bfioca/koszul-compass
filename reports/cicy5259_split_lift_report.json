@@ -1,0 +1,3378 @@
+{
+  "cicy5259": {
+    "ambient_dimensions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3
+    ],
+    "c2_ambient": [
+      24,
+      24,
+      24,
+      24,
+      24,
+      56
+    ],
+    "conf": [
+      [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "metadata": {
+      "eta": -48,
+      "favourable": false,
+      "free_symmetry_option_count": 8,
+      "h11": 7,
+      "h21": 31,
+      "num": 5259,
+      "num_polynomials": 5,
+      "num_projective_factors": 6
+    },
+    "redun": [
+      5141,
+      5406,
+      7912,
+      7914,
+      7918
+    ]
+  },
+  "conclusion": {
+    "bundle_lift_rule_used": "append zero charge on J6 to the CICY5259 ambient-restricted line-bundle matrix",
+    "full_quotient_wilson_line_certificate": false,
+    "full_upstairs_su5_line_bundle_certificate": true,
+    "missing_seventh_divisor_obtained": true,
+    "missing_seventh_divisor_route": "ordinary ineffective split / configuration equivalence to favourable CICY 7914",
+    "new_divisor_class": "J6, the hyperplane class of the added P2 row in CICY 7914",
+    "primary_remaining_blocker": "No explicit free-action lift to the 7914 split coordinates, no action on the added divisor class, and no equivariant cohomology character decomposition are available in the current data.",
+    "selected_full_picard_presentation": 7914,
+    "status": "full_upstairs_split_lift_certified__quotient_descent_blocked"
+  },
+  "external_data_or_algorithm_required_for_full_quotient_certificate": [
+    "A selected 5259 free Z2 action lifted through the 7914 P2 split, including coordinate and polynomial action.",
+    "The induced action on the full seven-dimensional Picard basis or an equivalent proof that the zero-extended line-bundle sum admits the required equivariant structure.",
+    "Equivariant cohomology character decompositions for H*(X,V), H*(X,V*) and the wedge2 sectors.",
+    "A Wilson-line character choice and projection check proving the downstairs standard-model spectrum."
+  ],
+  "full_picard_presentation_7914": {
+    "ambient_dimensions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      2
+    ],
+    "c2_tx": [
+      24,
+      24,
+      24,
+      24,
+      24,
+      56,
+      36
+    ],
+    "conf": [
+      [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "full_kahler_cone_certificate_scope": "favourable ambient positive orthant for the 7914 split presentation",
+    "intersection_tensor": {
+      "max_abs_value": 12,
+      "nonzero_count": 214,
+      "nonzero_entries": [
+        {
+          "indices": [
+            0,
+            1,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            1,
+            3
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            1,
+            4
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            1,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            0,
+            1,
+            6
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            2,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            2,
+            3
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            2,
+            4
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            2,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            0,
+            2,
+            6
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            3,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            3,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            3,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            0,
+            4,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            4,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            4,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            0,
+            5,
+            1
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            0,
+            5,
+            2
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            0,
+            5,
+            3
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            0,
+            5,
+            4
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            0,
+            5,
+            5
+          ],
+          "value": 8
+        },
+        {
+          "indices": [
+            0,
+            5,
+            6
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            0,
+            6,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            6,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            6,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            1,
+            0,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            1,
+            0,
+            3
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            1,
+            0,
+            4
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            1,
+            0,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            1,
+            0,
+            6
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            1,
+            2,
+            0
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            1,
+            2,
+            3
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            1,
+            2,
+            4
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            1,
+            2,
+            5
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            1,
+            2,
+            6
+          ],
+          "value": 3
+        },
+        {
+          "indices": [
+            1,
+            3,
+            0
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            1,
+            3,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            1,
+            3,
+            4
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            1,
+            3,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            1,
+            3,
+            6
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            1,
+            4,
+            0
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            1,
+            4,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            1,
+            4,
+            3
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            1,
+            4,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            1,
+            4,
+            6
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            1,
+            5,
+            0
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            1,
+            5,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            1,
+            5,
+            3
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            1,
+            5,
+            4
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            1,
+            5,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            1,
+            5,
+            6
+          ],
+          "value": 6
+        },
+        {
+          "indices": [
+            1,
+            6,
+            0
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            1,
+            6,
+            2
+          ],
+          "value": 3
+        },
+        {
+          "indices": [
+            1,
+            6,
+            3
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            1,
+            6,
+            4
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            1,
+            6,
+            5
+          ],
+          "value": 6
+        },
+        {
+          "indices": [
+            1,
+            6,
+            6
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            2,
+            0,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            2,
+            0,
+            3
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            2,
+            0,
+            4
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            2,
+            0,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            2,
+            0,
+            6
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            2,
+            1,
+            0
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            2,
+            1,
+            3
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            2,
+            1,
+            4
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            2,
+            1,
+            5
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            2,
+            1,
+            6
+          ],
+          "value": 3
+        },
+        {
+          "indices": [
+            2,
+            3,
+            0
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            2,
+            3,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            2,
+            3,
+            4
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            2,
+            3,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            2,
+            3,
+            6
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            2,
+            4,
+            0
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            2,
+            4,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            2,
+            4,
+            3
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            2,
+            4,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            2,
+            4,
+            6
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            2,
+            5,
+            0
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            2,
+            5,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            2,
+            5,
+            3
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            2,
+            5,
+            4
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            2,
+            5,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            2,
+            5,
+            6
+          ],
+          "value": 6
+        },
+        {
+          "indices": [
+            2,
+            6,
+            0
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            2,
+            6,
+            1
+          ],
+          "value": 3
+        },
+        {
+          "indices": [
+            2,
+            6,
+            3
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            2,
+            6,
+            4
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            2,
+            6,
+            5
+          ],
+          "value": 6
+        },
+        {
+          "indices": [
+            2,
+            6,
+            6
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            3,
+            0,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            3,
+            0,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            3,
+            0,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            3,
+            1,
+            0
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            3,
+            1,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            3,
+            1,
+            4
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            3,
+            1,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            3,
+            1,
+            6
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            3,
+            2,
+            0
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            3,
+            2,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            3,
+            2,
+            4
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            3,
+            2,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            3,
+            2,
+            6
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            3,
+            4,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            3,
+            4,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            3,
+            4,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            3,
+            5,
+            0
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            3,
+            5,
+            1
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            3,
+            5,
+            2
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            3,
+            5,
+            4
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            3,
+            5,
+            5
+          ],
+          "value": 8
+        },
+        {
+          "indices": [
+            3,
+            5,
+            6
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            3,
+            6,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            3,
+            6,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            3,
+            6,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            4,
+            0,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            4,
+            0,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            4,
+            0,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            4,
+            1,
+            0
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            4,
+            1,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            4,
+            1,
+            3
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            4,
+            1,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            4,
+            1,
+            6
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            4,
+            2,
+            0
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            4,
+            2,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            4,
+            2,
+            3
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            4,
+            2,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            4,
+            2,
+            6
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            4,
+            3,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            4,
+            3,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            4,
+            3,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            4,
+            5,
+            0
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            4,
+            5,
+            1
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            4,
+            5,
+            2
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            4,
+            5,
+            3
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            4,
+            5,
+            5
+          ],
+          "value": 8
+        },
+        {
+          "indices": [
+            4,
+            5,
+            6
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            4,
+            6,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            4,
+            6,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            4,
+            6,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            0,
+            1
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            0,
+            2
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            0,
+            3
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            0,
+            4
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            0,
+            5
+          ],
+          "value": 8
+        },
+        {
+          "indices": [
+            5,
+            0,
+            6
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            1,
+            0
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            1,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            5,
+            1,
+            3
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            1,
+            4
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            1,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            1,
+            6
+          ],
+          "value": 6
+        },
+        {
+          "indices": [
+            5,
+            2,
+            0
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            2,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            5,
+            2,
+            3
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            2,
+            4
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            2,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            2,
+            6
+          ],
+          "value": 6
+        },
+        {
+          "indices": [
+            5,
+            3,
+            0
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            3,
+            1
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            3,
+            2
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            3,
+            4
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            3,
+            5
+          ],
+          "value": 8
+        },
+        {
+          "indices": [
+            5,
+            3,
+            6
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            4,
+            0
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            4,
+            1
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            4,
+            2
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            4,
+            3
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            4,
+            5
+          ],
+          "value": 8
+        },
+        {
+          "indices": [
+            5,
+            4,
+            6
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            5,
+            0
+          ],
+          "value": 8
+        },
+        {
+          "indices": [
+            5,
+            5,
+            1
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            5,
+            2
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            5,
+            3
+          ],
+          "value": 8
+        },
+        {
+          "indices": [
+            5,
+            5,
+            4
+          ],
+          "value": 8
+        },
+        {
+          "indices": [
+            5,
+            5,
+            5
+          ],
+          "value": 8
+        },
+        {
+          "indices": [
+            5,
+            5,
+            6
+          ],
+          "value": 12
+        },
+        {
+          "indices": [
+            5,
+            6,
+            0
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            6,
+            1
+          ],
+          "value": 6
+        },
+        {
+          "indices": [
+            5,
+            6,
+            2
+          ],
+          "value": 6
+        },
+        {
+          "indices": [
+            5,
+            6,
+            3
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            6,
+            4
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            5,
+            6,
+            5
+          ],
+          "value": 12
+        },
+        {
+          "indices": [
+            5,
+            6,
+            6
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            6,
+            0,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            6,
+            0,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            6,
+            0,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            6,
+            1,
+            0
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            6,
+            1,
+            2
+          ],
+          "value": 3
+        },
+        {
+          "indices": [
+            6,
+            1,
+            3
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            6,
+            1,
+            4
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            6,
+            1,
+            5
+          ],
+          "value": 6
+        },
+        {
+          "indices": [
+            6,
+            1,
+            6
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            6,
+            2,
+            0
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            6,
+            2,
+            1
+          ],
+          "value": 3
+        },
+        {
+          "indices": [
+            6,
+            2,
+            3
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            6,
+            2,
+            4
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            6,
+            2,
+            5
+          ],
+          "value": 6
+        },
+        {
+          "indices": [
+            6,
+            2,
+            6
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            6,
+            3,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            6,
+            3,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            6,
+            3,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            6,
+            4,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            6,
+            4,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            6,
+            4,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            6,
+            5,
+            0
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            6,
+            5,
+            1
+          ],
+          "value": 6
+        },
+        {
+          "indices": [
+            6,
+            5,
+            2
+          ],
+          "value": 6
+        },
+        {
+          "indices": [
+            6,
+            5,
+            3
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            6,
+            5,
+            4
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            6,
+            5,
+            5
+          ],
+          "value": 12
+        },
+        {
+          "indices": [
+            6,
+            5,
+            6
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            6,
+            6,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            6,
+            6,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            6,
+            6,
+            5
+          ],
+          "value": 4
+        }
+      ],
+      "rank": 7,
+      "sample_nonzero": [
+        {
+          "indices": [
+            0,
+            1,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            1,
+            3
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            1,
+            4
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            1,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            0,
+            1,
+            6
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            2,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            2,
+            3
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            2,
+            4
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            2,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            0,
+            2,
+            6
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            3,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            3,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            3,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            0,
+            4,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            4,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            4,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            0,
+            5,
+            1
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            0,
+            5,
+            2
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            0,
+            5,
+            3
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            0,
+            5,
+            4
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            0,
+            5,
+            5
+          ],
+          "value": 8
+        },
+        {
+          "indices": [
+            0,
+            5,
+            6
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            0,
+            6,
+            1
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            6,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            0,
+            6,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            1,
+            0,
+            2
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            1,
+            0,
+            3
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            1,
+            0,
+            4
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            1,
+            0,
+            5
+          ],
+          "value": 4
+        },
+        {
+          "indices": [
+            1,
+            0,
+            6
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            1,
+            2,
+            0
+          ],
+          "value": 2
+        },
+        {
+          "indices": [
+            1,
+            2,
+            3
+          ],
+          "value": 2
+        }
+      ],
+      "sha256": "bd9eece05349217cd80be9b56e74d690c33044f745c1bd1b6664a1831fe461ec"
+    },
+    "metadata": {
+      "eta": -48,
+      "favourable": true,
+      "free_symmetry_option_count": 0,
+      "h11": 7,
+      "h21": 31,
+      "num": 7914,
+      "num_polynomials": 7,
+      "num_projective_factors": 7,
+      "symmetry_status": "unknown"
+    },
+    "pycicy_topology_probe": {
+      "available": true,
+      "h11": 7,
+      "h21": 31,
+      "hodge_data_raw": [
+        0.0,
+        31.0,
+        6.999999284744263,
+        0.0
+      ],
+      "line_index_formula": "2.0*m0*m1*m2 + 2.0*m0*m1*m3 + 2.0*m0*m1*m4 + 4.0*m0*m1*m5 + 2.0*m0*m1*m6 + 2.0*m0*m2*m3 + 2.0*m0*m2*m4 + 4.0*m0*m2*m5 + 2.0*m0*m2*m6 + 4.0*m0*m3*m5 + 4.0*m0*m4*m5 + 4.0*m0*m5**2 + 4.0*m0*m5*m6 + 2.0*m0 + 2.0*m1*m2*m3 + 2.0*m1*m2*m4 + 2.0*m1*m2*m5 + 3.0*m1*m2*m6 + 2.0*m1*m3*m4 + 4.0*m1*m3*m5 + 2.0*m1*m3*m6 + 4.0*m1*m4*m5 + 2.0*m1*m4*m6 + 2.0*m1*m5**2 + 6.0*m1*m5*m6 + 1.0*m1*m6**2 + 2.0*m1 + 2.0*m2*m3*m4 + 4.0*m2*m3*m5 + 2.0*m2*m3*m6 + 4.0*m2*m4*m5 + 2.0*m2*m4*m6 + 2.0*m2*m5**2 + 6.0*m2*m5*m6 + 1.0*m2*m6**2 + 2.0*m2 + 4.0*m3*m4*m5 + 4.0*m3*m5**2 + 4.0*m3*m5*m6 + 2.0*m3 + 4.0*m4*m5**2 + 4.0*m4*m5*m6 + 2.0*m4 + 1.33333333333333*m5**3 + 6.0*m5**2*m6 + 2.0*m5*m6**2 + 4.66666666666667*m5 + 3.0*m6",
+      "line_index_formula_scope": "full favourable 7914 ambient divisor variables m0..m6",
+      "line_slope_formula": "4.0*m0*t1*t2 + 4.0*m0*t1*t3 + 4.0*m0*t1*t4 + 8.0*m0*t1*t5 + 4.0*m0*t1*t6 + 4.0*m0*t2*t3 + 4.0*m0*t2*t4 + 8.0*m0*t2*t5 + 4.0*m0*t2*t6 + 8.0*m0*t3*t5 + 8.0*m0*t4*t5 + 8.0*m0*t5**2 + 8.0*m0*t5*t6 + 4.0*m1*t0*t2 + 4.0*m1*t0*t3 + 4.0*m1*t0*t4 + 8.0*m1*t0*t5 + 4.0*m1*t0*t6 + 4.0*m1*t2*t3 + 4.0*m1*t2*t4 + 4.0*m1*t2*t5 + 6.0*m1*t2*t6 + 4.0*m1*t3*t4 + 8.0*m1*t3*t5 + 4.0*m1*t3*t6 + 8.0*m1*t4*t5 + 4.0*m1*t4*t6 + 4.0*m1*t5**2 + 12.0*m1*t5*t6 + 2.0*m1*t6**2 + 4.0*m2*t0*t1 + 4.0*m2*t0*t3 + 4.0*m2*t0*t4 + 8.0*m2*t0*t5 + 4.0*m2*t0*t6 + 4.0*m2*t1*t3 + 4.0*m2*t1*t4 + 4.0*m2*t1*t5 + 6.0*m2*t1*t6 + 4.0*m2*t3*t4 + 8.0*m2*t3*t5 + 4.0*m2*t3*t6 + 8.0*m2*t4*t5 + 4.0*m2*t4*t6 + 4.0*m2*t5**2 + 12.0*m2*t5*t6 + 2.0*m2*t6**2 + 4.0*m3*t0*t1 + 4.0*m3*t0*t2 + 8.0*m3*t0*t5 + 4.0*m3*t1*t2 + 4.0*m3*t1*t4 + 8.0*m3*t1*t5 + 4.0*m3*t1*t6 + 4.0*m3*t2*t4 + 8.0*m3*t2*t5 + 4.0*m3*t2*t6 + 8.0*m3*t4*t5 + 8.0*m3*t5**2 + 8.0*m3*t5*t6 + 4.0*m4*t0*t1 + 4.0*m4*t0*t2 + 8.0*m4*t0*t5 + 4.0*m4*t1*t2 + 4.0*m4*t1*t3 + 8.0*m4*t1*t5 + 4.0*m4*t1*t6 + 4.0*m4*t2*t3 + 8.0*m4*t2*t5 + 4.0*m4*t2*t6 + 8.0*m4*t3*t5 + 8.0*m4*t5**2 + 8.0*m4*t5*t6 + 8.0*m5*t0*t1 + 8.0*m5*t0*t2 + 8.0*m5*t0*t3 + 8.0*m5*t0*t4 + 16.0*m5*t0*t5 + 8.0*m5*t0*t6 + 4.0*m5*t1*t2 + 8.0*m5*t1*t3 + 8.0*m5*t1*t4 + 8.0*m5*t1*t5 + 12.0*m5*t1*t6 + 8.0*m5*t2*t3 + 8.0*m5*t2*t4 + 8.0*m5*t2*t5 + 12.0*m5*t2*t6 + 8.0*m5*t3*t4 + 16.0*m5*t3*t5 + 8.0*m5*t3*t6 + 16.0*m5*t4*t5 + 8.0*m5*t4*t6 + 8.0*m5*t5**2 + 24.0*m5*t5*t6 + 4.0*m5*t6**2 + 4.0*m6*t0*t1 + 4.0*m6*t0*t2 + 8.0*m6*t0*t5 + 6.0*m6*t1*t2 + 4.0*m6*t1*t3 + 4.0*m6*t1*t4 + 12.0*m6*t1*t5 + 4.0*m6*t1*t6 + 4.0*m6*t2*t3 + 4.0*m6*t2*t4 + 12.0*m6*t2*t5 + 4.0*m6*t2*t6 + 8.0*m6*t3*t5 + 8.0*m6*t4*t5 + 12.0*m6*t5**2 + 8.0*m6*t5*t6",
+      "line_slope_formula_scope": "full favourable 7914 ambient Kahler variables t0..t6",
+      "second_chern": [
+        24,
+        24,
+        24,
+        24,
+        24,
+        56,
+        36
+      ],
+      "second_chern_matches_cicylist": true,
+      "triple_intersection_matches_helper": true
+    }
+  },
+  "gates": {
+    "explicit_ineffective_split_found": {
+      "evidence": "data/raw/cicylist.m Redun -> {5141, 5406, 7912, 7914, 7918}",
+      "note": "CICY 7914 contracts to CICY 5259 by merging columns 0,1,2 under the added P2 row",
+      "pass": true
+    },
+    "full_favourable_slope_gate": {
+      "evidence": "src/string_theory/slope.py on the CICY 7914 full favourable cone",
+      "note": "numerical slope-zero point found with all seven Kahler parameters positive",
+      "pass": true
+    },
+    "full_pycicy_cohomology_spectrum_gate": {
+      "evidence": "pyCICY cohomology on CICY 7914 zero-extended line bundles",
+      "note": "upstairs spectrum matches the 5259 scout and passes regular nontrivial summand checks",
+      "pass": true
+    },
+    "full_upstairs_topology_gates": {
+      "evidence": "CICY 7914 full favourable intersection tensor and C2",
+      "note": "zero-extended bundle has c1=0, index=-6, wedge2 index=-6, and effective anomaly in seven components",
+      "pass": true
+    },
+    "pycicy_full_topology_cross_check": {
+      "evidence": "pyCICY on CICY 7914 plus src/string_theory/cicy.py",
+      "note": "full favourable c2 and triple-intersection data cross-check",
+      "pass": true
+    },
+    "quotient_descent_still_blocked": {
+      "evidence": "data/raw/cicylist.m Num -> 7914 plus cohomology character boundary",
+      "note": "the split presentation has no recorded free action/equivariant character data, so Wilson-line descent is not certified",
+      "pass": true
+    },
+    "split_is_favourable_full_picard_basis": {
+      "evidence": "data/raw/cicylist.m Num -> 7914",
+      "note": "the redundant split presentation supplies seven ambient divisors for h11=7",
+      "pass": true
+    }
+  },
+  "ineffective_split_audit": {
+    "candidate_count": 5,
+    "interpretation": "The selected hit is the ordinary P2 split of the first CICY5259 column. Deleting the added P2 row and merging the three split columns exactly reconstructs the 5259 configuration.",
+    "one_step_hits": [
+      {
+        "candidate_eta": -48,
+        "candidate_favourable": true,
+        "candidate_hodge": [
+          7,
+          31
+        ],
+        "candidate_num": 7914,
+        "candidate_num_polynomials": 7,
+        "candidate_num_projective_factors": 7,
+        "canonical_reconstructs_target": true,
+        "contracted_columns_source": [
+          {
+            "kind": "merged_split_columns",
+            "source_columns": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "kind": "unchanged_column",
+            "source_column": 3
+          },
+          {
+            "kind": "unchanged_column",
+            "source_column": 4
+          },
+          {
+            "kind": "unchanged_column",
+            "source_column": 5
+          },
+          {
+            "kind": "unchanged_column",
+            "source_column": 6
+          }
+        ],
+        "contracted_conf": [
+          [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "exact_equivalence_to_cicy5259": {
+          "column_permutation_source_to_target": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "row_permutation_source_to_target": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "remaining_columns": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "split_columns": [
+          0,
+          1,
+          2
+        ],
+        "split_row_ambient_dimension": 2,
+        "split_row_index": 6
+      }
+    ],
+    "selected_hit": {
+      "candidate_eta": -48,
+      "candidate_favourable": true,
+      "candidate_hodge": [
+        7,
+        31
+      ],
+      "candidate_num": 7914,
+      "candidate_num_polynomials": 7,
+      "candidate_num_projective_factors": 7,
+      "canonical_reconstructs_target": true,
+      "contracted_columns_source": [
+        {
+          "kind": "merged_split_columns",
+          "source_columns": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "unchanged_column",
+          "source_column": 3
+        },
+        {
+          "kind": "unchanged_column",
+          "source_column": 4
+        },
+        {
+          "kind": "unchanged_column",
+          "source_column": 5
+        },
+        {
+          "kind": "unchanged_column",
+          "source_column": 6
+        }
+      ],
+      "contracted_conf": [
+        [
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "exact_equivalence_to_cicy5259": {
+        "column_permutation_source_to_target": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "row_permutation_source_to_target": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "remaining_columns": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "split_columns": [
+        0,
+        1,
+        2
+      ],
+      "split_row_ambient_dimension": 2,
+      "split_row_index": 6
+    }
+  },
+  "quotient_descent_boundary": {
+    "blocked_items": [
+      {
+        "item": "explicit lift of a selected 5259 free Z2 action to the 7914 split coordinates and split equations",
+        "why_needed": "the split added a P2 row and three replacement equations for one original equation"
+      },
+      {
+        "item": "7x7 action on the full Picard basis including J6",
+        "why_needed": "ambient-row triviality on the six 5259 rows does not determine the missing divisor direction"
+      },
+      {
+        "item": "equivariant line-bundle lift/fiber characters for the zero-extended summands",
+        "why_needed": "topological invariance is not the same as a chosen equivariant bundle structure"
+      },
+      {
+        "item": "cohomology character decomposition for V and wedge2 V",
+        "why_needed": "Wilson-line projection needs actual representations, not just dimensions and indices"
+      }
+    ],
+    "conditional_statement": "If one constructs a split-compatible free action and equivariant lift whose cohomology characters satisfy the order-two Wilson-line projection, this 7914 lift supplies the missing full Picard topology.",
+    "original_5259_free_symmetry_options": [
+      {
+        "all_generators_ambient_row_trivial": true,
+        "ambient_row_permutation_inference_failures": [],
+        "ambient_row_permutations_inferred": true,
+        "coordinate_generator_count": 1,
+        "generator_ambient_row_permutations": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "generator_count_declared": 1,
+        "option_index": 0,
+        "quotient_group_structure": [
+          2
+        ],
+        "quotient_order": 2
+      },
+      {
+        "all_generators_ambient_row_trivial": true,
+        "ambient_row_permutation_inference_failures": [],
+        "ambient_row_permutations_inferred": true,
+        "coordinate_generator_count": 1,
+        "generator_ambient_row_permutations": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "generator_count_declared": 1,
+        "option_index": 1,
+        "quotient_group_structure": [
+          2
+        ],
+        "quotient_order": 2
+      },
+      {
+        "all_generators_ambient_row_trivial": true,
+        "ambient_row_permutation_inference_failures": [],
+        "ambient_row_permutations_inferred": true,
+        "coordinate_generator_count": 1,
+        "generator_ambient_row_permutations": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "generator_count_declared": 1,
+        "option_index": 2,
+        "quotient_group_structure": [
+          2
+        ],
+        "quotient_order": 2
+      },
+      {
+        "all_generators_ambient_row_trivial": true,
+        "ambient_row_permutation_inference_failures": [],
+        "ambient_row_permutations_inferred": true,
+        "coordinate_generator_count": 1,
+        "generator_ambient_row_permutations": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "generator_count_declared": 1,
+        "option_index": 3,
+        "quotient_group_structure": [
+          2
+        ],
+        "quotient_order": 2
+      },
+      {
+        "all_generators_ambient_row_trivial": true,
+        "ambient_row_permutation_inference_failures": [],
+        "ambient_row_permutations_inferred": true,
+        "coordinate_generator_count": 1,
+        "generator_ambient_row_permutations": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "generator_count_declared": 1,
+        "option_index": 4,
+        "quotient_group_structure": [
+          2
+        ],
+        "quotient_order": 2
+      },
+      {
+        "all_generators_ambient_row_trivial": true,
+        "ambient_row_permutation_inference_failures": [],
+        "ambient_row_permutations_inferred": true,
+        "coordinate_generator_count": 1,
+        "generator_ambient_row_permutations": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "generator_count_declared": 1,
+        "option_index": 5,
+        "quotient_group_structure": [
+          2
+        ],
+        "quotient_order": 2
+      },
+      {
+        "all_generators_ambient_row_trivial": true,
+        "ambient_row_permutation_inference_failures": [],
+        "ambient_row_permutations_inferred": true,
+        "coordinate_generator_count": 1,
+        "generator_ambient_row_permutations": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "generator_count_declared": 1,
+        "option_index": 6,
+        "quotient_group_structure": [
+          2
+        ],
+        "quotient_order": 2
+      },
+      {
+        "all_generators_ambient_row_trivial": true,
+        "ambient_row_permutation_inference_failures": [],
+        "ambient_row_permutations_inferred": true,
+        "coordinate_generator_count": 1,
+        "generator_ambient_row_permutations": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "generator_count_declared": 1,
+        "option_index": 7,
+        "quotient_group_structure": [
+          2
+        ],
+        "quotient_order": 2
+      }
+    ],
+    "original_ambient_row_action_summary": {
+      "all_recorded_options_ambient_row_trivial": true,
+      "free_options_with_ambient_row_permutation_inference": 8
+    },
+    "split_presentation_symmetry_status": "unknown"
+  },
+  "redundant_presentations_in_cicylist": [
+    {
+      "c2": [
+        24,
+        24,
+        24,
+        24,
+        24,
+        56
+      ],
+      "conf": [
+        [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ]
+      ],
+      "eta": -48,
+      "favourable": false,
+      "free_symmetry_option_count": 4,
+      "h11": 7,
+      "h21": 31,
+      "num": 5141,
+      "num_polynomials": 7,
+      "num_projective_factors": 6,
+      "redun": [
+        5259,
+        5406,
+        7912,
+        7914,
+        7918
+      ],
+      "symmetry_status": "known_nonempty"
+    },
+    {
+      "c2": [
+        24,
+        24,
+        24,
+        24,
+        24,
+        56
+      ],
+      "conf": [
+        [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ]
+      ],
+      "eta": -48,
+      "favourable": false,
+      "free_symmetry_option_count": 4,
+      "h11": 7,
+      "h21": 31,
+      "num": 5406,
+      "num_polynomials": 6,
+      "num_projective_factors": 6,
+      "redun": [
+        5141,
+        5259,
+        7912,
+        7914,
+        7918
+      ],
+      "symmetry_status": "known_nonempty"
+    },
+    {
+      "c2": [
+        24,
+        24,
+        24,
+        24,
+        24,
+        56,
+        36
+      ],
+      "conf": [
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "eta": -48,
+      "favourable": true,
+      "free_symmetry_option_count": 0,
+      "h11": 7,
+      "h21": 31,
+      "num": 7912,
+      "num_polynomials": 9,
+      "num_projective_factors": 7,
+      "redun": [
+        5259,
+        5406,
+        5141,
+        7914,
+        7918
+      ],
+      "symmetry_status": "unknown"
+    },
+    {
+      "c2": [
+        24,
+        24,
+        24,
+        24,
+        24,
+        56,
+        36
+      ],
+      "conf": [
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "eta": -48,
+      "favourable": true,
+      "free_symmetry_option_count": 0,
+      "h11": 7,
+      "h21": 31,
+      "num": 7914,
+      "num_polynomials": 7,
+      "num_projective_factors": 7,
+      "redun": [
+        5141,
+        5406,
+        7912,
+        5259,
+        7918
+      ],
+      "symmetry_status": "unknown"
+    },
+    {
+      "c2": [
+        24,
+        24,
+        24,
+        24,
+        24,
+        56,
+        36
+      ],
+      "conf": [
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "eta": -48,
+      "favourable": true,
+      "free_symmetry_option_count": 0,
+      "h11": 7,
+      "h21": 31,
+      "num": 7918,
+      "num_polynomials": 8,
+      "num_projective_factors": 7,
+      "redun": [
+        5141,
+        5259,
+        7912,
+        7914,
+        5406
+      ],
+      "symmetry_status": "unknown"
+    }
+  ],
+  "route_assessment": {
+    "algebraic_geometric_derivation": {
+      "evidence": "the P2 split gives J6; deriving the free action on J6 and cohomology characters remains separate",
+      "status": "available_as_split_derivation_for_basis__not_available_for_equivariant_descent"
+    },
+    "configuration_equivalence": {
+      "evidence": "CICY5259 Redun includes 7914, and both have eta=-48 and Hodge numbers (7,31)",
+      "status": "success_for_full_upstairs_geometry"
+    },
+    "ineffective_splitting": {
+      "evidence": "CICY 7914 one-step P2 split contracts exactly to CICY 5259",
+      "status": "success_for_full_upstairs_geometry"
+    },
+    "known_quotient_literature_or_data": {
+      "evidence": "Oxford quotient data records 5259 free Z2 actions; the favourable split presentation has unknown symmetry status in cicylist.m and no local split-action character data.",
+      "status": "partial_only"
+    },
+    "picard_group_computation": {
+      "evidence": "the favourable 7914 presentation has NumPs=h11=7 and supplies a full ambient Picard basis",
+      "status": "not_needed_for_upstairs_after_split__still_needed_for_quotient_action_if_working_in_5259_basis"
+    }
+  },
+  "scope": "CICY5259 missing-divisor split-lift audit",
+  "tooling_boundary": {
+    "interpretation": "No external Picard/Chow computation system was available on PATH; the successful upstairs route used the explicit favourable split in cicylist.m instead.",
+    "symbolic_ag_tools_on_path": {
+      "M2": false,
+      "Singular": false,
+      "gap": false,
+      "macaulay2": false,
+      "sage": false
+    }
+  },
+  "zero_extended_bundle_certificate": {
+    "anomaly": [
+      10,
+      16,
+      4,
+      12,
+      16,
+      22,
+      19
+    ],
+    "anomaly_nonnegative": true,
+    "c1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "c2_v": [
+      14,
+      8,
+      20,
+      12,
+      8,
+      34,
+      17
+    ],
+    "cohomology": {
+      "V": [
+        0,
+        6,
+        0,
+        0
+      ],
+      "V_dual": [
+        0,
+        0,
+        6,
+        0
+      ],
+      "wedge2_V": [
+        0,
+        16,
+        10,
+        0
+      ],
+      "wedge2_V_dual": [
+        0,
+        10,
+        16,
+        0
+      ]
+    },
+    "expected_index_from_order_two_quotient": -6,
+    "index_v": -6,
+    "index_wedge2_v": -6,
+    "line_bundle_sum_quality": {
+      "h0_v": 0,
+      "h0_v_dual": 0,
+      "has_bundle_global_sections": false,
+      "has_trivial_summand": false,
+      "interpretation": "trivial summands/global sections are mathematically checkable but may imply enhanced structure group or gauge-sector caveats relative to regular SU(5) line-bundle scan assumptions",
+      "regular_nontrivial_summand_scan_style": true,
+      "trivial_summand_count": 0,
+      "trivial_summand_indices": []
+    },
+    "matrix_5259": [
+      [
+        0,
+        1,
+        0,
+        0,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        1,
+        0,
+        1
+      ],
+      [
+        -1,
+        1,
+        1,
+        -1,
+        0
+      ],
+      [
+        0,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        -1,
+        -1
+      ],
+      [
+        0,
+        -1,
+        0,
+        1,
+        0
+      ]
+    ],
+    "matrix_7914_zero_extended": [
+      [
+        0,
+        1,
+        0,
+        0,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        1,
+        0,
+        1
+      ],
+      [
+        -1,
+        1,
+        1,
+        -1,
+        0
+      ],
+      [
+        0,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        -1,
+        -1
+      ],
+      [
+        0,
+        -1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "slope_search": {
+      "feasible": true,
+      "iterations": 2251,
+      "kahler_point": [
+        0.003165139794811694,
+        0.0005033632969530597,
+        0.9842416120666273,
+        0.0029932014749903956,
+        0.0029932031938622395,
+        0.0038505086012597923,
+        0.0022529715714953037
+      ],
+      "kappa": [
+        0.06514303144868924,
+        0.06514302112359563,
+        0.0006825476239764009,
+        0.06582558943459003,
+        0.06582558261104013,
+        0.13233373346734564,
+        0.09392519653216796
+      ],
+      "max_abs_slope": 2.0687018001397384e-08,
+      "max_normalized_slope": 9.920049296258136e-08,
+      "mean_square_slope": 1.669692280752154e-16,
+      "normalized_mean_square_slope": 3.839443802740825e-15,
+      "restarts": 1,
+      "seed": 52597914,
+      "slopes": [
+        1.386346809573169e-08,
+        -3.4726454767319836e-09,
+        -2.0687018001397384e-08,
+        1.3797739090160022e-08,
+        -3.5015437077623446e-09
+      ]
+    },
+    "su5_upstairs_spectrum": {
+      "checks": {
+        "three_family_10_chirality": true,
+        "three_family_5bar_chirality": true
+      },
+      "diagnostics": {
+        "has_higgs_pair_candidate": true,
+        "no_anti_10": true
+      },
+      "expected_upstairs_chirality": 6,
+      "higgs_pair_candidates_upstairs": 10,
+      "net_10_chirality": 6,
+      "net_5bar_chirality": 6,
+      "upstairs_10": 6,
+      "upstairs_5": 10,
+      "upstairs_5bar": 16,
+      "upstairs_anti_10": 0
+    },
+    "symmetry_order_used_for_upstairs_chirality": 2
+  }
+}

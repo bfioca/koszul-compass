@@ -1,0 +1,46 @@
+{
+  "all_gates_pass": true,
+  "gates": {
+    "bounded_scan_counts": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_representative_obstruction_escape_report.json",
+      "note": "escape scan is bounded and traverses the materialized radius-9 records",
+      "pass": true
+    },
+    "builder_gates_pass": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_representative_obstruction_escape_report.json",
+      "note": "builder-side obstruction escape gates passed",
+      "pass": true
+    },
+    "closed_frontier_anatomy": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_representative_obstruction_escape_report.json",
+      "note": "closed character-shadow viable frontier is explained by four obstruction classes",
+      "pass": true
+    },
+    "expected_status": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_representative_obstruction_escape_report.json",
+      "note": "report classifies the current bottleneck as representative-realizability",
+      "pass": true
+    },
+    "markdown_reports_boundary": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_representative_obstruction_escape_report.md",
+      "note": "markdown exposes no-compatible result and unresolved boundary",
+      "pass": true
+    },
+    "no_compatible_escape_target": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_representative_obstruction_escape_report.json",
+      "note": "bounded escape scan found no representative-compatible target",
+      "pass": true
+    },
+    "operator_inventory_is_stable": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_representative_obstruction_escape_report.json",
+      "note": "triplet-only shadow operator inventory is stable",
+      "pass": true
+    },
+    "unresolved_escape_target_is_not_viable": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_representative_obstruction_escape_report.json",
+      "note": "single unresolved escape target is already blocked by non-representative gates",
+      "pass": true
+    }
+  },
+  "scope": "verification for radius-9 representative obstruction and escape report"
+}

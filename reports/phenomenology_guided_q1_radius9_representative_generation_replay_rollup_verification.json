@@ -1,0 +1,51 @@
+{
+  "all_gates_pass": true,
+  "gates": {
+    "branch18_regression": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_representative_generation_replay_rollup.json",
+      "note": "branch 18 shadow collision remains a generation-time prune",
+      "pass": true
+    },
+    "builder_gates_pass": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_representative_generation_replay_rollup.json",
+      "note": "builder-side representative generation replay gates passed",
+      "pass": true
+    },
+    "expected_status": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_representative_generation_replay_rollup.json",
+      "note": "report is the generation-time representative gate replay",
+      "pass": true
+    },
+    "five12_e2_regression": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_representative_generation_replay_rollup.json",
+      "note": "5_12 cup-dual E2 mismatch remains a generation-time prune",
+      "pass": true
+    },
+    "five23_kernel_regression": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_representative_generation_replay_rollup.json",
+      "note": "5bar_23 kernel mismatch remains a generation-time prune",
+      "pass": true
+    },
+    "markdown_reports_generation_boundary": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_representative_generation_replay_rollup.md",
+      "note": "markdown exposes zero promotion-ready candidate boundary",
+      "pass": true
+    },
+    "materialized_frontier_replayed": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_representative_generation_replay_rollup.json",
+      "note": "all materialized radius-9 q=1 source records are replayed",
+      "pass": true
+    },
+    "representative_stage_prunes_all_shadow_survivors": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_representative_generation_replay_rollup.json",
+      "note": "representative grammar gate blocks all current shadow survivors before promotion",
+      "pass": true
+    },
+    "selection_stage_counts_match_refined_frontier": {
+      "evidence": "reports/phenomenology_guided_q1_radius9_representative_generation_replay_rollup.json",
+      "note": "selection-rule replay reproduces the corrected character-refined frontier",
+      "pass": true
+    }
+  },
+  "scope": "verification for radius-9 representative-gated generation replay"
+}
