@@ -1,0 +1,3559 @@
+{
+  "all_gates_pass": true,
+  "candidate_identity": {
+    "label": "radius6_broad_adjacency_filtered_10_branch_50",
+    "matrix": [
+      [
+        0,
+        0,
+        1,
+        0,
+        -1
+      ],
+      [
+        0,
+        0,
+        0,
+        -1,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        -2,
+        0
+      ],
+      [
+        -1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        -1,
+        1,
+        -1
+      ],
+      [
+        0,
+        -1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        -1,
+        0,
+        0
+      ]
+    ],
+    "route": "5259/7914",
+    "source": {
+      "kind": "bounded_branch",
+      "path": "/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window7.json",
+      "window": 7
+    },
+    "spectrum_certificate": {
+      "cohomology": {
+        "V": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "V_dual": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "wedge2_V": [
+          0,
+          8,
+          2,
+          0
+        ],
+        "wedge2_V_dual": [
+          0,
+          2,
+          8,
+          0
+        ]
+      },
+      "desired_q1_three_family_signature": true,
+      "vectorlike_prediction": {
+        "colored_triplet_vectorlike_pairs": 1,
+        "electroweak_doublet_vectorlike_pairs": 1,
+        "h1_wedge2_regular_multiplicity": 4,
+        "h2_wedge2_regular_multiplicity": 1,
+        "net_families": 3,
+        "regular_character_rule_applies": true
+      }
+    },
+    "weight": 1
+  },
+  "cohomology_legs": [
+    {
+      "character": {
+        "dimension": 2,
+        "multiplicities": {
+          "+": 1,
+          "-": 1
+        },
+        "nonidentity_trace": 0,
+        "regular_multiplicity": 1
+      },
+      "character_method": "single_total_degree_source_equals_pycicy_dimension",
+      "charge": {
+        "coefficients": [
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "label": "e0+e2"
+      },
+      "cohomology": [
+        0,
+        2,
+        0,
+        0
+      ],
+      "cohomology_degree_used": 1,
+      "label": "5bar_02",
+      "line_bundle": [
+        1,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        -1
+      ],
+      "representative": {
+        "computed_signature": "+1/-1",
+        "requested_signature": "+1/-1",
+        "status": "representative_compatible"
+      },
+      "role": "physical_5bar_H1_wedge2_V"
+    },
+    {
+      "character": {
+        "dimension": 1,
+        "multiplicities": {
+          "+": 1,
+          "-": 0
+        },
+        "nonidentity_trace": 1,
+        "regular_multiplicity": null
+      },
+      "character_method": "radius5_dimension_compatible_branch_completion",
+      "charge": {
+        "coefficients": [
+          0,
+          0,
+          0,
+          -1,
+          -1
+        ],
+        "label": "-e3-e4"
+      },
+      "cohomology": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "cohomology_degree_used": 1,
+      "label": "5_34",
+      "line_bundle": [
+        1,
+        0,
+        2,
+        0,
+        0,
+        -1,
+        0
+      ],
+      "representative": {
+        "computed_signature": "+1/-0",
+        "reason": "explicit equivariant first-page kernel character matches branch actual",
+        "requested_signature": "+1/-0",
+        "status": "representative_compatible"
+      },
+      "role": "cup_dual_5_H1_wedge2_V_dual"
+    },
+    {
+      "character": {
+        "dimension": 12,
+        "multiplicities": {
+          "+": 6,
+          "-": 6
+        },
+        "nonidentity_trace": 0,
+        "regular_multiplicity": 6
+      },
+      "character_method": "single_total_degree_source_equals_pycicy_dimension",
+      "charge": {
+        "coefficients": [
+          0,
+          0,
+          -1,
+          1,
+          0
+        ],
+        "label": "e3-e2"
+      },
+      "cohomology": [
+        0,
+        12,
+        0,
+        0
+      ],
+      "cohomology_degree_used": 1,
+      "label": "e3-e2",
+      "line_bundle": [
+        -1,
+        -1,
+        -3,
+        0,
+        2,
+        1,
+        1
+      ],
+      "representative": {
+        "computed_signature": "+6/-6",
+        "reason": "single total-degree E1 source equals the cohomology dimension",
+        "requested_signature": "+6/-6",
+        "singlet": "e3-e2",
+        "status": "representative_compatible"
+      },
+      "role": "h1_singlet_insertion"
+    },
+    {
+      "character": {
+        "dimension": 4,
+        "multiplicities": {
+          "+": 2,
+          "-": 2
+        },
+        "nonidentity_trace": 0,
+        "regular_multiplicity": 2
+      },
+      "character_method": "single_total_degree_source_equals_pycicy_dimension",
+      "charge": {
+        "coefficients": [
+          -1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "label": "e4-e0"
+      },
+      "cohomology": [
+        0,
+        4,
+        0,
+        0
+      ],
+      "cohomology_degree_used": 1,
+      "label": "e4-e0",
+      "line_bundle": [
+        -1,
+        1,
+        0,
+        1,
+        -2,
+        0,
+        0
+      ],
+      "representative": {
+        "computed_signature": "+2/-2",
+        "reason": "single total-degree E1 source equals the cohomology dimension",
+        "requested_signature": "+2/-2",
+        "singlet": "e4-e0",
+        "status": "representative_compatible"
+      },
+      "role": "h1_singlet_insertion"
+    }
+  ],
+  "dangerous_operator_table": {
+    "allowed_by_current_selection_rules": 0,
+    "forbidden_by_current_selection_rules": 20,
+    "operators": [
+      {
+        "charge": {
+          "coefficients": [
+            2,
+            0,
+            3,
+            0,
+            0
+          ],
+          "label": "2e0+3e2"
+        },
+        "forbidden_by_current_selection_rules": true,
+        "neutral_under_S_U1_5": false,
+        "operator": "10_2*5bar_02*5bar_02",
+        "z2_comment": "all participating sectors have regular Z2 character content, so an even-character component is not excluded"
+      },
+      {
+        "charge": {
+          "coefficients": [
+            1,
+            1,
+            3,
+            0,
+            0
+          ],
+          "label": "e0+e1+3e2"
+        },
+        "forbidden_by_current_selection_rules": true,
+        "neutral_under_S_U1_5": false,
+        "operator": "10_2*5bar_02*5bar_12",
+        "z2_comment": "all participating sectors have regular Z2 character content, so an even-character component is not excluded"
+      },
+      {
+        "charge": {
+          "coefficients": [
+            1,
+            1,
+            2,
+            1,
+            0
+          ],
+          "label": "e0+e1+2e2+e3"
+        },
+        "forbidden_by_current_selection_rules": true,
+        "neutral_under_S_U1_5": false,
+        "operator": "10_2*5bar_02*5bar_13",
+        "z2_comment": "all participating sectors have regular Z2 character content, so an even-character component is not excluded"
+      },
+      {
+        "charge": {
+          "coefficients": [
+            1,
+            0,
+            2,
+            1,
+            1
+          ],
+          "label": "e0+2e2+e3+e4"
+        },
+        "forbidden_by_current_selection_rules": true,
+        "neutral_under_S_U1_5": false,
+        "operator": "10_2*5bar_02*5bar_34",
+        "z2_comment": "all participating sectors have regular Z2 character content, so an even-character component is not excluded"
+      },
+      {
+        "charge": {
+          "coefficients": [
+            0,
+            2,
+            3,
+            0,
+            0
+          ],
+          "label": "2e1+3e2"
+        },
+        "forbidden_by_current_selection_rules": true,
+        "neutral_under_S_U1_5": false,
+        "operator": "10_2*5bar_12*5bar_12",
+        "z2_comment": "all participating sectors have regular Z2 character content, so an even-character component is not excluded"
+      },
+      {
+        "charge": {
+          "coefficients": [
+            0,
+            2,
+            2,
+            1,
+            0
+          ],
+          "label": "2e1+2e2+e3"
+        },
+        "forbidden_by_current_selection_rules": true,
+        "neutral_under_S_U1_5": false,
+        "operator": "10_2*5bar_12*5bar_13",
+        "z2_comment": "all participating sectors have regular Z2 character content, so an even-character component is not excluded"
+      },
+      {
+        "charge": {
+          "coefficients": [
+            0,
+            1,
+            2,
+            1,
+            1
+          ],
+          "label": "e1+2e2+e3+e4"
+        },
+        "forbidden_by_current_selection_rules": true,
+        "neutral_under_S_U1_5": false,
+        "operator": "10_2*5bar_12*5bar_34",
+        "z2_comment": "all participating sectors have regular Z2 character content, so an even-character component is not excluded"
+      },
+      {
+        "charge": {
+          "coefficients": [
+            0,
+            2,
+            1,
+            2,
+            0
+          ],
+          "label": "2e1+e2+2e3"
+        },
+        "forbidden_by_current_selection_rules": true,
+        "neutral_under_S_U1_5": false,
+        "operator": "10_2*5bar_13*5bar_13",
+        "z2_comment": "all participating sectors have regular Z2 character content, so an even-character component is not excluded"
+      },
+      {
+        "charge": {
+          "coefficients": [
+            0,
+            1,
+            1,
+            2,
+            1
+          ],
+          "label": "e1+e2+2e3+e4"
+        },
+        "forbidden_by_current_selection_rules": true,
+        "neutral_under_S_U1_5": false,
+        "operator": "10_2*5bar_13*5bar_34",
+        "z2_comment": "all participating sectors have regular Z2 character content, so an even-character component is not excluded"
+      },
+      {
+        "charge": {
+          "coefficients": [
+            0,
+            0,
+            1,
+            2,
+            2
+          ],
+          "label": "e2+2e3+2e4"
+        },
+        "forbidden_by_current_selection_rules": true,
+        "neutral_under_S_U1_5": false,
+        "operator": "10_2*5bar_34*5bar_34",
+        "z2_comment": "all participating sectors have regular Z2 character content, so an even-character component is not excluded"
+      },
+      {
+        "charge": {
+          "coefficients": [
+            2,
+            0,
+            2,
+            1,
+            0
+          ],
+          "label": "2e0+2e2+e3"
+        },
+        "forbidden_by_current_selection_rules": true,
+        "neutral_under_S_U1_5": false,
+        "operator": "10_3*5bar_02*5bar_02",
+        "z2_comment": "all participating sectors have regular Z2 character content, so an even-character component is not excluded"
+      },
+      {
+        "charge": {
+          "coefficients": [
+            1,
+            1,
+            2,
+            1,
+            0
+          ],
+          "label": "e0+e1+2e2+e3"
+        },
+        "forbidden_by_current_selection_rules": true,
+        "neutral_under_S_U1_5": false,
+        "operator": "10_3*5bar_02*5bar_12",
+        "z2_comment": "all participating sectors have regular Z2 character content, so an even-character component is not excluded"
+      },
+      {
+        "charge": {
+          "coefficients": [
+            1,
+            1,
+            1,
+            2,
+            0
+          ],
+          "label": "e0+e1+e2+2e3"
+        },
+        "forbidden_by_current_selection_rules": true,
+        "neutral_under_S_U1_5": false,
+        "operator": "10_3*5bar_02*5bar_13",
+        "z2_comment": "all participating sectors have regular Z2 character content, so an even-character component is not excluded"
+      },
+      {
+        "charge": {
+          "coefficients": [
+            1,
+            0,
+            1,
+            2,
+            1
+          ],
+          "label": "e0+e2+2e3+e4"
+        },
+        "forbidden_by_current_selection_rules": true,
+        "neutral_under_S_U1_5": false,
+        "operator": "10_3*5bar_02*5bar_34",
+        "z2_comment": "all participating sectors have regular Z2 character content, so an even-character component is not excluded"
+      },
+      {
+        "charge": {
+          "coefficients": [
+            0,
+            2,
+            2,
+            1,
+            0
+          ],
+          "label": "2e1+2e2+e3"
+        },
+        "forbidden_by_current_selection_rules": true,
+        "neutral_under_S_U1_5": false,
+        "operator": "10_3*5bar_12*5bar_12",
+        "z2_comment": "all participating sectors have regular Z2 character content, so an even-character component is not excluded"
+      },
+      {
+        "charge": {
+          "coefficients": [
+            0,
+            2,
+            1,
+            2,
+            0
+          ],
+          "label": "2e1+e2+2e3"
+        },
+        "forbidden_by_current_selection_rules": true,
+        "neutral_under_S_U1_5": false,
+        "operator": "10_3*5bar_12*5bar_13",
+        "z2_comment": "all participating sectors have regular Z2 character content, so an even-character component is not excluded"
+      },
+      {
+        "charge": {
+          "coefficients": [
+            0,
+            1,
+            1,
+            2,
+            1
+          ],
+          "label": "e1+e2+2e3+e4"
+        },
+        "forbidden_by_current_selection_rules": true,
+        "neutral_under_S_U1_5": false,
+        "operator": "10_3*5bar_12*5bar_34",
+        "z2_comment": "all participating sectors have regular Z2 character content, so an even-character component is not excluded"
+      },
+      {
+        "charge": {
+          "coefficients": [
+            0,
+            2,
+            0,
+            3,
+            0
+          ],
+          "label": "2e1+3e3"
+        },
+        "forbidden_by_current_selection_rules": true,
+        "neutral_under_S_U1_5": false,
+        "operator": "10_3*5bar_13*5bar_13",
+        "z2_comment": "all participating sectors have regular Z2 character content, so an even-character component is not excluded"
+      },
+      {
+        "charge": {
+          "coefficients": [
+            0,
+            1,
+            0,
+            3,
+            1
+          ],
+          "label": "e1+3e3+e4"
+        },
+        "forbidden_by_current_selection_rules": true,
+        "neutral_under_S_U1_5": false,
+        "operator": "10_3*5bar_13*5bar_34",
+        "z2_comment": "all participating sectors have regular Z2 character content, so an even-character component is not excluded"
+      },
+      {
+        "charge": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            3,
+            2
+          ],
+          "label": "3e3+2e4"
+        },
+        "forbidden_by_current_selection_rules": true,
+        "neutral_under_S_U1_5": false,
+        "operator": "10_3*5bar_34*5bar_34",
+        "z2_comment": "all participating sectors have regular Z2 character content, so an even-character component is not excluded"
+      }
+    ],
+    "total_checked": 20
+  },
+  "frontier_context": {
+    "higher_degree_candidate_count": 136,
+    "higher_degree_summary": {
+      "candidate_compatible_monomial_degrees_rows": {
+        "2": 120,
+        "3": 16
+      },
+      "candidate_compatible_monomial_degrees_weight": {
+        "2": 120,
+        "3": 16
+      },
+      "candidate_status_rows": {
+        "has_higher_monoid_representative_candidate": 88,
+        "has_triplet_only_higher_monoid_but_downstream_obstructed": 156,
+        "higher_monoid_forces_doublet_support": 1479,
+        "higher_monoid_has_invariant_singlets_but_no_triplet_support": 3,
+        "no_invariant_higher_monoid_intersection": 2274,
+        "no_representative_compatible_physical_5bar": 65
+      },
+      "candidate_status_weight": {
+        "has_higher_monoid_representative_candidate": 88,
+        "has_triplet_only_higher_monoid_but_downstream_obstructed": 156,
+        "higher_monoid_forces_doublet_support": 3683,
+        "higher_monoid_has_invariant_singlets_but_no_triplet_support": 378,
+        "no_invariant_higher_monoid_intersection": 19595,
+        "no_representative_compatible_physical_5bar": 525138
+      },
+      "higher_degree_forced_operator_records": 10004,
+      "higher_degree_forced_operator_weight": 38813,
+      "higher_monoid_representative_candidate_records": 136,
+      "higher_monoid_representative_candidate_weight": 136,
+      "max_singlet_monoid_degree": 3,
+      "operator_status_rows": {
+        "higher_monoid_doublet_support_obstruction": 1969,
+        "higher_monoid_no_triplet_component_support": 99,
+        "higher_monoid_representative_compatible_candidate": 136,
+        "higher_monoid_triplet_only_but_proton_unprotected": 68,
+        "higher_monoid_triplet_only_proton_safe_but_cup_5_unrealizable": 136,
+        "no_invariant_monoid_le_bound": 7596
+      },
+      "operator_status_weight": {
+        "higher_monoid_doublet_support_obstruction": 4173,
+        "higher_monoid_no_triplet_component_support": 474,
+        "higher_monoid_representative_compatible_candidate": 136,
+        "higher_monoid_triplet_only_but_proton_unprotected": 68,
+        "higher_monoid_triplet_only_proton_safe_but_cup_5_unrealizable": 136,
+        "no_invariant_monoid_le_bound": 33826
+      },
+      "records_scanned": 4065,
+      "representative_compatible_physical_5bar_template_rows": 9215,
+      "representative_compatible_physical_5bar_template_weight": 33215,
+      "represented_q1_weight": 549038,
+      "simple_cy3_cubic_top_cup_eligible_records": 0,
+      "support_class_rows": {
+        "higher_monoid_doublet_only_mass": 360,
+        "higher_monoid_no_surviving_component_mass": 99,
+        "higher_monoid_triplet_and_doublet_mass": 1609,
+        "higher_monoid_triplet_only_mass": 340,
+        "no_invariant_monoid_le_bound": 7596
+      },
+      "support_class_weight": {
+        "higher_monoid_doublet_only_mass": 360,
+        "higher_monoid_no_surviving_component_mass": 474,
+        "higher_monoid_triplet_and_doublet_mass": 3813,
+        "higher_monoid_triplet_only_mass": 340,
+        "no_invariant_monoid_le_bound": 33826
+      },
+      "windows_closed": 45
+    },
+    "lead_rank_among_higher_degree_candidates": 1
+  },
+  "gates": {
+    "charge_and_line_bundle_neutrality_hold": {
+      "evidence": "{'charge': [0, 0, 0, 0, 0], 'line': [0, 0, 0, 0, 0, 0, 0]}",
+      "note": "degree-2 singlet monoid neutralizes both SU(5) charge vector and 7914 line-bundle class",
+      "pass": true
+    },
+    "frozen_lead_identity_is_stable": {
+      "evidence": "radius6_broad_adjacency_filtered_10_branch_50",
+      "note": "first higher-degree lead identity, operator, monomial, source, and weight match",
+      "pass": true
+    },
+    "ordinary_cubic_cup_not_overclaimed": {
+      "evidence": "ordinary cup degree audit",
+      "note": "the dossier keeps the lead at higher-order pending status, not cubic cup-product rank status",
+      "pass": true
+    },
+    "q1_spectrum_is_reconstructed": {
+      "evidence": "source candidate spectrum_certificate",
+      "note": "source record reconstructs the q=1 three-family plus one vectorlike pair signature",
+      "pass": true
+    },
+    "representative_stack_is_compatible": {
+      "evidence": "lead representative stack",
+      "note": "physical 5bar, cup 5, and singlet factors have representative-compatible characters",
+      "pass": true
+    },
+    "starts_from_verified_higher_degree_search": {
+      "evidence": "/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_higher_degree_intersection_search.json + /Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_higher_degree_intersection_search_verification.json",
+      "note": "dossier imports the verified higher-degree intersection search",
+      "pass": true
+    },
+    "triplet_only_and_proton_safe_selection_stack": {
+      "evidence": "{'candidate_label': 'radius6_broad_adjacency_filtered_10_branch_50', 'charge_neutral_hit_count': 6, 'charge_neutral_hit_degrees': {'2': 1, '3': 5}, 'compatible_monomial_hit_count': 1, 'compatible_monomial_hit_degrees': {'2': 1}, 'doublet_pair_support': 0, 'first_singlet_representatives': [{'computed_signature': '+6/-6', 'reason': 'single total-degree E1 source equals the cohomology dimension', 'requested_signature': '+6/-6', 'singlet': 'e3-e2', 'status': 'representative_compatible'}, {'computed_signature': '+2/-2', 'reason': 'single total-degree E1 source equals the cohomology dimension', 'requested_signature': '+2/-2', 'singlet': 'e4-e0', 'status': 'representative_compatible'}], 'five': '5_34', 'five_cup_representative': {'computed_signature': '+1/-0', 'reason': 'explicit equivariant first-page kernel character matches branch actual', 'requested_signature': '+1/-0', 'status': 'representative_compatible'}, 'fivebar': '5bar_02', 'fivebar_representative': {'computed_signature': '+1/-1', 'requested_signature': '+1/-1', 'status': 'representative_compatible'}, 'higher_monoid_support_class': 'higher_monoid_triplet_only_mass', 'higher_order_mass_map_pending': True, 'invariant_hit_count': 1, 'invariant_hit_degrees': {'2': 1}, 'operator': '5bar_02*5_34', 'proton_allowed_count': 0, 'sample_compatible_monomial_hits': [{'charge': {'coefficients': [-1, 0, -1, 1, 1], 'label': '-e0-e2+e3+e4'}, 'degree': 2, 'labels': ['e3-e2', 'e4-e0'], 'z2_product_support': {'even_component_count': 24, 'has_even_component': True, 'labels': ['e3-e2', 'e4-e0'], 'missing_singlet_character_labels': [], 'odd_component_count': 24}}], 'sample_invariant_hits': [{'charge': {'coefficients': [-1, 0, -1, 1, 1], 'label': '-e0-e2+e3+e4'}, 'degree': 2, 'labels': ['e3-e2', 'e4-e0'], 'z2_product_support': {'even_component_count': 24, 'has_even_component': True, 'labels': ['e3-e2', 'e4-e0'], 'missing_singlet_character_labels': [], 'odd_component_count': 24}}], 'simple_cy3_cubic_top_cup_eligible': False, 'source': {'kind': 'bounded_branch', 'path': '/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window7.json', 'window': 7}, 'status': 'higher_monoid_representative_compatible_candidate', 'triplet_pair_support': 1, 'weight': 1}",
+      "note": "current selection rules give triplet-only support and forbid every listed dangerous proton operator",
+      "pass": true
+    }
+  },
+  "higher_order_mass_map_frontier": {
+    "doublet_mass_block": {
+      "matrix_dimensions_after_fixed_singlet_vevs": [
+        1,
+        0
+      ],
+      "rank_needed_to_preserve_light_doublet_pair": 0,
+      "rank_status": "selection_rule_forces_zero_for_this_operator",
+      "selection_rule_shape": [
+        1,
+        0
+      ]
+    },
+    "field_count": 4,
+    "higher_order_question": "Compute the effective quartic/Yoneda-Massey/A-infinity mass tensor with singlet vevs in H1(e3-e2) and H1(e4-e0), then project the triplet and doublet Wilson-line component blocks.",
+    "minimal_engine_requirements": [
+      "construct equivariant Koszul/Cech representatives for the four H1 legs",
+      "implement multiplication plus homotopy/projection in the Koszul total complex",
+      "evaluate the order-4 effective product or equivalent Massey/Yoneda representative",
+      "insert singlet vev directions in the even invariant component of H1(e3-e2) x H1(e4-e0)",
+      "compute the resulting 1x1 triplet block and confirm the doublet block remains zero"
+    ],
+    "monomial": [
+      "e3-e2",
+      "e4-e0"
+    ],
+    "operator": "5bar_02*5_34",
+    "ordinary_cup_reason": "Four H1 factors would land in H4(O_X) under the ordinary cup product, while a CY3 superpotential integral is controlled by H3(O_X).",
+    "ordinary_cup_status": "not_a_simple_CY3_cubic_top_product",
+    "ordinary_h1_degree_sum": 4,
+    "triplet_mass_block": {
+      "matrix_dimensions_after_fixed_singlet_vevs": [
+        1,
+        1
+      ],
+      "rank_needed_to_lift_colored_triplet_pair": 1,
+      "rank_status": "pending_higher_order_mass_map",
+      "selection_rule_shape": [
+        "+1/-1",
+        "+1/-0"
+      ]
+    }
+  },
+  "operator_certificate": {
+    "bilinear_charge": {
+      "coefficients": [
+        1,
+        0,
+        1,
+        -1,
+        -1
+      ],
+      "label": "e0+e2-e3-e4"
+    },
+    "bilinear_line_bundle_sum": [
+      2,
+      0,
+      3,
+      -1,
+      0,
+      -1,
+      -1
+    ],
+    "doublet_pair_support": 0,
+    "five": "5_34",
+    "fivebar": "5bar_02",
+    "monomial": [
+      "e3-e2",
+      "e4-e0"
+    ],
+    "monomial_charge": {
+      "coefficients": [
+        -1,
+        0,
+        -1,
+        1,
+        1
+      ],
+      "label": "-e0-e2+e3+e4"
+    },
+    "needed_singlet_charge": {
+      "coefficients": [
+        -1,
+        0,
+        -1,
+        1,
+        1
+      ],
+      "label": "-e0-e2+e3+e4"
+    },
+    "operator": "5bar_02*5_34",
+    "proton_allowed_count": 0,
+    "singlet_line_bundle_sum": [
+      -2,
+      0,
+      -3,
+      1,
+      0,
+      1,
+      1
+    ],
+    "total_charge": {
+      "coefficients": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "label": "0"
+    },
+    "total_line_bundle_sum": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "triplet_pair_support": 1,
+    "z2_product_support": {
+      "even_component_count": 24,
+      "has_even_component": true,
+      "labels": [
+        "e3-e2",
+        "e4-e0"
+      ],
+      "missing_singlet_character_labels": [],
+      "odd_component_count": 24
+    }
+  },
+  "ordinary_product_proxy": {
+    "O_X_cohomology": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "interpretation": "ordinary products show nonzero H2 bilinear terrain but no direct length-3 H3 prefix; the required test is therefore a genuine higher-order/effective product calculation, not a cubic shortcut",
+    "prefix_cohomology_scan": {
+      "all_length_three_prefixes_have_zero_H3": true,
+      "all_orderings_end_in_H4_outside_CY3": true,
+      "ordering_records": [
+        {
+          "ordering": [
+            "5bar_02",
+            "5_34",
+            "e3-e2",
+            "e4-e0"
+          ],
+          "prefixes": [
+            {
+              "labels": [
+                "5bar_02"
+              ],
+              "length": 1,
+              "line_bundle_sum": [
+                1,
+                0,
+                1,
+                -1,
+                0,
+                0,
+                -1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                2,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 2,
+              "ordinary_target_group": "H1"
+            },
+            {
+              "labels": [
+                "5bar_02",
+                "5_34"
+              ],
+              "length": 2,
+              "line_bundle_sum": [
+                2,
+                0,
+                3,
+                -1,
+                0,
+                -1,
+                -1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                2,
+                6,
+                0
+              ],
+              "ordinary_target_dimension": 6,
+              "ordinary_target_group": "H2"
+            },
+            {
+              "labels": [
+                "5bar_02",
+                "5_34",
+                "e3-e2"
+              ],
+              "length": 3,
+              "line_bundle_sum": [
+                1,
+                -1,
+                0,
+                -1,
+                2,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                4,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H3"
+            },
+            {
+              "labels": [
+                "5bar_02",
+                "5_34",
+                "e3-e2",
+                "e4-e0"
+              ],
+              "length": 4,
+              "line_bundle_sum": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": null,
+              "ordinary_target_dimension": null,
+              "ordinary_target_group": "H4(outside_CY3_range)"
+            }
+          ]
+        },
+        {
+          "ordering": [
+            "5bar_02",
+            "5_34",
+            "e4-e0",
+            "e3-e2"
+          ],
+          "prefixes": [
+            {
+              "labels": [
+                "5bar_02"
+              ],
+              "length": 1,
+              "line_bundle_sum": [
+                1,
+                0,
+                1,
+                -1,
+                0,
+                0,
+                -1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                2,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 2,
+              "ordinary_target_group": "H1"
+            },
+            {
+              "labels": [
+                "5bar_02",
+                "5_34"
+              ],
+              "length": 2,
+              "line_bundle_sum": [
+                2,
+                0,
+                3,
+                -1,
+                0,
+                -1,
+                -1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                2,
+                6,
+                0
+              ],
+              "ordinary_target_dimension": 6,
+              "ordinary_target_group": "H2"
+            },
+            {
+              "labels": [
+                "5bar_02",
+                "5_34",
+                "e4-e0"
+              ],
+              "length": 3,
+              "line_bundle_sum": [
+                1,
+                1,
+                3,
+                0,
+                -2,
+                -1,
+                -1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                12,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H3"
+            },
+            {
+              "labels": [
+                "5bar_02",
+                "5_34",
+                "e4-e0",
+                "e3-e2"
+              ],
+              "length": 4,
+              "line_bundle_sum": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": null,
+              "ordinary_target_dimension": null,
+              "ordinary_target_group": "H4(outside_CY3_range)"
+            }
+          ]
+        },
+        {
+          "ordering": [
+            "5bar_02",
+            "e3-e2",
+            "5_34",
+            "e4-e0"
+          ],
+          "prefixes": [
+            {
+              "labels": [
+                "5bar_02"
+              ],
+              "length": 1,
+              "line_bundle_sum": [
+                1,
+                0,
+                1,
+                -1,
+                0,
+                0,
+                -1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                2,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 2,
+              "ordinary_target_group": "H1"
+            },
+            {
+              "labels": [
+                "5bar_02",
+                "e3-e2"
+              ],
+              "length": 2,
+              "line_bundle_sum": [
+                0,
+                -1,
+                -2,
+                -1,
+                2,
+                1,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H2"
+            },
+            {
+              "labels": [
+                "5bar_02",
+                "e3-e2",
+                "5_34"
+              ],
+              "length": 3,
+              "line_bundle_sum": [
+                1,
+                -1,
+                0,
+                -1,
+                2,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                4,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H3"
+            },
+            {
+              "labels": [
+                "5bar_02",
+                "e3-e2",
+                "5_34",
+                "e4-e0"
+              ],
+              "length": 4,
+              "line_bundle_sum": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": null,
+              "ordinary_target_dimension": null,
+              "ordinary_target_group": "H4(outside_CY3_range)"
+            }
+          ]
+        },
+        {
+          "ordering": [
+            "5bar_02",
+            "e3-e2",
+            "e4-e0",
+            "5_34"
+          ],
+          "prefixes": [
+            {
+              "labels": [
+                "5bar_02"
+              ],
+              "length": 1,
+              "line_bundle_sum": [
+                1,
+                0,
+                1,
+                -1,
+                0,
+                0,
+                -1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                2,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 2,
+              "ordinary_target_group": "H1"
+            },
+            {
+              "labels": [
+                "5bar_02",
+                "e3-e2"
+              ],
+              "length": 2,
+              "line_bundle_sum": [
+                0,
+                -1,
+                -2,
+                -1,
+                2,
+                1,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H2"
+            },
+            {
+              "labels": [
+                "5bar_02",
+                "e3-e2",
+                "e4-e0"
+              ],
+              "length": 3,
+              "line_bundle_sum": [
+                -1,
+                0,
+                -2,
+                0,
+                0,
+                1,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                1,
+                1,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H3"
+            },
+            {
+              "labels": [
+                "5bar_02",
+                "e3-e2",
+                "e4-e0",
+                "5_34"
+              ],
+              "length": 4,
+              "line_bundle_sum": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": null,
+              "ordinary_target_dimension": null,
+              "ordinary_target_group": "H4(outside_CY3_range)"
+            }
+          ]
+        },
+        {
+          "ordering": [
+            "5bar_02",
+            "e4-e0",
+            "5_34",
+            "e3-e2"
+          ],
+          "prefixes": [
+            {
+              "labels": [
+                "5bar_02"
+              ],
+              "length": 1,
+              "line_bundle_sum": [
+                1,
+                0,
+                1,
+                -1,
+                0,
+                0,
+                -1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                2,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 2,
+              "ordinary_target_group": "H1"
+            },
+            {
+              "labels": [
+                "5bar_02",
+                "e4-e0"
+              ],
+              "length": 2,
+              "line_bundle_sum": [
+                0,
+                1,
+                1,
+                0,
+                -2,
+                0,
+                -1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H2"
+            },
+            {
+              "labels": [
+                "5bar_02",
+                "e4-e0",
+                "5_34"
+              ],
+              "length": 3,
+              "line_bundle_sum": [
+                1,
+                1,
+                3,
+                0,
+                -2,
+                -1,
+                -1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                12,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H3"
+            },
+            {
+              "labels": [
+                "5bar_02",
+                "e4-e0",
+                "5_34",
+                "e3-e2"
+              ],
+              "length": 4,
+              "line_bundle_sum": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": null,
+              "ordinary_target_dimension": null,
+              "ordinary_target_group": "H4(outside_CY3_range)"
+            }
+          ]
+        },
+        {
+          "ordering": [
+            "5bar_02",
+            "e4-e0",
+            "e3-e2",
+            "5_34"
+          ],
+          "prefixes": [
+            {
+              "labels": [
+                "5bar_02"
+              ],
+              "length": 1,
+              "line_bundle_sum": [
+                1,
+                0,
+                1,
+                -1,
+                0,
+                0,
+                -1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                2,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 2,
+              "ordinary_target_group": "H1"
+            },
+            {
+              "labels": [
+                "5bar_02",
+                "e4-e0"
+              ],
+              "length": 2,
+              "line_bundle_sum": [
+                0,
+                1,
+                1,
+                0,
+                -2,
+                0,
+                -1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H2"
+            },
+            {
+              "labels": [
+                "5bar_02",
+                "e4-e0",
+                "e3-e2"
+              ],
+              "length": 3,
+              "line_bundle_sum": [
+                -1,
+                0,
+                -2,
+                0,
+                0,
+                1,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                1,
+                1,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H3"
+            },
+            {
+              "labels": [
+                "5bar_02",
+                "e4-e0",
+                "e3-e2",
+                "5_34"
+              ],
+              "length": 4,
+              "line_bundle_sum": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": null,
+              "ordinary_target_dimension": null,
+              "ordinary_target_group": "H4(outside_CY3_range)"
+            }
+          ]
+        },
+        {
+          "ordering": [
+            "5_34",
+            "5bar_02",
+            "e3-e2",
+            "e4-e0"
+          ],
+          "prefixes": [
+            {
+              "labels": [
+                "5_34"
+              ],
+              "length": 1,
+              "line_bundle_sum": [
+                1,
+                0,
+                2,
+                0,
+                0,
+                -1,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                1,
+                1,
+                0
+              ],
+              "ordinary_target_dimension": 1,
+              "ordinary_target_group": "H1"
+            },
+            {
+              "labels": [
+                "5_34",
+                "5bar_02"
+              ],
+              "length": 2,
+              "line_bundle_sum": [
+                2,
+                0,
+                3,
+                -1,
+                0,
+                -1,
+                -1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                2,
+                6,
+                0
+              ],
+              "ordinary_target_dimension": 6,
+              "ordinary_target_group": "H2"
+            },
+            {
+              "labels": [
+                "5_34",
+                "5bar_02",
+                "e3-e2"
+              ],
+              "length": 3,
+              "line_bundle_sum": [
+                1,
+                -1,
+                0,
+                -1,
+                2,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                4,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H3"
+            },
+            {
+              "labels": [
+                "5_34",
+                "5bar_02",
+                "e3-e2",
+                "e4-e0"
+              ],
+              "length": 4,
+              "line_bundle_sum": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": null,
+              "ordinary_target_dimension": null,
+              "ordinary_target_group": "H4(outside_CY3_range)"
+            }
+          ]
+        },
+        {
+          "ordering": [
+            "5_34",
+            "5bar_02",
+            "e4-e0",
+            "e3-e2"
+          ],
+          "prefixes": [
+            {
+              "labels": [
+                "5_34"
+              ],
+              "length": 1,
+              "line_bundle_sum": [
+                1,
+                0,
+                2,
+                0,
+                0,
+                -1,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                1,
+                1,
+                0
+              ],
+              "ordinary_target_dimension": 1,
+              "ordinary_target_group": "H1"
+            },
+            {
+              "labels": [
+                "5_34",
+                "5bar_02"
+              ],
+              "length": 2,
+              "line_bundle_sum": [
+                2,
+                0,
+                3,
+                -1,
+                0,
+                -1,
+                -1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                2,
+                6,
+                0
+              ],
+              "ordinary_target_dimension": 6,
+              "ordinary_target_group": "H2"
+            },
+            {
+              "labels": [
+                "5_34",
+                "5bar_02",
+                "e4-e0"
+              ],
+              "length": 3,
+              "line_bundle_sum": [
+                1,
+                1,
+                3,
+                0,
+                -2,
+                -1,
+                -1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                12,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H3"
+            },
+            {
+              "labels": [
+                "5_34",
+                "5bar_02",
+                "e4-e0",
+                "e3-e2"
+              ],
+              "length": 4,
+              "line_bundle_sum": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": null,
+              "ordinary_target_dimension": null,
+              "ordinary_target_group": "H4(outside_CY3_range)"
+            }
+          ]
+        },
+        {
+          "ordering": [
+            "5_34",
+            "e3-e2",
+            "5bar_02",
+            "e4-e0"
+          ],
+          "prefixes": [
+            {
+              "labels": [
+                "5_34"
+              ],
+              "length": 1,
+              "line_bundle_sum": [
+                1,
+                0,
+                2,
+                0,
+                0,
+                -1,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                1,
+                1,
+                0
+              ],
+              "ordinary_target_dimension": 1,
+              "ordinary_target_group": "H1"
+            },
+            {
+              "labels": [
+                "5_34",
+                "e3-e2"
+              ],
+              "length": 2,
+              "line_bundle_sum": [
+                0,
+                -1,
+                -1,
+                0,
+                2,
+                0,
+                1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H2"
+            },
+            {
+              "labels": [
+                "5_34",
+                "e3-e2",
+                "5bar_02"
+              ],
+              "length": 3,
+              "line_bundle_sum": [
+                1,
+                -1,
+                0,
+                -1,
+                2,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                4,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H3"
+            },
+            {
+              "labels": [
+                "5_34",
+                "e3-e2",
+                "5bar_02",
+                "e4-e0"
+              ],
+              "length": 4,
+              "line_bundle_sum": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": null,
+              "ordinary_target_dimension": null,
+              "ordinary_target_group": "H4(outside_CY3_range)"
+            }
+          ]
+        },
+        {
+          "ordering": [
+            "5_34",
+            "e3-e2",
+            "e4-e0",
+            "5bar_02"
+          ],
+          "prefixes": [
+            {
+              "labels": [
+                "5_34"
+              ],
+              "length": 1,
+              "line_bundle_sum": [
+                1,
+                0,
+                2,
+                0,
+                0,
+                -1,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                1,
+                1,
+                0
+              ],
+              "ordinary_target_dimension": 1,
+              "ordinary_target_group": "H1"
+            },
+            {
+              "labels": [
+                "5_34",
+                "e3-e2"
+              ],
+              "length": 2,
+              "line_bundle_sum": [
+                0,
+                -1,
+                -1,
+                0,
+                2,
+                0,
+                1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H2"
+            },
+            {
+              "labels": [
+                "5_34",
+                "e3-e2",
+                "e4-e0"
+              ],
+              "length": 3,
+              "line_bundle_sum": [
+                -1,
+                0,
+                -1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                2,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H3"
+            },
+            {
+              "labels": [
+                "5_34",
+                "e3-e2",
+                "e4-e0",
+                "5bar_02"
+              ],
+              "length": 4,
+              "line_bundle_sum": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": null,
+              "ordinary_target_dimension": null,
+              "ordinary_target_group": "H4(outside_CY3_range)"
+            }
+          ]
+        },
+        {
+          "ordering": [
+            "5_34",
+            "e4-e0",
+            "5bar_02",
+            "e3-e2"
+          ],
+          "prefixes": [
+            {
+              "labels": [
+                "5_34"
+              ],
+              "length": 1,
+              "line_bundle_sum": [
+                1,
+                0,
+                2,
+                0,
+                0,
+                -1,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                1,
+                1,
+                0
+              ],
+              "ordinary_target_dimension": 1,
+              "ordinary_target_group": "H1"
+            },
+            {
+              "labels": [
+                "5_34",
+                "e4-e0"
+              ],
+              "length": 2,
+              "line_bundle_sum": [
+                0,
+                1,
+                2,
+                1,
+                -2,
+                -1,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H2"
+            },
+            {
+              "labels": [
+                "5_34",
+                "e4-e0",
+                "5bar_02"
+              ],
+              "length": 3,
+              "line_bundle_sum": [
+                1,
+                1,
+                3,
+                0,
+                -2,
+                -1,
+                -1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                12,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H3"
+            },
+            {
+              "labels": [
+                "5_34",
+                "e4-e0",
+                "5bar_02",
+                "e3-e2"
+              ],
+              "length": 4,
+              "line_bundle_sum": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": null,
+              "ordinary_target_dimension": null,
+              "ordinary_target_group": "H4(outside_CY3_range)"
+            }
+          ]
+        },
+        {
+          "ordering": [
+            "5_34",
+            "e4-e0",
+            "e3-e2",
+            "5bar_02"
+          ],
+          "prefixes": [
+            {
+              "labels": [
+                "5_34"
+              ],
+              "length": 1,
+              "line_bundle_sum": [
+                1,
+                0,
+                2,
+                0,
+                0,
+                -1,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                1,
+                1,
+                0
+              ],
+              "ordinary_target_dimension": 1,
+              "ordinary_target_group": "H1"
+            },
+            {
+              "labels": [
+                "5_34",
+                "e4-e0"
+              ],
+              "length": 2,
+              "line_bundle_sum": [
+                0,
+                1,
+                2,
+                1,
+                -2,
+                -1,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H2"
+            },
+            {
+              "labels": [
+                "5_34",
+                "e4-e0",
+                "e3-e2"
+              ],
+              "length": 3,
+              "line_bundle_sum": [
+                -1,
+                0,
+                -1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                2,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H3"
+            },
+            {
+              "labels": [
+                "5_34",
+                "e4-e0",
+                "e3-e2",
+                "5bar_02"
+              ],
+              "length": 4,
+              "line_bundle_sum": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": null,
+              "ordinary_target_dimension": null,
+              "ordinary_target_group": "H4(outside_CY3_range)"
+            }
+          ]
+        },
+        {
+          "ordering": [
+            "e3-e2",
+            "5bar_02",
+            "5_34",
+            "e4-e0"
+          ],
+          "prefixes": [
+            {
+              "labels": [
+                "e3-e2"
+              ],
+              "length": 1,
+              "line_bundle_sum": [
+                -1,
+                -1,
+                -3,
+                0,
+                2,
+                1,
+                1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                12,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 12,
+              "ordinary_target_group": "H1"
+            },
+            {
+              "labels": [
+                "e3-e2",
+                "5bar_02"
+              ],
+              "length": 2,
+              "line_bundle_sum": [
+                0,
+                -1,
+                -2,
+                -1,
+                2,
+                1,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H2"
+            },
+            {
+              "labels": [
+                "e3-e2",
+                "5bar_02",
+                "5_34"
+              ],
+              "length": 3,
+              "line_bundle_sum": [
+                1,
+                -1,
+                0,
+                -1,
+                2,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                4,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H3"
+            },
+            {
+              "labels": [
+                "e3-e2",
+                "5bar_02",
+                "5_34",
+                "e4-e0"
+              ],
+              "length": 4,
+              "line_bundle_sum": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": null,
+              "ordinary_target_dimension": null,
+              "ordinary_target_group": "H4(outside_CY3_range)"
+            }
+          ]
+        },
+        {
+          "ordering": [
+            "e3-e2",
+            "5bar_02",
+            "e4-e0",
+            "5_34"
+          ],
+          "prefixes": [
+            {
+              "labels": [
+                "e3-e2"
+              ],
+              "length": 1,
+              "line_bundle_sum": [
+                -1,
+                -1,
+                -3,
+                0,
+                2,
+                1,
+                1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                12,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 12,
+              "ordinary_target_group": "H1"
+            },
+            {
+              "labels": [
+                "e3-e2",
+                "5bar_02"
+              ],
+              "length": 2,
+              "line_bundle_sum": [
+                0,
+                -1,
+                -2,
+                -1,
+                2,
+                1,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H2"
+            },
+            {
+              "labels": [
+                "e3-e2",
+                "5bar_02",
+                "e4-e0"
+              ],
+              "length": 3,
+              "line_bundle_sum": [
+                -1,
+                0,
+                -2,
+                0,
+                0,
+                1,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                1,
+                1,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H3"
+            },
+            {
+              "labels": [
+                "e3-e2",
+                "5bar_02",
+                "e4-e0",
+                "5_34"
+              ],
+              "length": 4,
+              "line_bundle_sum": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": null,
+              "ordinary_target_dimension": null,
+              "ordinary_target_group": "H4(outside_CY3_range)"
+            }
+          ]
+        },
+        {
+          "ordering": [
+            "e3-e2",
+            "5_34",
+            "5bar_02",
+            "e4-e0"
+          ],
+          "prefixes": [
+            {
+              "labels": [
+                "e3-e2"
+              ],
+              "length": 1,
+              "line_bundle_sum": [
+                -1,
+                -1,
+                -3,
+                0,
+                2,
+                1,
+                1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                12,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 12,
+              "ordinary_target_group": "H1"
+            },
+            {
+              "labels": [
+                "e3-e2",
+                "5_34"
+              ],
+              "length": 2,
+              "line_bundle_sum": [
+                0,
+                -1,
+                -1,
+                0,
+                2,
+                0,
+                1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H2"
+            },
+            {
+              "labels": [
+                "e3-e2",
+                "5_34",
+                "5bar_02"
+              ],
+              "length": 3,
+              "line_bundle_sum": [
+                1,
+                -1,
+                0,
+                -1,
+                2,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                4,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H3"
+            },
+            {
+              "labels": [
+                "e3-e2",
+                "5_34",
+                "5bar_02",
+                "e4-e0"
+              ],
+              "length": 4,
+              "line_bundle_sum": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": null,
+              "ordinary_target_dimension": null,
+              "ordinary_target_group": "H4(outside_CY3_range)"
+            }
+          ]
+        },
+        {
+          "ordering": [
+            "e3-e2",
+            "5_34",
+            "e4-e0",
+            "5bar_02"
+          ],
+          "prefixes": [
+            {
+              "labels": [
+                "e3-e2"
+              ],
+              "length": 1,
+              "line_bundle_sum": [
+                -1,
+                -1,
+                -3,
+                0,
+                2,
+                1,
+                1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                12,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 12,
+              "ordinary_target_group": "H1"
+            },
+            {
+              "labels": [
+                "e3-e2",
+                "5_34"
+              ],
+              "length": 2,
+              "line_bundle_sum": [
+                0,
+                -1,
+                -1,
+                0,
+                2,
+                0,
+                1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H2"
+            },
+            {
+              "labels": [
+                "e3-e2",
+                "5_34",
+                "e4-e0"
+              ],
+              "length": 3,
+              "line_bundle_sum": [
+                -1,
+                0,
+                -1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                2,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H3"
+            },
+            {
+              "labels": [
+                "e3-e2",
+                "5_34",
+                "e4-e0",
+                "5bar_02"
+              ],
+              "length": 4,
+              "line_bundle_sum": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": null,
+              "ordinary_target_dimension": null,
+              "ordinary_target_group": "H4(outside_CY3_range)"
+            }
+          ]
+        },
+        {
+          "ordering": [
+            "e3-e2",
+            "e4-e0",
+            "5bar_02",
+            "5_34"
+          ],
+          "prefixes": [
+            {
+              "labels": [
+                "e3-e2"
+              ],
+              "length": 1,
+              "line_bundle_sum": [
+                -1,
+                -1,
+                -3,
+                0,
+                2,
+                1,
+                1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                12,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 12,
+              "ordinary_target_group": "H1"
+            },
+            {
+              "labels": [
+                "e3-e2",
+                "e4-e0"
+              ],
+              "length": 2,
+              "line_bundle_sum": [
+                -2,
+                0,
+                -3,
+                1,
+                0,
+                1,
+                1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                6,
+                2,
+                0
+              ],
+              "ordinary_target_dimension": 2,
+              "ordinary_target_group": "H2"
+            },
+            {
+              "labels": [
+                "e3-e2",
+                "e4-e0",
+                "5bar_02"
+              ],
+              "length": 3,
+              "line_bundle_sum": [
+                -1,
+                0,
+                -2,
+                0,
+                0,
+                1,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                1,
+                1,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H3"
+            },
+            {
+              "labels": [
+                "e3-e2",
+                "e4-e0",
+                "5bar_02",
+                "5_34"
+              ],
+              "length": 4,
+              "line_bundle_sum": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": null,
+              "ordinary_target_dimension": null,
+              "ordinary_target_group": "H4(outside_CY3_range)"
+            }
+          ]
+        },
+        {
+          "ordering": [
+            "e3-e2",
+            "e4-e0",
+            "5_34",
+            "5bar_02"
+          ],
+          "prefixes": [
+            {
+              "labels": [
+                "e3-e2"
+              ],
+              "length": 1,
+              "line_bundle_sum": [
+                -1,
+                -1,
+                -3,
+                0,
+                2,
+                1,
+                1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                12,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 12,
+              "ordinary_target_group": "H1"
+            },
+            {
+              "labels": [
+                "e3-e2",
+                "e4-e0"
+              ],
+              "length": 2,
+              "line_bundle_sum": [
+                -2,
+                0,
+                -3,
+                1,
+                0,
+                1,
+                1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                6,
+                2,
+                0
+              ],
+              "ordinary_target_dimension": 2,
+              "ordinary_target_group": "H2"
+            },
+            {
+              "labels": [
+                "e3-e2",
+                "e4-e0",
+                "5_34"
+              ],
+              "length": 3,
+              "line_bundle_sum": [
+                -1,
+                0,
+                -1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                2,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H3"
+            },
+            {
+              "labels": [
+                "e3-e2",
+                "e4-e0",
+                "5_34",
+                "5bar_02"
+              ],
+              "length": 4,
+              "line_bundle_sum": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": null,
+              "ordinary_target_dimension": null,
+              "ordinary_target_group": "H4(outside_CY3_range)"
+            }
+          ]
+        },
+        {
+          "ordering": [
+            "e4-e0",
+            "5bar_02",
+            "5_34",
+            "e3-e2"
+          ],
+          "prefixes": [
+            {
+              "labels": [
+                "e4-e0"
+              ],
+              "length": 1,
+              "line_bundle_sum": [
+                -1,
+                1,
+                0,
+                1,
+                -2,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                4,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 4,
+              "ordinary_target_group": "H1"
+            },
+            {
+              "labels": [
+                "e4-e0",
+                "5bar_02"
+              ],
+              "length": 2,
+              "line_bundle_sum": [
+                0,
+                1,
+                1,
+                0,
+                -2,
+                0,
+                -1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H2"
+            },
+            {
+              "labels": [
+                "e4-e0",
+                "5bar_02",
+                "5_34"
+              ],
+              "length": 3,
+              "line_bundle_sum": [
+                1,
+                1,
+                3,
+                0,
+                -2,
+                -1,
+                -1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                12,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H3"
+            },
+            {
+              "labels": [
+                "e4-e0",
+                "5bar_02",
+                "5_34",
+                "e3-e2"
+              ],
+              "length": 4,
+              "line_bundle_sum": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": null,
+              "ordinary_target_dimension": null,
+              "ordinary_target_group": "H4(outside_CY3_range)"
+            }
+          ]
+        },
+        {
+          "ordering": [
+            "e4-e0",
+            "5bar_02",
+            "e3-e2",
+            "5_34"
+          ],
+          "prefixes": [
+            {
+              "labels": [
+                "e4-e0"
+              ],
+              "length": 1,
+              "line_bundle_sum": [
+                -1,
+                1,
+                0,
+                1,
+                -2,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                4,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 4,
+              "ordinary_target_group": "H1"
+            },
+            {
+              "labels": [
+                "e4-e0",
+                "5bar_02"
+              ],
+              "length": 2,
+              "line_bundle_sum": [
+                0,
+                1,
+                1,
+                0,
+                -2,
+                0,
+                -1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H2"
+            },
+            {
+              "labels": [
+                "e4-e0",
+                "5bar_02",
+                "e3-e2"
+              ],
+              "length": 3,
+              "line_bundle_sum": [
+                -1,
+                0,
+                -2,
+                0,
+                0,
+                1,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                1,
+                1,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H3"
+            },
+            {
+              "labels": [
+                "e4-e0",
+                "5bar_02",
+                "e3-e2",
+                "5_34"
+              ],
+              "length": 4,
+              "line_bundle_sum": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": null,
+              "ordinary_target_dimension": null,
+              "ordinary_target_group": "H4(outside_CY3_range)"
+            }
+          ]
+        },
+        {
+          "ordering": [
+            "e4-e0",
+            "5_34",
+            "5bar_02",
+            "e3-e2"
+          ],
+          "prefixes": [
+            {
+              "labels": [
+                "e4-e0"
+              ],
+              "length": 1,
+              "line_bundle_sum": [
+                -1,
+                1,
+                0,
+                1,
+                -2,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                4,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 4,
+              "ordinary_target_group": "H1"
+            },
+            {
+              "labels": [
+                "e4-e0",
+                "5_34"
+              ],
+              "length": 2,
+              "line_bundle_sum": [
+                0,
+                1,
+                2,
+                1,
+                -2,
+                -1,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H2"
+            },
+            {
+              "labels": [
+                "e4-e0",
+                "5_34",
+                "5bar_02"
+              ],
+              "length": 3,
+              "line_bundle_sum": [
+                1,
+                1,
+                3,
+                0,
+                -2,
+                -1,
+                -1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                12,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H3"
+            },
+            {
+              "labels": [
+                "e4-e0",
+                "5_34",
+                "5bar_02",
+                "e3-e2"
+              ],
+              "length": 4,
+              "line_bundle_sum": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": null,
+              "ordinary_target_dimension": null,
+              "ordinary_target_group": "H4(outside_CY3_range)"
+            }
+          ]
+        },
+        {
+          "ordering": [
+            "e4-e0",
+            "5_34",
+            "e3-e2",
+            "5bar_02"
+          ],
+          "prefixes": [
+            {
+              "labels": [
+                "e4-e0"
+              ],
+              "length": 1,
+              "line_bundle_sum": [
+                -1,
+                1,
+                0,
+                1,
+                -2,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                4,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 4,
+              "ordinary_target_group": "H1"
+            },
+            {
+              "labels": [
+                "e4-e0",
+                "5_34"
+              ],
+              "length": 2,
+              "line_bundle_sum": [
+                0,
+                1,
+                2,
+                1,
+                -2,
+                -1,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H2"
+            },
+            {
+              "labels": [
+                "e4-e0",
+                "5_34",
+                "e3-e2"
+              ],
+              "length": 3,
+              "line_bundle_sum": [
+                -1,
+                0,
+                -1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                2,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H3"
+            },
+            {
+              "labels": [
+                "e4-e0",
+                "5_34",
+                "e3-e2",
+                "5bar_02"
+              ],
+              "length": 4,
+              "line_bundle_sum": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": null,
+              "ordinary_target_dimension": null,
+              "ordinary_target_group": "H4(outside_CY3_range)"
+            }
+          ]
+        },
+        {
+          "ordering": [
+            "e4-e0",
+            "e3-e2",
+            "5bar_02",
+            "5_34"
+          ],
+          "prefixes": [
+            {
+              "labels": [
+                "e4-e0"
+              ],
+              "length": 1,
+              "line_bundle_sum": [
+                -1,
+                1,
+                0,
+                1,
+                -2,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                4,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 4,
+              "ordinary_target_group": "H1"
+            },
+            {
+              "labels": [
+                "e4-e0",
+                "e3-e2"
+              ],
+              "length": 2,
+              "line_bundle_sum": [
+                -2,
+                0,
+                -3,
+                1,
+                0,
+                1,
+                1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                6,
+                2,
+                0
+              ],
+              "ordinary_target_dimension": 2,
+              "ordinary_target_group": "H2"
+            },
+            {
+              "labels": [
+                "e4-e0",
+                "e3-e2",
+                "5bar_02"
+              ],
+              "length": 3,
+              "line_bundle_sum": [
+                -1,
+                0,
+                -2,
+                0,
+                0,
+                1,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                1,
+                1,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H3"
+            },
+            {
+              "labels": [
+                "e4-e0",
+                "e3-e2",
+                "5bar_02",
+                "5_34"
+              ],
+              "length": 4,
+              "line_bundle_sum": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": null,
+              "ordinary_target_dimension": null,
+              "ordinary_target_group": "H4(outside_CY3_range)"
+            }
+          ]
+        },
+        {
+          "ordering": [
+            "e4-e0",
+            "e3-e2",
+            "5_34",
+            "5bar_02"
+          ],
+          "prefixes": [
+            {
+              "labels": [
+                "e4-e0"
+              ],
+              "length": 1,
+              "line_bundle_sum": [
+                -1,
+                1,
+                0,
+                1,
+                -2,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                4,
+                0,
+                0
+              ],
+              "ordinary_target_dimension": 4,
+              "ordinary_target_group": "H1"
+            },
+            {
+              "labels": [
+                "e4-e0",
+                "e3-e2"
+              ],
+              "length": 2,
+              "line_bundle_sum": [
+                -2,
+                0,
+                -3,
+                1,
+                0,
+                1,
+                1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                6,
+                2,
+                0
+              ],
+              "ordinary_target_dimension": 2,
+              "ordinary_target_group": "H2"
+            },
+            {
+              "labels": [
+                "e4-e0",
+                "e3-e2",
+                "5_34"
+              ],
+              "length": 3,
+              "line_bundle_sum": [
+                -1,
+                0,
+                -1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "ordinary_target_cohomology": [
+                0,
+                0,
+                2,
+                0
+              ],
+              "ordinary_target_dimension": 0,
+              "ordinary_target_group": "H3"
+            },
+            {
+              "labels": [
+                "e4-e0",
+                "e3-e2",
+                "5_34",
+                "5bar_02"
+              ],
+              "length": 4,
+              "line_bundle_sum": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "ordinary_target_cohomology": null,
+              "ordinary_target_dimension": null,
+              "ordinary_target_group": "H4(outside_CY3_range)"
+            }
+          ]
+        }
+      ],
+      "ordinary_nonzero_prefix_counts_by_length": {
+        "1": 24,
+        "2": 8
+      },
+      "sample_nonzero_prefixes": [
+        {
+          "labels": [
+            "5bar_02"
+          ],
+          "length": 1,
+          "line_bundle_sum": [
+            1,
+            0,
+            1,
+            -1,
+            0,
+            0,
+            -1
+          ],
+          "ordinary_target_cohomology": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "ordinary_target_dimension": 2,
+          "ordinary_target_group": "H1"
+        },
+        {
+          "labels": [
+            "5bar_02",
+            "5_34"
+          ],
+          "length": 2,
+          "line_bundle_sum": [
+            2,
+            0,
+            3,
+            -1,
+            0,
+            -1,
+            -1
+          ],
+          "ordinary_target_cohomology": [
+            0,
+            2,
+            6,
+            0
+          ],
+          "ordinary_target_dimension": 6,
+          "ordinary_target_group": "H2"
+        },
+        {
+          "labels": [
+            "5bar_02"
+          ],
+          "length": 1,
+          "line_bundle_sum": [
+            1,
+            0,
+            1,
+            -1,
+            0,
+            0,
+            -1
+          ],
+          "ordinary_target_cohomology": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "ordinary_target_dimension": 2,
+          "ordinary_target_group": "H1"
+        },
+        {
+          "labels": [
+            "5bar_02",
+            "5_34"
+          ],
+          "length": 2,
+          "line_bundle_sum": [
+            2,
+            0,
+            3,
+            -1,
+            0,
+            -1,
+            -1
+          ],
+          "ordinary_target_cohomology": [
+            0,
+            2,
+            6,
+            0
+          ],
+          "ordinary_target_dimension": 6,
+          "ordinary_target_group": "H2"
+        },
+        {
+          "labels": [
+            "5bar_02"
+          ],
+          "length": 1,
+          "line_bundle_sum": [
+            1,
+            0,
+            1,
+            -1,
+            0,
+            0,
+            -1
+          ],
+          "ordinary_target_cohomology": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "ordinary_target_dimension": 2,
+          "ordinary_target_group": "H1"
+        },
+        {
+          "labels": [
+            "5bar_02"
+          ],
+          "length": 1,
+          "line_bundle_sum": [
+            1,
+            0,
+            1,
+            -1,
+            0,
+            0,
+            -1
+          ],
+          "ordinary_target_cohomology": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "ordinary_target_dimension": 2,
+          "ordinary_target_group": "H1"
+        },
+        {
+          "labels": [
+            "5bar_02"
+          ],
+          "length": 1,
+          "line_bundle_sum": [
+            1,
+            0,
+            1,
+            -1,
+            0,
+            0,
+            -1
+          ],
+          "ordinary_target_cohomology": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "ordinary_target_dimension": 2,
+          "ordinary_target_group": "H1"
+        },
+        {
+          "labels": [
+            "5bar_02"
+          ],
+          "length": 1,
+          "line_bundle_sum": [
+            1,
+            0,
+            1,
+            -1,
+            0,
+            0,
+            -1
+          ],
+          "ordinary_target_cohomology": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "ordinary_target_dimension": 2,
+          "ordinary_target_group": "H1"
+        }
+      ],
+      "total_orderings": 24
+    }
+  },
+  "scope": "radius6_broad_adjacency_filtered_10_branch_50: 5bar_02*5_34 with ['e3-e2', 'e4-e0']",
+  "source_artifacts": {
+    "higher_degree_json": "/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_higher_degree_intersection_search.json",
+    "higher_degree_verification_json": "/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_higher_degree_intersection_search_verification.json",
+    "split_json": "/Users/brian/code/string-theory/reports/cicy5259_split_lift_report.json"
+  },
+  "status": "higher_order_mass_map_pending_for_frozen_candidate",
+  "title": "Higher-Degree Candidate Dossier",
+  "verdict": {
+    "certified_facts": [
+      "q=1 three-family spectrum is present in the audited radius-9 frontier",
+      "physical 5bar H1, cup-dual 5 H1, and both singlet H1 factors are representative-compatible",
+      "the selected degree-2 singlet monoid is charge-neutralizing and Z2-even at component level",
+      "the operator has triplet support 1, doublet support 0, and zero dangerous 10*5bar*5bar hits under current selection rules"
+    ],
+    "classification": "representative-compatible higher-degree selection candidate",
+    "not_claimed": "simple CY3 cubic cup-product mass-rank verification",
+    "pending_assumptions": [
+      "nonzero higher-order effective mass tensor",
+      "choice of singlet vev directions with nonzero triplet coupling",
+      "absence of additional higher-order proton or doublet couplings beyond the current selection table"
+    ],
+    "status": "higher_order_mass_map_pending_for_frozen_candidate"
+  }
+}

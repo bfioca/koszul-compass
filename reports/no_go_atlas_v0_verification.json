@@ -1,0 +1,61 @@
+{
+  "all_gates_pass": true,
+  "gates": {
+    "2544_geometry_gate_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "2544 syndrome records the no-recorded-free-symmetry replay",
+      "pass": true
+    },
+    "5259_frontier_replay_counts_are_stable": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "5259/7914 degree, representative, and degree-one intersection replay counts are stable",
+      "pass": true
+    },
+    "7484_vectorlike_gate_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "7484 syndrome records the character-certified vectorlike near-miss",
+      "pass": true
+    },
+    "builder_gates_pass": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "builder-side atlas gates all pass",
+      "pass": true
+    },
+    "higher_degree_counts_and_survivor_boundary": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "higher-degree replay counts and branch-50 pending rank gate are stable",
+      "pass": true
+    },
+    "markdown_summarizes_atlas": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.md",
+      "note": "markdown exposes atlas summary, 2544/7484 syndromes, and branch-50 survivor",
+      "pass": true
+    },
+    "nearest_no_go_boundaries_are_present": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "branch-50 survivor includes the requested nearest no-go boundary classes",
+      "pass": true
+    },
+    "prefilters_are_executable_and_registered": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "prefilter registry is importable and predicate samples behave as expected",
+      "pass": true
+    },
+    "required_syndromes_present": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "atlas contains the required v0 syndrome set",
+      "pass": true
+    },
+    "scope_classes_are_honest": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "scope classes and warning prevent local rules from being overstated",
+      "pass": true
+    },
+    "source_verifications_imported": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "all imported source verifications are present and passing",
+      "pass": true
+    }
+  },
+  "scope": "verification for No-Go Atlas v0"
+}

@@ -1,0 +1,1772 @@
+{
+  "all_gates_pass": true,
+  "atlas_policy": {
+    "promotion_rule": "Future candidates should not be promoted past a gate if a cheap atlas prefilter fires inside the prefilter's stated claim scope.",
+    "scope_warning": "A grammar-local no-go only prunes that generator/search grammar. It must not be cited as a manifold-level impossibility theorem.",
+    "survivor_rule": "A survivor certificate must include certified survival gates, a pending next gate, and nearest no-go boundaries."
+  },
+  "gates": {
+    "covers_requested_artifact_families": {
+      "evidence": "syndrome geometries + survivor geometry",
+      "note": "atlas covers 2544, 7484, and 5259/7914 artifacts",
+      "pass": true
+    },
+    "every_syndrome_has_scoped_prefilter_and_replay": {
+      "evidence": "syndrome records",
+      "note": "each no-go syndrome has scope class, executable prefilter, replay counts, and evidence",
+      "pass": true
+    },
+    "nearest_no_go_boundaries_present": {
+      "evidence": "survivor nearest boundaries",
+      "note": "survivor carries nearest no-go boundary examples",
+      "pass": true
+    },
+    "prefilter_self_tests_pass": {
+      "evidence": "prefilter sample records",
+      "note": "each atlas prefilter fires on its representative obstruction sample",
+      "pass": true
+    },
+    "source_verifications_pass": {
+      "evidence": "{\"cicy5259_quotient\": \"/Users/brian/code/string-theory/reports/cicy5259_quotient_wilson_line_verification.json\", \"degree_aware_main\": \"/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_degree_aware_main_frontier_search_verification.json\", \"higher_degree_candidate_dossier\": \"/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_higher_degree_candidate_dossier_verification.json\", \"higher_degree_intersection\": \"/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_higher_degree_intersection_search_verification.json\", \"intersection_forcing\": \"/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_intersection_forcing_search_verification.json\", \"outside_regime_free_symmetry\": \"/Users/brian/code/string-theory/reports/outside_regime_free_symmetry_no_go_verification.json\", \"physical_5bar_first\": \"/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_physical_5bar_first_search_verification.json\", \"representative_first\": \"/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_representative_first_degree_aware_search_verification.json\"}",
+      "note": "all imported source verifications pass",
+      "pass": true
+    },
+    "survivor_certificate_is_branch50": {
+      "evidence": "survivor certificate",
+      "note": "branch-50 higher-degree survivor and pending mass-map gate are included",
+      "pass": true
+    }
+  },
+  "prefilter_registry": {
+    "degree_one_doublet_triplet_inseparable": {
+      "callable": "no_go_atlas_prefilters.degree_one_doublet_triplet_inseparable",
+      "inputs_required": [
+        "singlet_degree",
+        "triplet_pair_support",
+        "doublet_pair_support"
+      ],
+      "scope_note": "doublet-triplet selection prefilter for degree-one top-cup channels"
+    },
+    "degree_zero_bilinear_not_top_cup": {
+      "callable": "no_go_atlas_prefilters.degree_zero_bilinear_not_top_cup",
+      "inputs_required": [
+        "monomial_degree",
+        "direct_total_cohomological_degree",
+        "direct_target_group",
+        "direct_target_dimension",
+        "required_singlet_degree_for_top_cubic"
+      ],
+      "scope_note": "CY3 top-degree prefilter before mass-rank claims"
+    },
+    "higher_monoid_downstream_obstructed": {
+      "callable": "no_go_atlas_prefilters.higher_monoid_downstream_obstructed",
+      "inputs_required": [
+        "status"
+      ],
+      "scope_note": "higher-degree monoid status prefilter before candidate promotion"
+    },
+    "no_recorded_free_symmetry": {
+      "callable": "no_go_atlas_prefilters.no_recorded_free_symmetry",
+      "inputs_required": [
+        "requires_wilson_line_descent",
+        "free_symmetry_option_count"
+      ],
+      "scope_note": "geometry-selection prefilter for Wilson-line descent goals"
+    },
+    "representative_character_mismatch": {
+      "callable": "no_go_atlas_prefilters.representative_character_mismatch",
+      "inputs_required": [
+        "leg_type",
+        "requested_multiplicities",
+        "computed_multiplicities",
+        "representative_status"
+      ],
+      "scope_note": "representative-realizability prefilter for branch-completed character shadows"
+    },
+    "vectorlike_excess": {
+      "callable": "no_go_atlas_prefilters.vectorlike_excess",
+      "inputs_required": [
+        "actual_per_character_pair or best_actual_pair",
+        "allowed_pairs",
+        "max_vectorlike_pairs"
+      ],
+      "scope_note": "spectrum/character prefilter after Wilson-line character decomposition"
+    }
+  },
+  "scope": "Existing verified 5259/7914 radius-9, 7484, and 2544 artifacts; scoped obstruction rules, not global landscape theorems except where marked global-looking.",
+  "source_verifications": {
+    "cicy5259_quotient": {
+      "all_gates_pass": true,
+      "path": "/Users/brian/code/string-theory/reports/cicy5259_quotient_wilson_line_verification.json"
+    },
+    "degree_aware_main": {
+      "all_gates_pass": true,
+      "path": "/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_degree_aware_main_frontier_search_verification.json"
+    },
+    "higher_degree_candidate_dossier": {
+      "all_gates_pass": true,
+      "path": "/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_higher_degree_candidate_dossier_verification.json"
+    },
+    "higher_degree_intersection": {
+      "all_gates_pass": true,
+      "path": "/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_higher_degree_intersection_search_verification.json"
+    },
+    "intersection_forcing": {
+      "all_gates_pass": true,
+      "path": "/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_intersection_forcing_search_verification.json"
+    },
+    "outside_regime_free_symmetry": {
+      "all_gates_pass": true,
+      "path": "/Users/brian/code/string-theory/reports/outside_regime_free_symmetry_no_go_verification.json"
+    },
+    "physical_5bar_first": {
+      "all_gates_pass": true,
+      "path": "/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_physical_5bar_first_search_verification.json"
+    },
+    "representative_first": {
+      "all_gates_pass": true,
+      "path": "/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_representative_first_degree_aware_search_verification.json"
+    }
+  },
+  "status": "no_go_atlas_v0_built",
+  "summary": {
+    "prefilter_ids": [
+      "degree_one_doublet_triplet_inseparable",
+      "degree_zero_bilinear_not_top_cup",
+      "higher_monoid_downstream_obstructed",
+      "no_recorded_free_symmetry",
+      "representative_character_mismatch",
+      "vectorlike_excess"
+    ],
+    "requested_geometries_covered": [
+      "5259/7914",
+      "7484",
+      "2544"
+    ],
+    "scope_class_counts": {
+      "geometry-local": 1,
+      "global-looking": 1,
+      "grammar-local": 4,
+      "presentation-local": 1
+    },
+    "survivor_count": 1,
+    "syndrome_count": 7
+  },
+  "survivor_certificates": [
+    {
+      "candidate_label": "radius6_broad_adjacency_filtered_10_branch_50",
+      "certified_survival_gates": [
+        "q=1 three-family spectrum is present in the audited radius-9 frontier",
+        "physical 5bar H1, cup-dual 5 H1, and both singlet H1 factors are representative-compatible",
+        "the selected degree-2 singlet monoid is charge-neutralizing and Z2-even at component level",
+        "the operator has triplet support 1, doublet support 0, and zero dangerous 10*5bar*5bar hits under current selection rules"
+      ],
+      "classification": "representative-compatible higher-degree selection candidate",
+      "cohomology_legs": [
+        {
+          "character": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "character_method": "single_total_degree_source_equals_pycicy_dimension",
+          "charge": {
+            "coefficients": [
+              1,
+              0,
+              1,
+              0,
+              0
+            ],
+            "label": "e0+e2"
+          },
+          "cohomology": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "cohomology_degree_used": 1,
+          "label": "5bar_02",
+          "line_bundle": [
+            1,
+            0,
+            1,
+            -1,
+            0,
+            0,
+            -1
+          ],
+          "representative": {
+            "computed_signature": "+1/-1",
+            "requested_signature": "+1/-1",
+            "status": "representative_compatible"
+          },
+          "role": "physical_5bar_H1_wedge2_V"
+        },
+        {
+          "character": {
+            "dimension": 1,
+            "multiplicities": {
+              "+": 1,
+              "-": 0
+            },
+            "nonidentity_trace": 1,
+            "regular_multiplicity": null
+          },
+          "character_method": "radius5_dimension_compatible_branch_completion",
+          "charge": {
+            "coefficients": [
+              0,
+              0,
+              0,
+              -1,
+              -1
+            ],
+            "label": "-e3-e4"
+          },
+          "cohomology": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "cohomology_degree_used": 1,
+          "label": "5_34",
+          "line_bundle": [
+            1,
+            0,
+            2,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "representative": {
+            "computed_signature": "+1/-0",
+            "reason": "explicit equivariant first-page kernel character matches branch actual",
+            "requested_signature": "+1/-0",
+            "status": "representative_compatible"
+          },
+          "role": "cup_dual_5_H1_wedge2_V_dual"
+        },
+        {
+          "character": {
+            "dimension": 12,
+            "multiplicities": {
+              "+": 6,
+              "-": 6
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 6
+          },
+          "character_method": "single_total_degree_source_equals_pycicy_dimension",
+          "charge": {
+            "coefficients": [
+              0,
+              0,
+              -1,
+              1,
+              0
+            ],
+            "label": "e3-e2"
+          },
+          "cohomology": [
+            0,
+            12,
+            0,
+            0
+          ],
+          "cohomology_degree_used": 1,
+          "label": "e3-e2",
+          "line_bundle": [
+            -1,
+            -1,
+            -3,
+            0,
+            2,
+            1,
+            1
+          ],
+          "representative": {
+            "computed_signature": "+6/-6",
+            "reason": "single total-degree E1 source equals the cohomology dimension",
+            "requested_signature": "+6/-6",
+            "singlet": "e3-e2",
+            "status": "representative_compatible"
+          },
+          "role": "h1_singlet_insertion"
+        },
+        {
+          "character": {
+            "dimension": 4,
+            "multiplicities": {
+              "+": 2,
+              "-": 2
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 2
+          },
+          "character_method": "single_total_degree_source_equals_pycicy_dimension",
+          "charge": {
+            "coefficients": [
+              -1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "label": "e4-e0"
+          },
+          "cohomology": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "cohomology_degree_used": 1,
+          "label": "e4-e0",
+          "line_bundle": [
+            -1,
+            1,
+            0,
+            1,
+            -2,
+            0,
+            0
+          ],
+          "representative": {
+            "computed_signature": "+2/-2",
+            "reason": "single total-degree E1 source equals the cohomology dimension",
+            "requested_signature": "+2/-2",
+            "singlet": "e4-e0",
+            "status": "representative_compatible"
+          },
+          "role": "h1_singlet_insertion"
+        }
+      ],
+      "geometry": "5259/7914",
+      "nearest_no_go_boundaries": [
+        {
+          "boundary_id": "cubic_only_gate",
+          "evidence": "Four H1 factors would land in H4(O_X) under the ordinary cup product, while a CY3 superpotential integral is controlled by H3(O_X).",
+          "resulting_status": "not promoted because simple_cy3_cubic_top_cup_eligible is false",
+          "tiny_mutation": "forbid degree-2/3 singlet monoids and require a simple CY3 cubic cup product"
+        },
+        {
+          "boundary_id": "doublet_support",
+          "example": {
+            "candidate_label": "radius6_broad_adjacency_filtered_1",
+            "charge_neutral_hit_count": 3,
+            "charge_neutral_hit_degrees": {
+              "2": 2,
+              "3": 1
+            },
+            "compatible_monomial_hit_count": 0,
+            "compatible_monomial_hit_degrees": {},
+            "doublet_pair_support": 1,
+            "first_singlet_representatives": [],
+            "five": "5_14",
+            "five_cup_representative": null,
+            "fivebar": "5bar_04",
+            "fivebar_representative": {
+              "computed_signature": "+2/-2",
+              "requested_signature": "+2/-2",
+              "status": "representative_compatible"
+            },
+            "higher_monoid_support_class": "higher_monoid_triplet_and_doublet_mass",
+            "higher_order_mass_map_pending": false,
+            "invariant_hit_count": 2,
+            "invariant_hit_degrees": {
+              "2": 2
+            },
+            "operator": "5bar_04*5_14",
+            "proton_allowed_count": 1,
+            "sample_compatible_monomial_hits": [],
+            "sample_invariant_hits": [
+              {
+                "charge": {
+                  "coefficients": [
+                    -1,
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  "label": "-e0+e1"
+                },
+                "degree": 2,
+                "labels": [
+                  "e1-e3",
+                  "e3-e0"
+                ],
+                "z2_product_support": {
+                  "even_component_count": 48,
+                  "has_even_component": true,
+                  "labels": [
+                    "e1-e3",
+                    "e3-e0"
+                  ],
+                  "missing_singlet_character_labels": [],
+                  "odd_component_count": 48
+                }
+              },
+              {
+                "charge": {
+                  "coefficients": [
+                    -1,
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  "label": "-e0+e1"
+                },
+                "degree": 2,
+                "labels": [
+                  "e1-e4",
+                  "e4-e0"
+                ],
+                "z2_product_support": {
+                  "even_component_count": 12,
+                  "has_even_component": true,
+                  "labels": [
+                    "e1-e4",
+                    "e4-e0"
+                  ],
+                  "missing_singlet_character_labels": [],
+                  "odd_component_count": 12
+                }
+              }
+            ],
+            "simple_cy3_cubic_top_cup_eligible": false,
+            "source": {
+              "kind": "direct_scout",
+              "path": "/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_broad_adjacency_scout_window1.json",
+              "window": 1
+            },
+            "status": "higher_monoid_doublet_support_obstruction",
+            "triplet_pair_support": 1,
+            "weight": 1
+          },
+          "resulting_status": "higher_monoid_doublet_support_obstruction",
+          "tiny_mutation": "same higher-monoid grammar but triplet support also hits the doublet component"
+        },
+        {
+          "boundary_id": "proton_unprotected",
+          "example": {
+            "candidate_label": "radius6_broad_adjacency_filtered_4_branch_12",
+            "charge_neutral_hit_count": 4,
+            "charge_neutral_hit_degrees": {
+              "2": 2,
+              "3": 2
+            },
+            "compatible_monomial_hit_count": 0,
+            "compatible_monomial_hit_degrees": {},
+            "doublet_pair_support": 0,
+            "first_singlet_representatives": [],
+            "five": "5_34",
+            "five_cup_representative": {
+              "computed_signature": "+1/-0",
+              "reason": "single total-degree E1 source equals the cohomology dimension",
+              "requested_signature": "+1/-0",
+              "status": "representative_compatible"
+            },
+            "fivebar": "5bar_04",
+            "fivebar_representative": {
+              "computed_signature": "+1/-1",
+              "requested_signature": "+1/-1",
+              "status": "representative_compatible"
+            },
+            "higher_monoid_support_class": "higher_monoid_triplet_only_mass",
+            "higher_order_mass_map_pending": false,
+            "invariant_hit_count": 1,
+            "invariant_hit_degrees": {
+              "2": 1
+            },
+            "operator": "5bar_04*5_34",
+            "proton_allowed_count": 2,
+            "sample_compatible_monomial_hits": [],
+            "sample_invariant_hits": [
+              {
+                "charge": {
+                  "coefficients": [
+                    -1,
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "label": "-e0+e3"
+                },
+                "degree": 2,
+                "labels": [
+                  "e2-e0",
+                  "e3-e2"
+                ],
+                "z2_product_support": {
+                  "even_component_count": 32,
+                  "has_even_component": true,
+                  "labels": [
+                    "e2-e0",
+                    "e3-e2"
+                  ],
+                  "missing_singlet_character_labels": [],
+                  "odd_component_count": 32
+                }
+              }
+            ],
+            "simple_cy3_cubic_top_cup_eligible": false,
+            "source": {
+              "kind": "bounded_branch",
+              "path": "/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window25.json",
+              "window": 25
+            },
+            "status": "higher_monoid_triplet_only_but_proton_unprotected",
+            "triplet_pair_support": 1,
+            "weight": 1
+          },
+          "resulting_status": "higher_monoid_triplet_only_but_proton_unprotected",
+          "tiny_mutation": "keep triplet-only support but allow dangerous 10*5bar*5bar operators"
+        },
+        {
+          "boundary_id": "cup_5_unrealizable",
+          "example": {
+            "candidate_label": "radius6_broad_adjacency_filtered_10_branch_48",
+            "charge_neutral_hit_count": 6,
+            "charge_neutral_hit_degrees": {
+              "2": 1,
+              "3": 5
+            },
+            "compatible_monomial_hit_count": 0,
+            "compatible_monomial_hit_degrees": {},
+            "doublet_pair_support": 0,
+            "first_singlet_representatives": [],
+            "five": "5_34",
+            "five_cup_representative": {
+              "computed_signature": "+1/-0",
+              "reason": "branch kernel character requires an impossible image-rank split",
+              "requested_signature": "+0/-1",
+              "status": "representative_obstructed"
+            },
+            "fivebar": "5bar_02",
+            "fivebar_representative": {
+              "computed_signature": "+1/-1",
+              "requested_signature": "+1/-1",
+              "status": "representative_compatible"
+            },
+            "higher_monoid_support_class": "higher_monoid_triplet_only_mass",
+            "higher_order_mass_map_pending": false,
+            "invariant_hit_count": 1,
+            "invariant_hit_degrees": {
+              "2": 1
+            },
+            "operator": "5bar_02*5_34",
+            "proton_allowed_count": 0,
+            "sample_compatible_monomial_hits": [],
+            "sample_invariant_hits": [
+              {
+                "charge": {
+                  "coefficients": [
+                    -1,
+                    0,
+                    -1,
+                    1,
+                    1
+                  ],
+                  "label": "-e0-e2+e3+e4"
+                },
+                "degree": 2,
+                "labels": [
+                  "e3-e2",
+                  "e4-e0"
+                ],
+                "z2_product_support": {
+                  "even_component_count": 24,
+                  "has_even_component": true,
+                  "labels": [
+                    "e3-e2",
+                    "e4-e0"
+                  ],
+                  "missing_singlet_character_labels": [],
+                  "odd_component_count": 24
+                }
+              }
+            ],
+            "simple_cy3_cubic_top_cup_eligible": false,
+            "source": {
+              "kind": "bounded_branch",
+              "path": "/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window7.json",
+              "window": 7
+            },
+            "status": "higher_monoid_triplet_only_proton_safe_but_cup_5_unrealizable",
+            "triplet_pair_support": 1,
+            "weight": 1
+          },
+          "resulting_status": "higher_monoid_triplet_only_proton_safe_but_cup_5_unrealizable",
+          "tiny_mutation": "keep representative-compatible 5bar and proton safety but fail the cup-dual 5 representative character"
+        }
+      ],
+      "operator_certificate": {
+        "bilinear_charge": {
+          "coefficients": [
+            1,
+            0,
+            1,
+            -1,
+            -1
+          ],
+          "label": "e0+e2-e3-e4"
+        },
+        "bilinear_line_bundle_sum": [
+          2,
+          0,
+          3,
+          -1,
+          0,
+          -1,
+          -1
+        ],
+        "doublet_pair_support": 0,
+        "five": "5_34",
+        "fivebar": "5bar_02",
+        "monomial": [
+          "e3-e2",
+          "e4-e0"
+        ],
+        "monomial_charge": {
+          "coefficients": [
+            -1,
+            0,
+            -1,
+            1,
+            1
+          ],
+          "label": "-e0-e2+e3+e4"
+        },
+        "needed_singlet_charge": {
+          "coefficients": [
+            -1,
+            0,
+            -1,
+            1,
+            1
+          ],
+          "label": "-e0-e2+e3+e4"
+        },
+        "operator": "5bar_02*5_34",
+        "proton_allowed_count": 0,
+        "singlet_line_bundle_sum": [
+          -2,
+          0,
+          -3,
+          1,
+          0,
+          1,
+          1
+        ],
+        "total_charge": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "label": "0"
+        },
+        "total_line_bundle_sum": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "triplet_pair_support": 1,
+        "z2_product_support": {
+          "even_component_count": 24,
+          "has_even_component": true,
+          "labels": [
+            "e3-e2",
+            "e4-e0"
+          ],
+          "missing_singlet_character_labels": [],
+          "odd_component_count": 24
+        }
+      },
+      "pending_gate": {
+        "doublet_rank_condition": {
+          "matrix_dimensions_after_fixed_singlet_vevs": [
+            1,
+            0
+          ],
+          "rank_needed_to_preserve_light_doublet_pair": 0,
+          "rank_status": "selection_rule_forces_zero_for_this_operator",
+          "selection_rule_shape": [
+            1,
+            0
+          ]
+        },
+        "gate": "higher_order_effective_mass_map_rank",
+        "not_claimed": "simple CY3 cubic cup-product mass-rank verification",
+        "ordinary_cup_status": "not_a_simple_CY3_cubic_top_product",
+        "triplet_rank_condition": {
+          "matrix_dimensions_after_fixed_singlet_vevs": [
+            1,
+            1
+          ],
+          "rank_needed_to_lift_colored_triplet_pair": 1,
+          "rank_status": "pending_higher_order_mass_map",
+          "selection_rule_shape": [
+            "+1/-1",
+            "+1/-0"
+          ]
+        }
+      },
+      "source_artifacts": [
+        "reports/phenomenology_guided_q1_radius9_higher_degree_candidate_dossier.json",
+        "reports/phenomenology_guided_q1_radius9_higher_degree_candidate_dossier_verification.json"
+      ],
+      "status": "higher_order_mass_map_pending_for_frozen_candidate",
+      "survivor_id": "survivor_radius6_broad_adjacency_filtered_10_branch_50"
+    }
+  ],
+  "syndromes": [
+    {
+      "cheap_prefilter": {
+        "callable": "no_go_atlas_prefilters.no_recorded_free_symmetry",
+        "inputs_required": [
+          "requires_wilson_line_descent",
+          "free_symmetry_option_count"
+        ],
+        "prefilter_id": "no_recorded_free_symmetry",
+        "scope_note": "geometry-selection prefilter for Wilson-line descent goals"
+      },
+      "claim_scope": "Current cicylist.m recorded-symmetry data for favourable h11>=7 targets; not a theorem that CICY2544 admits no free action in any presentation.",
+      "evidence_artifacts": [
+        "reports/outside_regime_higgs_candidate_certificate.json",
+        "reports/outside_regime_free_symmetry_no_go.json",
+        "reports/outside_regime_free_symmetry_no_go_verification.json"
+      ],
+      "geometry": "CICY2544",
+      "minimal_obstruction_core": {
+        "candidate_label": "outside_h11_7_cicy2544_local_exact_chiral_delta1_one_higgs_rank1",
+        "first_failing_gate": "free_symmetry_required_for_wilson_line_descent",
+        "raw_free_symmetry_option_count": 0,
+        "regular_nontrivial_quality": {
+          "h0_v": 0,
+          "h0_v_dual": 0,
+          "regular_nontrivial_summand_scan_style": true,
+          "trivial_summand_count": 0
+        },
+        "upstairs_spectrum": {
+          "expected_upstairs_chirality": 3,
+          "higgs_pair_candidates_upstairs": 1,
+          "net_10_chirality": 3,
+          "net_5bar_chirality": 3,
+          "upstairs_10": 3,
+          "upstairs_5": 1,
+          "upstairs_5bar": 4,
+          "upstairs_anti_10": 0
+        },
+        "wilson_line_descent_applicable_from_recorded_raw_symmetry": false
+      },
+      "nearest_escape_or_boundary": {
+        "minimal_change": "supply a verified free action, or move to a quotient-compatible geometry/presentation",
+        "would_promote_to": "Wilson-line character descent audit"
+      },
+      "replay_counts": {
+        "cicy2544_free_symmetry_option_count": 0,
+        "favourable_h11_ge_7_known_symmetry_rows": 3,
+        "prefilter_sample_passes": true,
+        "rows_with_no_recorded_free_symmetry": 3,
+        "source": "reports/outside_regime_free_symmetry_no_go.json"
+      },
+      "representative_examples": [
+        {
+          "cicy": 2544,
+          "first_failing_gate": "free_symmetry_required_for_wilson_line_descent",
+          "label": "outside_h11_7_cicy2544_local_exact_chiral_delta1_one_higgs_rank1",
+          "spectrum": {
+            "expected_upstairs_chirality": 3,
+            "higgs_pair_candidates_upstairs": 1,
+            "net_10_chirality": 3,
+            "net_5bar_chirality": 3,
+            "upstairs_10": 3,
+            "upstairs_5": 1,
+            "upstairs_5bar": 4,
+            "upstairs_anti_10": 0
+          }
+        }
+      ],
+      "scope_class": "geometry-local",
+      "stage": "geometry_selection_for_wilson_line",
+      "syndrome_id": "geometry_no_recorded_free_symmetry",
+      "title": "Clean upstairs SU(5), but no recorded free action for Wilson-line descent"
+    },
+    {
+      "cheap_prefilter": {
+        "callable": "no_go_atlas_prefilters.vectorlike_excess",
+        "inputs_required": [
+          "actual_per_character_pair or best_actual_pair",
+          "allowed_pairs",
+          "max_vectorlike_pairs"
+        ],
+        "prefilter_id": "vectorlike_excess",
+        "scope_note": "spectrum/character prefilter after Wilson-line character decomposition"
+      },
+      "claim_scope": "Selected recorded CICY5259 free Z2 action option 0, lifted through the 7914 ineffective split, for the zero-extended bundle in this certificate.",
+      "evidence_artifacts": [
+        "reports/cicy5259_quotient_wilson_line_report.json",
+        "reports/cicy5259_quotient_wilson_line_verification.json"
+      ],
+      "geometry": "CICY5259 via favourable split 7914",
+      "minimal_obstruction_core": {
+        "H1_V_regular_multiplicity": 3,
+        "H1_wedge2_V_regular_multiplicity": 8,
+        "H2_wedge2_V_regular_multiplicity": 5,
+        "colored_triplet_vectorlike_pairs": 5,
+        "electroweak_doublet_vectorlike_pairs": 5,
+        "line_bundle_equivariance_certified": true,
+        "split_action_lift_certified": true
+      },
+      "nearest_escape_or_boundary": {
+        "historical_boundary": "the later radius-9 branch-50 search achieves one vectorlike pair only after moving to a different local bundle branch and higher-degree monoid support",
+        "minimal_change": "lower H2(wedge2 V) regular multiplicity from 5 to 1 or 0 while preserving q=1 and quotient lift"
+      },
+      "replay_counts": {
+        "admissible_nontrivial_embeddings": 1,
+        "prefilter_sample_passes": true,
+        "source": "reports/cicy5259_quotient_wilson_line_report.json",
+        "standard_model_like_embeddings": 0
+      },
+      "representative_examples": [
+        {
+          "fivebar_and_five_sector": {
+            "colored_triplet_vectorlike_pairs": 5,
+            "dbar_triplets_from_H1_wedge2V": 8,
+            "doublets_from_H2_wedge2V": 5,
+            "electroweak_doublet_vectorlike_pairs": 5,
+            "lepton_doublets_from_H1_wedge2V": 8,
+            "net_dbar_families": 3,
+            "net_lepton_doublet_families": 3,
+            "triplets_from_H2_wedge2V": 5
+          },
+          "obstruction": "excessive_vectorlike_5_content",
+          "wilson_line": "nontrivial_Z2_SU5_breaking"
+        }
+      ],
+      "scope_class": "presentation-local",
+      "stage": "wilson_line_character_projection",
+      "syndrome_id": "z2_regular_vectorlike_excess_5259_7914",
+      "title": "Certified quotient lift, but regular H2(wedge2 V) gives five vectorlike pairs"
+    },
+    {
+      "cheap_prefilter": {
+        "callable": "no_go_atlas_prefilters.vectorlike_excess",
+        "inputs_required": [
+          "actual_per_character_pair or best_actual_pair",
+          "allowed_pairs",
+          "max_vectorlike_pairs"
+        ],
+        "prefilter_id": "vectorlike_excess",
+        "scope_note": "spectrum/character prefilter after Wilson-line character decomposition"
+      },
+      "claim_scope": "CICY7484 kappa-plane and local deformation searches recorded in the current artifacts; not a global no-go for all 7484 bundles.",
+      "evidence_artifacts": [
+        "reports/best_candidate_certificate.json",
+        "reports/cicy7484_selected_kappa_zero_allowed_bound15.json",
+        "reports/cicy7484_pair_deformations_delta12_n5.json"
+      ],
+      "geometry": "CICY7484",
+      "minimal_obstruction_core": {
+        "best_actual_per_character_pair": [
+          6,
+          3
+        ],
+        "best_label": "K_improved(-1)",
+        "h1_regular_multiplicity": 6,
+        "h2_regular_multiplicity": 3,
+        "symmetry_order": 4,
+        "trivial_summand_count": 2,
+        "upstairs_spectrum": {
+          "actual_mssm_one_higgs_pair_without_triplets": false,
+          "actual_per_character_pair": [
+            6,
+            3
+          ],
+          "actual_three_family_no_vectorlike_pair": false,
+          "upstairs_10": 12,
+          "upstairs_5": 12,
+          "upstairs_5bar": 24,
+          "upstairs_anti_10": 0
+        }
+      },
+      "nearest_escape_or_boundary": {
+        "known_frontier": "local pair deformations to delta12 still bottom out at [6,3] for zero-allowed and [9,6] for nontrivial regular candidates",
+        "minimal_change": "find a character-certified 7484 branch with per-character pair [4,1] or [3,0] and no trivial-summand caveat"
+      },
+      "replay_counts": {
+        "actual_character_count": 12,
+        "has_actual_one_higgs_pair_without_triplets": false,
+        "has_actual_three_family_no_vectorlike_pair": false,
+        "local_best_nontrivial_pair": [
+          9,
+          6
+        ],
+        "local_best_zero_allowed_pair": [
+          6,
+          3
+        ],
+        "prefilter_sample_passes": true,
+        "selected_zero_allowed_spectrum_lift_count": 12,
+        "source": "reports/cicy7484_selected_kappa_zero_allowed_bound15.json"
+      },
+      "representative_examples": [
+        {
+          "actual_per_character_pair": [
+            6,
+            3
+          ],
+          "label": "K_improved(-1)",
+          "quality_caveat": {
+            "h0_v": 2,
+            "h0_v_dual": 2,
+            "interpretation": "trivial summands/global sections are mathematically checkable but may imply enhanced structure group or gauge-sector caveats relative to regular SU(5) line-bundle scan assumptions",
+            "regular_nontrivial_summand_scan_style": false,
+            "trivial_summand_count": 2,
+            "trivial_summand_indices": [
+              1,
+              4
+            ]
+          }
+        }
+      ],
+      "scope_class": "grammar-local",
+      "stage": "order4_wilson_line_character_projection",
+      "syndrome_id": "z2xz2_regular_vectorlike_excess_7484",
+      "title": "Quotient-compatible 7484 descent works, but character-certified vectorlike content is too large"
+    },
+    {
+      "cheap_prefilter": {
+        "callable": "no_go_atlas_prefilters.degree_zero_bilinear_not_top_cup",
+        "inputs_required": [
+          "monomial_degree",
+          "direct_total_cohomological_degree",
+          "direct_target_group",
+          "direct_target_dimension",
+          "required_singlet_degree_for_top_cubic"
+        ],
+        "prefilter_id": "degree_zero_bilinear_not_top_cup",
+        "scope_note": "CY3 top-degree prefilter before mass-rank claims"
+      },
+      "claim_scope": "The cohomological-degree rule is CY3-general for ordinary cup products; the replay counts are only for the represented radius-9 5259/7914 frontier.",
+      "evidence_artifacts": [
+        "reports/phenomenology_guided_q1_radius9_realized_lead_mass_rank_probe.json",
+        "reports/phenomenology_guided_q1_radius9_realized_lead_mass_rank_probe_verification.json",
+        "reports/phenomenology_guided_q1_radius9_degree_aware_main_frontier_search.json"
+      ],
+      "geometry": "CICY5259 via favourable split 7914",
+      "minimal_obstruction_core": {
+        "candidate": "radius6_broad_adjacency_filtered_1_actual_branch_926",
+        "direct_target_group": {
+          "cohomology_dimension": 0,
+          "reason": "the listed degree-zero monomial contributes no H1 insertion, so H1(L_12) x H1(L_12^*) lands in H2(O_X), not H3(O_X)",
+          "sector": "H2(O_X)"
+        },
+        "direct_total_cohomological_degree": 2,
+        "has_required_degree_one_neutral_singlet_hit": false,
+        "listed_monomial_degree_counts": {
+          "0": 1
+        },
+        "operator": "5bar_12*5_12",
+        "top_target_group": {
+          "cohomology_dimension": 1,
+          "requires_singlet_cohomological_degree": 1,
+          "sector": "H3(O_X)"
+        },
+        "verdict": {
+          "desired_triplet_lifting_verified": false,
+          "doublet_rank": 0,
+          "mass_rank_verified": true,
+          "obstruction": "cohomological_degree_mismatch",
+          "reason": "The realized lead's only triplet-only mass support is the neutral degree-zero monomial.  This is enough for the charge/character selection-rule shadow, but it does not define a CY3 top-degree superpotential cup product: H1(L_12) x H1(L_12^*) lands in H2(O_X)=0.  A direct cubic rank computation would need a neutral degree-one singlet insertion, and none is present in the certified monomial hits for this operator.",
+          "status": "mass_rank_obstructed_by_degree_zero_bilinear_not_top_cup_product",
+          "triplet_rank": 0
+        }
+      },
+      "nearest_escape_or_boundary": {
+        "followup_result": "degree-aware replay found 333 selection survivors with degree-one support, but all failed representative realizability",
+        "minimal_change": "add a neutralizing H1 singlet insertion so the ordinary product lands in H3(O_X)"
+      },
+      "replay_counts": {
+        "degree_zero_bilinear_rows": 1452,
+        "degree_zero_bilinear_weight": 29021,
+        "prefilter_sample_passes": true,
+        "records_scanned": 4065,
+        "represented_q1_weight": 549038,
+        "source": "reports/phenomenology_guided_q1_radius9_degree_aware_main_frontier_search.json"
+      },
+      "representative_examples": [
+        {
+          "candidate": "radius6_broad_adjacency_filtered_1_actual_branch_926",
+          "obstruction": "cohomological_degree_mismatch",
+          "operator": "5bar_12*5_12",
+          "reason": "The realized lead's only triplet-only mass support is the neutral degree-zero monomial.  This is enough for the charge/character selection-rule shadow, but it does not define a CY3 top-degree superpotential cup product: H1(L_12) x H1(L_12^*) lands in H2(O_X)=0.  A direct cubic rank computation would need a neutral degree-one singlet insertion, and none is present in the certified monomial hits for this operator."
+        }
+      ],
+      "scope_class": "global-looking",
+      "stage": "top_degree_superpotential_gate",
+      "syndrome_id": "degree_zero_bilinear_not_cy3_top_cup",
+      "title": "Charge-neutral bilinear shadow misses CY3 top degree"
+    },
+    {
+      "cheap_prefilter": {
+        "callable": "no_go_atlas_prefilters.representative_character_mismatch",
+        "inputs_required": [
+          "leg_type",
+          "requested_multiplicities",
+          "computed_multiplicities",
+          "representative_status"
+        ],
+        "prefilter_id": "representative_character_mismatch",
+        "scope_note": "representative-realizability prefilter for branch-completed character shadows"
+      },
+      "claim_scope": "Current represented radius-9 q=1 5259/7914 frontier with degree-one top-cup target grammar.",
+      "evidence_artifacts": [
+        "reports/phenomenology_guided_q1_radius9_representative_first_degree_aware_search.json",
+        "reports/phenomenology_guided_q1_radius9_representative_first_degree_aware_search_verification.json"
+      ],
+      "geometry": "CICY5259 via favourable split 7914",
+      "minimal_obstruction_core": {
+        "computed": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 1,
+            "-": 1
+          },
+          "nonidentity_trace": 0,
+          "regular_multiplicity": 1
+        },
+        "leg_type": "physical_5bar_H1",
+        "reason": "branch cokernel character requires an impossible image-rank split",
+        "requested": {
+          "dimension": 2,
+          "multiplicities": {
+            "+": 2,
+            "-": 0
+          },
+          "nonidentity_trace": 2,
+          "regular_multiplicity": null
+        },
+        "required_image_ranks_feasible": false,
+        "required_image_ranks_for_branch": {
+          "+": 1,
+          "-": 3
+        },
+        "role": "5bar_02:physical_H1_wedge2_V",
+        "source_dimension": 4
+      },
+      "nearest_escape_or_boundary": {
+        "followup_result": "physical-5bar-first replay found representative-compatible 5bar sectors, but degree-one triplet-only operators did not intersect them",
+        "minimal_change": "seed generator with representative-compatible physical 5bar H1 templates before asking for triplet-only mass support"
+      },
+      "replay_counts": {
+        "degree_aware_failure_records": 333,
+        "degree_aware_failure_weight": 333,
+        "prefilter_sample_passes": true,
+        "representative_compatible_template_records": 0,
+        "representative_first_template_records": 479,
+        "representative_first_template_weight": 1077,
+        "source": "reports/phenomenology_guided_q1_radius9_representative_first_degree_aware_search.json"
+      },
+      "representative_examples": [
+        {
+          "candidate_label": "radius6_broad_adjacency_filtered_4_branch_18",
+          "computed": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 1,
+              "-": 1
+            },
+            "nonidentity_trace": 0,
+            "regular_multiplicity": 1
+          },
+          "leg_type": "physical_5bar_H1",
+          "operator": "5bar_02*5_24",
+          "reason": "branch cokernel character requires an impossible image-rank split",
+          "requested": {
+            "dimension": 2,
+            "multiplicities": {
+              "+": 2,
+              "-": 0
+            },
+            "nonidentity_trace": 2,
+            "regular_multiplicity": null
+          },
+          "role": "5bar_02:physical_H1_wedge2_V",
+          "source": {
+            "kind": "bounded_branch",
+            "path": "/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window18.json",
+            "window": 18
+          },
+          "weight": 1
+        }
+      ],
+      "scope_class": "grammar-local",
+      "stage": "representative_realizability_gate",
+      "syndrome_id": "physical_5bar_representative_character_mismatch",
+      "title": "Triplet-only branch character asks for +2/-0, but representatives give +1/-1"
+    },
+    {
+      "cheap_prefilter": {
+        "callable": "no_go_atlas_prefilters.degree_one_doublet_triplet_inseparable",
+        "inputs_required": [
+          "singlet_degree",
+          "triplet_pair_support",
+          "doublet_pair_support"
+        ],
+        "prefilter_id": "degree_one_doublet_triplet_inseparable",
+        "scope_note": "doublet-triplet selection prefilter for degree-one top-cup channels"
+      },
+      "claim_scope": "Current represented radius-9 q=1 5259/7914 frontier with representative-compatible physical 5bar seeding and degree-one singlet insertion.",
+      "evidence_artifacts": [
+        "reports/phenomenology_guided_q1_radius9_intersection_forcing_search.json",
+        "reports/phenomenology_guided_q1_radius9_intersection_forcing_search_verification.json"
+      ],
+      "geometry": "CICY5259 via favourable split 7914",
+      "minimal_obstruction_core": {
+        "doublet_example": {
+          "candidate_label": "radius6_broad_adjacency_filtered_7_branch_3",
+          "doublet_pair_support": 1,
+          "operator": "5bar_24*5_12",
+          "singlet_hits": [
+            {
+              "charge": {
+                "coefficients": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  -1
+                ],
+                "label": "e1-e4"
+              },
+              "degree": 1,
+              "labels": [
+                "e1-e4"
+              ],
+              "z2_product_support": {
+                "even_component_count": 6,
+                "has_even_component": true,
+                "labels": [
+                  "e1-e4"
+                ],
+                "missing_singlet_character_labels": [],
+                "odd_component_count": 6
+              }
+            }
+          ],
+          "triplet_pair_support": 1
+        },
+        "forced_support_class_rows": {
+          "degree_one_singlet_has_no_even_component": 3097,
+          "no_degree_one_charge_neutral_singlet": 5768,
+          "top_cup_triplet_and_doublet_mass": 1139
+        },
+        "intersection_forced_operator_records": 10004,
+        "representative_compatible_physical_5bar_template_rows": 9215
+      },
+      "nearest_escape_or_boundary": {
+        "followup_result": "degree <=3 monoids produced 136 representative-compatible higher-degree selection candidates",
+        "minimal_change": "allow higher-degree singlet monoids while retaining representative-compatible 5bar/cup-5 and proton safety"
+      },
+      "replay_counts": {
+        "cup_product_eligible_records": 0,
+        "doublet_support_obstruction_rows": 1139,
+        "intersection_forced_operator_records": 10004,
+        "prefilter_sample_passes": true,
+        "records_scanned": 4065,
+        "source": "reports/phenomenology_guided_q1_radius9_intersection_forcing_search.json"
+      },
+      "representative_examples": [
+        {
+          "all_degree_one_charge_neutral_singlet_hits": [
+            {
+              "charge": {
+                "coefficients": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  -1
+                ],
+                "label": "e1-e4"
+              },
+              "degree": 1,
+              "labels": [
+                "e1-e4"
+              ],
+              "z2_product_support": {
+                "even_component_count": 6,
+                "has_even_component": true,
+                "labels": [
+                  "e1-e4"
+                ],
+                "missing_singlet_character_labels": [],
+                "odd_component_count": 6
+              }
+            }
+          ],
+          "candidate_label": "radius6_broad_adjacency_filtered_7_branch_3",
+          "degree_aware_support_class": "top_cup_triplet_and_doublet_mass",
+          "degree_one_singlet_hits": [
+            {
+              "charge": {
+                "coefficients": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  -1
+                ],
+                "label": "e1-e4"
+              },
+              "degree": 1,
+              "labels": [
+                "e1-e4"
+              ],
+              "z2_product_support": {
+                "even_component_count": 6,
+                "has_even_component": true,
+                "labels": [
+                  "e1-e4"
+                ],
+                "missing_singlet_character_labels": [],
+                "odd_component_count": 6
+              }
+            }
+          ],
+          "doublet_pair_support": 1,
+          "five": "5_12",
+          "five_cup_representative": null,
+          "fivebar": "5bar_24",
+          "fivebar_representative": {
+            "computed_signature": "+1/-1",
+            "requested_signature": "+1/-1",
+            "status": "representative_compatible"
+          },
+          "operator": "5bar_24*5_12",
+          "proton_allowed_count": 3,
+          "singlet_representatives": [],
+          "source": {
+            "kind": "bounded_branch",
+            "path": "/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window7.json",
+            "window": 7
+          },
+          "status": "doublet_support_obstruction",
+          "triplet_pair_support": 1,
+          "weight": 1
+        },
+        {
+          "all_degree_one_charge_neutral_singlet_hits": [
+            {
+              "charge": {
+                "coefficients": [
+                  -1,
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                "label": "e1-e0"
+              },
+              "degree": 1,
+              "labels": [
+                "e1-e0"
+              ],
+              "z2_product_support": {
+                "even_component_count": 1,
+                "has_even_component": false,
+                "labels": [
+                  "e1-e0"
+                ],
+                "missing_singlet_character_labels": [
+                  "e1-e0"
+                ],
+                "odd_component_count": 0
+              }
+            }
+          ],
+          "candidate_label": "radius6_broad_adjacency_filtered_1_large_branch_q1_representative",
+          "degree_aware_support_class": "degree_one_singlet_has_no_even_component",
+          "degree_one_singlet_hits": [],
+          "doublet_pair_support": 0,
+          "five": "5_12",
+          "five_cup_representative": null,
+          "fivebar": "5bar_02",
+          "fivebar_representative": {
+            "computed_signature": "+1/-1",
+            "requested_signature": "+1/-1",
+            "status": "representative_compatible"
+          },
+          "operator": "5bar_02*5_12",
+          "proton_allowed_count": 1,
+          "singlet_representatives": [],
+          "source": {
+            "kind": "large_branch_representative",
+            "path": "/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_broad_window6_large_branch_closure_filtered_1.json",
+            "represented_q1_branches": 216,
+            "window": 6
+          },
+          "status": "degree_one_singlet_character_not_invariant",
+          "triplet_pair_support": 0,
+          "weight": 216
+        },
+        {
+          "all_degree_one_charge_neutral_singlet_hits": [],
+          "candidate_label": "radius6_broad_adjacency_filtered_0",
+          "degree_aware_support_class": "no_degree_one_charge_neutral_singlet",
+          "degree_one_singlet_hits": [],
+          "doublet_pair_support": 0,
+          "five": "5_14",
+          "five_cup_representative": null,
+          "fivebar": "5bar_03",
+          "fivebar_representative": {
+            "computed_signature": "+1/-1",
+            "requested_signature": "+1/-1",
+            "status": "representative_compatible"
+          },
+          "operator": "5bar_03*5_14",
+          "proton_allowed_count": 2,
+          "singlet_representatives": [],
+          "source": {
+            "kind": "direct_scout",
+            "path": "/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_broad_adjacency_scout_window1.json",
+            "window": 1
+          },
+          "status": "no_degree_one_charge_neutral_singlet",
+          "triplet_pair_support": 0,
+          "weight": 1
+        }
+      ],
+      "scope_class": "grammar-local",
+      "stage": "degree_one_intersection_forcing_gate",
+      "syndrome_id": "degree_one_representative_intersection_not_triplet_only",
+      "title": "Representative-compatible degree-one intersections fail triplet-only DT separation"
+    },
+    {
+      "cheap_prefilter": {
+        "callable": "no_go_atlas_prefilters.higher_monoid_downstream_obstructed",
+        "inputs_required": [
+          "status"
+        ],
+        "prefilter_id": "higher_monoid_downstream_obstructed",
+        "scope_note": "higher-degree monoid status prefilter before candidate promotion"
+      },
+      "claim_scope": "Degree <=3 singlet-monoid replay of the represented radius-9 q=1 5259/7914 frontier.",
+      "evidence_artifacts": [
+        "reports/phenomenology_guided_q1_radius9_higher_degree_intersection_search.json",
+        "reports/phenomenology_guided_q1_radius9_higher_degree_intersection_search_verification.json"
+      ],
+      "geometry": "CICY5259 via favourable split 7914",
+      "minimal_obstruction_core": {
+        "candidate_compatible_monomial_degrees_rows": {
+          "2": 120,
+          "3": 16
+        },
+        "max_singlet_monoid_degree": 3,
+        "operator_status_rows": {
+          "higher_monoid_doublet_support_obstruction": 1969,
+          "higher_monoid_no_triplet_component_support": 99,
+          "higher_monoid_representative_compatible_candidate": 136,
+          "higher_monoid_triplet_only_but_proton_unprotected": 68,
+          "higher_monoid_triplet_only_proton_safe_but_cup_5_unrealizable": 136,
+          "no_invariant_monoid_le_bound": 7596
+        },
+        "simple_cy3_cubic_top_cup_eligible_records": 0
+      },
+      "nearest_escape_or_boundary": {
+        "followup_result": "branch radius6_broad_adjacency_filtered_10_branch_50 is frozen in the survivor dossier",
+        "minimal_change": "select the representative-compatible candidate status and then compute the pending higher-order mass map"
+      },
+      "replay_counts": {
+        "degree2_candidate_records": 120,
+        "degree3_candidate_records": 16,
+        "downstream_obstructed_operator_records": 9868,
+        "higher_degree_forced_operator_records": 10004,
+        "prefilter_sample_passes": true,
+        "representative_candidate_records": 136,
+        "source": "reports/phenomenology_guided_q1_radius9_higher_degree_intersection_search.json"
+      },
+      "representative_examples": [
+        {
+          "candidate_label": "radius6_broad_adjacency_filtered_1",
+          "charge_neutral_hit_count": 3,
+          "charge_neutral_hit_degrees": {
+            "2": 2,
+            "3": 1
+          },
+          "compatible_monomial_hit_count": 0,
+          "compatible_monomial_hit_degrees": {},
+          "doublet_pair_support": 1,
+          "first_singlet_representatives": [],
+          "five": "5_14",
+          "five_cup_representative": null,
+          "fivebar": "5bar_04",
+          "fivebar_representative": {
+            "computed_signature": "+2/-2",
+            "requested_signature": "+2/-2",
+            "status": "representative_compatible"
+          },
+          "higher_monoid_support_class": "higher_monoid_triplet_and_doublet_mass",
+          "higher_order_mass_map_pending": false,
+          "invariant_hit_count": 2,
+          "invariant_hit_degrees": {
+            "2": 2
+          },
+          "operator": "5bar_04*5_14",
+          "proton_allowed_count": 1,
+          "sample_compatible_monomial_hits": [],
+          "sample_invariant_hits": [
+            {
+              "charge": {
+                "coefficients": [
+                  -1,
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                "label": "-e0+e1"
+              },
+              "degree": 2,
+              "labels": [
+                "e1-e3",
+                "e3-e0"
+              ],
+              "z2_product_support": {
+                "even_component_count": 48,
+                "has_even_component": true,
+                "labels": [
+                  "e1-e3",
+                  "e3-e0"
+                ],
+                "missing_singlet_character_labels": [],
+                "odd_component_count": 48
+              }
+            },
+            {
+              "charge": {
+                "coefficients": [
+                  -1,
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                "label": "-e0+e1"
+              },
+              "degree": 2,
+              "labels": [
+                "e1-e4",
+                "e4-e0"
+              ],
+              "z2_product_support": {
+                "even_component_count": 12,
+                "has_even_component": true,
+                "labels": [
+                  "e1-e4",
+                  "e4-e0"
+                ],
+                "missing_singlet_character_labels": [],
+                "odd_component_count": 12
+              }
+            }
+          ],
+          "simple_cy3_cubic_top_cup_eligible": false,
+          "source": {
+            "kind": "direct_scout",
+            "path": "/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_broad_adjacency_scout_window1.json",
+            "window": 1
+          },
+          "status": "higher_monoid_doublet_support_obstruction",
+          "triplet_pair_support": 1,
+          "weight": 1
+        },
+        {
+          "candidate_label": "radius6_broad_adjacency_filtered_4_branch_12",
+          "charge_neutral_hit_count": 4,
+          "charge_neutral_hit_degrees": {
+            "2": 2,
+            "3": 2
+          },
+          "compatible_monomial_hit_count": 0,
+          "compatible_monomial_hit_degrees": {},
+          "doublet_pair_support": 0,
+          "first_singlet_representatives": [],
+          "five": "5_34",
+          "five_cup_representative": {
+            "computed_signature": "+1/-0",
+            "reason": "single total-degree E1 source equals the cohomology dimension",
+            "requested_signature": "+1/-0",
+            "status": "representative_compatible"
+          },
+          "fivebar": "5bar_04",
+          "fivebar_representative": {
+            "computed_signature": "+1/-1",
+            "requested_signature": "+1/-1",
+            "status": "representative_compatible"
+          },
+          "higher_monoid_support_class": "higher_monoid_triplet_only_mass",
+          "higher_order_mass_map_pending": false,
+          "invariant_hit_count": 1,
+          "invariant_hit_degrees": {
+            "2": 1
+          },
+          "operator": "5bar_04*5_34",
+          "proton_allowed_count": 2,
+          "sample_compatible_monomial_hits": [],
+          "sample_invariant_hits": [
+            {
+              "charge": {
+                "coefficients": [
+                  -1,
+                  0,
+                  0,
+                  1,
+                  0
+                ],
+                "label": "-e0+e3"
+              },
+              "degree": 2,
+              "labels": [
+                "e2-e0",
+                "e3-e2"
+              ],
+              "z2_product_support": {
+                "even_component_count": 32,
+                "has_even_component": true,
+                "labels": [
+                  "e2-e0",
+                  "e3-e2"
+                ],
+                "missing_singlet_character_labels": [],
+                "odd_component_count": 32
+              }
+            }
+          ],
+          "simple_cy3_cubic_top_cup_eligible": false,
+          "source": {
+            "kind": "bounded_branch",
+            "path": "/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window25.json",
+            "window": 25
+          },
+          "status": "higher_monoid_triplet_only_but_proton_unprotected",
+          "triplet_pair_support": 1,
+          "weight": 1
+        },
+        {
+          "candidate_label": "radius6_broad_adjacency_filtered_10_branch_48",
+          "charge_neutral_hit_count": 6,
+          "charge_neutral_hit_degrees": {
+            "2": 1,
+            "3": 5
+          },
+          "compatible_monomial_hit_count": 0,
+          "compatible_monomial_hit_degrees": {},
+          "doublet_pair_support": 0,
+          "first_singlet_representatives": [],
+          "five": "5_34",
+          "five_cup_representative": {
+            "computed_signature": "+1/-0",
+            "reason": "branch kernel character requires an impossible image-rank split",
+            "requested_signature": "+0/-1",
+            "status": "representative_obstructed"
+          },
+          "fivebar": "5bar_02",
+          "fivebar_representative": {
+            "computed_signature": "+1/-1",
+            "requested_signature": "+1/-1",
+            "status": "representative_compatible"
+          },
+          "higher_monoid_support_class": "higher_monoid_triplet_only_mass",
+          "higher_order_mass_map_pending": false,
+          "invariant_hit_count": 1,
+          "invariant_hit_degrees": {
+            "2": 1
+          },
+          "operator": "5bar_02*5_34",
+          "proton_allowed_count": 0,
+          "sample_compatible_monomial_hits": [],
+          "sample_invariant_hits": [
+            {
+              "charge": {
+                "coefficients": [
+                  -1,
+                  0,
+                  -1,
+                  1,
+                  1
+                ],
+                "label": "-e0-e2+e3+e4"
+              },
+              "degree": 2,
+              "labels": [
+                "e3-e2",
+                "e4-e0"
+              ],
+              "z2_product_support": {
+                "even_component_count": 24,
+                "has_even_component": true,
+                "labels": [
+                  "e3-e2",
+                  "e4-e0"
+                ],
+                "missing_singlet_character_labels": [],
+                "odd_component_count": 24
+              }
+            }
+          ],
+          "simple_cy3_cubic_top_cup_eligible": false,
+          "source": {
+            "kind": "bounded_branch",
+            "path": "/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window7.json",
+            "window": 7
+          },
+          "status": "higher_monoid_triplet_only_proton_safe_but_cup_5_unrealizable",
+          "triplet_pair_support": 1,
+          "weight": 1
+        },
+        {
+          "candidate_label": "radius6_broad_adjacency_filtered_10_branch_50",
+          "charge_neutral_hit_count": 6,
+          "charge_neutral_hit_degrees": {
+            "2": 1,
+            "3": 5
+          },
+          "compatible_monomial_hit_count": 1,
+          "compatible_monomial_hit_degrees": {
+            "2": 1
+          },
+          "doublet_pair_support": 0,
+          "first_singlet_representatives": [
+            {
+              "computed_signature": "+6/-6",
+              "reason": "single total-degree E1 source equals the cohomology dimension",
+              "requested_signature": "+6/-6",
+              "singlet": "e3-e2",
+              "status": "representative_compatible"
+            },
+            {
+              "computed_signature": "+2/-2",
+              "reason": "single total-degree E1 source equals the cohomology dimension",
+              "requested_signature": "+2/-2",
+              "singlet": "e4-e0",
+              "status": "representative_compatible"
+            }
+          ],
+          "five": "5_34",
+          "five_cup_representative": {
+            "computed_signature": "+1/-0",
+            "reason": "explicit equivariant first-page kernel character matches branch actual",
+            "requested_signature": "+1/-0",
+            "status": "representative_compatible"
+          },
+          "fivebar": "5bar_02",
+          "fivebar_representative": {
+            "computed_signature": "+1/-1",
+            "requested_signature": "+1/-1",
+            "status": "representative_compatible"
+          },
+          "higher_monoid_support_class": "higher_monoid_triplet_only_mass",
+          "higher_order_mass_map_pending": true,
+          "invariant_hit_count": 1,
+          "invariant_hit_degrees": {
+            "2": 1
+          },
+          "operator": "5bar_02*5_34",
+          "proton_allowed_count": 0,
+          "sample_compatible_monomial_hits": [
+            {
+              "charge": {
+                "coefficients": [
+                  -1,
+                  0,
+                  -1,
+                  1,
+                  1
+                ],
+                "label": "-e0-e2+e3+e4"
+              },
+              "degree": 2,
+              "labels": [
+                "e3-e2",
+                "e4-e0"
+              ],
+              "z2_product_support": {
+                "even_component_count": 24,
+                "has_even_component": true,
+                "labels": [
+                  "e3-e2",
+                  "e4-e0"
+                ],
+                "missing_singlet_character_labels": [],
+                "odd_component_count": 24
+              }
+            }
+          ],
+          "sample_invariant_hits": [
+            {
+              "charge": {
+                "coefficients": [
+                  -1,
+                  0,
+                  -1,
+                  1,
+                  1
+                ],
+                "label": "-e0-e2+e3+e4"
+              },
+              "degree": 2,
+              "labels": [
+                "e3-e2",
+                "e4-e0"
+              ],
+              "z2_product_support": {
+                "even_component_count": 24,
+                "has_even_component": true,
+                "labels": [
+                  "e3-e2",
+                  "e4-e0"
+                ],
+                "missing_singlet_character_labels": [],
+                "odd_component_count": 24
+              }
+            }
+          ],
+          "simple_cy3_cubic_top_cup_eligible": false,
+          "source": {
+            "kind": "bounded_branch",
+            "path": "/Users/brian/code/string-theory/reports/phenomenology_guided_q1_radius9_broad_branch_analysis_window7.json",
+            "window": 7
+          },
+          "status": "higher_monoid_representative_compatible_candidate",
+          "triplet_pair_support": 1,
+          "weight": 1
+        }
+      ],
+      "scope_class": "grammar-local",
+      "stage": "higher_degree_monoid_selection_gate",
+      "syndrome_id": "higher_degree_monoid_downstream_obstructions",
+      "title": "Higher-degree monoids reopen the corridor, but most operators still die at downstream gates"
+    }
+  ],
+  "title": "No-Go Atlas v0"
+}

@@ -1,0 +1,51 @@
+{
+  "all_gates_pass": true,
+  "gates": {
+    "builder_gates_pass": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/phenomenology_guided_q1_radius9_higher_degree_candidate_dossier.json",
+      "note": "builder-side dossier gates all pass",
+      "pass": true
+    },
+    "dangerous_operator_table_is_closed_by_current_rules": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/phenomenology_guided_q1_radius9_higher_degree_candidate_dossier.json",
+      "note": "all listed 10*5bar*5bar operators are forbidden by the current selection table",
+      "pass": true
+    },
+    "frozen_candidate_identity": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/phenomenology_guided_q1_radius9_higher_degree_candidate_dossier.json",
+      "note": "dossier freezes the first stable higher-degree lead",
+      "pass": true
+    },
+    "higher_order_rank_conditions_are_explicit": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/phenomenology_guided_q1_radius9_higher_degree_candidate_dossier.json",
+      "note": "dossier states the 1x1 triplet rank target and keeps higher-order map rank pending",
+      "pass": true
+    },
+    "markdown_exposes_core_boundary": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/phenomenology_guided_q1_radius9_higher_degree_candidate_dossier.md",
+      "note": "markdown exposes the frozen candidate and higher-order pending boundary",
+      "pass": true
+    },
+    "operator_neutrality_and_selection_support": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/phenomenology_guided_q1_radius9_higher_degree_candidate_dossier.json",
+      "note": "degree-2 monoid neutralizes the operator and gives triplet-only current-filter support",
+      "pass": true
+    },
+    "ordinary_product_boundary_is_not_overclaimed": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/phenomenology_guided_q1_radius9_higher_degree_candidate_dossier.json",
+      "note": "ordinary cup-product proxy records the H4 boundary and absence of direct H3 prefixes",
+      "pass": true
+    },
+    "q1_spectrum_and_frontier_counts": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/phenomenology_guided_q1_radius9_higher_degree_candidate_dossier.json",
+      "note": "source spectrum and higher-degree frontier counts are stable",
+      "pass": true
+    },
+    "representative_stack_is_exact": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/phenomenology_guided_q1_radius9_higher_degree_candidate_dossier.json",
+      "note": "all four cohomology legs are the expected representative-compatible lines",
+      "pass": true
+    }
+  },
+  "scope": "verification for higher-degree candidate dossier"
+}

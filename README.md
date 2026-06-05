@@ -1,14 +1,14 @@
 # Koszul Compass
 
-Evidence-first scout artifacts for a heterotic line-bundle search on the
-CICY 5259/7914 route.
+Evidence-first atlas artifacts for a heterotic line-bundle search across the
+CICY 5259/7914, 7484, and 2544 routes.
 
-Koszul Compass packages a representative-feasibility refinement of a
-radius-9 q=1 frontier. The central result is a selection-preserving
-branch-character scout: obstructed branch character requests are replaced by
-representative-feasible characters, while q=1 spectrum, matrix-level gates,
-refined doublet-triplet/proton filters, singlet monoid support, and
-representative realizability remain hard promotion gates.
+Koszul Compass packages a compact, verified result packet for a verifier-first
+heterotic compactification search. The current packet is a **No-Go Atlas v0**:
+failed candidate classes are compressed into scoped obstruction syndromes with
+cheap executable prefilters and replay counts, while the current higher-degree
+survivor carries a proof-carrying certificate and a clearly marked pending
+higher-order mass-map gate.
 
 ## Background
 
@@ -42,33 +42,51 @@ rerun the q=1, topology, selection-rule, proton-protection, and representative
 gates before promoting anything.
 
 The scientific point is deliberately modest but useful: component characters
-and branch completions are not enough by themselves. Candidate promotion should
-wait until the representatives agree.
+and branch completions are not enough by themselves, and even
+representative-compatible selection rules are not yet mass-rank verification.
+Candidate promotion should carry both a survival certificate and the nearest
+no-go boundary.
 
 ## Headline Result
 
-The verified scout starts from 14 generation-pruned refined survivors and
-enumerates 28 branch-character replacement variants.
+The No-Go Atlas v0 records 7 scoped obstruction syndromes, 6 executable cheap
+prefilters, and 1 current survivor certificate.
 
-- 24 variants lose the q=1 signature and are blocked before representative
-  promotion.
-- 4 variants preserve q=1, recomputed matrix gates, refined selection rules,
-  proton protection, representative compatibility, and cup-product eligibility.
-- The only compatible pattern is `5bar_12*5_12`, replacing
-  `5_12:cup_H1_wedge2_V_dual` with the representative-feasible regular
-  character `{+1,-1}`.
+Included syndromes cover:
 
-These rows are branch-character scout targets, not full mass-rank verified
-MSSM models. The next physics step is an exact cup-product mass-rank dossier
-for the promoted `5bar_12*5_12` block.
+- CICY 2544: clean upstairs one-Higgs SU(5), but no recorded free symmetry for
+  Wilson-line descent in the current data.
+- CICY 7484: quotient-compatible character machinery works, but the certified
+  vectorlike sector remains too large.
+- CICY 5259/7914: representative mismatch, top-degree mismatch,
+  degree-one doublet-triplet inseparability, and higher-degree monoid
+  downstream obstructions.
+
+The survivor certificate freezes
+`radius6_broad_adjacency_filtered_10_branch_50` with operator
+`5bar_02*5_34` and monomial `['e3-e2', 'e4-e0']`. It passes the current
+q=1, representative, charge/character, triplet-only, and proton-safety gates,
+but it is **not** a simple CY3 cubic cup-product certificate. The pending gate
+is the higher-order/effective mass-map rank computation.
+
+This is an atlas and survivor packet, not a full MSSM model claim.
 
 ## Key Artifacts
+
+- `reports/no_go_atlas_v0.md`
+- `reports/no_go_atlas_v0.json`
+- `reports/no_go_atlas_v0_verification.json`
+- `reports/phenomenology_guided_q1_radius9_higher_degree_candidate_dossier.md`
+- `reports/phenomenology_guided_q1_radius9_higher_degree_candidate_dossier.json`
+- `reports/phenomenology_guided_q1_radius9_higher_degree_candidate_dossier_verification.json`
+
+Earlier representative-scout anchors are also included:
 
 - `reports/phenomenology_guided_q1_radius9_selection_preserving_branch_scout.md`
 - `reports/phenomenology_guided_q1_radius9_selection_preserving_branch_scout.json`
 - `reports/phenomenology_guided_q1_radius9_selection_preserving_branch_scout_verification.json`
 
-Upstream verification anchors are also included:
+Upstream verification anchors:
 
 - `reports/phenomenology_guided_q1_radius9_representative_generation_replay_rollup.*`
 - `reports/phenomenology_guided_q1_radius9_representative_obstruction_escape_report.*`
@@ -79,6 +97,9 @@ Upstream verification anchors are also included:
 The included report packet can be checked with:
 
 ```bash
+uv run python scripts/verify_no_go_atlas_v0.py
+uv run python -m py_compile scripts/no_go_atlas_prefilters.py scripts/build_no_go_atlas_v0.py scripts/verify_no_go_atlas_v0.py
+uv run python scripts/verify_phenomenology_guided_q1_radius9_higher_degree_candidate_dossier.py
 uv run python scripts/verify_phenomenology_guided_q1_radius9_selection_preserving_branch_scout.py
 uv run python -m py_compile scripts/build_phenomenology_guided_q1_radius9_selection_preserving_branch_scout.py scripts/verify_phenomenology_guided_q1_radius9_selection_preserving_branch_scout.py
 ```
