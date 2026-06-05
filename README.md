@@ -10,6 +10,41 @@ representative-feasible characters, while q=1 spectrum, matrix-level gates,
 refined doublet-triplet/proton filters, singlet monoid support, and
 representative realizability remain hard promotion gates.
 
+## Background
+
+This repository comes from a search for heterotic string compactifications with
+line-bundle sums on complete intersection Calabi-Yau manifolds. The target
+phenomenology is an SU(5)-type upstairs model which can descend through a free
+quotient and Wilson line to a three-family Standard-Model-like spectrum.
+
+In this setting, many quick filters are necessary but not sufficient. A bundle
+can have the right index, spectrum counts, and charge-level selection rules
+while still failing when the actual equivariant cohomology representatives are
+examined. Koszul Compass focuses on that gap.
+
+The working hierarchy is:
+
+```text
+q=1 spectrum
+  -> Wilson-line component characters
+  -> charge/character operator filters
+  -> representative-level Koszul/E2 realizability
+  -> cup-product mass-rank computation
+  -> full phenomenology
+```
+
+Earlier scans found candidates that looked viable at the character-shadow
+level but failed at the representative layer: the branch-level character
+assignment requested by a mass operator was not realizable by the actual
+equivariant Koszul complex. This package records the next refinement: replace
+the obstructed branch requests by representative-feasible characters, then
+rerun the q=1, topology, selection-rule, proton-protection, and representative
+gates before promoting anything.
+
+The scientific point is deliberately modest but useful: component characters
+and branch completions are not enough by themselves. Candidate promotion should
+wait until the representatives agree.
+
 ## Headline Result
 
 The verified scout starts from 14 generation-pruned refined survivors and
