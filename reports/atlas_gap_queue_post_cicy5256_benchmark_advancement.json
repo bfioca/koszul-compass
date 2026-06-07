@@ -1,0 +1,2131 @@
+{
+  "all_gates_pass": true,
+  "closed_targets": [
+    {
+      "closed_gate": "effective_product_chain_contraction_current_engine",
+      "closure_id": "cicy6784_effective_product_chain_contraction_current_engine_obstruction",
+      "closure_scope": "CICY6784/model31 frontier-48 exact-product engine target: selection rules, representative bases, and direct H1 x H2 top pairings are certified, but the upstream effective H2 complement has no current-engine product-plus-chain contraction.",
+      "escape_hatch": "Add a real product-plus-chain contraction implementation, or move to a geometry/presentation whose preferred effective-complement routes contain a homotopy-eligible binary seed.",
+      "evidence_counts": {
+        "all_standard_m3_terms_zero_before_homotopy": true,
+        "basis_readiness_status": "cicy6784_effective_product_basis_ready_product_primitive_missing",
+        "basis_ready_factorization_total": 6,
+        "chain_fallback_status": "cicy6784_frontier48_chain_contraction_fallback_closed_current_engine",
+        "cicy": 6784,
+        "coefficient_rank_status": "standard_m3_zero_nonstandard_contraction_unavailable",
+        "direct_binary_target_piece_total": 0,
+        "direct_pairing_count": 3,
+        "direct_top_pairing_ranks": {
+          "5_12": 3,
+          "5bar_04": 4,
+          "5bar_12": 3
+        },
+        "direct_top_pairing_status": "cicy6784_direct_e2_top_pairing_partial_primitive_computed",
+        "direct_upstream_E1_triple_product_status": "blocked_by_koszul_origin_duplication",
+        "effective_product_status": "cicy6784_effective_product_probe_rank_still_pending",
+        "final_direct_tree_survivor_total": 0,
+        "frontier_index": 48,
+        "has_exposed_product_plus_chain_contraction_api": false,
+        "homotopy_eligible_direct_product_total": 0,
+        "map_substrate_methods_available": [
+          "Leray",
+          "_rank_map",
+          "_single_map",
+          "_higher_map",
+          "_fill_E2_space",
+          "_orth_space_map",
+          "_makepoly",
+          "is_directproduct"
+        ],
+        "mssm_candidate_verified": false,
+        "preferred_factorization_count": 6,
+        "queue_target_closed_under_current_engine": true,
+        "route_inventory_route_count": 3,
+        "route_ranker_direct_binary_target_factorization_count": 5,
+        "route_ranker_homotopy_eligible_factorization_count": 0,
+        "route_ranker_max_homotopy_eligible_direct_products": 0,
+        "route_ranker_status": "cicy6784_effective_complement_route_ranker_built",
+        "standard_m3_matrix_rank": 0,
+        "standard_m3_product_piece_count": 5,
+        "standard_m3_product_status_counts": {
+          "blocked_by_origin_collision": 2,
+          "no_matching_intermediate_target_piece": 3
+        },
+        "standard_m3_tree_count": 3,
+        "strict_pre_cup_detail_label": "cicy6784_charge_defect_00048_option2_wilson_004",
+        "target_anchor": "5bar_04",
+        "target_channel": "safe_down_lepton_degree1",
+        "target_top_pairing_rank": 4,
+        "transferred_m3_complement_map_status": "required_pending",
+        "transferred_m3_inventory_status": "cicy6784_transferred_m3_route_inventory_no_direct_tree_survivor",
+        "upstream_complement_status": "cicy6784_upstream_complement_requires_transferred_m3"
+      },
+      "no_go_atlas_extensions": [
+        {
+          "cheap_prefilter": "Do not promote CICY6784 frontier-48 effective-product routes under the current engine unless an upstream H1*H1*singlet -> H2 complement map has either a homotopy-eligible direct subproduct or a documented product-plus-chain contraction primitive.",
+          "minimal_obstruction_core": {
+            "all_standard_m3_terms_zero_before_homotopy": true,
+            "basis_readiness_status": "cicy6784_effective_product_basis_ready_product_primitive_missing",
+            "basis_ready_factorization_total": 6,
+            "chain_fallback_status": "cicy6784_frontier48_chain_contraction_fallback_closed_current_engine",
+            "cicy": 6784,
+            "coefficient_rank_status": "standard_m3_zero_nonstandard_contraction_unavailable",
+            "direct_binary_target_piece_total": 0,
+            "direct_pairing_count": 3,
+            "direct_top_pairing_ranks": {
+              "5_12": 3,
+              "5bar_04": 4,
+              "5bar_12": 3
+            },
+            "direct_top_pairing_status": "cicy6784_direct_e2_top_pairing_partial_primitive_computed",
+            "direct_upstream_E1_triple_product_status": "blocked_by_koszul_origin_duplication",
+            "effective_product_status": "cicy6784_effective_product_probe_rank_still_pending",
+            "final_direct_tree_survivor_total": 0,
+            "frontier_index": 48,
+            "has_exposed_product_plus_chain_contraction_api": false,
+            "homotopy_eligible_direct_product_total": 0,
+            "map_substrate_methods_available": [
+              "Leray",
+              "_rank_map",
+              "_single_map",
+              "_higher_map",
+              "_fill_E2_space",
+              "_orth_space_map",
+              "_makepoly",
+              "is_directproduct"
+            ],
+            "mssm_candidate_verified": false,
+            "preferred_factorization_count": 6,
+            "queue_target_closed_under_current_engine": true,
+            "route_inventory_route_count": 3,
+            "route_ranker_direct_binary_target_factorization_count": 5,
+            "route_ranker_homotopy_eligible_factorization_count": 0,
+            "route_ranker_max_homotopy_eligible_direct_products": 0,
+            "route_ranker_status": "cicy6784_effective_complement_route_ranker_built",
+            "standard_m3_matrix_rank": 0,
+            "standard_m3_product_piece_count": 5,
+            "standard_m3_product_status_counts": {
+              "blocked_by_origin_collision": 2,
+              "no_matching_intermediate_target_piece": 3
+            },
+            "standard_m3_tree_count": 3,
+            "strict_pre_cup_detail_label": "cicy6784_charge_defect_00048_option2_wilson_004",
+            "target_anchor": "5bar_04",
+            "target_channel": "safe_down_lepton_degree1",
+            "target_top_pairing_rank": 4,
+            "transferred_m3_complement_map_status": "required_pending",
+            "transferred_m3_inventory_status": "cicy6784_transferred_m3_route_inventory_no_direct_tree_survivor",
+            "upstream_complement_status": "cicy6784_upstream_complement_requires_transferred_m3"
+          },
+          "nearest_escape": "Add a real product-plus-chain contraction implementation, or move to a geometry/presentation whose preferred effective-complement routes contain a homotopy-eligible binary seed.",
+          "scope_class": "exact-product-engine-current-convention",
+          "syndrome_id": "cicy6784_effective_product_chain_contraction_current_engine_obstruction"
+        }
+      ],
+      "source_report": "experiments/latent_atlas/reports/atlas_gap_queue_post_cicy6784_product_engine_advancement.json",
+      "target_id": "CICY6784_effective_product_chain_contraction_engine"
+    },
+    {
+      "closed_gate": "generic_split_polynomial_transfer_support",
+      "closure_id": "split_action_bridge_family_determinant_support_gap",
+      "closure_scope": "row-trivial diagonal Z2 P2 split bridge family; generic parent polynomial transfer only, with special determinant-support subfamilies kept as an explicit escape hatch",
+      "escape_hatch": "Return to this family only to certify smoothness/freeness for a special determinant-support subfamily, or if a non-diagonal or different-presentation split produces full determinant support.",
+      "evidence_counts": {
+        "balanced_lift_total": 672,
+        "bridge_count": 6,
+        "bridges_with_full_support": 0,
+        "feasible_lift_total": 896,
+        "full_support_lift_total": 0,
+        "max_determinant_support_dimension": 3,
+        "parent_free_option_total": 28,
+        "parent_split_eigenspace_dimensions": [
+          4
+        ],
+        "superseded_old_syndrome_count": 6,
+        "support_gaps": [
+          1
+        ]
+      },
+      "no_go_atlas_extensions": [
+        {
+          "cheap_prefilter": "For row-trivial diagonal P2 split bridges, compute the determinant support of split coefficient character spaces and skip generic parent polynomial transfer when max_support_dimension is smaller than the raw parent split-polynomial eigenspace dimension.",
+          "minimal_obstruction_core": {
+            "bridge_count": 6,
+            "bridges_with_full_support": 0,
+            "full_support_lift_total": 0,
+            "max_determinant_support_dimension": 3,
+            "parent_free_option_total": 28,
+            "parent_split_eigenspace_dimension": [
+              4
+            ],
+            "support_gaps": [
+              1
+            ]
+          },
+          "nearest_escape": "certify smoothness/freeness of a special determinant-support subfamily, or pivot to presentations whose determinant support spans the full parent split-polynomial eigenspace",
+          "scope_class": "presentation-family",
+          "supersedes_syndrome_ids": [
+            "cicy4185_7910_split_action_lift_missing_current_data",
+            "cicy6187_7899_split_action_lift_missing_current_data",
+            "cicy6201_7900_split_action_lift_missing_current_data",
+            "cicy6281_7904_split_action_lift_missing_current_data",
+            "cicy4078_7908_split_action_lift_missing_current_data",
+            "cicy5141_7912_split_action_lift_missing_current_data"
+          ],
+          "syndrome_id": "split_action_bridge_family_determinant_support_gap"
+        }
+      ],
+      "source_report": "experiments/latent_atlas/reports/atlas_gap_queue_post_split_action_advancement.json",
+      "target_id": "split_action_transfer_engine_bridge_family"
+    },
+    {
+      "closed_gate": "positive_first_pair_template_q1_lift_intersection",
+      "closure_id": "first_pair_positive_generator_local_disjointness_stack",
+      "closure_scope": "CICY6784 option-2 first-pair corridor under the verified pair-delta plus rectangle template-inversion, top-boundary index-repair, and index-correct lift-repair grammars; not a theorem over lift-compatible index-null generators or other geometries/presentations",
+      "escape_hatch": "Return to this corridor only with a generator that preserves c1(V)=0, ind(V)=ind(wedge2 V)=-12, and option-2 lift compatibility by construction, or pivot to a different q1-compatible geometry/presentation before first-pair scoring.",
+      "evidence_counts": {
+        "index_repair_max_radius": 4,
+        "index_repair_max_radius_frontier_size": 3098,
+        "index_repair_max_radius_stage_counts": {
+          "failed_index_target": 1305,
+          "failed_no_trivial_summand": 4,
+          "failed_option2_lift": 23
+        },
+        "index_repair_max_radius_template_positive_record_count": 1332,
+        "index_repair_positive_template_q1_candidate_total": 0,
+        "lift_repair_index_correct_lift_failure_count": 39,
+        "lift_repair_max_radius": 4,
+        "lift_repair_max_radius_frontier_size": 3121,
+        "lift_repair_max_radius_stage_counts": {
+          "failed_index_target": 1522,
+          "failed_no_trivial_summand": 3,
+          "failed_option2_lift": 39
+        },
+        "lift_repair_max_radius_template_positive_record_count": 1564,
+        "lift_repair_positive_template_q1_candidate_total": 0,
+        "template_inversion_frontier_size": 2009,
+        "template_inversion_positive_q1_candidate_count": 0,
+        "template_inversion_positive_record_count": 103,
+        "template_inversion_source_q1_template_positive_count": 0
+      },
+      "no_go_atlas_extensions": [
+        {
+          "cheap_prefilter": "In this CICY6784 radius-4 grammar, score direct-target first-pair templates before q1 promotion; template-positive rows are not promotion candidates unless they also satisfy the index/q1 gates.",
+          "minimal_obstruction_core": {
+            "dominant_positive_failure_stage": "failed_index_target",
+            "frontier_size": 2009,
+            "positive_template_q1_candidate_count": 0,
+            "source_radius4_q1_candidate_count": 2,
+            "source_radius4_q1_template_positive_count": 0,
+            "template_positive_record_count": 103
+          },
+          "nearest_escape": "construct moves that preserve ind(V)=ind(wedge2V)=-12 while keeping a homotopy-positive first-pair template, or pivot beyond the current radius-4 option-2 grammar",
+          "scope_class": "generator-local",
+          "syndrome_id": "first_pair_positive_template_q1_disjoint_radius4"
+        },
+        {
+          "cheap_prefilter": "When repairing CICY6784 option-2 frontier-81, require the index target before promotion; local homotopy-positive template support alone is not a promotion signal.",
+          "minimal_obstruction_core": {
+            "dominant_failure_stage": "failed_index_target",
+            "max_radius": 4,
+            "max_radius_frontier_size": 3098,
+            "max_radius_positive_template_q1_candidate_count": 0,
+            "max_radius_positive_template_stage_counts": {
+              "failed_index_target": 1305,
+              "failed_no_trivial_summand": 4,
+              "failed_option2_lift": 23
+            },
+            "max_radius_template_positive_record_count": 1332,
+            "seed_frontier_index": 81
+          },
+          "nearest_escape": "replace arbitrary pair-delta repair moves with an index-null generator that preserves ind(V)=ind(wedge2 V)=-12 by construction, or pivot to a different q1-compatible positive-template boundary",
+          "scope_class": "generator-local",
+          "syndrome_id": "first_pair_positive_index_repair_gap_top_boundary_radius4"
+        },
+        {
+          "cheap_prefilter": "For the frontier-28 index-correct positive-template boundary, option-2 lift compatibility remains mandatory before promotion; index-correct first-pair positivity alone is still only a shadow.",
+          "minimal_obstruction_core": {
+            "max_radius": 4,
+            "max_radius_frontier_size": 3121,
+            "max_radius_index_correct_lift_failure_count": 39,
+            "max_radius_positive_template_q1_candidate_count": 0,
+            "max_radius_positive_template_stage_counts": {
+              "failed_index_target": 1522,
+              "failed_no_trivial_summand": 3,
+              "failed_option2_lift": 39
+            },
+            "max_radius_template_positive_record_count": 1564,
+            "seed_index_v": -12,
+            "seed_index_wedge2_v": -12,
+            "seed_source": "first_pair_index_repair.radius4.failed_option2_lift.frontier28"
+          },
+          "nearest_escape": "construct lift-compatible index-null moves, or pivot to another q1-compatible geometry/presentation with a positive first-pair template",
+          "scope_class": "generator-local",
+          "syndrome_id": "first_pair_positive_index_lift_repair_gap_radius4"
+        }
+      ],
+      "source_report": "experiments/latent_atlas/reports/atlas_gap_queue_post_first_pair_advancement.json",
+      "target_id": "first_pair_positive_generator_redesign"
+    },
+    {
+      "closed_gate": "lift_index_positive_first_pair_q1_no_anti10_intersection",
+      "closure_id": "lift_index_first_pair_anti10_gap_radius4",
+      "closure_scope": "CICY6784 option-2 seed-centered finite generator around the two verified radius-4 q1 rows, through pair-delta radius 4 with rectangles, after enforcing c1, no-trivial-summand, ind(V)=ind(wedge2 V)=-12, and option-2 lift compatibility before first-pair scoring. This does not close lateral q1 seeds or a different anti10-aware grammar.",
+      "escape_hatch": "Search laterally for first-pair-positive seeds whose q1/no-anti10 screen passes, or add an anti10-aware symbolic/latent prefilter before scoring positive first-pair templates.",
+      "evidence_counts": {
+        "max_radius": 4,
+        "max_radius_frontier_size": 3737,
+        "max_radius_lift_index_ready_count": 213,
+        "max_radius_positive_template_stage_counts": {
+          "failed_q1_no_anti10_gate": 6
+        },
+        "max_radius_template_positive_record_count": 6,
+        "positive_template_q1_candidate_total": 0,
+        "promoted_q1_total": 0,
+        "promotion_timeout_total": 0,
+        "top_positive_frontier_index": 2908,
+        "top_positive_template_homotopy_count": 2
+      },
+      "no_go_atlas_extensions": [
+        {
+          "cheap_prefilter": "Within the CICY6784 option-2 seed-centered lift/index-native first-pair grammar, homotopy-positive rows are not promotion candidates unless they also pass the q=1/no-anti10 screen.",
+          "minimal_obstruction_core": {
+            "dominant_failure_stage": "failed_q1_no_anti10_gate",
+            "max_radius": 4,
+            "max_radius_frontier_size": 3737,
+            "max_radius_lift_index_ready_count": 213,
+            "max_radius_max_template_homotopy_eligible_product_count": 2,
+            "max_radius_positive_template_q1_candidate_count": 0,
+            "max_radius_positive_template_stage_counts": {
+              "failed_q1_no_anti10_gate": 6
+            },
+            "max_radius_template_positive_record_count": 6,
+            "seed_frontier_indices": [
+              0,
+              329
+            ],
+            "seed_source": "first_pair_positive_template_inversion.source_radius4_q1_records"
+          },
+          "nearest_escape": "add an anti10-aware move constraint to the lift-compatible index-null generator, or pivot to a lateral q1-compatible geometry whose first-pair-positive templates survive the q1 screen",
+          "scope_class": "generator-local",
+          "syndrome_id": "lift_compatible_index_null_first_pair_anti10_gap_radius4"
+        }
+      ],
+      "source_report": "experiments/latent_atlas/reports/atlas_gap_queue_post_lift_index_first_pair_advancement.json",
+      "target_id": "lift_compatible_index_null_first_pair_generator"
+    },
+    {
+      "closed_gate": "lateral_q1_no_anti10_current_first_pair_template_support",
+      "closure_id": "anti10_lateral_q1_template_absence_radius4",
+      "closure_scope": "CICY6784 option-2 lateral exact-overlap models 7 and 14, pair-delta radii 1-4 with rectangles, q1/no-anti10 screening before the current three-template first-pair scorer. This does not close generalized template schemas or cross-geometry q1 seeds.",
+      "escape_hatch": "Generalize the first-pair template family for lateral q1 seeds, or retrieve cross-geometry q1/no-anti10 seeds with nonzero current first-pair direct-target support before homotopy scoring.",
+      "evidence_counts": {
+        "max_radius": 4,
+        "max_radius_frontier_size": 6154,
+        "max_radius_q1_candidate_count": 2,
+        "max_radius_q1_direct_template_record_count": 0,
+        "max_radius_q1_positive_template_record_count": 0,
+        "max_radius_stage_counts": {
+          "failed_index_target": 5704,
+          "failed_no_trivial_summand": 14,
+          "failed_option2_lift": 84,
+          "failed_q1_no_anti10_gate": 350,
+          "q1_candidate": 2
+        },
+        "q1_direct_template_record_total": 0,
+        "q1_positive_template_record_total": 0
+      },
+      "no_go_atlas_extensions": [
+        {
+          "cheap_prefilter": "For CICY6784 option-2 lateral q1/no-anti10 exact-overlap seeds, score current first-pair templates on q1 rows before promotion; rows with zero direct target pieces cannot be first-pair homotopy seeds under this template family.",
+          "minimal_obstruction_core": {
+            "dominant_non_q1_failure_stage": "failed_index_target",
+            "max_radius": 4,
+            "max_radius_frontier_size": 6154,
+            "max_radius_q1_candidate_count": 2,
+            "max_radius_q1_direct_template_record_count": 0,
+            "max_radius_q1_positive_template_record_count": 0,
+            "max_radius_stage_counts": {
+              "failed_index_target": 5704,
+              "failed_no_trivial_summand": 14,
+              "failed_option2_lift": 84,
+              "failed_q1_no_anti10_gate": 350,
+              "q1_candidate": 2
+            },
+            "q1_survivor_frontier_indices": [
+              0,
+              1
+            ],
+            "seed_model_indices": [
+              7,
+              14
+            ],
+            "seed_source": "unaudited_order4_exact_overlap_scout.promoted_records"
+          },
+          "nearest_escape": "generalize the first-pair template family for lateral q1 seeds, or retrieve a q1/no-anti10 seed whose current template scorer has a nonzero direct target piece before demanding homotopy positivity",
+          "scope_class": "generator-local",
+          "syndrome_id": "anti10_aware_lateral_q1_first_pair_template_absent_radius4"
+        }
+      ],
+      "source_report": "experiments/latent_atlas/reports/atlas_gap_queue_post_anti10_lateral_advancement.json",
+      "target_id": "anti10_aware_lateral_first_pair_seed_retrieval"
+    },
+    {
+      "closed_gate": "generalized_first_pair_template_schema",
+      "closure_id": "lateral_q1_native_schema_up_positive_down_gap",
+      "closure_scope": "CICY6784 option-2 lateral q=1/no-anti10 models 7 and 14, using their eight closest one-Higgs/proton-safe detailed Wilson embeddings. The pass derives H1-H1 first-pair labels from native safe up-type span hits rather than the inherited frontier-48 template family.",
+      "escape_hatch": "Preserve the native up-type homotopy-positive pair while searching for safe down/lepton representative-span support and eliminating doublet mass contamination.",
+      "evidence_counts": {
+        "best_native_homotopy_labels": [
+          [
+            "5_04",
+            "S_41"
+          ],
+          [
+            "5_23",
+            "S_34"
+          ]
+        ],
+        "detailed_embedding_count": 8,
+        "doublet_clean_detail_count": 0,
+        "native_direct_detail_count": 8,
+        "native_homotopy_positive_detail_count": 8,
+        "native_pair_template_total": 240,
+        "native_safe_down_hit_total": 0,
+        "native_safe_up_hit_total": 40,
+        "remaining_obstruction_counts": {
+          "doublet_mass_contamination": 8,
+          "safe_down_lepton_span_absent": 8
+        },
+        "safe_down_lepton_positive_detail_count": 0
+      },
+      "no_go_atlas_extensions": [
+        {
+          "cheap_prefilter": "Lateral q=1/no-anti10 seeds can have native up-type H1-H1 homotopy-positive first-pair support even when the inherited frontier-48 template family scores zero; do not discard them for template absence alone.",
+          "minimal_obstruction_core": {
+            "detailed_embedding_count": 8,
+            "doublet_clean_detail_count": 0,
+            "native_homotopy_positive_detail_count": 8,
+            "obstruction_counts": {
+              "doublet_mass_contamination": 8,
+              "safe_down_lepton_span_absent": 8
+            },
+            "representative_up_type_first_pair_templates": [
+              {
+                "direct_target_piece_count": 1,
+                "embedding_index": 52,
+                "homotopy_eligible_product_count": 1,
+                "intermediate_line_bundle": [
+                  5,
+                  -2,
+                  -2,
+                  1
+                ],
+                "labels": [
+                  "5_04",
+                  "S_41"
+                ],
+                "left_h1_piece_count": 1,
+                "left_line_bundle": [
+                  2,
+                  0,
+                  -2,
+                  0
+                ],
+                "model_index": 7,
+                "occurrence_count": 1,
+                "product_piece_count": 2,
+                "product_status_counts": {
+                  "homotopy_eligible_direct_product": 1,
+                  "no_matching_intermediate_target_piece": 1
+                },
+                "right_h1_piece_count": 2,
+                "right_line_bundle": [
+                  3,
+                  -2,
+                  0,
+                  1
+                ],
+                "source_monoids": [
+                  [
+                    "S_12",
+                    "S_24",
+                    "S_40",
+                    "S_41"
+                  ]
+                ],
+                "source_operators": [
+                  "10_0*10_0*5_04*M"
+                ],
+                "template_id": "native_5_04_S_41"
+              },
+              {
+                "direct_target_piece_count": 1,
+                "embedding_index": 53,
+                "homotopy_eligible_product_count": 1,
+                "intermediate_line_bundle": [
+                  5,
+                  -2,
+                  -2,
+                  1
+                ],
+                "labels": [
+                  "5_04",
+                  "S_41"
+                ],
+                "left_h1_piece_count": 1,
+                "left_line_bundle": [
+                  2,
+                  0,
+                  -2,
+                  0
+                ],
+                "model_index": 7,
+                "occurrence_count": 1,
+                "product_piece_count": 2,
+                "product_status_counts": {
+                  "homotopy_eligible_direct_product": 1,
+                  "no_matching_intermediate_target_piece": 1
+                },
+                "right_h1_piece_count": 2,
+                "right_line_bundle": [
+                  3,
+                  -2,
+                  0,
+                  1
+                ],
+                "source_monoids": [
+                  [
+                    "S_12",
+                    "S_24",
+                    "S_40",
+                    "S_41"
+                  ]
+                ],
+                "source_operators": [
+                  "10_0*10_0*5_04*M"
+                ],
+                "template_id": "native_5_04_S_41"
+              },
+              {
+                "direct_target_piece_count": 1,
+                "embedding_index": 61,
+                "homotopy_eligible_product_count": 1,
+                "intermediate_line_bundle": [
+                  5,
+                  -2,
+                  -2,
+                  1
+                ],
+                "labels": [
+                  "5_04",
+                  "S_41"
+                ],
+                "left_h1_piece_count": 1,
+                "left_line_bundle": [
+                  2,
+                  0,
+                  -2,
+                  0
+                ],
+                "model_index": 7,
+                "occurrence_count": 1,
+                "product_piece_count": 2,
+                "product_status_counts": {
+                  "homotopy_eligible_direct_product": 1,
+                  "no_matching_intermediate_target_piece": 1
+                },
+                "right_h1_piece_count": 2,
+                "right_line_bundle": [
+                  3,
+                  -2,
+                  0,
+                  1
+                ],
+                "source_monoids": [
+                  [
+                    "S_12",
+                    "S_24",
+                    "S_40",
+                    "S_41"
+                  ]
+                ],
+                "source_operators": [
+                  "10_0*10_0*5_04*M"
+                ],
+                "template_id": "native_5_04_S_41"
+              },
+              {
+                "direct_target_piece_count": 1,
+                "embedding_index": 62,
+                "homotopy_eligible_product_count": 1,
+                "intermediate_line_bundle": [
+                  5,
+                  -2,
+                  -2,
+                  1
+                ],
+                "labels": [
+                  "5_04",
+                  "S_41"
+                ],
+                "left_h1_piece_count": 1,
+                "left_line_bundle": [
+                  2,
+                  0,
+                  -2,
+                  0
+                ],
+                "model_index": 7,
+                "occurrence_count": 1,
+                "product_piece_count": 2,
+                "product_status_counts": {
+                  "homotopy_eligible_direct_product": 1,
+                  "no_matching_intermediate_target_piece": 1
+                },
+                "right_h1_piece_count": 2,
+                "right_line_bundle": [
+                  3,
+                  -2,
+                  0,
+                  1
+                ],
+                "source_monoids": [
+                  [
+                    "S_12",
+                    "S_24",
+                    "S_40",
+                    "S_41"
+                  ]
+                ],
+                "source_operators": [
+                  "10_0*10_0*5_04*M"
+                ],
+                "template_id": "native_5_04_S_41"
+              },
+              {
+                "direct_target_piece_count": 1,
+                "embedding_index": 16,
+                "homotopy_eligible_product_count": 1,
+                "intermediate_line_bundle": [
+                  -2,
+                  -2,
+                  5,
+                  1
+                ],
+                "labels": [
+                  "5_23",
+                  "S_34"
+                ],
+                "left_h1_piece_count": 1,
+                "left_line_bundle": [
+                  -2,
+                  0,
+                  2,
+                  0
+                ],
+                "model_index": 14,
+                "occurrence_count": 1,
+                "product_piece_count": 1,
+                "product_status_counts": {
+                  "homotopy_eligible_direct_product": 1
+                },
+                "right_h1_piece_count": 1,
+                "right_line_bundle": [
+                  0,
+                  -2,
+                  3,
+                  1
+                ],
+                "source_monoids": [
+                  [
+                    "S_03",
+                    "S_32",
+                    "S_34",
+                    "S_40"
+                  ]
+                ],
+                "source_operators": [
+                  "10_2*10_2*5_23*M"
+                ],
+                "template_id": "native_5_23_S_34"
+              },
+              {
+                "direct_target_piece_count": 1,
+                "embedding_index": 17,
+                "homotopy_eligible_product_count": 1,
+                "intermediate_line_bundle": [
+                  -2,
+                  -2,
+                  5,
+                  1
+                ],
+                "labels": [
+                  "5_23",
+                  "S_34"
+                ],
+                "left_h1_piece_count": 1,
+                "left_line_bundle": [
+                  -2,
+                  0,
+                  2,
+                  0
+                ],
+                "model_index": 14,
+                "occurrence_count": 1,
+                "product_piece_count": 1,
+                "product_status_counts": {
+                  "homotopy_eligible_direct_product": 1
+                },
+                "right_h1_piece_count": 1,
+                "right_line_bundle": [
+                  0,
+                  -2,
+                  3,
+                  1
+                ],
+                "source_monoids": [
+                  [
+                    "S_03",
+                    "S_32",
+                    "S_34",
+                    "S_40"
+                  ]
+                ],
+                "source_operators": [
+                  "10_2*10_2*5_23*M"
+                ],
+                "template_id": "native_5_23_S_34"
+              },
+              {
+                "direct_target_piece_count": 1,
+                "embedding_index": 30,
+                "homotopy_eligible_product_count": 1,
+                "intermediate_line_bundle": [
+                  -2,
+                  -2,
+                  5,
+                  1
+                ],
+                "labels": [
+                  "5_23",
+                  "S_34"
+                ],
+                "left_h1_piece_count": 1,
+                "left_line_bundle": [
+                  -2,
+                  0,
+                  2,
+                  0
+                ],
+                "model_index": 14,
+                "occurrence_count": 1,
+                "product_piece_count": 1,
+                "product_status_counts": {
+                  "homotopy_eligible_direct_product": 1
+                },
+                "right_h1_piece_count": 1,
+                "right_line_bundle": [
+                  0,
+                  -2,
+                  3,
+                  1
+                ],
+                "source_monoids": [
+                  [
+                    "S_03",
+                    "S_32",
+                    "S_34",
+                    "S_40"
+                  ]
+                ],
+                "source_operators": [
+                  "10_2*10_2*5_23*M"
+                ],
+                "template_id": "native_5_23_S_34"
+              },
+              {
+                "direct_target_piece_count": 1,
+                "embedding_index": 32,
+                "homotopy_eligible_product_count": 1,
+                "intermediate_line_bundle": [
+                  -2,
+                  -2,
+                  5,
+                  1
+                ],
+                "labels": [
+                  "5_23",
+                  "S_34"
+                ],
+                "left_h1_piece_count": 1,
+                "left_line_bundle": [
+                  -2,
+                  0,
+                  2,
+                  0
+                ],
+                "model_index": 14,
+                "occurrence_count": 1,
+                "product_piece_count": 1,
+                "product_status_counts": {
+                  "homotopy_eligible_direct_product": 1
+                },
+                "right_h1_piece_count": 1,
+                "right_line_bundle": [
+                  0,
+                  -2,
+                  3,
+                  1
+                ],
+                "source_monoids": [
+                  [
+                    "S_03",
+                    "S_32",
+                    "S_34",
+                    "S_40"
+                  ]
+                ],
+                "source_operators": [
+                  "10_2*10_2*5_23*M"
+                ],
+                "template_id": "native_5_23_S_34"
+              }
+            ],
+            "safe_down_lepton_positive_detail_count": 0,
+            "seed_model_indices": [
+              7,
+              14
+            ],
+            "seed_source": "unaudited_order4_exact_overlap_scout.promoted_records"
+          },
+          "nearest_escape": "preserve the native up-type homotopy pair while searching for a safe down/lepton representative-span hit and removing doublet mass contamination",
+          "scope_class": "generator-local",
+          "syndrome_id": "lateral_q1_native_up_first_pair_positive_down_span_gap"
+        }
+      ],
+      "source_report": "experiments/latent_atlas/reports/atlas_gap_queue_post_lateral_schema_advancement.json",
+      "target_id": "lateral_q1_first_pair_template_schema_generalization"
+    },
+    {
+      "closed_gate": "fixed_radius4_up_positive_down_span_repair",
+      "closure_id": "up_positive_down_span_fixed_radius4_disjoint",
+      "closure_scope": "CICY6784 option-2 lateral models 7 and 14, with the verified radius-4 lateral q=1/no-anti10 matrix frontier and a full fixed-matrix Wilson rerank over all determinant-trivial embeddings.",
+      "escape_hatch": "retrieve or generate a different q=1/no-anti10 geometry whose native up-type homotopy support intersects safe down/lepton span support and a doublet-clean mass table",
+      "evidence_counts": {
+        "doublet_clean_count": 0,
+        "native_homotopy_label_counts": {
+          "5_04*S_41": 96,
+          "5_23*S_34": 96
+        },
+        "native_homotopy_positive_count": 192,
+        "one_higgs_pair_triplet_free_count": 192,
+        "one_higgs_proton_safe_count": 192,
+        "radius4_frontier_size": 6154,
+        "radius4_q1_candidate_count": 2,
+        "radius4_q1_source_model_indices": [
+          7,
+          14
+        ],
+        "repair_candidate_count": 0,
+        "safe_down_lepton_positive_count": 0,
+        "total_embeddings_screened": 1536
+      },
+      "no_go_atlas_extensions": [
+        {
+          "cheap_prefilter": "In the current CICY6784 lateral radius-4 grammar, q=1/no-anti10 matrix rows are only the fixed models 7 and 14; on those fixed matrices every one-Higgs/proton-safe Wilson embedding has native up-type homotopy support but lacks safe down/lepton span support and remains doublet-contaminated.",
+          "minimal_obstruction_core": {
+            "doublet_clean_count": 0,
+            "mass_signature_counts": {
+              "{\"no_degree_one_charge_neutral_singlet\": 3, \"top_cup_doublet_only_mass\": 2, \"top_cup_no_surviving_component_mass\": 3}": 96,
+              "{\"no_degree_one_charge_neutral_singlet\": 5, \"top_cup_doublet_only_mass\": 2, \"top_cup_no_surviving_component_mass\": 1}": 96
+            },
+            "matrix_frontier_scope": "CICY6784 option-2 lateral models 7 and 14, pair-delta radii 1-4 with rectangles",
+            "native_homotopy_label_counts": {
+              "5_04*S_41": 96,
+              "5_23*S_34": 96
+            },
+            "native_homotopy_positive_count": 192,
+            "one_higgs_pair_triplet_free_count": 192,
+            "one_higgs_proton_safe_count": 192,
+            "one_higgs_proton_safe_records_analyzed": 192,
+            "radius4_frontier_size": 6154,
+            "radius4_q1_candidate_count": 2,
+            "radius4_q1_source_model_indices": [
+              7,
+              14
+            ],
+            "repair_candidate_count": 0,
+            "safe_down_lepton_positive_count": 0,
+            "total_embeddings_screened": 1536
+          },
+          "nearest_escape": "retrieve or generate a different q=1/no-anti10 geometry whose native up-type homotopy support intersects safe down/lepton span support and a doublet-clean mass table",
+          "scope_class": "generator-local",
+          "syndrome_id": "up_positive_down_span_fixed_radius4_disjoint"
+        }
+      ],
+      "source_report": "experiments/latent_atlas/reports/atlas_gap_queue_post_up_positive_repair_advancement.json",
+      "target_id": "up_positive_down_lepton_span_repair"
+    },
+    {
+      "closed_gate": "verified_corpus_native_up_down_doublet_clean_retrieval",
+      "closure_id": "cross_geometry_native_up_down_doublet_clean_intersection_empty_verified_corpus",
+      "closure_scope": "Verified-corpus retrieval over CICY6784, CICY6715/6927, CICY6836, and CICY6927 artifacts. The pass checks the joint presence of q1/one-Higgs/proton-safety, native up homotopy, safe down/lepton span, doublet-clean mass table, and S_42 avoidance.",
+      "escape_hatch": "build a hybrid generator seeded by the CICY6784 degree-4 safe-down/doublet-clean boundary and the lateral native-up boundaries, ranking moves by creating their intersection",
+      "evidence_counts": {
+        "boundary_class_counts": {
+          "cup_target_missing_one_higgs_joint": 2,
+          "native_up_one_higgs_missing_down_or_clean": 2,
+          "one_higgs_boundary_missing_joint_features": 1,
+          "s42_excluded_negative_control": 1,
+          "safe_down_doublet_clean_missing_native_up": 1
+        },
+        "doublet_clean_rows": 1,
+        "joint_target_count": 0,
+        "native_up_and_one_higgs_rows": 2,
+        "native_up_homotopy_positive_rows": 2,
+        "q1_one_higgs_proton_safe_rows": 5,
+        "retrieval_row_count": 7,
+        "safe_down_and_doublet_clean_rows": 1,
+        "safe_down_lepton_positive_rows": 1,
+        "top_boundary_class": "safe_down_doublet_clean_missing_native_up"
+      },
+      "no_go_atlas_extensions": [
+        {
+          "cheap_prefilter": "Skip promotion to product-map/cup-rank when a verified row does not jointly satisfy q1/one-Higgs/proton-safe, native up homotopy, safe down/lepton span, doublet-clean mass table, and S_42 avoidance.",
+          "minimal_obstruction_core": {
+            "boundary_class_counts": {
+              "cup_target_missing_one_higgs_joint": 2,
+              "native_up_one_higgs_missing_down_or_clean": 2,
+              "one_higgs_boundary_missing_joint_features": 1,
+              "s42_excluded_negative_control": 1,
+              "safe_down_doublet_clean_missing_native_up": 1
+            },
+            "doublet_clean_rows": 1,
+            "joint_target_rows": 0,
+            "native_up_and_one_higgs_rows": 2,
+            "native_up_homotopy_positive_rows": 2,
+            "nearest_native_up_boundary": "CICY6784 lateral models 7 and 14 have native up homotopy support but no safe down/lepton span and no doublet-clean mass table",
+            "nearest_safe_down_doublet_clean_boundary": "CICY6784/model31 degree4 has safe down/lepton plus doublet-clean one-Higgs/proton-safe structure but no native up homotopy seed",
+            "q1_one_higgs_proton_safe_rows": 5,
+            "retrieval_row_count": 7,
+            "safe_down_and_doublet_clean_rows": 1,
+            "safe_down_lepton_positive_rows": 1
+          },
+          "nearest_escape": "build a hybrid generator seeded by the CICY6784 degree-4 safe-down/doublet-clean boundary and the lateral native-up boundaries, ranking moves by creating their intersection",
+          "scope_class": "verified-corpus",
+          "syndrome_id": "cross_geometry_native_up_down_doublet_clean_intersection_empty_verified_corpus"
+        }
+      ],
+      "source_report": "experiments/latent_atlas/reports/atlas_gap_queue_post_cross_geometry_joint_retrieval_advancement.json",
+      "target_id": "cross_geometry_native_up_down_joint_retrieval"
+    },
+    {
+      "closed_gate": "hybrid_native_up_down_intersection_generator",
+      "closure_id": "hybrid_native_up_down_intersection_generator_local_disjoint",
+      "closure_scope": "CICY6784 three-seed hybrid local/cross-delta generator: degree4_model31 plus lateral_model7 and lateral_model14, with symbolic c1/index/lift/q1 and Wilson/operator promotion gates.",
+      "escape_hatch": "increase the hybrid generator expressivity or pivot geometry; the tested local/cross-delta grammar did not improve the verified corpus boundary unless improved_boundary_record_count is positive",
+      "evidence_counts": {
+        "analyzed_detail_count": 16,
+        "boundary_signature_counts": {
+          "doublet_clean": 4,
+          "native_up": 8,
+          "safe_down_doublet_clean": 4
+        },
+        "frontier_size": 1183,
+        "improved_boundary_record_count": 0,
+        "joint_detail_count": 0,
+        "max_gate_score": 3,
+        "promoted_count": 4,
+        "promotion_timeout_count": 0,
+        "q1_candidate_count": 4
+      },
+      "no_go_atlas_extensions": [
+        {
+          "cheap_prefilter": "Within this hybrid CICY6784 local/cross-delta grammar, do not promote rows unless a one-Higgs/proton-safe detail has native-up homotopy support, safe down/lepton span support, and a doublet-clean mass table simultaneously.",
+          "minimal_obstruction_core": {
+            "analyzed_detail_count": 16,
+            "boundary_signature_counts": {
+              "doublet_clean": 4,
+              "native_up": 8,
+              "safe_down_doublet_clean": 4
+            },
+            "completed_promotion_count": 4,
+            "cross_delta_l1_bound": 6,
+            "frontier_size": 1183,
+            "improved_boundary_record_count": 0,
+            "include_rectangles": true,
+            "joint_detail_count": 0,
+            "joint_record_count": 0,
+            "local_pair_delta_radius": 2,
+            "max_gate_score": 3,
+            "nearest_native_up_boundaries": [
+              "lateral_model7",
+              "lateral_model14"
+            ],
+            "nearest_safe_down_doublet_clean_boundary": "degree4_model31",
+            "promoted_count": 4,
+            "promotion_timeout_count": 0,
+            "q1_candidate_count": 4,
+            "seed_count": 3,
+            "seed_ids": [
+              "degree4_model31",
+              "lateral_model7",
+              "lateral_model14"
+            ],
+            "stage_counts": {
+              "failed_index_target": 1034,
+              "failed_no_trivial_summand": 12,
+              "failed_option2_lift": 23,
+              "failed_q1_no_anti10_gate": 110,
+              "q1_candidate": 4
+            },
+            "status": "hybrid_native_up_down_intersection_no_improvement"
+          },
+          "nearest_escape": "increase the hybrid generator expressivity or pivot geometry; the tested local/cross-delta grammar did not improve the verified corpus boundary unless improved_boundary_record_count is positive",
+          "scope_class": "generator-local",
+          "syndrome_id": "hybrid_native_up_down_intersection_generator_local_disjoint"
+        }
+      ],
+      "source_report": "experiments/latent_atlas/reports/atlas_gap_queue_post_hybrid_generator_advancement.json",
+      "target_id": "hybrid_native_up_down_intersection_generator"
+    },
+    {
+      "closed_gate": "current_engine_higher_map_order_scan_reconciled",
+      "closure_id": "cicy6715_model766_branch99_higher_map_order_no_realization",
+      "closure_scope": "Queue reconciliation for the stale CICY6715 higher-map convention gap. The concrete branch99 representative-resolution artifact has already performed the complete 7! current-engine order scan.",
+      "escape_hatch": "Introduce an explicit alternative equivariant higher-map convention and rerun the full 7! order/rank-split scan as a new target.",
+      "evidence_counts": {
+        "averaged_rank_counts": {
+          "as_returned:9": 5040,
+          "transposed:9": 5040
+        },
+        "branch99_representative_certified": false,
+        "category": "higher_map_order_shadow_collision",
+        "clean_one_higgs_precup_shadow_count": 192,
+        "complete_permutation_scan": true,
+        "first_certifying_order": null,
+        "permutation_count_tested": 5040,
+        "pycicy_averaged_irrep_rank_split": {
+          "1": 3,
+          "a": 2,
+          "ab": 2,
+          "b": 2,
+          "total": 9
+        },
+        "pycicy_averaged_rank": 9,
+        "pycicy_raw_rank": 7,
+        "raw_equivariance_residual_bins": {
+          "as_returned:non_equivariant": 5040,
+          "transposed:non_equivariant": 5040
+        },
+        "required_rank_split": {
+          "1": 1,
+          "a": 2,
+          "ab": 2,
+          "b": 2
+        },
+        "required_rank_total": 7,
+        "source_e2_multiplicities": {
+          "1": 3,
+          "a": 2,
+          "ab": 2,
+          "b": 2
+        },
+        "target_e2_multiplicities": {
+          "1": 3,
+          "a": 2,
+          "ab": 2,
+          "b": 2
+        },
+        "unresolved_line_bundle": [
+          2,
+          2,
+          -2,
+          -2,
+          0
+        ],
+        "unresolved_pair": [
+          3,
+          4
+        ]
+      },
+      "no_go_atlas_extensions": [
+        {
+          "cheap_prefilter": "Do not promote CICY6715/model766 option1 branch99 clean shadows under the current symbolic verifier unless a documented higher-map convention realizes the rank split 1/a/b/ab = 1/2/2/2.",
+          "minimal_obstruction_core": {
+            "averaged_rank_counts": {
+              "as_returned:9": 5040,
+              "transposed:9": 5040
+            },
+            "branch99_representative_certified": false,
+            "category": "higher_map_order_shadow_collision",
+            "clean_one_higgs_precup_shadow_count": 192,
+            "complete_permutation_scan": true,
+            "first_certifying_order": null,
+            "permutation_count_tested": 5040,
+            "pycicy_averaged_irrep_rank_split": {
+              "1": 3,
+              "a": 2,
+              "ab": 2,
+              "b": 2,
+              "total": 9
+            },
+            "pycicy_averaged_rank": 9,
+            "pycicy_raw_rank": 7,
+            "raw_equivariance_residual_bins": {
+              "as_returned:non_equivariant": 5040,
+              "transposed:non_equivariant": 5040
+            },
+            "required_rank_split": {
+              "1": 1,
+              "a": 2,
+              "ab": 2,
+              "b": 2
+            },
+            "required_rank_total": 7,
+            "source_e2_multiplicities": {
+              "1": 3,
+              "a": 2,
+              "ab": 2,
+              "b": 2
+            },
+            "target_e2_multiplicities": {
+              "1": 3,
+              "a": 2,
+              "ab": 2,
+              "b": 2
+            },
+            "unresolved_line_bundle": [
+              2,
+              2,
+              -2,
+              -2,
+              0
+            ],
+            "unresolved_pair": [
+              3,
+              4
+            ]
+          },
+          "nearest_escape": "Introduce an explicit alternative equivariant higher-map convention and rerun the full 7! order/rank-split scan as a new target.",
+          "scope_class": "representative-engine-current-convention",
+          "syndrome_id": "cicy6715_model766_branch99_higher_map_order_no_realization"
+        }
+      ],
+      "source_report": "experiments/latent_atlas/reports/atlas_gap_queue_post_cicy6715_reconciliation_advancement.json",
+      "target_id": "cicy6715_higher_map_convention_gap"
+    },
+    {
+      "closed_gate": "verified_corpus_fresh_seed_retrieval",
+      "closure_id": "atlas_guided_verified_corpus_no_fresh_seed",
+      "closure_scope": "current verified retrieval corpus only; not a global CICY or line-bundle no-go",
+      "escape_hatch": "Run a genuine raw scout outside the verified corpus, or change the geometry/presentation/mass mechanism.",
+      "evidence_counts": {
+        "eligible_fresh_seed_count": 0,
+        "retrieval_row_count": 33,
+        "row_source_counts": {
+          "cross_geometry_native_up_down_joint_retrieval": 7,
+          "cross_model_latent_retrieval": 22,
+          "hybrid_native_up_down_intersection_generator": 4
+        },
+        "skip_reason_counts": {
+          "cicy6784_no_homotopy_product_engine_gap": 9,
+          "missing_q1_one_higgs_proton_safe_or_joint_gate": 22,
+          "s42_doublet_contamination_motif": 2
+        }
+      },
+      "no_go_atlas_extensions": [
+        {
+          "cheap_prefilter": "When running the fresh pivot over the current verified corpus, skip rows in the S_42 basin, rows in the closed CICY6784 current-engine product gap, and rows missing the q1/one-Higgs/proton-safe or joint native-up/safe-down/doublet-clean gates.",
+          "minimal_obstruction_core": {
+            "closed_queue_target_count": 10,
+            "eligible_fresh_seed_count": 0,
+            "no_go_atlas_syndrome_count": 39,
+            "retrieval_row_count": 33,
+            "row_source_counts": {
+              "cross_geometry_native_up_down_joint_retrieval": 7,
+              "cross_model_latent_retrieval": 22,
+              "hybrid_native_up_down_intersection_generator": 4
+            },
+            "skip_reason_counts": {
+              "cicy6784_no_homotopy_product_engine_gap": 9,
+              "missing_q1_one_higgs_proton_safe_or_joint_gate": 22,
+              "s42_doublet_contamination_motif": 2
+            },
+            "split_family_full_support_lift_total": 0
+          },
+          "nearest_escape": "Run a genuinely new atlas-guided raw scout over geometries or presentations outside the verified-corpus closure set, or change the mass/product mechanism before returning to the closed corridors.",
+          "scope_class": "verified-corpus",
+          "syndrome_id": "atlas_guided_verified_corpus_no_fresh_seed"
+        }
+      ],
+      "source_report": "experiments/latent_atlas/reports/atlas_guided_cross_geometry_fresh_pivot_retrieval.json",
+      "target_id": "atlas_guided_cross_geometry_fresh_pivot_retrieval"
+    },
+    {
+      "closed_gate": "raw_geometry_or_presentation_source_selection",
+      "closure_id": "atlas_guided_raw_source_selected_cicy5248_bridge",
+      "closure_scope": "finite source-selection pass over the verified lateral target map; not a candidate or global geometry no-go",
+      "escape_hatch": "If the CICY5248 bridge audit closes, continue down the ranked fresh raw-source list or pivot to a geometry-specific GUTall benchmark engine.",
+      "evidence_counts": {
+        "fresh_raw_source_count": 10,
+        "lateral_target_count": 18,
+        "registered_closed_corridor_count": 8,
+        "top_fresh_raw_source_id": "CICY5248_same_hodge_bridge",
+        "top_fresh_raw_source_rank": 9
+      },
+      "reason": "The raw scout filtered the eight already closed bridge corridors and selected CICY5248 as the first remaining fresh presentation-bridge source.",
+      "source_report": "experiments/latent_atlas/reports/atlas_guided_raw_scout_outside_verified_corpus.json",
+      "target_id": "atlas_guided_raw_scout_outside_verified_corpus"
+    },
+    {
+      "closed_gate": "certify_raw_free_Z2_action_transfer_to_the_witness_presentation",
+      "closure_id": "cicy5248_7913_split_found_action_lift_blocked_current_data",
+      "closure_scope": "CICY5248 through its unique ordinary favourable split witness CICY7913; current local data only",
+      "escape_hatch": "Return only with an explicit action-transfer engine for a CICY5248 free Z2 option through the CICY7913 split equations.",
+      "evidence_counts": {
+        "ambient_bundle_breadcrumb_available": false,
+        "direct_one_step_split_hit_count": 1,
+        "parent_cicy": 5248,
+        "parent_free_z2_option_count": 4,
+        "selected_split": 7913,
+        "split_symmetry_status": "unknown"
+      },
+      "no_go_atlas_extensions": [
+        {
+          "cheap_prefilter": "split_action_lift_missing_current_data",
+          "minimal_obstruction_core": {
+            "ambient_bundle_breadcrumb_available": false,
+            "direct_one_step_split_hit_count": 1,
+            "parent_cicy": 5248,
+            "parent_free_z2_option_count": 4,
+            "same_hodge_pool_count": 59,
+            "selected_split": 7913,
+            "split_symmetry_status": "unknown"
+          },
+          "nearest_escape": "Implement an explicit action-transfer engine for one CICY5248 free Z2 option through the CICY7913 split equations, or continue to the next fresh raw-source bridge.",
+          "scope_class": "presentation-local",
+          "syndrome_id": "cicy5248_7913_split_action_lift_missing_current_data"
+        }
+      ],
+      "reason": "CICY7913 is the unique ordinary favourable P2 split witness for CICY5248, but the witness has unknown local symmetry data and the same-Hodge favourable pool has no recorded free-action lift.",
+      "source_report": "experiments/latent_atlas/reports/cicy5248_bridge_action_transfer_audit.json",
+      "target_id": "CICY5248_same_hodge_bridge_action_transfer_audit"
+    },
+    {
+      "closed_gate": "certify_raw_free_Z2_action_transfer_to_the_witness_presentation",
+      "closure_id": "cicy5406_7918_split_found_action_lift_blocked_current_data",
+      "closure_scope": "CICY5406 through its unique ordinary favourable split witness CICY7918; current local data only",
+      "escape_hatch": "Return only with an explicit action-transfer engine for a CICY5406 free Z2 option through the CICY7918 split equations.",
+      "evidence_counts": {
+        "ambient_bundle_breadcrumb_available": false,
+        "direct_one_step_split_hit_count": 1,
+        "parent_cicy": 5406,
+        "parent_free_z2_option_count": 4,
+        "selected_split": 7918,
+        "split_symmetry_status": "unknown"
+      },
+      "no_go_atlas_extensions": [
+        {
+          "cheap_prefilter": "split_action_lift_missing_current_data",
+          "minimal_obstruction_core": {
+            "ambient_bundle_breadcrumb_available": false,
+            "direct_one_step_split_hit_count": 1,
+            "parent_cicy": 5406,
+            "parent_free_z2_option_count": 4,
+            "same_hodge_pool_count": 59,
+            "selected_split": 7918,
+            "split_symmetry_status": "unknown"
+          },
+          "nearest_escape": "Implement an explicit action-transfer engine for one CICY5406 free Z2 option through the CICY7918 split equations, or continue to the next fresh raw-source bridge.",
+          "scope_class": "presentation-local",
+          "syndrome_id": "cicy5406_7918_split_action_lift_missing_current_data"
+        }
+      ],
+      "reason": "CICY7918 is the unique ordinary favourable P2 split witness for CICY5406, but the witness has unknown local symmetry data and the same-Hodge favourable pool has no recorded free-action lift.",
+      "source_report": "experiments/latent_atlas/reports/cicy5406_bridge_action_transfer_audit.json",
+      "target_id": "CICY5406_same_hodge_bridge_action_transfer_audit"
+    },
+    {
+      "closed_gate": "choose_concrete_favourable_split_or_same_hodge_witness",
+      "closure_id": "cicy5449_no_direct_split_witness_blocked_current_data",
+      "closure_scope": "CICY5449 through the current same-Hodge favourable pool; ordinary one-step split-witness search only",
+      "escape_hatch": "Return only with a broader split/isomorphism search or an explicit favourable presentation witness for CICY5449.",
+      "evidence_counts": {
+        "ambient_bundle_breadcrumb_available": false,
+        "direct_one_step_split_hit_count": 0,
+        "parent_cicy": 5449,
+        "parent_free_z2_option_count": 4,
+        "same_hodge_favourable_unknown_count": 8,
+        "same_hodge_pool_count": 59
+      },
+      "no_go_atlas_extensions": [
+        {
+          "cheap_prefilter": "direct_split_witness_missing_current_data",
+          "minimal_obstruction_core": {
+            "ambient_bundle_breadcrumb_available": false,
+            "direct_one_step_split_hit_count": 0,
+            "parent_cicy": 5449,
+            "parent_free_z2_option_count": 4,
+            "same_hodge_favourable_known_free_count": 0,
+            "same_hodge_favourable_unknown_count": 8,
+            "same_hodge_pool_count": 59
+          },
+          "nearest_escape": "Find an explicit isomorphism or multi-step split route from CICY5449 to a favourable same-Hodge witness, broaden the split-witness search beyond ordinary one-step P2 contractions, or continue to the next fresh raw-source bridge.",
+          "scope_class": "presentation-local",
+          "syndrome_id": "cicy5449_no_direct_split_witness_current_data"
+        }
+      ],
+      "reason": "CICY5449 has recorded parent free Z2 data and same-Hodge favourable presentations, but no ordinary one-step split contraction in the current pool reconstructs the parent.",
+      "source_report": "experiments/latent_atlas/reports/cicy5449_bridge_action_transfer_audit.json",
+      "target_id": "CICY5449_same_hodge_bridge_action_transfer_audit"
+    },
+    {
+      "closed_gate": "choose_concrete_favourable_split_or_same_hodge_witness",
+      "closure_id": "cicy7810_no_direct_split_witness_blocked_current_data",
+      "closure_scope": "CICY7810 through the current same-Hodge favourable pool; ordinary one-step split-witness search only",
+      "escape_hatch": "Return only with a broader split/isomorphism search or an explicit favourable presentation witness for CICY7810.",
+      "evidence_counts": {
+        "ambient_bundle_breadcrumb_available": false,
+        "direct_one_step_split_hit_count": 0,
+        "parent_cicy": 7810,
+        "parent_free_z3_option_count": 3,
+        "same_hodge_favourable_unknown_count": 2,
+        "same_hodge_pool_count": 2
+      },
+      "no_go_atlas_extensions": [
+        {
+          "cheap_prefilter": "direct_split_witness_missing_current_data",
+          "minimal_obstruction_core": {
+            "ambient_bundle_breadcrumb_available": false,
+            "direct_one_step_split_hit_count": 0,
+            "parent_cicy": 7810,
+            "parent_free_z3_option_count": 3,
+            "same_hodge_favourable_known_free_count": 0,
+            "same_hodge_favourable_unknown_count": 2,
+            "same_hodge_pool_count": 2
+          },
+          "nearest_escape": "Find an explicit isomorphism or multi-step split route from CICY7810 to CICY7894/CICY7895 or another favourable same-Hodge witness, broaden the split-witness search beyond ordinary one-step split-row contractions, or pivot to the next GUTall benchmark pool.",
+          "scope_class": "presentation-local",
+          "syndrome_id": "cicy7810_no_direct_split_witness_current_data"
+        }
+      ],
+      "reason": "CICY7810 has recorded parent free Z3 data and same-Hodge favourable presentations CICY7894/CICY7895, but no ordinary one-step split contraction in the current pool reconstructs the parent.",
+      "source_report": "experiments/latent_atlas/reports/cicy7810_bridge_action_transfer_audit.json",
+      "target_id": "CICY7810_same_hodge_bridge_action_transfer_audit"
+    },
+    {
+      "closed_gate": "geometry_specific_equivariant_representative_and_component_mass_engine",
+      "closure_id": "cicy5302_gutall_benchmark_pool_engine_gap_current_data",
+      "closure_scope": "Current CICY5302 promotion grammar: algebraic and raw-action layers verified, but no local CICY5302 Wilson-component/equivariant representative mass-channel engine is available.",
+      "escape_hatch": "Return to CICY5302 only after adding a geometry-specific Wilson/component/representative/mass-channel engine or a generic engine that verifies CICY5302 promotion gates.",
+      "evidence_counts": {
+        "algebraic_benchmark_failure_count": 0,
+        "cicy": 5302,
+        "matched_current_engine_artifact_count": 0,
+        "model_count": 23623,
+        "model_counts_by_symmetry_order": {
+          "2": 6294,
+          "4": 17329
+        },
+        "order2_ambient_lift_ready_count": 6294,
+        "order4_ambient_lift_obstructed_count": 13450,
+        "order4_ambient_lift_ready_count": 3879,
+        "raw_free_action_count": 20,
+        "raw_free_order_counts": {
+          "2": 4,
+          "4": 16
+        }
+      },
+      "no_go_atlas_extensions": [
+        {
+          "cheap_prefilter": "geometry_specific_engine_missing_current_data",
+          "minimal_obstruction_core": {
+            "algebraic_benchmark_failure_count": 0,
+            "all_free_options_row_trivial": true,
+            "ambient_lift_readiness_by_symmetry_order": {
+              "2": {
+                "any_determinant_trivial_lift_count": 6294,
+                "any_direct_sum_equivariant_lift_count": 6294,
+                "free_option_count_for_order": 4,
+                "lift_option_count_distribution": {
+                  "4": 6294
+                },
+                "model_count": 6294,
+                "no_direct_sum_equivariant_lift_count": 0,
+                "sample_no_lift_record": null
+              },
+              "4": {
+                "any_determinant_trivial_lift_count": 3879,
+                "any_direct_sum_equivariant_lift_count": 3879,
+                "free_option_count_for_order": 16,
+                "lift_option_count_distribution": {
+                  "0": 13450,
+                  "16": 3879
+                },
+                "model_count": 17329,
+                "no_direct_sum_equivariant_lift_count": 13450,
+                "sample_no_lift_record": {
+                  "first_option_obstruction": "some fixed line-bundle summands carry a nontrivial projective commutator cocycle under this raw quotient action",
+                  "matrix": [
+                    [
+                      -1,
+                      -1,
+                      0,
+                      1,
+                      1
+                    ],
+                    [
+                      -1,
+                      -1,
+                      1,
+                      0,
+                      1
+                    ],
+                    [
+                      -1,
+                      -1,
+                      1,
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      0,
+                      -2
+                    ],
+                    [
+                      1,
+                      1,
+                      -2,
+                      1,
+                      -1
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      -2,
+                      0
+                    ]
+                  ],
+                  "model_index": 0
+                }
+              }
+            },
+            "cicy": 5302,
+            "eta": -48,
+            "generic_representative_promotion_engine_available": false,
+            "geometry_specific_representative_mass_engine_available": false,
+            "geometry_specific_wilson_component_engine_available": false,
+            "h11": 6,
+            "h21": 30,
+            "matched_current_engine_artifacts": [],
+            "model_count": 23623,
+            "model_counts_by_symmetry_order": {
+              "2": 6294,
+              "4": 17329
+            },
+            "raw_free_action_count": 20,
+            "raw_free_order_counts": {
+              "2": 4,
+              "4": 16
+            }
+          },
+          "nearest_escape": "Add a CICY5302-specific Wilson-component and equivariant Koszul representative promotion engine, or pivot to the next GUTall benchmark pool while preserving this pool as an algebraically clean future target.",
+          "scope_class": "grammar-local",
+          "syndrome_id": "cicy5302_gutall_benchmark_pool_engine_gap_current_data"
+        }
+      ],
+      "reason": "CICY5302 supplies a large algebraically clean quotient-compatible benchmark pool with row-trivial raw Z2/Z2xZ2 action data, but current local tooling stops before Wilson-component characters, equivariant representatives, operator safety, or mass-channel promotion.",
+      "source_report": "experiments/latent_atlas/reports/cicy5302_gutall_benchmark_pool_engine_audit.json",
+      "target_id": "CICY5302_gutall_benchmark_pool_engine_audit"
+    },
+    {
+      "closed_gate": "raw_free_action_data_gate",
+      "closure_id": "cicy5273_gutall_benchmark_pool_raw_action_gap_current_data",
+      "closure_scope": "Current CICY5273 local data: algebraic GUTall pool verified, but cicylist.m has no free-action option to feed Wilson-component descent.",
+      "escape_hatch": "Return to CICY5273 only after adding explicit raw free-action data or an external quotient-action certificate compatible with Wilson/component descent.",
+      "evidence_counts": {
+        "algebraic_benchmark_failure_count": 0,
+        "cicy": 5273,
+        "model_count": 6753,
+        "model_counts_by_symmetry_order": {
+          "2": 6753
+        },
+        "order2_ambient_lift_obstructed_count": 6753,
+        "order2_ambient_lift_ready_count": 0,
+        "raw_free_action_count": 0,
+        "raw_symmetry_option_count": 1
+      },
+      "no_go_atlas_extensions": [
+        {
+          "cheap_prefilter": "raw_free_action_data_missing_current_data",
+          "minimal_obstruction_core": {
+            "algebraic_benchmark_failure_count": 0,
+            "ambient_lift_readiness_by_symmetry_order": {
+              "2": {
+                "any_determinant_trivial_lift_count": 0,
+                "any_direct_sum_equivariant_lift_count": 0,
+                "free_option_count_for_order": 0,
+                "lift_option_count_distribution": {
+                  "0": 6753
+                },
+                "model_count": 6753,
+                "no_direct_sum_equivariant_lift_count": 6753,
+                "sample_no_lift_record": {
+                  "first_option_obstruction": "no matching free option",
+                  "matrix": [
+                    [
+                      5,
+                      -4,
+                      -2,
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      0,
+                      -1,
+                      1,
+                      -1
+                    ],
+                    [
+                      0,
+                      1,
+                      0,
+                      0,
+                      -1
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      -1,
+                      0
+                    ],
+                    [
+                      -1,
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    [
+                      -1,
+                      0,
+                      1,
+                      0,
+                      0
+                    ]
+                  ],
+                  "model_index": 0
+                }
+              }
+            },
+            "cicy": 5273,
+            "eta": -48,
+            "gutall_symmetry_orders": [
+              2
+            ],
+            "h11": 6,
+            "h21": 30,
+            "model_count": 6753,
+            "model_counts_by_symmetry_order": {
+              "2": 6753
+            },
+            "raw_free_action_count": 0,
+            "raw_symmetry_option_count": 1,
+            "raw_symmetry_status": "known_nonempty"
+          },
+          "nearest_escape": "Recover explicit raw free-action data for CICY5273, or use an external quotient-action certificate that can feed Wilson/component descent. Otherwise pivot to the next GUTall benchmark pool.",
+          "scope_class": "grammar-local",
+          "syndrome_id": "cicy5273_gutall_benchmark_pool_raw_action_gap_current_data"
+        }
+      ],
+      "reason": "CICY5273 supplies a clean order-2 GUTall benchmark pool, but local raw symmetry data has no free-action option, so Wilson-line/component promotion cannot begin under current data.",
+      "source_report": "experiments/latent_atlas/reports/cicy5273_gutall_benchmark_pool_engine_audit.json",
+      "target_id": "CICY5273_gutall_benchmark_pool_engine_audit"
+    },
+    {
+      "closed_gate": "raw_free_action_data_gate",
+      "closure_id": "cicy6738_gutall_benchmark_pool_raw_action_gap_current_data",
+      "closure_scope": "Current CICY6738 local data: algebraic GUTall pool verified, but cicylist.m has no free-action option to feed Wilson-component descent.",
+      "escape_hatch": "Return to CICY6738 only after adding explicit raw free-action data or an external quotient-action certificate compatible with Wilson/component descent.",
+      "evidence_counts": {
+        "algebraic_benchmark_failure_count": 0,
+        "cicy": 6738,
+        "model_count": 4243,
+        "model_counts_by_symmetry_order": {
+          "2": 4243
+        },
+        "order2_ambient_lift_obstructed_count": 4243,
+        "order2_ambient_lift_ready_count": 0,
+        "raw_free_action_count": 0,
+        "raw_symmetry_option_count": 1
+      },
+      "no_go_atlas_extensions": [
+        {
+          "cheap_prefilter": "raw_free_action_data_missing_current_data",
+          "minimal_obstruction_core": {
+            "algebraic_benchmark_failure_count": 0,
+            "ambient_lift_readiness_by_symmetry_order": {
+              "2": {
+                "any_determinant_trivial_lift_count": 0,
+                "any_direct_sum_equivariant_lift_count": 0,
+                "free_option_count_for_order": 0,
+                "lift_option_count_distribution": {
+                  "0": 4243
+                },
+                "model_count": 4243,
+                "no_direct_sum_equivariant_lift_count": 4243,
+                "sample_no_lift_record": {
+                  "first_option_obstruction": "no matching free option",
+                  "matrix": [
+                    [
+                      3,
+                      -2,
+                      -2,
+                      0,
+                      1
+                    ],
+                    [
+                      3,
+                      -2,
+                      -2,
+                      1,
+                      0
+                    ],
+                    [
+                      3,
+                      -1,
+                      -1,
+                      -1,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      0,
+                      -1
+                    ],
+                    [
+                      -3,
+                      1,
+                      1,
+                      0,
+                      1
+                    ],
+                    [
+                      -2,
+                      1,
+                      1,
+                      0,
+                      0
+                    ]
+                  ],
+                  "model_index": 0
+                }
+              }
+            },
+            "cicy": 6738,
+            "eta": -64,
+            "gutall_symmetry_orders": [
+              2
+            ],
+            "h11": 6,
+            "h21": 38,
+            "model_count": 4243,
+            "model_counts_by_symmetry_order": {
+              "2": 4243
+            },
+            "raw_free_action_count": 0,
+            "raw_symmetry_option_count": 1,
+            "raw_symmetry_status": "known_nonempty"
+          },
+          "nearest_escape": "Recover explicit raw free-action data for CICY6738, or use an external quotient-action certificate that can feed Wilson/component descent. Otherwise pivot to the next GUTall benchmark pool.",
+          "scope_class": "grammar-local",
+          "syndrome_id": "cicy6738_gutall_benchmark_pool_raw_action_gap_current_data"
+        }
+      ],
+      "reason": "CICY6738 supplies a clean order-2 GUTall benchmark pool, but local raw symmetry data has no free-action option, so Wilson-line/component promotion cannot begin under current data.",
+      "source_report": "experiments/latent_atlas/reports/cicy6738_gutall_benchmark_pool_engine_audit.json",
+      "target_id": "CICY6738_gutall_benchmark_pool_engine_audit"
+    },
+    {
+      "closed_gate": "raw_free_action_data_gate",
+      "closure_id": "cicy5425_gutall_benchmark_pool_raw_action_gap_current_data",
+      "closure_scope": "Current CICY5425 local data: algebraic GUTall pool verified, but cicylist.m has no free-action option to feed Wilson-component descent.",
+      "escape_hatch": "Return to CICY5425 only after adding explicit raw free-action data or an external quotient-action certificate compatible with Wilson/component descent.",
+      "evidence_counts": {
+        "algebraic_benchmark_failure_count": 0,
+        "cicy": 5425,
+        "model_count": 3128,
+        "model_counts_by_symmetry_order": {
+          "2": 3128
+        },
+        "order2_ambient_lift_obstructed_count": 3128,
+        "order2_ambient_lift_ready_count": 0,
+        "raw_free_action_count": 0,
+        "raw_symmetry_option_count": 1
+      },
+      "no_go_atlas_extensions": [
+        {
+          "cheap_prefilter": "raw_free_action_data_missing_current_data",
+          "minimal_obstruction_core": {
+            "algebraic_benchmark_failure_count": 0,
+            "ambient_lift_readiness_by_symmetry_order": {
+              "2": {
+                "any_determinant_trivial_lift_count": 0,
+                "any_direct_sum_equivariant_lift_count": 0,
+                "free_option_count_for_order": 0,
+                "lift_option_count_distribution": {
+                  "0": 3128
+                },
+                "model_count": 3128,
+                "no_direct_sum_equivariant_lift_count": 3128,
+                "sample_no_lift_record": {
+                  "first_option_obstruction": "no matching free option",
+                  "matrix": [
+                    [
+                      2,
+                      -1,
+                      -1,
+                      -1,
+                      1
+                    ],
+                    [
+                      4,
+                      -2,
+                      -2,
+                      0,
+                      0
+                    ],
+                    [
+                      -1,
+                      0,
+                      0,
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      0,
+                      -1
+                    ],
+                    [
+                      -1,
+                      0,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      -1,
+                      1,
+                      0,
+                      0,
+                      0
+                    ]
+                  ],
+                  "model_index": 0
+                }
+              }
+            },
+            "cicy": 5425,
+            "eta": -48,
+            "gutall_symmetry_orders": [
+              2
+            ],
+            "h11": 6,
+            "h21": 30,
+            "model_count": 3128,
+            "model_counts_by_symmetry_order": {
+              "2": 3128
+            },
+            "raw_free_action_count": 0,
+            "raw_symmetry_option_count": 1,
+            "raw_symmetry_status": "known_nonempty"
+          },
+          "nearest_escape": "Recover explicit raw free-action data for CICY5425, or use an external quotient-action certificate that can feed Wilson/component descent. Otherwise pivot to the next GUTall benchmark pool.",
+          "scope_class": "grammar-local",
+          "syndrome_id": "cicy5425_gutall_benchmark_pool_raw_action_gap_current_data"
+        }
+      ],
+      "reason": "CICY5425 supplies a clean order-2 GUTall benchmark pool, but local raw symmetry data has no free-action option, so Wilson-line/component promotion cannot begin under current data.",
+      "source_report": "experiments/latent_atlas/reports/cicy5425_gutall_benchmark_pool_engine_audit.json",
+      "target_id": "CICY5425_gutall_benchmark_pool_engine_audit"
+    },
+    {
+      "closed_gate": "geometry_specific_equivariant_representative_and_component_mass_engine",
+      "closure_id": "cicy5256_gutall_benchmark_pool_engine_gap_current_data",
+      "closure_scope": "Current CICY5256 promotion grammar: algebraic, raw-action, and ambient line-bundle lift-readiness layers are verified, but no local CICY5256 Wilson-component/equivariant representative mass-channel engine is available.",
+      "escape_hatch": "Return to CICY5256 only after adding a geometry-specific Wilson/component/representative/mass-channel engine or a generic engine that verifies CICY5256 promotion gates.",
+      "evidence_counts": {
+        "algebraic_benchmark_failure_count": 0,
+        "cicy": 5256,
+        "generic_representative_promotion_engine_available": false,
+        "geometry_specific_representative_mass_engine_available": false,
+        "geometry_specific_wilson_component_engine_available": false,
+        "matched_current_engine_artifact_count": 0,
+        "model_count": 2891,
+        "model_counts_by_symmetry_order": {
+          "2": 763,
+          "4": 2128
+        },
+        "order2_ambient_lift_ready_count": 763,
+        "order4_ambient_lift_obstructed_count": 1584,
+        "order4_ambient_lift_ready_count": 544,
+        "raw_free_action_count": 6,
+        "raw_free_group_structure_counts": {
+          "2": 2,
+          "2x2": 4
+        },
+        "raw_free_order_counts": {
+          "2": 2,
+          "4": 4
+        }
+      },
+      "no_go_atlas_extensions": [
+        {
+          "cheap_prefilter": "geometry_specific_engine_missing_current_data",
+          "minimal_obstruction_core": {
+            "algebraic_benchmark_failure_count": 0,
+            "all_free_options_row_trivial": true,
+            "ambient_lift_readiness_by_symmetry_order": {
+              "2": {
+                "any_determinant_trivial_lift_count": 763,
+                "any_direct_sum_equivariant_lift_count": 763,
+                "free_option_count_for_order": 2,
+                "lift_option_count_distribution": {
+                  "2": 763
+                },
+                "model_count": 763,
+                "no_direct_sum_equivariant_lift_count": 0,
+                "sample_no_lift_record": null
+              },
+              "4": {
+                "any_determinant_trivial_lift_count": 544,
+                "any_direct_sum_equivariant_lift_count": 544,
+                "free_option_count_for_order": 4,
+                "lift_option_count_distribution": {
+                  "0": 1584,
+                  "4": 544
+                },
+                "model_count": 2128,
+                "no_direct_sum_equivariant_lift_count": 1584,
+                "sample_no_lift_record": {
+                  "first_option_obstruction": "some fixed line-bundle summands carry a nontrivial projective commutator cocycle under this raw quotient action",
+                  "matrix": [
+                    [
+                      5,
+                      -4,
+                      -1,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1,
+                      -3,
+                      0,
+                      1
+                    ],
+                    [
+                      -1,
+                      0,
+                      0,
+                      1,
+                      0
+                    ],
+                    [
+                      0,
+                      0,
+                      0,
+                      -1,
+                      1
+                    ],
+                    [
+                      0,
+                      0,
+                      1,
+                      0,
+                      -1
+                    ]
+                  ],
+                  "model_index": 0
+                }
+              }
+            },
+            "cicy": 5256,
+            "eta": -48,
+            "generic_representative_promotion_engine_available": false,
+            "geometry_specific_representative_mass_engine_available": false,
+            "geometry_specific_wilson_component_engine_available": false,
+            "h11": 5,
+            "h21": 29,
+            "matched_current_engine_artifacts": [],
+            "model_count": 2891,
+            "model_counts_by_symmetry_order": {
+              "2": 763,
+              "4": 2128
+            },
+            "raw_free_action_count": 6,
+            "raw_free_group_structure_counts": {
+              "2": 2,
+              "2x2": 4
+            },
+            "raw_free_order_counts": {
+              "2": 2,
+              "4": 4
+            }
+          },
+          "nearest_escape": "Add a CICY5256-specific Wilson-component and equivariant Koszul representative promotion engine, or pivot to the next GUTall benchmark pool while preserving this pool as an algebraically clean future target.",
+          "scope_class": "grammar-local",
+          "syndrome_id": "cicy5256_gutall_benchmark_pool_engine_gap_current_data"
+        }
+      ],
+      "reason": "CICY5256 supplies an algebraically clean quotient-compatible benchmark pool with recorded row-trivial Z2/Z2xZ2 raw action data. The current local tooling stops before Wilson-component characters, equivariant representatives, operator safety, or mass-channel promotion, so this is a tooling/promotion gap rather than a physical no-go for the geometry.",
+      "source_report": "experiments/latent_atlas/reports/cicy5256_gutall_benchmark_pool_engine_audit.json",
+      "target_id": "CICY5256_gutall_benchmark_pool_engine_audit"
+    }
+  ],
+  "gates": {
+    "cicy5256_audit_is_closed": {
+      "evidence": "{\"candidate_status\": \"not_a_candidate_claim\", \"status\": \"cicy5256_gutall_benchmark_pool_engine_gap_current_data\"}",
+      "note": "CICY5256 benchmark audit is a verified closure, not a candidate claim",
+      "pass": true
+    },
+    "closure_records_cicy5256_engine_gap": {
+      "evidence": "{\"closed_gate\": \"geometry_specific_equivariant_representative_and_component_mass_engine\", \"closure_id\": \"cicy5256_gutall_benchmark_pool_engine_gap_current_data\", \"closure_scope\": \"Current CICY5256 promotion grammar: algebraic, raw-action, and ambient line-bundle lift-readiness layers are verified, but no local CICY5256 Wilson-component/equivariant representative mass-channel engine is available.\", \"escape_hatch\": \"Return to CICY5256 only after adding a geometry-specific Wilson/component/representative/mass-channel engine or a generic engine that verifies CICY5256 promotion gates.\", \"evidence_counts\": {\"algebraic_benchmark_failure_count\": 0, \"cicy\": 5256, \"generic_representative_promotion_engine_available\": false, \"geometry_specific_representative_mass_engine_available\": false, \"geometry_specific_wilson_component_engine_available\": false, \"matched_current_engine_artifact_count\": 0, \"model_count\": 2891, \"model_counts_by_symmetry_order\": {\"2\": 763, \"4\": 2128}, \"order2_ambient_lift_ready_count\": 763, \"order4_ambient_lift_obstructed_count\": 1584, \"order4_ambient_lift_ready_count\": 544, \"raw_free_action_count\": 6, \"raw_free_group_structure_counts\": {\"2\": 2, \"2x2\": 4}, \"raw_free_order_counts\": {\"2\": 2, \"4\": 4}}, \"no_go_atlas_extensions\": [{\"cheap_prefilter\": \"geometry_specific_engine_missing_current_data\", \"minimal_obstruction_core\": {\"algebraic_benchmark_failure_count\": 0, \"all_free_options_row_trivial\": true, \"ambient_lift_readiness_by_symmetry_order\": {\"2\": {\"any_determinant_trivial_lift_count\": 763, \"any_direct_sum_equivariant_lift_count\": 763, \"free_option_count_for_order\": 2, \"lift_option_count_distribution\": {\"2\": 763}, \"model_count\": 763, \"no_direct_sum_equivariant_lift_count\": 0, \"sample_no_lift_record\": null}, \"4\": {\"any_determinant_trivial_lift_count\": 544, \"any_direct_sum_equivariant_lift_count\": 544, \"free_option_count_for_order\": 4, \"lift_option_count_distribution\": {\"0\": 1584, \"4\": 544}, \"model_count\": 2128, \"no_direct_sum_equivariant_lift_count\": 1584, \"sample_no_lift_record\": {\"first_option_obstruction\": \"some fixed line-bundle summands carry a nontrivial projective commutator cocycle under this raw quotient action\", \"matrix\": [[5, -4, -1, 0, 0], [1, 1, -3, 0, 1], [-1, 0, 0, 1, 0], [0, 0, 0, -1, 1], [0, 0, 1, 0, -1]], \"model_index\": 0}}}, \"cicy\": 5256, \"eta\": -48, \"generic_representative_promotion_engine_available\": false, \"geometry_specific_representative_mass_engine_available\": false, \"geometry_specific_wilson_component_engine_available\": false, \"h11\": 5, \"h21\": 29, \"matched_current_engine_artifacts\": [], \"model_count\": 2891, \"model_counts_by_symmetry_order\": {\"2\": 763, \"4\": 2128}, \"raw_free_action_count\": 6, \"raw_free_group_structure_counts\": {\"2\": 2, \"2x2\": 4}, \"raw_free_order_counts\": {\"2\": 2, \"4\": 4}}, \"nearest_escape\": \"Add a CICY5256-specific Wilson-component and equivariant Koszul representative promotion engine, or pivot to the next GUTall benchmark pool while preserving this pool as an algebraically clean future target.\", \"scope_class\": \"grammar-local\", \"syndrome_id\": \"cicy5256_gutall_benchmark_pool_engine_gap_current_data\"}], \"reason\": \"CICY5256 supplies an algebraically clean quotient-compatible benchmark pool with recorded row-trivial Z2/Z2xZ2 raw action data. The current local tooling stops before Wilson-component characters, equivariant representatives, operator safety, or mass-channel promotion, so this is a tooling/promotion gap rather than a physical no-go for the geometry.\", \"source_report\": \"experiments/latent_atlas/reports/cicy5256_gutall_benchmark_pool_engine_audit.json\", \"target_id\": \"CICY5256_gutall_benchmark_pool_engine_audit\"}",
+      "note": "new closure records the CICY5256 current promotion-engine gap",
+      "pass": true
+    },
+    "single_cicy5452_target_open": {
+      "evidence": "[{\"candidate_status\": \"not_a_candidate_claim\", \"fresh_raw_rank\": 18, \"geometry\": \"CICY5452 favourable GUTall benchmark pool with recorded quotient orders 2 and 4 and a large algebraically verified SU(5) model pool\", \"missing_gates\": [\"geometry_specific_equivariant_representative_and_component_mass_engine\", \"geometry_specific_wilson_component_engine\", \"q1_one_higgs_proton_safe_or_no_anti10_screen\", \"promotion_ladder_verifier\"], \"next_search_action\": \"Audit the CICY5452 GUTall benchmark pool with the CICY5256/CICY5425 protocol: reproduce the algebraic/index/anomaly pool, inventory raw free actions, count ambient line-bundle lift readiness, and emit either a bounded promotion seed or a scoped current-data gap.\", \"parent_target_id\": \"CICY5452_gutall_benchmark_pool\", \"priority_score\": 72, \"rank\": 1, \"selected_raw_record\": {\"eta\": -48, \"first_missing_gate_for_cubic_stack\": \"geometry_specific_equivariant_representative_and_component_mass_engine\", \"h11\": 5, \"h21\": 29, \"model_count\": 2884, \"model_counts_by_symmetry_order\": {\"2\": 762, \"4\": 2122}, \"num\": 5452, \"symmetry_orders_in_cicy_entry\": [2, 4]}, \"source_category\": \"atlas_guided_fresh_raw_gutall_benchmark_geometry\", \"stop_rule\": \"Continue only if the audit certifies raw free-action data or a geometry-specific Wilson/representative primitive, finds a q1/no-anti10 or one-Higgs/proton-safe seed outside registered skip motifs, improves a nearest-boundary metric, or emits a reusable No-Go Atlas syndrome. Otherwise advance to the next GUTall benchmark pool.\", \"target_id\": \"CICY5452_gutall_benchmark_pool_engine_audit\", \"why_now\": \"CICY5256 is preserved as a clean algebraic pool with row-trivial free-action data and a current promotion-engine gap certificate. CICY5452 is the next fresh raw-source GUTall benchmark geometry in the verified lateral ranking.\"}]",
+      "note": "queue advances to the next fresh GUTall benchmark pool target, CICY5452",
+      "pass": true
+    },
+    "source_verifications_pass": {
+      "evidence": "{\"cicy5256_benchmark_audit\": {\"all_gates_pass\": true, \"path\": \"experiments/latent_atlas/reports/cicy5256_gutall_benchmark_pool_engine_audit_verification.json\", \"status\": \"cicy5256_gutall_benchmark_pool_engine_gap_current_data\"}, \"no_go_atlas_v0\": {\"all_gates_pass\": true, \"path\": \"reports/no_go_atlas_v0_verification.json\", \"status\": null}, \"post_cicy5425_queue\": {\"all_gates_pass\": true, \"path\": \"experiments/latent_atlas/reports/atlas_gap_queue_post_cicy5425_benchmark_advancement_verification.json\", \"status\": \"atlas_gap_queue_advanced_to_cicy5256_gutall_benchmark_pool_engine_audit\"}, \"raw_scout\": {\"all_gates_pass\": true, \"path\": \"experiments/latent_atlas/reports/atlas_guided_raw_scout_outside_verified_corpus_verification.json\", \"status\": \"atlas_guided_raw_scout_fresh_bridge_source_selected\"}}",
+      "note": "all source verifications for queue advancement are green",
+      "pass": true
+    },
+    "starts_from_cicy5256_queue": {
+      "evidence": "{\"candidate_claim_count\": 0, \"closed_target_count\": 20, \"new_closure_id\": \"cicy5425_gutall_benchmark_pool_raw_action_gap_current_data\", \"newly_closed_target_id\": \"CICY5425_gutall_benchmark_pool_engine_audit\", \"next_parent_target_id\": \"CICY5256_gutall_benchmark_pool\", \"open_target_count\": 1, \"status\": \"atlas_gap_queue_advanced_to_cicy5256_gutall_benchmark_pool_engine_audit\", \"top_open_target_id\": \"CICY5256_gutall_benchmark_pool_engine_audit\"}",
+      "note": "advancement starts from the CICY5256 queue head",
+      "pass": true
+    }
+  },
+  "new_closure": {
+    "closed_gate": "geometry_specific_equivariant_representative_and_component_mass_engine",
+    "closure_id": "cicy5256_gutall_benchmark_pool_engine_gap_current_data",
+    "closure_scope": "Current CICY5256 promotion grammar: algebraic, raw-action, and ambient line-bundle lift-readiness layers are verified, but no local CICY5256 Wilson-component/equivariant representative mass-channel engine is available.",
+    "escape_hatch": "Return to CICY5256 only after adding a geometry-specific Wilson/component/representative/mass-channel engine or a generic engine that verifies CICY5256 promotion gates.",
+    "evidence_counts": {
+      "algebraic_benchmark_failure_count": 0,
+      "cicy": 5256,
+      "generic_representative_promotion_engine_available": false,
+      "geometry_specific_representative_mass_engine_available": false,
+      "geometry_specific_wilson_component_engine_available": false,
+      "matched_current_engine_artifact_count": 0,
+      "model_count": 2891,
+      "model_counts_by_symmetry_order": {
+        "2": 763,
+        "4": 2128
+      },
+      "order2_ambient_lift_ready_count": 763,
+      "order4_ambient_lift_obstructed_count": 1584,
+      "order4_ambient_lift_ready_count": 544,
+      "raw_free_action_count": 6,
+      "raw_free_group_structure_counts": {
+        "2": 2,
+        "2x2": 4
+      },
+      "raw_free_order_counts": {
+        "2": 2,
+        "4": 4
+      }
+    },
+    "no_go_atlas_extensions": [
+      {
+        "cheap_prefilter": "geometry_specific_engine_missing_current_data",
+        "minimal_obstruction_core": {
+          "algebraic_benchmark_failure_count": 0,
+          "all_free_options_row_trivial": true,
+          "ambient_lift_readiness_by_symmetry_order": {
+            "2": {
+              "any_determinant_trivial_lift_count": 763,
+              "any_direct_sum_equivariant_lift_count": 763,
+              "free_option_count_for_order": 2,
+              "lift_option_count_distribution": {
+                "2": 763
+              },
+              "model_count": 763,
+              "no_direct_sum_equivariant_lift_count": 0,
+              "sample_no_lift_record": null
+            },
+            "4": {
+              "any_determinant_trivial_lift_count": 544,
+              "any_direct_sum_equivariant_lift_count": 544,
+              "free_option_count_for_order": 4,
+              "lift_option_count_distribution": {
+                "0": 1584,
+                "4": 544
+              },
+              "model_count": 2128,
+              "no_direct_sum_equivariant_lift_count": 1584,
+              "sample_no_lift_record": {
+                "first_option_obstruction": "some fixed line-bundle summands carry a nontrivial projective commutator cocycle under this raw quotient action",
+                "matrix": [
+                  [
+                    5,
+                    -4,
+                    -1,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    1,
+                    -3,
+                    0,
+                    1
+                  ],
+                  [
+                    -1,
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    -1,
+                    1
+                  ],
+                  [
+                    0,
+                    0,
+                    1,
+                    0,
+                    -1
+                  ]
+                ],
+                "model_index": 0
+              }
+            }
+          },
+          "cicy": 5256,
+          "eta": -48,
+          "generic_representative_promotion_engine_available": false,
+          "geometry_specific_representative_mass_engine_available": false,
+          "geometry_specific_wilson_component_engine_available": false,
+          "h11": 5,
+          "h21": 29,
+          "matched_current_engine_artifacts": [],
+          "model_count": 2891,
+          "model_counts_by_symmetry_order": {
+            "2": 763,
+            "4": 2128
+          },
+          "raw_free_action_count": 6,
+          "raw_free_group_structure_counts": {
+            "2": 2,
+            "2x2": 4
+          },
+          "raw_free_order_counts": {
+            "2": 2,
+            "4": 4
+          }
+        },
+        "nearest_escape": "Add a CICY5256-specific Wilson-component and equivariant Koszul representative promotion engine, or pivot to the next GUTall benchmark pool while preserving this pool as an algebraically clean future target.",
+        "scope_class": "grammar-local",
+        "syndrome_id": "cicy5256_gutall_benchmark_pool_engine_gap_current_data"
+      }
+    ],
+    "reason": "CICY5256 supplies an algebraically clean quotient-compatible benchmark pool with recorded row-trivial Z2/Z2xZ2 raw action data. The current local tooling stops before Wilson-component characters, equivariant representatives, operator safety, or mass-channel promotion, so this is a tooling/promotion gap rather than a physical no-go for the geometry.",
+    "source_report": "experiments/latent_atlas/reports/cicy5256_gutall_benchmark_pool_engine_audit.json",
+    "target_id": "CICY5256_gutall_benchmark_pool_engine_audit"
+  },
+  "open_targets": [
+    {
+      "candidate_status": "not_a_candidate_claim",
+      "fresh_raw_rank": 18,
+      "geometry": "CICY5452 favourable GUTall benchmark pool with recorded quotient orders 2 and 4 and a large algebraically verified SU(5) model pool",
+      "missing_gates": [
+        "geometry_specific_equivariant_representative_and_component_mass_engine",
+        "geometry_specific_wilson_component_engine",
+        "q1_one_higgs_proton_safe_or_no_anti10_screen",
+        "promotion_ladder_verifier"
+      ],
+      "next_search_action": "Audit the CICY5452 GUTall benchmark pool with the CICY5256/CICY5425 protocol: reproduce the algebraic/index/anomaly pool, inventory raw free actions, count ambient line-bundle lift readiness, and emit either a bounded promotion seed or a scoped current-data gap.",
+      "parent_target_id": "CICY5452_gutall_benchmark_pool",
+      "priority_score": 72,
+      "rank": 1,
+      "selected_raw_record": {
+        "eta": -48,
+        "first_missing_gate_for_cubic_stack": "geometry_specific_equivariant_representative_and_component_mass_engine",
+        "h11": 5,
+        "h21": 29,
+        "model_count": 2884,
+        "model_counts_by_symmetry_order": {
+          "2": 762,
+          "4": 2122
+        },
+        "num": 5452,
+        "symmetry_orders_in_cicy_entry": [
+          2,
+          4
+        ]
+      },
+      "source_category": "atlas_guided_fresh_raw_gutall_benchmark_geometry",
+      "stop_rule": "Continue only if the audit certifies raw free-action data or a geometry-specific Wilson/representative primitive, finds a q1/no-anti10 or one-Higgs/proton-safe seed outside registered skip motifs, improves a nearest-boundary metric, or emits a reusable No-Go Atlas syndrome. Otherwise advance to the next GUTall benchmark pool.",
+      "target_id": "CICY5452_gutall_benchmark_pool_engine_audit",
+      "why_now": "CICY5256 is preserved as a clean algebraic pool with row-trivial free-action data and a current promotion-engine gap certificate. CICY5452 is the next fresh raw-source GUTall benchmark geometry in the verified lateral ranking."
+    }
+  ],
+  "scope": "close the CICY5256 benchmark-pool audit and advance to CICY5452",
+  "source_verifications": {
+    "cicy5256_benchmark_audit": {
+      "all_gates_pass": true,
+      "path": "experiments/latent_atlas/reports/cicy5256_gutall_benchmark_pool_engine_audit_verification.json",
+      "status": "cicy5256_gutall_benchmark_pool_engine_gap_current_data"
+    },
+    "no_go_atlas_v0": {
+      "all_gates_pass": true,
+      "path": "reports/no_go_atlas_v0_verification.json",
+      "status": null
+    },
+    "post_cicy5425_queue": {
+      "all_gates_pass": true,
+      "path": "experiments/latent_atlas/reports/atlas_gap_queue_post_cicy5425_benchmark_advancement_verification.json",
+      "status": "atlas_gap_queue_advanced_to_cicy5256_gutall_benchmark_pool_engine_audit"
+    },
+    "raw_scout": {
+      "all_gates_pass": true,
+      "path": "experiments/latent_atlas/reports/atlas_guided_raw_scout_outside_verified_corpus_verification.json",
+      "status": "atlas_guided_raw_scout_fresh_bridge_source_selected"
+    }
+  },
+  "status": "atlas_gap_queue_advanced_to_cicy5452_gutall_benchmark_pool_engine_audit",
+  "summary": {
+    "candidate_claim_count": 0,
+    "closed_target_count": 21,
+    "new_closure_id": "cicy5256_gutall_benchmark_pool_engine_gap_current_data",
+    "newly_closed_target_id": "CICY5256_gutall_benchmark_pool_engine_audit",
+    "next_parent_target_id": "CICY5452_gutall_benchmark_pool",
+    "open_target_count": 1,
+    "status": "atlas_gap_queue_advanced_to_cicy5452_gutall_benchmark_pool_engine_audit",
+    "top_open_target_id": "CICY5452_gutall_benchmark_pool_engine_audit"
+  },
+  "title": "No-Go Atlas Gap Queue Post-CICY5256 Benchmark Advancement"
+}

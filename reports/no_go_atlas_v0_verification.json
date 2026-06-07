@@ -16,24 +16,219 @@
       "note": "7484 syndrome records the character-certified vectorlike near-miss",
       "pass": true
     },
+    "branch50_m4_degree_gate_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "Branch 50 records the standard m4 degree-law no-go replay",
+      "pass": true
+    },
     "builder_gates_pass": {
       "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
       "note": "builder-side atlas gates all pass",
       "pass": true
     },
+    "cicy4078_split_action_lift_missing_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY4078/7908 records the finite split-action-lift current-data boundary",
+      "pass": true
+    },
+    "cicy5141_split_action_lift_missing_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY5141/7912 records the finite split-action-lift current-data boundary",
+      "pass": true
+    },
+    "cicy5248_split_action_lift_missing_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY5248/7913 records the finite split-action-lift current-data boundary",
+      "pass": true
+    },
+    "cicy5256_gutall_benchmark_pool_engine_gap_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY5256 records a clean GUTall pool blocked by current promotion-engine availability",
+      "pass": true
+    },
+    "cicy5273_gutall_benchmark_pool_raw_action_gap_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY5273 records a clean GUTall pool blocked by missing local raw free-action data",
+      "pass": true
+    },
+    "cicy5302_gutall_benchmark_pool_engine_gap_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY5302 records a clean GUTall pool blocked by current promotion-engine availability",
+      "pass": true
+    },
+    "cicy5406_split_action_lift_missing_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY5406/7918 records the finite split-action-lift current-data boundary",
+      "pass": true
+    },
+    "cicy5425_gutall_benchmark_pool_raw_action_gap_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY5425 records a clean GUTall pool blocked by missing local raw free-action data",
+      "pass": true
+    },
+    "cicy5449_no_direct_split_witness_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY5449 records the finite no-direct-split-witness current-data boundary",
+      "pass": true
+    },
+    "cicy6187_split_action_lift_missing_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6187/7899 records the finite split-action-lift current-data boundary",
+      "pass": true
+    },
+    "cicy6201_split_action_lift_missing_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6201/7900 records the finite split-action-lift current-data boundary",
+      "pass": true
+    },
+    "cicy6281_split_action_lift_missing_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6281/7904 records the finite split-action-lift current-data boundary",
+      "pass": true
+    },
+    "cicy6715_branch99_higher_map_order_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6715 model-766 branch99 records the finite higher-map order shadow collision",
+      "pass": true
+    },
+    "cicy6715_model215_computed_anchor_missing_higgs_cup_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6715 model-215/336 computed anchors are closed locally without touching the live model-766 unresolved envelope",
+      "pass": true
+    },
+    "cicy6738_gutall_benchmark_pool_raw_action_gap_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6738 records a clean GUTall pool blocked by missing local raw free-action data",
+      "pass": true
+    },
+    "cicy6784_chain_contraction_fallback_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6784 frontier-48 exact-engine fallback records zero standard m3 and missing chain API",
+      "pass": true
+    },
+    "cicy6784_charge_defect_no_improvement_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6784 radius-1 charge-defect replay records no safe Yukawa and no boundary improvement",
+      "pass": true
+    },
+    "cicy6784_cubic_yukawa_absent_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6784 strict survivor records the cubic-Yukawa absence frontier",
+      "pass": true
+    },
+    "cicy6784_higher_degree_yukawa_charge_mismatch_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6784 strict survivor records the bounded degree<=3 Yukawa charge-mismatch frontier",
+      "pass": true
+    },
+    "cicy6784_multistage_first_pair_no_homotopy_seed_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6784 multi-stage direct-tree grammar is blocked at the first H1-H1 pair",
+      "pass": true
+    },
+    "cicy6784_preferred_routes_no_homotopy_seed_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6784 route ranker records no homotopy-eligible seed across all preferred routes",
+      "pass": true
+    },
+    "cicy6784_radius4_local_deformation_no_first_pair_seed_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6784 radius-4 local deformation scout has q1 records but no positive first-pair homotopy seed",
+      "pass": true
+    },
+    "cicy6784_single_anchor_no_homotopy_seed_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6784 single-anchor queue records no promotable homotopy seed across valid or shadow routes",
+      "pass": true
+    },
+    "cicy6784_transferred_m3_no_direct_tree_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6784 transferred-m3 inventory records zero homotopy-eligible direct-tree survivors",
+      "pass": true
+    },
+    "cicy6784_upstream_transferred_m3_boundary_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6784 upstream complement audit records the direct-E1 collision and transferred-m3 boundary",
+      "pass": true
+    },
+    "cicy6788_wall_breaker_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6788 wall-breaker records the one-Higgs proton-unsafe no-go",
+      "pass": true
+    },
+    "cicy6836_model136_existing_boundary_floor_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6836 model-136 pass records focus obstruction and only rediscovers the frontier-691 boundary floor",
+      "pass": true
+    },
+    "cicy6836_model186_frontier691_followup_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6836 model-186 frontier-691 follow-up records a stable local floor with no one-Higgs/proton-safe intersection",
+      "pass": true
+    },
+    "cicy6836_model87_intersection_forcing_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6836 model-87 queue target is closed by a radius-2 one-Higgs/proton-safe disjointness replay",
+      "pass": true
+    },
+    "cicy6836_one_higgs_proton_disjoint_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6836 radius-2 records the one-Higgs/proton-safe disjointness no-go",
+      "pass": true
+    },
+    "cicy6927_model252_s42_boundary_only_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6927 model-252 radius-2 pass records only the known S42 boundary and no non-S42 survivor",
+      "pass": true
+    },
+    "cicy6927_model254_s42_boundary_only_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6927 model-254 radius-2 pass records only the known S42 boundary and no non-S42 survivor",
+      "pass": true
+    },
+    "cicy6927_model369_s42_boundary_only_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6927 model-369 radius-2 pass records only the known S42 boundary and no non-S42 survivor",
+      "pass": true
+    },
+    "cicy6927_model52_s42_boundary_only_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6927 model-52 radius-2 pass records only the known S42 boundary and no non-S42 survivor",
+      "pass": true
+    },
+    "cicy6927_non_s42_cup_boundary_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY6927 non-S42 cup boundary records the radius-2 missing-one-Higgs no-go",
+      "pass": true
+    },
+    "cicy7810_no_direct_split_witness_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "CICY7810 records the finite no-direct-split-witness current-data boundary",
+      "pass": true
+    },
+    "first_pair_positive_generator_no_seed_radius4_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "radius-4 first-pair-positive generator expansion records no positive first-pair seed",
+      "pass": true
+    },
     "higher_degree_counts_and_survivor_boundary": {
       "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
-      "note": "higher-degree replay counts and branch-50 pending rank gate are stable",
+      "note": "higher-degree replay counts remain stable before the Branch 50 degree audit",
       "pass": true
     },
     "markdown_summarizes_atlas": {
       "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.md",
-      "note": "markdown exposes atlas summary, 2544/7484 syndromes, and branch-50 survivor",
+      "note": "markdown exposes atlas summary, 2544/7484 syndromes, and Branch 50 no-go control",
       "pass": true
     },
-    "nearest_no_go_boundaries_are_present": {
+    "model874_s42_basin_has_replay": {
       "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
-      "note": "branch-50 survivor includes the requested nearest no-go boundary classes",
+      "note": "CICY6927/model-874 syndrome records the S_42 motif and closed timeout boundary",
+      "pass": true
+    },
+    "no_active_survivor_certificates": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "the previous Branch 50 survivor is retired into the no-go atlas",
       "pass": true
     },
     "prefilters_are_executable_and_registered": {
@@ -54,6 +249,11 @@
     "source_verifications_imported": {
       "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
       "note": "all imported source verifications are present and passing",
+      "pass": true
+    },
+    "verified_overlap_first_pair_seed_absent_has_replay": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/no_go_atlas_v0.json",
+      "note": "verified overlap first-pair scout records no positive first-pair seed in the current reconstruction-authoritative queue",
       "pass": true
     }
   },

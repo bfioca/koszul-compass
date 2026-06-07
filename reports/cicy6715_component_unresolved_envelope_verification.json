@@ -1,0 +1,49 @@
+{
+  "all_gates_pass": true,
+  "gates": {
+    "builder_gates_pass": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/cicy6715_component_unresolved_envelope.json",
+      "note": "envelope builder gates all pass",
+      "pass": true
+    },
+    "candidate_split_is_stable": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/cicy6715_component_unresolved_envelope.json",
+      "note": "per-model unresolved pairs, branch counts, and clean/proton-safe counts are fixed",
+      "pass": true
+    },
+    "finite_character_envelope_scope_is_stable": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/cicy6715_component_unresolved_envelope.json",
+      "note": "the five-candidate CICY6715 envelope enumerates all 1100 H1/H2 character branches",
+      "pass": true
+    },
+    "live_status_is_not_overclaimed": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/cicy6715_component_unresolved_envelope.json",
+      "note": "the artifact records an existential envelope opening without claiming representative certification",
+      "pass": true
+    },
+    "markdown_reports_live_envelope": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/cicy6715_component_unresolved_envelope.md",
+      "note": "markdown exposes the live envelope headline and model 766 target",
+      "pass": true
+    },
+    "model766_is_only_live_envelope_candidate": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/cicy6715_component_unresolved_envelope.json",
+      "note": "only model 766 can hide clean one-Higgs pre-cup survivors in the finite envelope",
+      "pass": true
+    },
+    "strongest_branch_is_named": {
+      "evidence": "/Users/brian/code/string-theory/publish/koszul-compass/reports/cicy6715_component_unresolved_envelope.json",
+      "note": "model 766 branch 99 is the highest-ranked envelope completion and has all-trivial unresolved H1/H2 characters",
+      "pass": true
+    }
+  },
+  "scope": "verification for CICY6715 component-unresolved character envelope audit",
+  "summary": {
+    "branch_count": 1100,
+    "candidate_count": 5,
+    "live_model": 766,
+    "status": "cicy6715_unresolved_envelope_clean_branch_possible",
+    "strongest_branch": 99,
+    "total_clean_one_higgs_precup_count": 1728
+  }
+}
