@@ -1,0 +1,6471 @@
+{
+  "benchmark": "sms202_cicy7487_model23_geometry_characters_v1",
+  "candidate_search_paused": true,
+  "character_bits": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "character_order": [
+    "1",
+    "a",
+    "b",
+    "ab"
+  ],
+  "checks": {
+    "canonical_top_character_trivial": true,
+    "corpus_hash": true,
+    "downstairs_from_geometry_matches_frozen_result": true,
+    "equivariant_euler_regular_all_50_charged_calculations": true,
+    "full_invariant_polynomial_family_verified": true,
+    "geometry_entry_hash": true,
+    "geometry_fixture_hash": true,
+    "geometry_verbatim_in_corpus": true,
+    "immutable_model_source": true,
+    "model_identity": true,
+    "published_Coh": true,
+    "published_Coh2": true,
+    "published_CohSing": true,
+    "published_GCoh": true,
+    "published_GCoh2": true,
+    "published_GCohSing": true,
+    "riemann_roch_all_50_charged_calculations": true,
+    "serre_duality_all_25_sectors": true,
+    "symmetry_number_bound_to_model": true
+  },
+  "claim_scope": "Generic smooth free members of the recorded invariant complete-intersection family",
+  "downstairs": {
+    "H1_V": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "H1_V_dual": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "H1_wedge2_V": [
+      3,
+      3,
+      4,
+      3
+    ],
+    "H2_wedge2_V": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "Q": 3,
+    "character_order": [
+      "1",
+      "a",
+      "b",
+      "ab"
+    ],
+    "colored_triplet_vectorlike_pairs": 0,
+    "colored_triplets": 0,
+    "dbar": 3,
+    "ebar": 3,
+    "electroweak_doublet_vectorlike_pairs": 1,
+    "higgs_up_doublets": 1,
+    "lepton_doublets": 4,
+    "net_dbar_families": 3,
+    "net_lepton_families": 3,
+    "one_higgs_pair_triplet_free": true,
+    "three_family_chiral_sm_matter": true,
+    "ubar": 3,
+    "wilson_triplet_character": "1",
+    "wilson_weak_character": "b"
+  },
+  "failed_checks": [],
+  "identity": {
+    "cicy": 7487,
+    "corpus_sha256": "ee7d8d91e63237bd47891fbbb5f3827d9c4e4e82c60644ac23980c684d1ba991",
+    "geometry_entry_sha256": "f5a663e9469ebbb95e1f5f9cf07d6ce51a536f4547f35ea74e30cf5df37ed006",
+    "geometry_fixture_sha256": "28d216c23590581559cc6f1a1bc981b51226bf89ecb2b6ab76fa35d6d6674d37",
+    "legacy_model_index": 1710,
+    "model_fixture": "model_1710_source.m",
+    "publication": "arXiv:1202.1757",
+    "schema_version": 1,
+    "source_model_number": 23,
+    "source_url": "https://www-thphys.physics.ox.ac.uk/projects/CalabiYau/linebundlemodels/sms202.m",
+    "structured_model_index_zero_based": 1811,
+    "symmetry_number_one_based": 3
+  },
+  "implementation_sha256": {
+    "scripts/verify_sms202_geometry_benchmark.py": "e285b001672ec80c3de62f3648cb689c1d419c9579eabbd2c36f11c0f589d2ae",
+    "src/string_theory/cicy.py": "01e09fbab12d4af80db4d5b1ba20f0145f42ea791e6eb1e5340ceef958dc516c",
+    "src/string_theory/mathematica.py": "0503ca20c52c4db6ad4bce824fadee892433542edf8853d4441d3c74c0aeb5bd",
+    "src/string_theory/sms202.py": "9717fe051349ab758b16f1d2b7348b933b3ba06a8fa375ee974b9530bba75181",
+    "src/string_theory/sms202_geometry.py": "cfb97cea75bf6ef9947ad9be34d038bc895a8f71b91d9d94a5765df3a20f0eb1"
+  },
+  "matched_sector_tables": 25,
+  "passed": true,
+  "pending": [
+    "operator classifications from geometry",
+    "cup products and Yukawa ranks"
+  ],
+  "reconstruction": {
+    "distinct_line_calculations": 51,
+    "dual_calculations": [
+      {
+        "charge": [
+          -1,
+          1,
+          1,
+          -1,
+          0
+        ],
+        "coefficient_witness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "cohomology_characters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "dimensions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "e1": [],
+        "e2_degenerates_by_support": true,
+        "label": "L1",
+        "maps": []
+      },
+      {
+        "charge": [
+          -1,
+          1,
+          1,
+          0,
+          -1
+        ],
+        "coefficient_witness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "cohomology_characters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "dimensions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "e1": [],
+        "e2_degenerates_by_support": true,
+        "label": "L2",
+        "maps": []
+      },
+      {
+        "charge": [
+          0,
+          -1,
+          0,
+          2,
+          -1
+        ],
+        "coefficient_witness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "cohomology_characters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "dimensions": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "e1": [
+          {
+            "characters": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "q": 4,
+            "r": 2,
+            "terms": [
+              {
+                "characters": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "degree": [
+                  -2,
+                  -3,
+                  -2,
+                  0,
+                  -3
+                ],
+                "dimension": 4,
+                "origin": [
+                  0,
+                  1
+                ]
+              }
+            ]
+          }
+        ],
+        "e2_degenerates_by_support": true,
+        "label": "L3",
+        "maps": []
+      },
+      {
+        "charge": [
+          0,
+          0,
+          -1,
+          -1,
+          2
+        ],
+        "coefficient_witness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "cohomology_characters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "dimensions": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "e1": [
+          {
+            "characters": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "q": 4,
+            "r": 2,
+            "terms": [
+              {
+                "characters": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "degree": [
+                  -2,
+                  -2,
+                  -3,
+                  -3,
+                  0
+                ],
+                "dimension": 4,
+                "origin": [
+                  0,
+                  1
+                ]
+              }
+            ]
+          }
+        ],
+        "e2_degenerates_by_support": true,
+        "label": "L4",
+        "maps": []
+      },
+      {
+        "charge": [
+          2,
+          -1,
+          -1,
+          0,
+          0
+        ],
+        "coefficient_witness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "cohomology_characters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "dimensions": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "e1": [
+          {
+            "characters": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "q": 4,
+            "r": 2,
+            "terms": [
+              {
+                "characters": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "degree": [
+                  0,
+                  -3,
+                  -3,
+                  -2,
+                  -2
+                ],
+                "dimension": 4,
+                "origin": [
+                  0,
+                  1
+                ]
+              }
+            ]
+          }
+        ],
+        "e2_degenerates_by_support": true,
+        "label": "L5",
+        "maps": []
+      },
+      {
+        "charge": [
+          -2,
+          2,
+          2,
+          -1,
+          -1
+        ],
+        "coefficient_witness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "cohomology_characters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "dimensions": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "e1": [
+          {
+            "characters": [
+              4,
+              4,
+              4,
+              4
+            ],
+            "q": 3,
+            "r": 1,
+            "terms": [
+              {
+                "characters": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "degree": [
+                  -2,
+                  1,
+                  1,
+                  -2,
+                  -2
+                ],
+                "dimension": 4,
+                "origin": [
+                  0
+                ]
+              },
+              {
+                "characters": [
+                  3,
+                  3,
+                  3,
+                  3
+                ],
+                "degree": [
+                  -4,
+                  1,
+                  1,
+                  -2,
+                  -2
+                ],
+                "dimension": 12,
+                "origin": [
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "characters": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "q": 3,
+            "r": 2,
+            "terms": [
+              {
+                "characters": [
+                  3,
+                  3,
+                  3,
+                  3
+                ],
+                "degree": [
+                  -4,
+                  0,
+                  0,
+                  -3,
+                  -3
+                ],
+                "dimension": 12,
+                "origin": [
+                  0,
+                  1
+                ]
+              }
+            ]
+          }
+        ],
+        "e2_degenerates_by_support": true,
+        "label": "L1L2",
+        "maps": [
+          {
+            "cokernel_characters": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "family_equivariance_verified": true,
+            "generic_rank_upper_bounds_saturated": true,
+            "image_characters": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "kernel_characters": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "kernel_cokernel_actions_independently_restricted": true,
+            "nonzero_minor": {
+              "columns": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "determinant": 8406828,
+              "rows": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ]
+            },
+            "rank": 12,
+            "shape": [
+              16,
+              12
+            ],
+            "source": [
+              2,
+              3
+            ],
+            "source_characters": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "target": [
+              1,
+              3
+            ],
+            "target_characters": [
+              4,
+              4,
+              4,
+              4
+            ],
+            "witness_matrix": [
+              [
+                0,
+                -6,
+                -5,
+                0,
+                3,
+                0,
+                0,
+                4,
+                0,
+                11,
+                12,
+                0
+              ],
+              [
+                -8,
+                0,
+                0,
+                -7,
+                0,
+                1,
+                2,
+                0,
+                9,
+                0,
+                0,
+                10
+              ],
+              [
+                -10,
+                0,
+                0,
+                -9,
+                0,
+                -2,
+                -1,
+                0,
+                7,
+                0,
+                0,
+                8
+              ],
+              [
+                0,
+                -12,
+                -11,
+                0,
+                -4,
+                0,
+                0,
+                -3,
+                0,
+                5,
+                6,
+                0
+              ],
+              [
+                15,
+                0,
+                0,
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                13,
+                14,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                14,
+                13,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                16,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                16,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                13,
+                14,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                14,
+                13,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                16,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                16
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                13,
+                14,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                14,
+                13,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                16,
+                0,
+                0,
+                15
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "charge": [
+          -1,
+          0,
+          1,
+          1,
+          -1
+        ],
+        "coefficient_witness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "cohomology_characters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "dimensions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "e1": [],
+        "e2_degenerates_by_support": true,
+        "label": "L1L3",
+        "maps": []
+      },
+      {
+        "charge": [
+          -1,
+          1,
+          0,
+          -2,
+          2
+        ],
+        "coefficient_witness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "cohomology_characters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "dimensions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "e1": [],
+        "e2_degenerates_by_support": true,
+        "label": "L1L4",
+        "maps": []
+      },
+      {
+        "charge": [
+          1,
+          0,
+          0,
+          -1,
+          0
+        ],
+        "coefficient_witness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "cohomology_characters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "dimensions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "e1": [],
+        "e2_degenerates_by_support": true,
+        "label": "L1L5",
+        "maps": []
+      },
+      {
+        "charge": [
+          -1,
+          0,
+          1,
+          2,
+          -2
+        ],
+        "coefficient_witness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "cohomology_characters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "dimensions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "e1": [],
+        "e2_degenerates_by_support": true,
+        "label": "L2L3",
+        "maps": []
+      },
+      {
+        "charge": [
+          -1,
+          1,
+          0,
+          -1,
+          1
+        ],
+        "coefficient_witness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "cohomology_characters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "dimensions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "e1": [],
+        "e2_degenerates_by_support": true,
+        "label": "L2L4",
+        "maps": []
+      },
+      {
+        "charge": [
+          1,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "coefficient_witness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "cohomology_characters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "dimensions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "e1": [],
+        "e2_degenerates_by_support": true,
+        "label": "L2L5",
+        "maps": []
+      },
+      {
+        "charge": [
+          0,
+          -1,
+          -1,
+          1,
+          1
+        ],
+        "coefficient_witness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "cohomology_characters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "dimensions": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "e1": [
+          {
+            "characters": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "q": 2,
+            "r": 1,
+            "terms": [
+              {
+                "characters": [
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                "degree": [
+                  0,
+                  -2,
+                  -2,
+                  0,
+                  0
+                ],
+                "dimension": 1,
+                "origin": [
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "characters": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "q": 3,
+            "r": 1,
+            "terms": [
+              {
+                "characters": [
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                "degree": [
+                  -2,
+                  -2,
+                  -2,
+                  0,
+                  0
+                ],
+                "dimension": 1,
+                "origin": [
+                  1
+                ]
+              }
+            ]
+          }
+        ],
+        "e2_degenerates_by_support": true,
+        "label": "L3L4",
+        "maps": []
+      },
+      {
+        "charge": [
+          2,
+          -2,
+          -1,
+          2,
+          -1
+        ],
+        "coefficient_witness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "cohomology_characters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "dimensions": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "e1": [
+          {
+            "characters": [
+              4,
+              4,
+              4,
+              4
+            ],
+            "q": 3,
+            "r": 1,
+            "terms": [
+              {
+                "characters": [
+                  3,
+                  3,
+                  3,
+                  3
+                ],
+                "degree": [
+                  2,
+                  -3,
+                  -2,
+                  1,
+                  -2
+                ],
+                "dimension": 12,
+                "origin": [
+                  0
+                ]
+              },
+              {
+                "characters": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "degree": [
+                  0,
+                  -3,
+                  -2,
+                  1,
+                  -2
+                ],
+                "dimension": 4,
+                "origin": [
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "characters": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "q": 3,
+            "r": 2,
+            "terms": [
+              {
+                "characters": [
+                  3,
+                  3,
+                  3,
+                  3
+                ],
+                "degree": [
+                  0,
+                  -4,
+                  -3,
+                  0,
+                  -3
+                ],
+                "dimension": 12,
+                "origin": [
+                  0,
+                  1
+                ]
+              }
+            ]
+          }
+        ],
+        "e2_degenerates_by_support": true,
+        "label": "L3L5",
+        "maps": [
+          {
+            "cokernel_characters": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "family_equivariance_verified": true,
+            "generic_rank_upper_bounds_saturated": true,
+            "image_characters": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "kernel_characters": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "kernel_cokernel_actions_independently_restricted": true,
+            "nonzero_minor": {
+              "columns": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "determinant": 4660992,
+              "rows": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                12,
+                13
+              ]
+            },
+            "rank": 12,
+            "shape": [
+              16,
+              12
+            ],
+            "source": [
+              2,
+              3
+            ],
+            "source_characters": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "target": [
+              1,
+              3
+            ],
+            "target_characters": [
+              4,
+              4,
+              4,
+              4
+            ],
+            "witness_matrix": [
+              [
+                6,
+                0,
+                0,
+                8,
+                0,
+                10,
+                12,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                5,
+                7,
+                0,
+                9,
+                0,
+                0,
+                11,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                6,
+                0,
+                0,
+                8,
+                0,
+                10,
+                12,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                5,
+                7,
+                0,
+                9,
+                0,
+                0,
+                11
+              ],
+              [
+                0,
+                -3,
+                -1,
+                0,
+                2,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                -4,
+                0,
+                0,
+                -2,
+                0,
+                1,
+                3,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                -3,
+                -1,
+                0,
+                2,
+                0,
+                0,
+                4
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                -4,
+                0,
+                0,
+                -2,
+                0,
+                1,
+                3,
+                0
+              ],
+              [
+                -11,
+                0,
+                0,
+                -9,
+                0,
+                -7,
+                -5,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                -12,
+                -10,
+                0,
+                -8,
+                0,
+                0,
+                -6,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                -11,
+                0,
+                0,
+                -9,
+                0,
+                -7,
+                -5,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                -12,
+                -10,
+                0,
+                -8,
+                0,
+                0,
+                -6
+              ],
+              [
+                0,
+                15,
+                13,
+                0,
+                14,
+                0,
+                0,
+                16,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                16,
+                0,
+                0,
+                14,
+                0,
+                13,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                13,
+                0,
+                14,
+                0,
+                0,
+                16
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                16,
+                0,
+                0,
+                14,
+                0,
+                13,
+                15,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "charge": [
+          2,
+          -1,
+          -2,
+          -1,
+          2
+        ],
+        "coefficient_witness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "cohomology_characters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "dimensions": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "e1": [
+          {
+            "characters": [
+              4,
+              4,
+              4,
+              4
+            ],
+            "q": 3,
+            "r": 1,
+            "terms": [
+              {
+                "characters": [
+                  3,
+                  3,
+                  3,
+                  3
+                ],
+                "degree": [
+                  2,
+                  -2,
+                  -3,
+                  -2,
+                  1
+                ],
+                "dimension": 12,
+                "origin": [
+                  0
+                ]
+              },
+              {
+                "characters": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "degree": [
+                  0,
+                  -2,
+                  -3,
+                  -2,
+                  1
+                ],
+                "dimension": 4,
+                "origin": [
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "characters": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "q": 3,
+            "r": 2,
+            "terms": [
+              {
+                "characters": [
+                  3,
+                  3,
+                  3,
+                  3
+                ],
+                "degree": [
+                  0,
+                  -3,
+                  -4,
+                  -3,
+                  0
+                ],
+                "dimension": 12,
+                "origin": [
+                  0,
+                  1
+                ]
+              }
+            ]
+          }
+        ],
+        "e2_degenerates_by_support": true,
+        "label": "L4L5",
+        "maps": [
+          {
+            "cokernel_characters": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "family_equivariance_verified": true,
+            "generic_rank_upper_bounds_saturated": true,
+            "image_characters": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "kernel_characters": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "kernel_cokernel_actions_independently_restricted": true,
+            "nonzero_minor": {
+              "columns": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "determinant": -5345344,
+              "rows": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ]
+            },
+            "rank": 12,
+            "shape": [
+              16,
+              12
+            ],
+            "source": [
+              2,
+              3
+            ],
+            "source_characters": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "target": [
+              1,
+              3
+            ],
+            "target_characters": [
+              4,
+              4,
+              4,
+              4
+            ],
+            "witness_matrix": [
+              [
+                5,
+                0,
+                0,
+                8,
+                0,
+                0,
+                0,
+                10,
+                11,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                6,
+                7,
+                0,
+                0,
+                0,
+                9,
+                0,
+                0,
+                12,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                5,
+                0,
+                0,
+                8,
+                0,
+                0,
+                0,
+                10,
+                11,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                6,
+                7,
+                0,
+                0,
+                0,
+                9,
+                0,
+                0,
+                12
+              ],
+              [
+                0,
+                -3,
+                -2,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                4,
+                0,
+                0
+              ],
+              [
+                -4,
+                0,
+                0,
+                -1,
+                0,
+                0,
+                0,
+                2,
+                3,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                -3,
+                -2,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                4
+              ],
+              [
+                0,
+                0,
+                -4,
+                0,
+                0,
+                -1,
+                0,
+                0,
+                0,
+                2,
+                3,
+                0
+              ],
+              [
+                -12,
+                0,
+                0,
+                -9,
+                0,
+                0,
+                0,
+                -7,
+                -6,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                -11,
+                -10,
+                0,
+                0,
+                0,
+                -8,
+                0,
+                0,
+                -5,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                -12,
+                0,
+                0,
+                -9,
+                0,
+                0,
+                0,
+                -7,
+                -6,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                -11,
+                -10,
+                0,
+                0,
+                0,
+                -8,
+                0,
+                0,
+                -5
+              ],
+              [
+                0,
+                15,
+                14,
+                0,
+                0,
+                0,
+                13,
+                0,
+                0,
+                16,
+                0,
+                0
+              ],
+              [
+                16,
+                0,
+                0,
+                13,
+                0,
+                0,
+                0,
+                14,
+                15,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                15,
+                14,
+                0,
+                0,
+                0,
+                13,
+                0,
+                0,
+                16
+              ],
+              [
+                0,
+                0,
+                16,
+                0,
+                0,
+                13,
+                0,
+                0,
+                0,
+                14,
+                15,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "charge": [
+          0,
+          0,
+          0,
+          -1,
+          1
+        ],
+        "coefficient_witness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "cohomology_characters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "dimensions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "e1": [],
+        "e2_degenerates_by_support": true,
+        "label": "L1/L2",
+        "maps": []
+      },
+      {
+        "charge": [
+          -1,
+          2,
+          1,
+          -3,
+          1
+        ],
+        "coefficient_witness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "cohomology_characters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            3,
+            3,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "dimensions": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "e1": [
+          {
+            "characters": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "q": 2,
+            "r": 1,
+            "terms": [
+              {
+                "characters": [
+                  3,
+                  3,
+                  3,
+                  3
+                ],
+                "degree": [
+                  -3,
+                  1,
+                  0,
+                  -4,
+                  0
+                ],
+                "dimension": 12,
+                "origin": [
+                  1
+                ]
+              }
+            ]
+          }
+        ],
+        "e2_degenerates_by_support": true,
+        "label": "L1/L3",
+        "maps": []
+      },
+      {
+        "charge": [
+          -1,
+          1,
+          2,
+          0,
+          -2
+        ],
+        "coefficient_witness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "cohomology_characters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "dimensions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "e1": [],
+        "e2_degenerates_by_support": true,
+        "label": "L1/L4",
+        "maps": []
+      },
+      {
+        "charge": [
+          -3,
+          2,
+          2,
+          -1,
+          0
+        ],
+        "coefficient_witness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "cohomology_characters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "dimensions": [
+          0,
+          8,
+          0,
+          0
+        ],
+        "e1": [
+          {
+            "characters": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "q": 3,
+            "r": 2,
+            "terms": [
+              {
+                "characters": [
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "degree": [
+                  -5,
+                  0,
+                  0,
+                  -3,
+                  -2
+                ],
+                "dimension": 8,
+                "origin": [
+                  0,
+                  1
+                ]
+              }
+            ]
+          }
+        ],
+        "e2_degenerates_by_support": true,
+        "label": "L1/L5",
+        "maps": []
+      },
+      {
+        "charge": [
+          -1,
+          2,
+          1,
+          -2,
+          0
+        ],
+        "coefficient_witness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "cohomology_characters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "dimensions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "e1": [],
+        "e2_degenerates_by_support": true,
+        "label": "L2/L3",
+        "maps": []
+      },
+      {
+        "charge": [
+          -1,
+          1,
+          2,
+          1,
+          -3
+        ],
+        "coefficient_witness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "cohomology_characters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            3,
+            3,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "dimensions": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "e1": [
+          {
+            "characters": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "q": 2,
+            "r": 1,
+            "terms": [
+              {
+                "characters": [
+                  3,
+                  3,
+                  3,
+                  3
+                ],
+                "degree": [
+                  -3,
+                  0,
+                  1,
+                  0,
+                  -4
+                ],
+                "dimension": 12,
+                "origin": [
+                  1
+                ]
+              }
+            ]
+          }
+        ],
+        "e2_degenerates_by_support": true,
+        "label": "L2/L4",
+        "maps": []
+      },
+      {
+        "charge": [
+          -3,
+          2,
+          2,
+          0,
+          -1
+        ],
+        "coefficient_witness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "cohomology_characters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "dimensions": [
+          0,
+          8,
+          0,
+          0
+        ],
+        "e1": [
+          {
+            "characters": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "q": 3,
+            "r": 2,
+            "terms": [
+              {
+                "characters": [
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "degree": [
+                  -5,
+                  0,
+                  0,
+                  -2,
+                  -3
+                ],
+                "dimension": 8,
+                "origin": [
+                  0,
+                  1
+                ]
+              }
+            ]
+          }
+        ],
+        "e2_degenerates_by_support": true,
+        "label": "L2/L5",
+        "maps": []
+      },
+      {
+        "charge": [
+          0,
+          -1,
+          1,
+          3,
+          -3
+        ],
+        "coefficient_witness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "cohomology_characters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            2,
+            2,
+            2
+          ],
+          [
+            3,
+            2,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "dimensions": [
+          0,
+          9,
+          9,
+          0
+        ],
+        "e1": [
+          {
+            "characters": [
+              3,
+              2,
+              2,
+              2
+            ],
+            "q": 2,
+            "r": 1,
+            "terms": [
+              {
+                "characters": [
+                  3,
+                  2,
+                  2,
+                  2
+                ],
+                "degree": [
+                  0,
+                  -2,
+                  0,
+                  2,
+                  -4
+                ],
+                "dimension": 9,
+                "origin": [
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "characters": [
+              3,
+              2,
+              2,
+              2
+            ],
+            "q": 3,
+            "r": 1,
+            "terms": [
+              {
+                "characters": [
+                  3,
+                  2,
+                  2,
+                  2
+                ],
+                "degree": [
+                  -2,
+                  -2,
+                  0,
+                  2,
+                  -4
+                ],
+                "dimension": 9,
+                "origin": [
+                  1
+                ]
+              }
+            ]
+          }
+        ],
+        "e2_degenerates_by_support": true,
+        "label": "L3/L4",
+        "maps": []
+      },
+      {
+        "charge": [
+          -2,
+          0,
+          1,
+          2,
+          -1
+        ],
+        "coefficient_witness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "cohomology_characters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "dimensions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "e1": [],
+        "e2_degenerates_by_support": true,
+        "label": "L3/L5",
+        "maps": []
+      },
+      {
+        "charge": [
+          -2,
+          1,
+          0,
+          -1,
+          2
+        ],
+        "coefficient_witness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "cohomology_characters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "dimensions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "e1": [],
+        "e2_degenerates_by_support": true,
+        "label": "L4/L5",
+        "maps": []
+      }
+    ],
+    "polynomial_family": [
+      {
+        "ambient_section_dimension": 16,
+        "character_bits": [
+          0,
+          0
+        ],
+        "degree": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "equation": 0,
+        "equivariant_family_dimension": 4,
+        "recorded_basis_rank": 4
+      },
+      {
+        "ambient_section_dimension": 48,
+        "character_bits": [
+          1,
+          1
+        ],
+        "degree": [
+          2,
+          1,
+          1,
+          1,
+          1
+        ],
+        "equation": 1,
+        "equivariant_family_dimension": 12,
+        "recorded_basis_rank": 12
+      }
+    ],
+    "sectors": {
+      "V": [
+        {
+          "charge": [
+            1,
+            -1,
+            -1,
+            1,
+            0
+          ],
+          "coefficient_witness": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "cohomology_characters": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "e1": [],
+          "e2_degenerates_by_support": true,
+          "label": "L1",
+          "maps": [],
+          "serre_dual_verified": true
+        },
+        {
+          "charge": [
+            1,
+            -1,
+            -1,
+            0,
+            1
+          ],
+          "coefficient_witness": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "cohomology_characters": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "e1": [],
+          "e2_degenerates_by_support": true,
+          "label": "L2",
+          "maps": [],
+          "serre_dual_verified": true
+        },
+        {
+          "charge": [
+            0,
+            1,
+            0,
+            -2,
+            1
+          ],
+          "coefficient_witness": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "cohomology_characters": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "dimensions": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "e1": [
+            {
+              "characters": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "q": 1,
+              "r": 0,
+              "terms": [
+                {
+                  "characters": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "degree": [
+                    0,
+                    1,
+                    0,
+                    -2,
+                    1
+                  ],
+                  "dimension": 4,
+                  "origin": []
+                }
+              ]
+            }
+          ],
+          "e2_degenerates_by_support": true,
+          "label": "L3",
+          "maps": [],
+          "serre_dual_verified": true
+        },
+        {
+          "charge": [
+            0,
+            0,
+            1,
+            1,
+            -2
+          ],
+          "coefficient_witness": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "cohomology_characters": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "dimensions": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "e1": [
+            {
+              "characters": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "q": 1,
+              "r": 0,
+              "terms": [
+                {
+                  "characters": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "degree": [
+                    0,
+                    0,
+                    1,
+                    1,
+                    -2
+                  ],
+                  "dimension": 4,
+                  "origin": []
+                }
+              ]
+            }
+          ],
+          "e2_degenerates_by_support": true,
+          "label": "L4",
+          "maps": [],
+          "serre_dual_verified": true
+        },
+        {
+          "charge": [
+            -2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "coefficient_witness": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "cohomology_characters": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "dimensions": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "e1": [
+            {
+              "characters": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "q": 1,
+              "r": 0,
+              "terms": [
+                {
+                  "characters": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "degree": [
+                    -2,
+                    1,
+                    1,
+                    0,
+                    0
+                  ],
+                  "dimension": 4,
+                  "origin": []
+                }
+              ]
+            }
+          ],
+          "e2_degenerates_by_support": true,
+          "label": "L5",
+          "maps": [],
+          "serre_dual_verified": true
+        }
+      ],
+      "singlets": [
+        {
+          "charge": [
+            0,
+            0,
+            0,
+            1,
+            -1
+          ],
+          "coefficient_witness": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "cohomology_characters": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "e1": [],
+          "e2_degenerates_by_support": true,
+          "label": "L1/L2",
+          "maps": [],
+          "serre_dual_verified": true
+        },
+        {
+          "charge": [
+            1,
+            -2,
+            -1,
+            3,
+            -1
+          ],
+          "coefficient_witness": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "cohomology_characters": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "dimensions": [
+            0,
+            0,
+            12,
+            0
+          ],
+          "e1": [
+            {
+              "characters": [
+                3,
+                3,
+                3,
+                3
+              ],
+              "q": 3,
+              "r": 1,
+              "terms": [
+                {
+                  "characters": [
+                    3,
+                    3,
+                    3,
+                    3
+                  ],
+                  "degree": [
+                    1,
+                    -3,
+                    -2,
+                    2,
+                    -2
+                  ],
+                  "dimension": 12,
+                  "origin": [
+                    0
+                  ]
+                }
+              ]
+            }
+          ],
+          "e2_degenerates_by_support": true,
+          "label": "L1/L3",
+          "maps": [],
+          "serre_dual_verified": true
+        },
+        {
+          "charge": [
+            1,
+            -1,
+            -2,
+            0,
+            2
+          ],
+          "coefficient_witness": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "cohomology_characters": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "e1": [],
+          "e2_degenerates_by_support": true,
+          "label": "L1/L4",
+          "maps": [],
+          "serre_dual_verified": true
+        },
+        {
+          "charge": [
+            3,
+            -2,
+            -2,
+            1,
+            0
+          ],
+          "coefficient_witness": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "cohomology_characters": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "dimensions": [
+            0,
+            0,
+            8,
+            0
+          ],
+          "e1": [
+            {
+              "characters": [
+                2,
+                2,
+                2,
+                2
+              ],
+              "q": 2,
+              "r": 0,
+              "terms": [
+                {
+                  "characters": [
+                    2,
+                    2,
+                    2,
+                    2
+                  ],
+                  "degree": [
+                    3,
+                    -2,
+                    -2,
+                    1,
+                    0
+                  ],
+                  "dimension": 8,
+                  "origin": []
+                }
+              ]
+            }
+          ],
+          "e2_degenerates_by_support": true,
+          "label": "L1/L5",
+          "maps": [],
+          "serre_dual_verified": true
+        },
+        {
+          "charge": [
+            1,
+            -2,
+            -1,
+            2,
+            0
+          ],
+          "coefficient_witness": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "cohomology_characters": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "e1": [],
+          "e2_degenerates_by_support": true,
+          "label": "L2/L3",
+          "maps": [],
+          "serre_dual_verified": true
+        },
+        {
+          "charge": [
+            1,
+            -1,
+            -2,
+            -1,
+            3
+          ],
+          "coefficient_witness": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "cohomology_characters": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "dimensions": [
+            0,
+            0,
+            12,
+            0
+          ],
+          "e1": [
+            {
+              "characters": [
+                3,
+                3,
+                3,
+                3
+              ],
+              "q": 3,
+              "r": 1,
+              "terms": [
+                {
+                  "characters": [
+                    3,
+                    3,
+                    3,
+                    3
+                  ],
+                  "degree": [
+                    1,
+                    -2,
+                    -3,
+                    -2,
+                    2
+                  ],
+                  "dimension": 12,
+                  "origin": [
+                    0
+                  ]
+                }
+              ]
+            }
+          ],
+          "e2_degenerates_by_support": true,
+          "label": "L2/L4",
+          "maps": [],
+          "serre_dual_verified": true
+        },
+        {
+          "charge": [
+            3,
+            -2,
+            -2,
+            0,
+            1
+          ],
+          "coefficient_witness": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "cohomology_characters": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "dimensions": [
+            0,
+            0,
+            8,
+            0
+          ],
+          "e1": [
+            {
+              "characters": [
+                2,
+                2,
+                2,
+                2
+              ],
+              "q": 2,
+              "r": 0,
+              "terms": [
+                {
+                  "characters": [
+                    2,
+                    2,
+                    2,
+                    2
+                  ],
+                  "degree": [
+                    3,
+                    -2,
+                    -2,
+                    0,
+                    1
+                  ],
+                  "dimension": 8,
+                  "origin": []
+                }
+              ]
+            }
+          ],
+          "e2_degenerates_by_support": true,
+          "label": "L2/L5",
+          "maps": [],
+          "serre_dual_verified": true
+        },
+        {
+          "charge": [
+            0,
+            1,
+            -1,
+            -3,
+            3
+          ],
+          "coefficient_witness": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "cohomology_characters": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              3,
+              2,
+              2,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "dimensions": [
+            0,
+            9,
+            9,
+            0
+          ],
+          "e1": [
+            {
+              "characters": [
+                3,
+                2,
+                2,
+                2
+              ],
+              "q": 2,
+              "r": 1,
+              "terms": [
+                {
+                  "characters": [
+                    3,
+                    2,
+                    2,
+                    2
+                  ],
+                  "degree": [
+                    0,
+                    0,
+                    -2,
+                    -4,
+                    2
+                  ],
+                  "dimension": 9,
+                  "origin": [
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "characters": [
+                3,
+                2,
+                2,
+                2
+              ],
+              "q": 3,
+              "r": 1,
+              "terms": [
+                {
+                  "characters": [
+                    3,
+                    2,
+                    2,
+                    2
+                  ],
+                  "degree": [
+                    -2,
+                    0,
+                    -2,
+                    -4,
+                    2
+                  ],
+                  "dimension": 9,
+                  "origin": [
+                    1
+                  ]
+                }
+              ]
+            }
+          ],
+          "e2_degenerates_by_support": true,
+          "label": "L3/L4",
+          "maps": [],
+          "serre_dual_verified": true
+        },
+        {
+          "charge": [
+            2,
+            0,
+            -1,
+            -2,
+            1
+          ],
+          "coefficient_witness": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "cohomology_characters": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "e1": [],
+          "e2_degenerates_by_support": true,
+          "label": "L3/L5",
+          "maps": [],
+          "serre_dual_verified": true
+        },
+        {
+          "charge": [
+            2,
+            -1,
+            0,
+            1,
+            -2
+          ],
+          "coefficient_witness": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "cohomology_characters": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "e1": [],
+          "e2_degenerates_by_support": true,
+          "label": "L4/L5",
+          "maps": [],
+          "serre_dual_verified": true
+        }
+      ],
+      "wedge2": [
+        {
+          "charge": [
+            2,
+            -2,
+            -2,
+            1,
+            1
+          ],
+          "coefficient_witness": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "cohomology_characters": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "dimensions": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "e1": [
+            {
+              "characters": [
+                3,
+                3,
+                3,
+                3
+              ],
+              "q": 2,
+              "r": 0,
+              "terms": [
+                {
+                  "characters": [
+                    3,
+                    3,
+                    3,
+                    3
+                  ],
+                  "degree": [
+                    2,
+                    -2,
+                    -2,
+                    1,
+                    1
+                  ],
+                  "dimension": 12,
+                  "origin": []
+                }
+              ]
+            },
+            {
+              "characters": [
+                4,
+                4,
+                4,
+                4
+              ],
+              "q": 2,
+              "r": 1,
+              "terms": [
+                {
+                  "characters": [
+                    3,
+                    3,
+                    3,
+                    3
+                  ],
+                  "degree": [
+                    2,
+                    -3,
+                    -3,
+                    0,
+                    0
+                  ],
+                  "dimension": 12,
+                  "origin": [
+                    0
+                  ]
+                },
+                {
+                  "characters": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "degree": [
+                    0,
+                    -3,
+                    -3,
+                    0,
+                    0
+                  ],
+                  "dimension": 4,
+                  "origin": [
+                    1
+                  ]
+                }
+              ]
+            }
+          ],
+          "e2_degenerates_by_support": true,
+          "label": "L1L2",
+          "maps": [
+            {
+              "cokernel_characters": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "family_equivariance_verified": true,
+              "generic_rank_upper_bounds_saturated": true,
+              "image_characters": [
+                3,
+                3,
+                3,
+                3
+              ],
+              "kernel_characters": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "kernel_cokernel_actions_independently_restricted": true,
+              "nonzero_minor": {
+                "columns": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11
+                ],
+                "determinant": 586376253,
+                "rows": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11
+                ]
+              },
+              "rank": 12,
+              "shape": [
+                12,
+                16
+              ],
+              "source": [
+                1,
+                2
+              ],
+              "source_characters": [
+                4,
+                4,
+                4,
+                4
+              ],
+              "target": [
+                0,
+                2
+              ],
+              "target_characters": [
+                3,
+                3,
+                3,
+                3
+              ],
+              "witness_matrix": [
+                [
+                  15,
+                  0,
+                  0,
+                  16,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -8,
+                  -10,
+                  0
+                ],
+                [
+                  0,
+                  13,
+                  14,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -6,
+                  0,
+                  0,
+                  -12
+                ],
+                [
+                  0,
+                  14,
+                  13,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -5,
+                  0,
+                  0,
+                  -11
+                ],
+                [
+                  16,
+                  0,
+                  0,
+                  15,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -7,
+                  -9,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  15,
+                  0,
+                  0,
+                  16,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  0,
+                  -4
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  13,
+                  14,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  -2,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  14,
+                  13,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  -1,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  16,
+                  0,
+                  0,
+                  15,
+                  0,
+                  0,
+                  0,
+                  0,
+                  4,
+                  0,
+                  0,
+                  -3
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  15,
+                  0,
+                  0,
+                  16,
+                  0,
+                  9,
+                  7,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  13,
+                  14,
+                  0,
+                  11,
+                  0,
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  14,
+                  13,
+                  0,
+                  12,
+                  0,
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  16,
+                  0,
+                  0,
+                  15,
+                  0,
+                  10,
+                  8,
+                  0
+                ]
+              ]
+            }
+          ],
+          "serre_dual_verified": true
+        },
+        {
+          "charge": [
+            1,
+            0,
+            -1,
+            -1,
+            1
+          ],
+          "coefficient_witness": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "cohomology_characters": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "e1": [],
+          "e2_degenerates_by_support": true,
+          "label": "L1L3",
+          "maps": [],
+          "serre_dual_verified": true
+        },
+        {
+          "charge": [
+            1,
+            -1,
+            0,
+            2,
+            -2
+          ],
+          "coefficient_witness": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "cohomology_characters": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "e1": [],
+          "e2_degenerates_by_support": true,
+          "label": "L1L4",
+          "maps": [],
+          "serre_dual_verified": true
+        },
+        {
+          "charge": [
+            -1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "coefficient_witness": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "cohomology_characters": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "e1": [],
+          "e2_degenerates_by_support": true,
+          "label": "L1L5",
+          "maps": [],
+          "serre_dual_verified": true
+        },
+        {
+          "charge": [
+            1,
+            0,
+            -1,
+            -2,
+            2
+          ],
+          "coefficient_witness": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "cohomology_characters": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "e1": [],
+          "e2_degenerates_by_support": true,
+          "label": "L2L3",
+          "maps": [],
+          "serre_dual_verified": true
+        },
+        {
+          "charge": [
+            1,
+            -1,
+            0,
+            1,
+            -1
+          ],
+          "coefficient_witness": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "cohomology_characters": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "e1": [],
+          "e2_degenerates_by_support": true,
+          "label": "L2L4",
+          "maps": [],
+          "serre_dual_verified": true
+        },
+        {
+          "charge": [
+            -1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient_witness": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "cohomology_characters": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "e1": [],
+          "e2_degenerates_by_support": true,
+          "label": "L2L5",
+          "maps": [],
+          "serre_dual_verified": true
+        },
+        {
+          "charge": [
+            0,
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "coefficient_witness": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "cohomology_characters": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "dimensions": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "e1": [
+            {
+              "characters": [
+                1,
+                0,
+                0,
+                0
+              ],
+              "q": 2,
+              "r": 1,
+              "terms": [
+                {
+                  "characters": [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  "degree": [
+                    0,
+                    0,
+                    0,
+                    -2,
+                    -2
+                  ],
+                  "dimension": 1,
+                  "origin": [
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "characters": [
+                1,
+                0,
+                0,
+                0
+              ],
+              "q": 3,
+              "r": 1,
+              "terms": [
+                {
+                  "characters": [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  "degree": [
+                    -2,
+                    0,
+                    0,
+                    -2,
+                    -2
+                  ],
+                  "dimension": 1,
+                  "origin": [
+                    1
+                  ]
+                }
+              ]
+            }
+          ],
+          "e2_degenerates_by_support": true,
+          "label": "L3L4",
+          "maps": [],
+          "serre_dual_verified": true
+        },
+        {
+          "charge": [
+            -2,
+            2,
+            1,
+            -2,
+            1
+          ],
+          "coefficient_witness": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "cohomology_characters": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "dimensions": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "e1": [
+            {
+              "characters": [
+                3,
+                3,
+                3,
+                3
+              ],
+              "q": 2,
+              "r": 0,
+              "terms": [
+                {
+                  "characters": [
+                    3,
+                    3,
+                    3,
+                    3
+                  ],
+                  "degree": [
+                    -2,
+                    2,
+                    1,
+                    -2,
+                    1
+                  ],
+                  "dimension": 12,
+                  "origin": []
+                }
+              ]
+            },
+            {
+              "characters": [
+                4,
+                4,
+                4,
+                4
+              ],
+              "q": 2,
+              "r": 1,
+              "terms": [
+                {
+                  "characters": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "degree": [
+                    -2,
+                    1,
+                    0,
+                    -3,
+                    0
+                  ],
+                  "dimension": 4,
+                  "origin": [
+                    0
+                  ]
+                },
+                {
+                  "characters": [
+                    3,
+                    3,
+                    3,
+                    3
+                  ],
+                  "degree": [
+                    -4,
+                    1,
+                    0,
+                    -3,
+                    0
+                  ],
+                  "dimension": 12,
+                  "origin": [
+                    1
+                  ]
+                }
+              ]
+            }
+          ],
+          "e2_degenerates_by_support": true,
+          "label": "L3L5",
+          "maps": [
+            {
+              "cokernel_characters": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "family_equivariance_verified": true,
+              "generic_rank_upper_bounds_saturated": true,
+              "image_characters": [
+                3,
+                3,
+                3,
+                3
+              ],
+              "kernel_characters": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "kernel_cokernel_actions_independently_restricted": true,
+              "nonzero_minor": {
+                "columns": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11
+                ],
+                "determinant": 117510144,
+                "rows": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11
+                ]
+              },
+              "rank": 12,
+              "shape": [
+                12,
+                16
+              ],
+              "source": [
+                1,
+                2
+              ],
+              "source_characters": [
+                4,
+                4,
+                4,
+                4
+              ],
+              "target": [
+                0,
+                2
+              ],
+              "target_characters": [
+                3,
+                3,
+                3,
+                3
+              ],
+              "witness_matrix": [
+                [
+                  0,
+                  16,
+                  0,
+                  0,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -4,
+                  0,
+                  0,
+                  -11,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  15,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5,
+                  0,
+                  0,
+                  -3,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -12,
+                  0,
+                  0
+                ],
+                [
+                  13,
+                  0,
+                  0,
+                  0,
+                  0,
+                  7,
+                  0,
+                  0,
+                  -1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -10,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  14,
+                  0,
+                  0,
+                  8,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -2,
+                  0,
+                  0,
+                  -9,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  14,
+                  0,
+                  0,
+                  16,
+                  0,
+                  9,
+                  6,
+                  0,
+                  2,
+                  0,
+                  0,
+                  -4,
+                  0,
+                  -8,
+                  -11,
+                  0
+                ],
+                [
+                  0,
+                  13,
+                  15,
+                  0,
+                  10,
+                  0,
+                  0,
+                  5,
+                  0,
+                  1,
+                  -3,
+                  0,
+                  -7,
+                  0,
+                  0,
+                  -12
+                ],
+                [
+                  0,
+                  15,
+                  13,
+                  0,
+                  12,
+                  0,
+                  0,
+                  7,
+                  0,
+                  3,
+                  -1,
+                  0,
+                  -5,
+                  0,
+                  0,
+                  -10
+                ],
+                [
+                  16,
+                  0,
+                  0,
+                  14,
+                  0,
+                  11,
+                  8,
+                  0,
+                  4,
+                  0,
+                  0,
+                  -2,
+                  0,
+                  -6,
+                  -9,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  14,
+                  0,
+                  0,
+                  0,
+                  0,
+                  9,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -8
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  13,
+                  0,
+                  0,
+                  10,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  -7,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  15,
+                  0,
+                  0,
+                  12,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  0,
+                  -5,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  16,
+                  0,
+                  0,
+                  0,
+                  0,
+                  11,
+                  0,
+                  0,
+                  4,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -6
+                ]
+              ]
+            }
+          ],
+          "serre_dual_verified": true
+        },
+        {
+          "charge": [
+            -2,
+            1,
+            2,
+            1,
+            -2
+          ],
+          "coefficient_witness": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "cohomology_characters": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "dimensions": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "e1": [
+            {
+              "characters": [
+                3,
+                3,
+                3,
+                3
+              ],
+              "q": 2,
+              "r": 0,
+              "terms": [
+                {
+                  "characters": [
+                    3,
+                    3,
+                    3,
+                    3
+                  ],
+                  "degree": [
+                    -2,
+                    1,
+                    2,
+                    1,
+                    -2
+                  ],
+                  "dimension": 12,
+                  "origin": []
+                }
+              ]
+            },
+            {
+              "characters": [
+                4,
+                4,
+                4,
+                4
+              ],
+              "q": 2,
+              "r": 1,
+              "terms": [
+                {
+                  "characters": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "degree": [
+                    -2,
+                    0,
+                    1,
+                    0,
+                    -3
+                  ],
+                  "dimension": 4,
+                  "origin": [
+                    0
+                  ]
+                },
+                {
+                  "characters": [
+                    3,
+                    3,
+                    3,
+                    3
+                  ],
+                  "degree": [
+                    -4,
+                    0,
+                    1,
+                    0,
+                    -3
+                  ],
+                  "dimension": 12,
+                  "origin": [
+                    1
+                  ]
+                }
+              ]
+            }
+          ],
+          "e2_degenerates_by_support": true,
+          "label": "L4L5",
+          "maps": [
+            {
+              "cokernel_characters": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "family_equivariance_verified": true,
+              "generic_rank_upper_bounds_saturated": true,
+              "image_characters": [
+                3,
+                3,
+                3,
+                3
+              ],
+              "kernel_characters": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "kernel_cokernel_actions_independently_restricted": true,
+              "nonzero_minor": {
+                "columns": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11
+                ],
+                "determinant": -90839808,
+                "rows": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11
+                ]
+              },
+              "rank": 12,
+              "shape": [
+                12,
+                16
+              ],
+              "source": [
+                1,
+                2
+              ],
+              "source_characters": [
+                4,
+                4,
+                4,
+                4
+              ],
+              "target": [
+                0,
+                2
+              ],
+              "target_characters": [
+                3,
+                3,
+                3,
+                3
+              ],
+              "witness_matrix": [
+                [
+                  0,
+                  16,
+                  0,
+                  0,
+                  5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -4,
+                  0,
+                  0,
+                  -12,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  15,
+                  0,
+                  0,
+                  0,
+                  0,
+                  6,
+                  0,
+                  0,
+                  -3,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -11,
+                  0,
+                  0
+                ],
+                [
+                  14,
+                  0,
+                  0,
+                  16,
+                  0,
+                  7,
+                  5,
+                  0,
+                  -2,
+                  0,
+                  0,
+                  -4,
+                  0,
+                  -10,
+                  -12,
+                  0
+                ],
+                [
+                  0,
+                  13,
+                  15,
+                  0,
+                  8,
+                  0,
+                  0,
+                  6,
+                  0,
+                  -1,
+                  -3,
+                  0,
+                  -9,
+                  0,
+                  0,
+                  -11
+                ],
+                [
+                  0,
+                  0,
+                  14,
+                  0,
+                  0,
+                  0,
+                  0,
+                  7,
+                  0,
+                  0,
+                  -2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -10
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  13,
+                  0,
+                  0,
+                  8,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -1,
+                  0,
+                  0,
+                  -9,
+                  0
+                ],
+                [
+                  13,
+                  0,
+                  0,
+                  0,
+                  0,
+                  9,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -8,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  14,
+                  0,
+                  0,
+                  10,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0,
+                  -7,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  15,
+                  13,
+                  0,
+                  11,
+                  0,
+                  0,
+                  9,
+                  0,
+                  3,
+                  1,
+                  0,
+                  -6,
+                  0,
+                  0,
+                  -8
+                ],
+                [
+                  16,
+                  0,
+                  0,
+                  14,
+                  0,
+                  12,
+                  10,
+                  0,
+                  4,
+                  0,
+                  0,
+                  2,
+                  0,
+                  -5,
+                  -7,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  15,
+                  0,
+                  0,
+                  11,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  0,
+                  -6,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  16,
+                  0,
+                  0,
+                  0,
+                  0,
+                  12,
+                  0,
+                  0,
+                  4,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -5
+                ]
+              ]
+            }
+          ],
+          "serre_dual_verified": true
+        }
+      ]
+    },
+    "structure_sheaf": {
+      "charge": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient_witness": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "cohomology_characters": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "dimensions": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "e1": [
+        {
+          "characters": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "q": 0,
+          "r": 0,
+          "terms": [
+            {
+              "characters": [
+                1,
+                0,
+                0,
+                0
+              ],
+              "degree": [
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "dimension": 1,
+              "origin": []
+            }
+          ]
+        },
+        {
+          "characters": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "q": 5,
+          "r": 2,
+          "terms": [
+            {
+              "characters": [
+                1,
+                0,
+                0,
+                0
+              ],
+              "degree": [
+                -2,
+                -2,
+                -2,
+                -2,
+                -2
+              ],
+              "dimension": 1,
+              "origin": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "e2_degenerates_by_support": true,
+      "maps": []
+    }
+  },
+  "smooth_free_locus": "Nonemptiness inherited from published geometry/action classification; integer rank witness is not a smoothness certificate",
+  "status": "geometry_characters_match"
+}

@@ -1,26 +1,23 @@
 # Koszul Compass
 
-Evidence-first atlas artifacts for a heterotic line-bundle search across the
-CICY 5259/7914, 7484, and 2544 routes.
+Benchmark-first verification tools and evidence artifacts for heterotic
+line-bundle compactifications on CICY threefolds.
 
-Koszul Compass packages a compact, verified result packet for a verifier-first
-heterotic compactification search. The current packet is a **No-Go Atlas v0**:
-failed candidate classes are compressed into scoped obstruction syndromes with
-cheap executable prefilters and replay counts. The current packet has no active
-survivor certificate; former shadow-stage survivors are retired unless they pass
-the verified promotion ladder.
+Koszul Compass began as a verifier-first candidate search and No-Go Atlas. Its
+current research program is **benchmark first**: candidate generation is frozen
+until the mathematical pipeline reproduces published positive controls under
+their original conventions. Historical obstruction artifacts remain available,
+but an engine-relative failure is not promoted to a geometric no-go.
 
-The latest extension adds a finite envelope audit for the CICY6715
-component-character ambiguity that remained after the order-4 operator-graph
-lateral atlas. That audit does not certify a representative-level model yet,
-but it narrows the ambiguity to a concrete higher-map target: CICY6715 model
-`766`, option `1`, branch `99`.
-
-The newest queue-control extension adds the CICY5256 GUTall benchmark-pool
-audit. CICY5256 is algebraically clean and has recorded row-trivial free-action
-data, but the compactification pipeline currently lacks the CICY5256-specific
-Wilson-component/equivariant-representative mass-channel engine needed for
-promotion. The finite queue head therefore advances to CICY5452.
+The first golden control is legacy SMS202 scout model `1710` (source model 23)
+on CICY7487. The repository now
+contains its verbatim Mathematica source record, an immutable expectation
+manifest, a delimiter-aware parser that retains unsupported symbolic fields,
+and mutation-tested verification. This initial gate certifies source ingestion,
+low-level invariant reconstruction, and the Wilson projection of the published
+character tables. A separate exact Koszul calculation now also reproduces all
+25 cohomology-character tables from the recorded geometry on its generic
+smooth free locus. Operator classifications and cup products remain pending.
 
 ## Background
 
@@ -61,8 +58,17 @@ no-go boundary.
 
 ## Headline Result
 
-The No-Go Atlas v0 records 48 scoped obstruction syndromes, 30 executable cheap
-prefilters, and 0 active survivor certificates.
+The benchmark ladder now has passing source-ingestion and geometry-derived
+character controls, and zero end-to-end geometry-to-phenomenology controls.
+SMS202 model `1710` reproduces all 25 sector character tables using exact
+equivariant Koszul maps and kernel/cokernel actions. Applying the recorded
+linearisations and Wilson line gives three families, no anti-10s, zero
+colored triplet pairs, and one Higgs doublet pair. The calculation is generic
+on the published smooth free family; Yukawa ranks and proton-safety labels
+are still source data, not independently reconstructed coupling results.
+
+The historical No-Go Atlas v0 records 48 scoped obstruction syndromes, 30
+executable cheap prefilters, and 0 active survivor certificates.
 
 Included syndromes cover:
 
@@ -81,9 +87,9 @@ The former Branch 50 shadow-stage survivor is retired into the atlas as a
 degree-law negative control. This is an atlas packet, not a full MSSM model
 claim.
 
-## Current Frontier Extensions
+## Frozen Atlas Evidence
 
-The CICY6715 unresolved-envelope report enumerates all `1100` Serre-dual
+The CICY6715 unresolved-envelope report historically enumerated all `1100` Serre-dual
 `Z2 x Z2` character completions for the five component-unresolved CICY6715
 q=1 candidates. The envelope finds `1728` clean one-Higgs pre-cup branches,
 all localized to CICY6715 model `766`.
@@ -95,17 +101,16 @@ The strongest branch is model `766`, branch `99`, where the unresolved
 {"1": 2, "a": 0, "ab": 0, "b": 0}
 ```
 
-This is an existential envelope result only. The pending gate is the actual
-higher-map representative computation for the unresolved `wedge2_V` pair
-`[3, 4]`, line bundle `[2, 2, -2, -2, 0]`.
+This is an existential envelope result only. It is retained as scoped evidence,
+not an active search lead or a theorem-level no-go.
 
 The CICY5256 benchmark-pool audit reproduces `2891` algebraically clean SU(5)
 models with `0` algebraic failures and `6` recorded row-trivial free actions.
 Ambient line-bundle lift readiness exists for all `763` order-2 rows and `544`
 of the `2128` order-4 rows; the remaining `1584` order-4 rows are lift
-obstructed. This is a scoped current-engine gap, not a physical no-go for
-CICY5256. The next finite queue target is
-`CICY5452_gutall_benchmark_pool_engine_audit`.
+obstructed. This remains a scoped current-engine gap, not a physical no-go for
+CICY5256. Queue advancement is paused while the golden benchmark ladder is
+built.
 
 ## Repository Boundary
 
@@ -130,6 +135,19 @@ all-trivial character completion is representative-realizable belongs in the
 search fork until it produces a verified certificate or a bounded no-go.
 
 ## Key Artifacts
+
+Golden benchmark head:
+
+- `benchmarks/sms202/model_1710_source.m`
+- `benchmarks/sms202/model_1710_expected.json`
+- `scripts/verify_sms202_golden_benchmark.py`
+- `tests/test_sms202.py`
+- `benchmarks/sms202/model_1710_geometry_report.md`
+- `benchmarks/sms202/model_1710_geometry_certificate.json`
+- `scripts/verify_sms202_geometry_benchmark.py`
+- `tests/test_sms202_geometry.py`
+
+Historical atlas packet:
 
 - `reports/no_go_atlas_v0.md`
 - `reports/no_go_atlas_v0.json`
@@ -164,6 +182,10 @@ Upstream verification anchors:
 The included report packet can be checked with:
 
 ```bash
+uv sync --extra dev
+uv run python scripts/verify_sms202_golden_benchmark.py
+uv run python scripts/verify_sms202_geometry_benchmark.py
+uv run pytest -q
 uv run python scripts/verify_no_go_atlas_v0.py
 uv run python -m py_compile scripts/no_go_atlas_prefilters.py scripts/build_no_go_atlas_v0.py scripts/verify_no_go_atlas_v0.py
 uv run python scripts/verify_phenomenology_guided_q1_radius9_higher_degree_candidate_dossier.py
@@ -182,6 +204,10 @@ scripts are the intended compact-package checks.
 
 ## Status Vocabulary
 
+- `source_ingestion_certified`: immutable published source record parses and
+  reproduces its frozen low-level fields and invariants.
+- `golden_benchmark_verified`: reserved for an independent reconstruction of
+  the published quotient spectrum and operator/coupling result from geometry.
 - `character_shadow_viable`: passes spectrum and character-level selection
   summaries but has not yet passed representative realization.
 - `representative_compatible`: branch character assignments are compatible

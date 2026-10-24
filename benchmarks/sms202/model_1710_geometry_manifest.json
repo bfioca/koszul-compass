@@ -1,0 +1,14 @@
+{
+  "cicy": 7487,
+  "corpus_sha256": "ee7d8d91e63237bd47891fbbb5f3827d9c4e4e82c60644ac23980c684d1ba991",
+  "geometry_entry_sha256": "f5a663e9469ebbb95e1f5f9cf07d6ce51a536f4547f35ea74e30cf5df37ed006",
+  "geometry_fixture_sha256": "28d216c23590581559cc6f1a1bc981b51226bf89ecb2b6ab76fa35d6d6674d37",
+  "legacy_model_index": 1710,
+  "model_fixture": "model_1710_source.m",
+  "publication": "arXiv:1202.1757",
+  "schema_version": 1,
+  "source_model_number": 23,
+  "source_url": "https://www-thphys.physics.ox.ac.uk/projects/CalabiYau/linebundlemodels/sms202.m",
+  "structured_model_index_zero_based": 1811,
+  "symmetry_number_one_based": 3
+}
